@@ -850,7 +850,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .weight = 260,
         .description = COMPOUND_STRING(
             "Pendant le combat, son bec chauffe et\n"
-            "dépasse allègrement les 100 °C. Ses\n"
+            "dépasse allègrement les 100 ºC. Ses\n"
             "adversaires repartent généralement avec\n"
             "de graves brûlures."),
         .pokemonScale = 320,
@@ -6165,7 +6165,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .description = COMPOUND_STRING(
             "On pourrait le croire mort car il ne\n"
             "bouge pas du tout. Au toucher, il reste\n"
-            "tiède. On le surnomme « cocon céleste »\n"
+            "tiède. On le surnomme “cocon céleste”\n"
             "depuis l’Antiquité."),
         .pokemonScale = 682,
         .pokemonOffset = 24,
@@ -7539,7 +7539,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .description = COMPOUND_STRING(
             "Son corps contient des hectolitres de\n"
             "poison. Il fait partie de ces créatures\n"
-            "que l’on nomme « Ultra-Chimères »."),
+            "que l’on nomme “Ultra-Chimères”."),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 405,

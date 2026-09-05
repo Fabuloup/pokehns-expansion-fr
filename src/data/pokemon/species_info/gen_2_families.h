@@ -6292,7 +6292,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .weight = 550,
         .description = COMPOUND_STRING(
             "Sa température corporelle avoisine les\n"
-            "10 000 °C. Des flammes fusent des\n"
+            "10 000 ºC. Des flammes fusent des\n"
             "fissures de sa coquille."),
         .pokemonScale = 332,
         .pokemonOffset = 15,

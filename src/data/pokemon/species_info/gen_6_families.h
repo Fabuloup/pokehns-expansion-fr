@@ -305,7 +305,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
             "En cas de coup de fatigue, il grignote\n"
             "des rameaux pour recharger ses\n"
             "batteries. Ses oreilles dégagent une\n"
-            "chaleur qui dépasse les 200 °C."),
+            "chaleur qui dépasse les 200 ºC."),
         .pokemonScale = 491,
         .pokemonOffset = 12,
         .trainerScale = 256,
@@ -4782,7 +4782,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
             "Les cristaux qui parsèment son corps\n"
             "lui permettent de piéger ses ennemis\n"
             "dans la glace en émettant de l’air\n"
-            "refroidi à -150 °C."),
+            "refroidi à -150 ºC."),
         .pokemonScale = 275,
         .pokemonOffset = 7,
         .trainerScale = 256,

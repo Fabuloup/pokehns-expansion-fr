@@ -321,7 +321,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .description = COMPOUND_STRING(
             "Ses câlins réchauffent car il renferme\n"
             "une fournaise. Il envoie des boules de\n"
-            "feu à 1 000 °C."),
+            "feu à 1 000 ºC."),
         .pokemonScale = 566,
         .pokemonOffset = 19,
         .trainerScale = 256,
@@ -10773,7 +10773,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 266,
         .description = COMPOUND_STRING(
             "On dit que Momartik gèle ses proies\n"
-            "grâce à son souffle à -50 °C avant de\n"
+            "grâce à son souffle à -50 ºC avant de\n"
             "les exposer dans sa tanière."),
         .pokemonScale = 272,
         .pokemonOffset = 3,
@@ -10847,7 +10847,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .weight = 296,
         .description = COMPOUND_STRING(
             "On dit que Momartik gèle ses proies\n"
-            "grâce à son souffle à -50 °C avant de\n"
+            "grâce à son souffle à -50 ºC avant de\n"
             "les exposer dans sa tanière."),
         .frontPic = gMonFrontPic_FroslassMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
@@ -12193,7 +12193,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .description = COMPOUND_STRING(
             "Son corps est fait de glace datant de\n"
             "l’ère glaciaire. Il contrôle un air\n"
-            "gelé de -200 °C."),
+            "gelé de -200 ºC."),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 301,

@@ -2315,7 +2315,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             "Il est d’une nature paisible, mais si\n"
             "les humains tentent de piller ses\n"
             "mines, il enrage et brûle tout avec des\n"
-            "flammes à 1 500 °C."),
+            "flammes à 1 500 ºC."),
         .pokemonScale = 275,
         .pokemonOffset = 7,
         .trainerScale = 256,
@@ -2381,7 +2381,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
             "Il est d’une nature paisible, mais si\n"
             "les humains tentent de piller ses\n"
             "mines, il enrage et brûle tout avec des\n"
-            "flammes à 1 500 °C."),
+            "flammes à 1 500 ºC."),
         .pokemonScale = 275,
         .pokemonOffset = 7,
         .trainerScale = 256,
@@ -3782,7 +3782,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .weight = 1200,
         .description = COMPOUND_STRING(
             "Quand il génère de la chaleur, sa\n"
-            "température est d’environ 800 °C. Il se\n"
+            "température est d’environ 800 ºC. Il se\n"
             "sert de son corps comme d’un fouet pour\n"
             "sauter sur ses ennemis."),
         .pokemonScale = 275,
@@ -3852,7 +3852,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .weight = 0,
         .description = COMPOUND_STRING(
             "Quand il génère de la chaleur, sa\n"
-            "température est d’environ 800 °C. Il se\n"
+            "température est d’environ 800 ºC. Il se\n"
             "sert de son corps comme d’un fouet pour\n"
             "sauter sur ses ennemis."),
         .pokemonScale = 275,
@@ -5518,7 +5518,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .weight = 420,
         .description = COMPOUND_STRING(
             "La température de ses ailes est de -\n"
-            "180 °C. Quand il vole, ses écailles\n"
+            "180 ºC. Quand il vole, ses écailles\n"
             "gelées tombent sur le paysage comme des\n"
             "flocons de neige."),
         .pokemonScale = 272,
@@ -6884,8 +6884,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .height = 28,
         .weight = 1100,
         .description = COMPOUND_STRING(
-            "Également surnommé « héros légendaire\n"
-            "», ce Pokémon absorbe du métal et se\n"
+            "Également surnommé “héros légendaire\n"
+            "”, ce Pokémon absorbe du métal et se\n"
             "change en arme pour se battre."),
         .pokemonScale = 275,
         .pokemonOffset = 7,
@@ -6951,8 +6951,8 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .height = 28,
         .weight = 3550,
         .description = COMPOUND_STRING(
-            "Également surnommé « héros légendaire\n"
-            "», ce Pokémon absorbe du métal et se\n"
+            "Également surnommé “héros légendaire”\n"
+            ", ce Pokémon absorbe du métal et se\n"
             "change en arme pour se battre."),
         .pokemonScale = 275,
         .pokemonOffset = 7,

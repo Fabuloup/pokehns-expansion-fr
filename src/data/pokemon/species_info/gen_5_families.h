@@ -1529,7 +1529,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .weight = 110,
         .description = COMPOUND_STRING(
             "Quand il s’énerve, la mèche sur sa tête\n"
-            "chauffe à 300 °C. Il s’en sert pour\n"
+            "chauffe à 300 ºC. Il s’en sert pour\n"
             "griller des Baies et les manger."),
         .pokemonScale = 422,
         .pokemonOffset = 12,
@@ -5127,7 +5127,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .height = 13,
         .weight = 929,
         .description = COMPOUND_STRING(
-            "Il entretient des flammes à 1 400 °C\n"
+            "Il entretient des flammes à 1 400 ºC\n"
             "dans son corps. De quoi détruire un\n"
             "camion-benne d’un coup de poing!\n"),
         .pokemonScale = 272,
@@ -5196,7 +5196,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .height = 13,
         .weight = 929,
         .description = COMPOUND_STRING(
-            "Il entretient des flammes à 1 400 °C\n"
+            "Il entretient des flammes à 1 400 ºC\n"
             "dans son corps. De quoi détruire un\n"
             "camion-benne d’un coup de poing!\n"),
         .pokemonScale = 272,
@@ -5343,7 +5343,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .height = 17,
         .weight = 1200,
         .description = COMPOUND_STRING(
-            "Il entretient des flammes à 1 400 °C\n"
+            "Il entretient des flammes à 1 400 ºC\n"
             "dans son corps. De quoi détruire un\n"
             "camion-benne d’un coup de poing!\n"),
         .pokemonScale = 272,
@@ -5422,7 +5422,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .height = 17,
         .weight = 1200,
         .description = COMPOUND_STRING(
-            "Il entretient des flammes à 1 400 °C\n"
+            "Il entretient des flammes à 1 400 ºC\n"
             "dans son corps. De quoi détruire un\n"
             "camion-benne d’un coup de poing!\n"),
         .pokemonScale = 272,
@@ -7785,7 +7785,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .height = 4,
         .weight = 57,
         .description = COMPOUND_STRING(
-            "Il exhale une haleine à -50 °C. Il\n"
+            "Il exhale une haleine à -50 ºC. Il\n"
             "fabrique des cristaux de neige et fait\n"
             "neiger autour de lui."),
         .pokemonScale = 491,

@@ -17418,7 +17418,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .description = COMPOUND_STRING(
             "Son sang est chaud comme du magma et la\n"
             "température de son corps peut atteindre\n"
-            "600 °C."),
+            "600 ºC."),
         .pokemonScale = 284,
         .pokemonOffset = 13,
         .trainerScale = 256,
@@ -17566,7 +17566,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .weight = 680,
         .description = COMPOUND_STRING(
             "Quand il lance des boules de feu à plus\n"
-            "de 2 000 °C, son corps est comme\n"
+            "de 2 000 ºC, son corps est comme\n"
             "chauffé à blanc."),
         .pokemonScale = 259,
         .pokemonOffset = 1,
@@ -18942,7 +18942,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .description = COMPOUND_STRING(
             "L’air qu’il inspire est chauffé par la\n"
             "glande enflammée de son corps,\n"
-            "atteignant les 1 700 °C."),
+            "atteignant les 1 700 ºC."),
         .pokemonScale = 306,
         .pokemonOffset = 12,
         .trainerScale = 256,

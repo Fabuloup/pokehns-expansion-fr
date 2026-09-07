@@ -28,98 +28,98 @@ const u8 gNotDoneYetDescription[] = _(
 static const u8 sNullDescription[] = _("");
 
 static const u8 sMegaDrainDescription[] = _(
-    "Attack that absorbs\n"
-    "half the damage inflicted.");
+    "Une attaque absorbant la\n"
+    "moitié des dégâts infligés.");
 
 #if B_SKIP_RECHARGE != GEN_1
 static const u8 sHyperBeamDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+    "Puissant, mais immobilise\n"
+    "le lanceur pour un tour.");
 #else
 static const u8 sHyperBeamDescription[] = _(
-    "Leaves the user immobile\n"
-    "if target is not KO'd.");
+    "Immobilise pour un tour si\n"
+    "la cible n'est pas K.O.");
 #endif
 
 static const u8 sRevengeDescription[] = _(
-    "Attack that moves last\n"
-    "and gains power if hit.");
+    "Gagne en puissance quand\n"
+    "blessé par l'ennemi.");
 
 static const u8 sPluckDescription[] = _(
-    "Eats the foe's held Berry\n"
-    "gaining its effect.");
+    "Picore et s'empare de\n"
+    "la baie de l'ennemi si tenu.");
 
 static const u8 sHealingWishDescription[] = _(
-    "The user faints to heal up\n"
-    "the recipient.");
+    "Le lanceur tombe K.O. et\n"
+    "soigne le {PKMN} suivant.");
 
 static const u8 sWringOutDescription[] = _(
-    "The higher the foe's HP\n"
-    "the more damage caused.");
+    "Plus l'ennemi a de PV, plus\n"
+    "cette attaque est puissante.");
 
 static const u8 sUTurnDescription[] = _(
-    "Does damage then switches\n"
-    "out the user.");
+    "Fais de dégâts et\n"
+    "change de place.");
 
 static const u8 sStormThrowDescription[] = _(
-    "This attack always results\n"
-    "in a critical hit.");
+    "Un coup très puissant dont\n"
+    "l'effet est toujours critique.");
 
 static const u8 sCircleThrowDescription[] = _(
-    "Knocks foe away to switch\n"
-    "it out or end wild battle.");
+    "Projette l'ennemi hors du\n"
+    "terrain. Peut finir le combat.");
 
 static const u8 sChipAwayDescription[] = _(
-    "Strikes through the foe's\n"
-    "stat changes.");
+    "Frappe sans tenir compte\n"
+    "des changements de stats.");
 
 static const u8 sHeavySlamDescription[] = _(
-    "Does more damage if the\n"
-    "user outweighs the foe.");
+    "Fais plus de dégâts si le\n"
+    "lanceur pèse le plus lourd.");
 
 static const u8 sPsyshockDescription[] = _(
-    "Attacks with a psychic wave\n"
-    "that does physical damage.");
+    "Attaque avec des vagues\n"
+    "psy matérialisée.");
 
 static const u8 sLavaPlumeDescription[] = _(
-    "Scarlet flames torch\n"
-    "everything around the user.");
+    "Des flammes écarlates sont\n"
+    "projetée sur le terrain.");
 
 static const u8 sShadowForceDescription[] = _(
-    "Vanishes on the first turn\n"
-    "then strikes the next turn.");
+    "Disparaît et frappe\n"
+    "au second tour");
 
 static const u8 sFalseSwipeDescription[] = _(
-    "Attack that leaves the\n"
-    "foe with at least 1 HP.");
+    "Une attaque qui laisse\n"
+    "au moins 1 PV à l'ennemi.");
 
 static const u8 sDrainingKissDescription[] = _(
-    "Attack that absorbs over\n"
-    "half the damage inflicted.");
+    "Absorbe la moitié\n"
+    "des dégâts infligés.");
 
 static const u8 sCloseCombatDescription[] = _(
-    "A strong attack but lowers\n"
-    "the defensive stats.");
+    "Une attaque puissante\n"
+    "qui baisse la Défense.");
 
 static const u8 sHyperspaceHoleDescription[] = _(
-    "Uses a warp hole to attack.\n"
-    "Can't be evaded.");
+    "Une faille dimensionnelle\n"
+    "qui ne peut être esquivée.");
 
 static const u8 sSuckerPunchDescription[] = _(
-    "Strikes first if the foe\n"
-    "is preparing Attack.");
+    "Attaque en premier si\n"
+    "l'ennemi prépare un coup.");
 
 static const u8 sFeintDescription[] = _(
-    "Attack that hits foes\n"
-    "using moves like Protect.");
+    "Une attaque qui touche\n"
+    "même à travers Abri.");
 
 static const u8 sProtectDescription[] = _(
-    "Evades attack, but may fail\n"
-    "if used in succession.");
+    "Esquive l'attaque, mais\n"
+    "peut échouer si réutilisé.");
 
 static const u8 sGMaxOneBlowDescription[] = _(
-    "G-max Urshifu attack.\n"
-    "Ignores Max Guard.");
+    "Attaque de Shifours G-max.\n"
+    "Ignore Guardomax.");
 
 const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 {
@@ -5169,10 +5169,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("OCTAZOOKA"),
         .description = COMPOUND_STRING(
-            "Le lanceur attaque en\n"
-            "projetant de l’encre au visage\n"
-            "de l’ennemi. Peut aussi\n"
-            "baisser la Précision de"),
+            "Jet d'encre qui blesse et\n"
+            "baisse la précision."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_WATER,
@@ -5198,10 +5196,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("PICOTS"),
         .description = COMPOUND_STRING(
-            "Le lanceur disperse des\n"
-            "piquants sur le sol pour\n"
-            "blesser tout ennemi qui entre\n"
-            "au combat."),
+            "Pointes blessant lors d'un\n"
+            "changement d'adversaire."),
         .effect = EFFECT_SPIKES,
         .power = 0,
         .type = TYPE_GROUND,
@@ -5228,9 +5224,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("ÉLECANON"),
         .description = COMPOUND_STRING(
-            "Un boulet de canon électrifié\n"
-            "qui inflige des dégâts et\n"
-            "paralyse l’ennemi."),
+            "Puissant et paralysant,\n"
+            "mais pas très précis."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 120 : 100,
         .type = TYPE_ELECTRIC,
@@ -5256,10 +5251,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("CLAIRVOYANCE"),
         .description = COMPOUND_STRING(
-            "Permet de toucher un Pokémon\n"
-            "Spectre avec n’importe quelle\n"
-            "capacité et de toucher un\n"
-            "ennemi insaisissable."),
+            "Empêche l'ennemi\n"
+            "d'améliorer son esquive."),
         .effect = EFFECT_FORESIGHT,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5283,10 +5276,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("LIEN DU DESTIN"),
         .description = COMPOUND_STRING(
-            "Quand cette capacité est\n"
-            "activée, elle met K.O. un\n"
-            "ennemi qui porte un coup fatal\n"
-            "au lanceur."),
+            "Si le lanceur est mis K.O.,\n"
+            "l'ennemi le sera également."),
         .effect = EFFECT_DESTINY_BOND,
         .power = 0,
         .type = TYPE_GHOST,
@@ -5314,10 +5305,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("REQUIEM"),
         .description = COMPOUND_STRING(
-            "Tout Pokémon qui entend ce\n"
-            "requiem est K.O. dans 3 tours\n"
-            "à moins qu’il ne quitte le\n"
-            "combat."),
+            "Un {PKMN} qui entend ce\n"
+            "requiem est K.O. en 3 tours."),
         .effect = EFFECT_PERISH_SONG,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5343,9 +5332,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("VENT GLACE"),
         .description = COMPOUND_STRING(
-            "Une bourrasque de vent froid\n"
-            "blesse l’ennemi. Réduit aussi\n"
-            "sa Vitesse."),
+            "Attaque glaciale. Baisse\n"
+            "la Vitesse de l'ennemi."),
         .effect = EFFECT_HIT,
         .power = 55,
         .type = TYPE_ICE,
@@ -5449,10 +5437,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("COLÈRE"),
         .description = COMPOUND_STRING(
-            "Le lanceur laisse éclater sa\n"
-            "rage et attaque pendant 2 à 3\n"
-            "tours avant de céder à la\n"
-            "confusion."),
+            "Une attaque furieuse sur 2\n"
+            "à 3 tours. Lanceur confus."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 120 : 90,
         .type = TYPE_DRAGON,
@@ -5479,10 +5465,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("TEMPÊTE DE SABLE"),
         .description = COMPOUND_STRING(
-            "Une tempête de sable de 5\n"
-            "tours qui blesse tous les\n"
-            "Pokémon sauf les types Roche,\n"
-            "Sol et Acier."),
+            "Une tempête de sable qui\n"
+            "souffle plusieurs tours."),
         .effect = EFFECT_WEATHER,
         .power = 0,
         .type = TYPE_ROCK,
@@ -5508,9 +5492,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("GIGA-SANGSUE"),
         .description = COMPOUND_STRING(
-            "Une attaque qui convertit la\n"
-            "moitié des dégâts infligés en\n"
-            "PV."),
+            "Une attaque qui absorbe la\n"
+            "moitié des dégâts infligés."),
         .effect = EFFECT_ABSORB,
         .power = B_UPDATED_MOVE_DATA >= GEN_5 ? 75 : 60,
         .type = TYPE_GRASS,
@@ -5534,10 +5517,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("TÉNACITÉ"),
         .description = COMPOUND_STRING(
-            "Le lanceur résiste aux\n"
-            "attaques avec 1 PV. Peut\n"
-            "échouer si utilisée plusieurs\n"
-            "fois de suite."),
+            "Encaisse les attaques du\n"
+            "tour et conserve 1 PV."),
         .effect = EFFECT_ENDURE,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5571,10 +5552,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("CHARME"),
         .description = COMPOUND_STRING(
-            "Le lanceur fait les yeux doux\n"
-            "pour berner l’ennemi et\n"
-            "réduire considérablement son\n"
-            "Attaque."),
+            "Charme l'ennemi et baisse\n"
+            "brusquement son Attaque."),
         .effect = EFFECT_ATTACK_DOWN_2,
         .power = 0,
         .type = B_UPDATED_MOVE_TYPES >= GEN_6 ? TYPE_FAIRY : TYPE_NORMAL,
@@ -5597,10 +5576,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("ROULADE"),
         .description = COMPOUND_STRING(
-            "Un rocher roule sur l’ennemi\n"
-            "pendant 5 tours. L’attaque\n"
-            "gagne en puissance à chaque\n"
-            "coup."),
+            "Une attaque sur 5 tours,\n"
+            "de plus en plus puissante."),
         .effect = EFFECT_ROLLOUT,
         .power = 30,
         .type = TYPE_ROCK,
@@ -5645,10 +5622,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("VANTARDISE"),
         .description = COMPOUND_STRING(
-            "Fait enrager la cible et la\n"
-            "plonge dans la confusion, mais\n"
-            "augmente fortement son\n"
-            "Attaque."),
+            "Rend l'ennemi confus et\n"
+            "booste l'Attaque."),
         .effect = EFFECT_SWAGGER,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5672,10 +5647,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("LAIT À BOIRE"),
         .description = COMPOUND_STRING(
-            "Le lanceur récupère jusqu’à la\n"
-            "moitié de ses PV max. En\n"
-            "dehors des combats, permet de\n"
-            "transférer des PV du lanceur à"),
+            "Regagne jusqu'à la moitié\n"
+            "des PV max du lanceur."),
         .effect = EFFECT_SOFTBOILED,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5701,9 +5674,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("ÉTINCELLE"),
         .description = COMPOUND_STRING(
-            "Lance une charge électrique\n"
-            "sur l’ennemi. Peut aussi le\n"
-            "paralyser."),
+            "Une charge électrique qui\n"
+            "peut paralyser l'ennemi."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_ELECTRIC,
@@ -5728,10 +5700,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("TAILLADE"),
         .description = COMPOUND_STRING(
-            "Un coup de faux ou de griffe\n"
-            "dont la force augmente quand\n"
-            "il touche plusieurs fois\n"
-            "d’affilée."),
+            "Une attaque qui s'intensifie\n"
+            "après chaque coup."),
         #if B_UPDATED_MOVE_DATA >= GEN_6
             .power = 40,
         #elif B_UPDATED_MOVE_DATA == GEN_5
@@ -5760,10 +5730,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("AILES D’ACIER"),
         .description = COMPOUND_STRING(
-            "Le lanceur frappe l’ennemi\n"
-            "avec des ailes d’acier. Peut\n"
-            "aussi augmenter la Défense du\n"
-            "lanceur."),
+            "Frappe l'ennemi en déployant\n"
+            "des ailes d'acier."),
         .effect = EFFECT_HIT,
         .power = 70,
         .type = TYPE_STEEL,
@@ -5791,10 +5759,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("REGARD NOIR"),
         .description = COMPOUND_STRING(
-            "Le lanceur pétrifie l’ennemi\n"
-            "en lui lançant un regard noir.\n"
-            "Il devient incapable de\n"
-            "s’enfuir."),
+            "Lance un regard méchant pour\n"
+            "empêcher la fuite."),
         .effect = EFFECT_MEAN_LOOK,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5818,9 +5784,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("ATTRACTION"),
         .description = COMPOUND_STRING(
-            "Si l’ennemi est du sexe\n"
-            "opposé, il tombe amoureux et\n"
-            "rechigne alors à attaquer."),
+            "Le genre opposé a moins\n"
+            "de chances d'attaquer."),
         .effect = EFFECT_ATTRACT,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5844,9 +5809,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("BLABLA DODO"),
         .description = COMPOUND_STRING(
-            "Le lanceur utilise un de ses\n"
-            "coups au hasard pendant qu’il\n"
-            "dort."),
+            "Utilise un coup connu\n"
+            "au hasard en dormant."),
         .effect = EFFECT_SLEEP_TALK,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5878,8 +5842,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("GLAS DE SOIN"),
         .description = COMPOUND_STRING(
             "Carillon apaisant qui soigne\n"
-            "les problèmes de statut de\n"
-            "tous les Pokémon de l’équipe."),
+            "tout changement de statut."),
         .effect = EFFECT_HEAL_BELL,
         .power = 0,
         .type = TYPE_NORMAL,
@@ -5906,9 +5869,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("RETOUR"),
         .description = COMPOUND_STRING(
-            "Une attaque furieuse dont la\n"
-            "puissance augmente quand le\n"
-            "Pokémon apprécie son Dresseur."),
+            "Attaque dont la puissance\n"
+            "dépend de l'amitié."),
         .effect = EFFECT_RETURN,
         .power = 1,
         .type = TYPE_NORMAL,
@@ -5930,10 +5892,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("CADEAU"),
         .description = COMPOUND_STRING(
-            "Le lanceur attaque en offrant\n"
-            "un cadeau piégé à la cible.\n"
-            "Peut à l’inverse restaurer\n"
-            "certains de ses PV."),
+            "Cadeau en forme de bombe.\n"
+            "Peut restaurer des PV."),
         .effect = EFFECT_PRESENT,
         .power = 1,
         .type = TYPE_NORMAL,
@@ -5955,9 +5915,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("FRUSTRATION"),
         .description = COMPOUND_STRING(
-            "Moins le Pokémon aime son\n"
-            "Dresseur, plus cette attaque\n"
-            "est puissante."),
+            "Attaque plus puissante si\n"
+            "le DRESSEUR est mal aimé."),
         .effect = EFFECT_FRUSTRATION,
         .power = 1,
         .type = TYPE_NORMAL,
@@ -24015,7 +23974,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_G_MAX_ONE_BLOW] =
     {
-        .name = COMPOUND_STRING("G-MAX ONE BLOW"),
+        .name = COMPOUND_STRING("COUP FINAL G-MAX"),
         .description = sGMaxOneBlowDescription,    //ANIM TODO
         .effect = EFFECT_MAX_MOVE,
         .power = 10,

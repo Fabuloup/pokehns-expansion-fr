@@ -9550,12 +9550,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_ROOST] =
     {
-        .name = COMPOUND_STRING("PSYCHO-BOOST"),
+        .name = COMPOUND_STRING("ATTERRISSAGE"),
         .description = COMPOUND_STRING(
-            "Attaque l’ennemi à pleine\n"
-            "puissance. Le contrecoup\n"
-            "baisse énormément l’Attaque\n"
-            "Spéciale du lanceur."),
+            "Le lanceur atterit\n"
+            "et se repose."),
         .effect = EFFECT_ROOST,
         .power = 0,
         .type = TYPE_FLYING,

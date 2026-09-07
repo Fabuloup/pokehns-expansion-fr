@@ -7966,10 +7966,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("LUMI-ÉCLAT"),
         .description = COMPOUND_STRING(
-            "Le lanceur libère un éclair\n"
-            "lumineux. Peut aussi baisser\n"
-            "la Défense Spéciale de\n"
-            "l’ennemi."),
+            "Envoie une lueur intense.\n"
+            "Peut baisser Def. Spe."),
         .effect = EFFECT_HIT,
         .power = (B_UPDATED_MOVE_DATA >= GEN_9) ? 95 : 70,
         .type = TYPE_PSYCHIC,
@@ -8021,9 +8019,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("DANSE PLUMES"),
         .description = COMPOUND_STRING(
-            "Une montagne de plumes\n"
-            "ensevelit l’ennemi et réduit\n"
-            "considérablement son Attaque."),
+            "Enveloppe l'ennemi de duvet\n"
+            "et baisse l'Attaque."),
         .effect = EFFECT_ATTACK_DOWN_2,
         .power = 0,
         .type = TYPE_FLYING,
@@ -8100,9 +8097,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("LANCE-BOUE"),
         .description = COMPOUND_STRING(
-            "Le lanceur se couvre de boue\n"
-            "pour affaiblir les capacités\n"
-            "Électrik quand il combat."),
+            "Couvre le lanceur de boue.\n"
+            "Augmente résist. électr."),
         // in theory this should mention 5 turns (gen 6+)
         .effect = EFFECT_MUD_SPORT,
         .power = 0,
@@ -8399,9 +8395,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("BALL’MÉTÉO"),
         .description = COMPOUND_STRING(
-            "Une attaque dont la puissance\n"
-            "et le type varient en fonction\n"
-            "du temps qu’il fait."),
+            "Type et puissance de\n"
+            "l'attaque selon le climat."),
         .effect = EFFECT_WEATHER_BALL,
         .power = 50,
         .type = TYPE_NORMAL,
@@ -8502,10 +8497,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("SURCHAUFFE"),
         .description = COMPOUND_STRING(
-            "Attaque l’ennemi à pleine\n"
-            "puissance. Le contrecoup\n"
-            "baisse énormément l’Attaque\n"
-            "Spéciale du lanceur."),
+            "Attaque à pleine puissance,\n"
+            "mais baisse Atq. Spe."),
         .effect = EFFECT_HIT,
         .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 130 : 140,
         .type = TYPE_FIRE,
@@ -8582,10 +8575,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("VENT ARGENTÉ"),
         .description = COMPOUND_STRING(
-            "Vent qui projette des écailles\n"
-            "poudreuses sur l’ennemi. Peut\n"
-            "aussi monter toutes les stats\n"
-            "du lanceur."),
+            "Attaque poudreuse qui peut\n"
+            "augmenter les capacités."),
         .effect = EFFECT_HIT,
         .power = 60,
         .type = TYPE_BUG,
@@ -8690,10 +8681,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("FORCE COSMIQUE"),
         .description = COMPOUND_STRING(
-            "Le lanceur absorbe un pouvoir\n"
-            "mystique spatial qui augmente\n"
-            "sa Défense et sa Défense\n"
-            "Spéciale."),
+            "Pouvoir mystique qui monte la\n"
+            "Defense et la Def. Spe."),
         .effect = EFFECT_COSMIC_POWER,
         .power = 0,
         .type = TYPE_PSYCHIC,
@@ -9202,9 +9191,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("QUEUE-POISON"),
         .description = COMPOUND_STRING(
-            "Attaque à taux de critiques\n"
-            "élevé. Peut aussi empoisonner\n"
-            "l’ennemi."),
+            "Haut taux de critiques. Peut\n"
+            "aussi empoisonner."),
         .effect = EFFECT_HIT,
         .power = 50,
         .type = TYPE_POISON,
@@ -9259,10 +9247,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("ÉLECTACLE"),
         #if B_UPDATED_MOVE_DATA >= GEN_4
         .description = COMPOUND_STRING(
-            "Le lanceur électrifie son\n"
-            "corps avant de charger. Le\n"
-            "choc blesse aussi beaucoup le\n"
-            "lanceur et peut paralyser"),
+            "Une dangereuse charge qui\n"
+            "blesse aussi le lanceur."),
         #else
         .description = COMPOUND_STRING(
             "A life-risking tackle that\n"
@@ -9296,9 +9282,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("FEUILLE MAGIK"),
         .description = COMPOUND_STRING(
-            "Le lanceur disperse d’étranges\n"
-            "feuilles qui poursuivent\n"
-            "l’ennemi. N’échoue jamais."),
+            "Envoie des feuilles ne\n"
+            "pouvant être esquivées."),
         .effect = EFFECT_HIT,
         .power = 60,
         .type = TYPE_GRASS,
@@ -9499,9 +9484,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("VŒU DESTRUCTEUR"),
         .description = COMPOUND_STRING(
-            "Le lanceur génère une sphère\n"
-            "lumineuse qu’il projette sur\n"
-            "l’ennemi 2 tours plus tard."),
+            "Récupère la lumière pour\n"
+            "frapper 2 tours plus tard."),
         .effect = EFFECT_FUTURE_SIGHT,
         .power = B_UPDATED_MOVE_DATA >= GEN_5 ? 140 : 120,
         .type = TYPE_STEEL,
@@ -9524,10 +9508,8 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("PSYCHO-BOOST"),
         .description = COMPOUND_STRING(
-            "Attaque l’ennemi à pleine\n"
-            "puissance. Le contrecoup\n"
-            "baisse énormément l’Attaque\n"
-            "Spéciale du lanceur."),
+            "Attaque à pleine puissance,\n"
+            "mais baisse Atq. Spe."),
         .effect = EFFECT_HIT,
         .power = 140,
         .type = TYPE_PSYCHIC,

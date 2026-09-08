@@ -23,7 +23,6 @@ gText_Oak_MainSpeech::
 	.string	"moyen de combattre.\p"
 	.string "Pour ma part\n"
 	.string "l'étude des Pokémon est ma profession.\p"
-	.string "POKéMON yet. \p"
 	.string "$"
 
 gText_Oak_AndYouAre::

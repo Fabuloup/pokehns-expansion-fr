@@ -4,8 +4,7 @@ gText_Oak_Welcome::
 	.string "des POKéMON!\p"
 	.string "Mon nom est CHEN.\p"
 	.string "Mais tout le monde ici\n"
-	.string "m'appellent le PROFESSEUR POKéMON.\n"
-	.string "POKéMON.\p"
+	.string "m'appellent le PROFESSEUR POKéMON.\p"
 	.string "$"
 
 gText_Oak_Pokemon::
@@ -30,7 +29,7 @@ gText_Oak_AndYouAre::
 	.string	"parle-moi un peu de toi.$"
 
 gText_Oak_BoyOrGirl::
-	.string "Maintenant dis-moi.\n"
+	.string "Maintenant dis-moi.\p"
 	.string	"Es-tu un garçon\n"
 	.string	"ou une fille?$"
 

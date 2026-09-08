@@ -2282,7 +2282,7 @@ static const struct NamingScreenTemplate sPlayerNamingScreenTemplate =
     .addGenderIcon = FALSE,
     .initialPage = KBPAGE_LETTERS_UPPER,
     .unused = 35,
-    .title = COMPOUND_STRING("YOUR NAME?"),
+    .title = COMPOUND_STRING("VOTRE NOM?"),
 };
 
 static const struct NamingScreenTemplate sPCBoxNamingTemplate =
@@ -2293,7 +2293,7 @@ static const struct NamingScreenTemplate sPCBoxNamingTemplate =
     .addGenderIcon = FALSE,
     .initialPage = KBPAGE_LETTERS_UPPER,
     .unused = 19,
-    .title = COMPOUND_STRING("BOX NAME?"),
+    .title = COMPOUND_STRING("NOM DE BOITE?"),
 };
 
 static const struct NamingScreenTemplate sMonNamingScreenTemplate =
@@ -2304,7 +2304,7 @@ static const struct NamingScreenTemplate sMonNamingScreenTemplate =
     .addGenderIcon = TRUE,
     .initialPage = KBPAGE_LETTERS_UPPER,
     .unused = 35,
-    .title = COMPOUND_STRING("{STR_VAR_1}'s nickname?"),
+    .title = COMPOUND_STRING("Surnom de {STR_VAR_1}?"),
 };
 
 static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
@@ -2326,7 +2326,7 @@ static const struct NamingScreenTemplate sCodeScreenTemplate =
     .addGenderIcon = FALSE,
     .initialPage = KBPAGE_LETTERS_UPPER,
     .unused = 35,
-    .title = COMPOUND_STRING("Enter code:"),
+    .title = COMPOUND_STRING("Entre le code:"),
 };
 
 static const struct NamingScreenTemplate sRivalNamingScreenTemplate =

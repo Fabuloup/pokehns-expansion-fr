@@ -237,7 +237,7 @@ static const u8 sRadioText_Buena6[] = _("GOLDENROD's RADIO TOWER!");
 // ==========================================================
 
 static const u8 sRadioBuenaPassword_NewBarkTown[]     = _("NEW BARK TOWN");
-static const u8 sRadioBuenaPassword_CherrygroveCity[]  = _("CHERRYGROVE CITY");
+static const u8 sRadioBuenaPassword_CherrygroveCity[]  = _("VILLE GRIOTTE");
 static const u8 sRadioBuenaPassword_AzaleaTown[]      = _("AZALEA TOWN");
 static const u8 sRadioBuenaPassword_Flying[]          = _("FLYING");
 static const u8 sRadioBuenaPassword_Bug[]             = _("BUG");

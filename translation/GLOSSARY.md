@@ -54,6 +54,14 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 | Olivine City | Oliville |
 | Violet City | Mauville |
 
+## Famille des jours de la semaine
+
+| Anglais | Français officiel |
+|---|---|
+| Monica | Lucie |
+| Tuscany | Marie |
+| Wesley | Homer |
+
 ## Dresseurs récurrents
 
 | Identifiant anglais | Français retenu | Référence |

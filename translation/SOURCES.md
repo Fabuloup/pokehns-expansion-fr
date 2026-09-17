@@ -30,6 +30,11 @@ présents dans le moteur des noms français partageant le même identifiant. Il
 refuse les noms dépassant les limites de stockage du moteur et signale les
 formes ou objets sans correspondance.
 
+Le type `Stellaire` constitue actuellement une exception documentée : son nom
+français compte neuf caractères, alors que `TYPE_NAME_LENGTH` est limité à
+huit. Le projet conserve donc provisoirement `STELLAR` plutôt que de tronquer
+le nom officiel ou de modifier la structure du moteur sans audit dédié.
+
 Pour les données des trois premières générations, le résultat est également
 comparé à la décompilation de la ROM française officielle Pokémon Émeraude :
 `kleeenexfeu/pokeemerald-french`. Cette seconde source permet de repérer les

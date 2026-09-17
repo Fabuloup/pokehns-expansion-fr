@@ -128,7 +128,7 @@ def main() -> int:
             [ROOT / "src/data/types_info.h"],
             re.compile(r'(?P<prefix>\.name\s*=\s*_\(")(?P<name>[^"]+)(?P<suffix>"\))'),
             localized_names(args.csv_dir / "type_names.csv"),
-            12,
+            8,
         ),
     ]
 

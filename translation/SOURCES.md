@@ -35,6 +35,12 @@ français compte neuf caractères, alors que `TYPE_NAME_LENGTH` est limité à
 huit. Le projet conserve donc provisoirement `STELLAR` plutôt que de tronquer
 le nom officiel ou de modifier la structure du moteur sans audit dédié.
 
+La macro des objets réserve vingt octets, terminateur compris : un nom affiché
+ne peut donc dépasser dix-neuf caractères. `Armure de la Fortune`, `Armure de
+la Rancune` et `Rouleau des Ténèbres` restent provisoirement en anglais pour la
+même raison. Ces objets récents ne figurent pas dans le parcours initial de
+Johto.
+
 Pour les données des trois premières générations, le résultat est également
 comparé à la décompilation de la ROM française officielle Pokémon Émeraude :
 `kleeenexfeu/pokeemerald-french`. Cette seconde source permet de repérer les

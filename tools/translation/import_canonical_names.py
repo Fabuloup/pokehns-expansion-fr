@@ -114,7 +114,7 @@ def main() -> int:
             [ROOT / "src/data/items.h"],
             re.compile(r'(?P<prefix>\.name\s*=\s*ITEM_NAME\(")(?P<name>[^"]+)(?P<suffix>"\))'),
             localized_names(args.csv_dir / "item_names.csv"),
-            20,
+            19,
         ),
         (
             "talents",

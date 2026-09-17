@@ -14984,7 +14984,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_AUSPICIOUS_ARMOR] =
     {
-        .name = ITEM_NAME("ARMURE DE LA FORTUNE"),
+        .name = ITEM_NAME("AUSPICIOUS ARMOR"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Armor inhabited by\n"
@@ -15070,7 +15070,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_MALICIOUS_ARMOR] =
     {
-        .name = ITEM_NAME("ARMURE DE LA RANCUNE"),
+        .name = ITEM_NAME("MALICIOUS ARMOR"),
         .price = 3000,
         .description = COMPOUND_STRING(
             "Armor inhabited by\n"
@@ -15106,7 +15106,7 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_SCROLL_OF_DARKNESS] =
     {
-        .name = ITEM_NAME("ROULEAU DES TÉNÈBRES"),
+        .name = ITEM_NAME("SCROLL OF DARKNESS"),
         .pluralName = ITEM_PLURAL_NAME("Scrolls of Darkness"),
         .price = 0,
         .description = COMPOUND_STRING(

@@ -23,6 +23,19 @@ Les listes importantes ne doivent pas être traduites à la main au fil des fich
 - types ;
 - Baies.
 
+L'import actuel utilise les fichiers CSV de PokéAPI au commit
+`5c776e225f2150862e021062d7f304c8958368cc`. Le script
+`tools/translation/import_canonical_names.py` rapproche les noms anglais déjà
+présents dans le moteur des noms français partageant le même identifiant. Il
+refuse les noms dépassant les limites de stockage du moteur et signale les
+formes ou objets sans correspondance.
+
+Pour les données des trois premières générations, le résultat est également
+comparé à la décompilation de la ROM française officielle Pokémon Émeraude :
+`kleeenexfeu/pokeemerald-french`. Cette seconde source permet de repérer les
+différences dues aux accents, aux abréviations historiques et aux limites de la
+version GBA.
+
 Les CT et CS demandent un traitement particulier. Leur numéro dépend de la table utilisée par Heart & Soul. Il faut d'abord relier chaque CT ou CS à sa capacité dans les sources du jeu, puis employer le nom français officiel de cette capacité. Copier une liste de CT d'un autre jeu produirait des associations incorrectes.
 
 ## Dresseurs et personnages

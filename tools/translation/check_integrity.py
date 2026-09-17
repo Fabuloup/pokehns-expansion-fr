@@ -7,13 +7,30 @@ import sys
 
 
 MINIMUM_FILE_SIZES = {
+    Path("src/data/pokemon/species_info/gen_1_families.h"): 700_000,
     Path("src/data/pokemon/species_info/gen_2_families.h"): 300_000,
+    Path("src/data/pokemon/species_info/gen_3_families.h"): 450_000,
+    Path("src/data/pokemon/species_info/gen_4_families.h"): 250_000,
+    Path("src/data/pokemon/species_info/gen_5_families.h"): 450_000,
+    Path("src/data/pokemon/species_info/gen_6_families.h"): 260_000,
+    Path("src/data/pokemon/species_info/gen_7_families.h"): 260_000,
+    Path("src/data/pokemon/species_info/gen_8_families.h"): 280_000,
+    Path("src/data/pokemon/species_info/gen_9_families.h"): 280_000,
+    Path("src/data/moves_info.h"): 700_000,
+    Path("src/data/items.h"): 450_000,
+    Path("src/data/abilities.h"): 50_000,
+    Path("src/data/types_info.h"): 18_000,
 }
 
 TEXT_PATHS = (
     Path("README.md"),
     Path("INSTALL.md"),
     Path("translation"),
+    Path("src/data/pokemon/species_info"),
+    Path("src/data/moves_info.h"),
+    Path("src/data/items.h"),
+    Path("src/data/abilities.h"),
+    Path("src/data/types_info.h"),
     Path("data/text/oak_speech_hns.inc"),
     Path("data/maps/NewBarkTown_hns/scripts.inc"),
     Path("data/maps/NewBarkTown_Lab_hns/scripts.inc"),

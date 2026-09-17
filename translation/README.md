@@ -62,4 +62,5 @@ Une sauvegarde interne de Heart & Soul 2.x doit rester compatible entre les buil
 - [Guide de style](STYLE_GUIDE.md)
 - [Glossaire](GLOSSARY.md)
 - [Sources françaises et ordre de priorité](SOURCES.md)
+- [Périmètre de validation jusqu'au deuxième badge](EARLY_GAME_SCOPE.md)
 - [Relais vers un autre assistant](AI_HANDOFF.md)

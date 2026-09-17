@@ -155,7 +155,7 @@ static const u8 sRegionMapPlayerIcon_KrisGfx[] = INCBIN_U8("graphics/pokenav/reg
 // Johto-only map coordinates (before FLAG_VISITED_KANTO is set).
 // The auto-generated gRegionMapEntries has JK combined coordinates.
 static const struct RegionMapLocation sRegionMapEntries_Johto[] = {
-    [MAPSEC_VIOLET_CITY]       = { 7,  5,  1, 1, COMPOUND_STRING("VIOLET CITY") },
+    [MAPSEC_VIOLET_CITY]       = { 7,  5,  1, 1, COMPOUND_STRING("MAUVILLE") },
     [MAPSEC_AZALEA_TOWN]       = { 6,  12, 1, 1, COMPOUND_STRING("AZALEA TOWN") },
     [MAPSEC_GOLDENROD_CITY]    = { 5,  7,  1, 2, COMPOUND_STRING("GOLDENROD CITY") },
     [MAPSEC_ECRUTEAK_CITY]     = { 6,  3,  1, 1, COMPOUND_STRING("ECRUTEAK CITY") },
@@ -238,7 +238,7 @@ static const struct RegionMapLocation sRegionMapEntries_Johto[] = {
     [MAPSEC_SEAFOAM_ISLANDS]   = { 22, 13, 1, 1, COMPOUND_STRING("SEAFOAM ISLANDS") },
     [MAPSEC_CERULEAN_CAVE]     = { 23, 1,  1, 1, COMPOUND_STRING("CERULEAN CAVE") },
     [MAPSEC_POWER_PLANT]       = { 27, 3,  1, 1, COMPOUND_STRING("POWER PLANT") },
-    [MAPSEC_DARK_CAVE]         = { 10, 5,  1, 1, COMPOUND_STRING("DARK CAVE") },
+    [MAPSEC_DARK_CAVE]         = { 10, 5,  1, 1, COMPOUND_STRING("ANTRE NOIRE") },
     [MAPSEC_UNION_CAVE]        = { 7,  11, 1, 2, COMPOUND_STRING("UNION CAVE") },
     [MAPSEC_ILEX_FOREST]       = { 5,  11, 1, 2, COMPOUND_STRING("ILEX FOREST") },
     [MAPSEC_NATIONAL_PARK]     = { 5,  5,  1, 1, COMPOUND_STRING("NATIONAL PARK") },
@@ -254,7 +254,7 @@ static const struct RegionMapLocation sRegionMapEntries_Johto[] = {
     [MAPSEC_ROUTE_50]          = { 14, 4,  1, 1, COMPOUND_STRING("ROUTE 50") },
     [MAPSEC_SINJOH_RUINS]      = { 14, 3,  1, 1, COMPOUND_STRING("SINJOH RUINS") },
     [MAPSEC_TOHJO_FALLS]       = { 14, 10, 1, 1, COMPOUND_STRING("TOHJO FALLS") },
-    [MAPSEC_SPROUT_TOWER]      = { 7,  5,  1, 1, COMPOUND_STRING("SPROUT TOWER") },
+    [MAPSEC_SPROUT_TOWER]      = { 7,  5,  1, 1, COMPOUND_STRING("TOUR CHÉTIFLOR") },
     [MAPSEC_SLOWPOKE_WELL]     = { 6,  12, 1, 1, COMPOUND_STRING("SLOWPOKE WELL") },
     [MAPSEC_BURNED_TOWER]      = { 6,  3,  1, 1, COMPOUND_STRING("BURNED TOWER") },
     [MAPSEC_TIN_TOWER]         = { 6,  2,  1, 1, COMPOUND_STRING("TIN TOWER") },

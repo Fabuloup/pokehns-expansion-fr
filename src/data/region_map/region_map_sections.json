@@ -2208,7 +2208,7 @@
     {
       "height": 1,
       "id": "MAPSEC_VIOLET_CITY",
-      "name": "VIOLET CITY",
+      "name": "MAUVILLE",
       "width": 1,
       "x": 12,
       "y": 4
@@ -2472,7 +2472,7 @@
     {
       "height": 2,
       "id": "MAPSEC_DARK_CAVE",
-      "name": "DARK CAVE",
+      "name": "ANTRE NOIRE",
       "width": 3,
       "x": 15,
       "y": 4
@@ -2640,7 +2640,7 @@
     {
       "height": 1,
       "id": "MAPSEC_SPROUT_TOWER",
-      "name": "SPROUT TOWER",
+      "name": "TOUR CHÉTIFLOR",
       "width": 1,
       "x": 12,
       "y": 3

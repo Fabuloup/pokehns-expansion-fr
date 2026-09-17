@@ -12,17 +12,32 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 | Berry | Baie | Majuscule pour un nom d'objet |
 | Defense | Défense | Statistique |
 | Egg | Œuf | Terme Pokémon |
+| Elm | Orme | Professeur Pokémon de Bourg Geon |
 | fainted | est K.O. | Adapter à la phrase et au sujet |
 | item | objet | Terme générique |
 | move | capacité | Attaque utilisable par un Pokémon |
 | party | équipe | Pokémon actuellement transportés |
 | Pokédex | Pokédex | Graphie officielle |
+| Pokégear | Pokématos | Graphie officielle française |
 | Pokémon Center | Centre Pokémon | Graphie officielle |
+| Running Shoes | Chaussures de Sport | Nom officiel de l'objet |
 | Special Attack | Attaque Spéciale | Abréviation à valider selon l'écran |
 | Special Defense | Défense Spéciale | Abréviation à valider selon l'écran |
 | Speed | Vitesse | Statistique |
 | Trainer | Dresseur / Dresseuse | Accorder seulement si le contexte permet de connaître le genre |
 | wild Pokémon | Pokémon sauvage | Accorder le reste de la phrase avec Pokémon |
+
+## Lieux et personnages de Johto
+
+| Anglais | Français retenu |
+|---|---|
+| Cherrygrove City | Ville Griotte |
+| Ecruteak City | Rosalia |
+| Indigo Plateau | Plateau Indigo |
+| New Bark Town | Bourg Geon |
+| Oak | Chen |
+| Olivine City | Oliville |
+| Violet City | Mauville |
 
 ## À décider avant traduction massive
 

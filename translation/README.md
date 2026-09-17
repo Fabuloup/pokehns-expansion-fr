@@ -33,6 +33,17 @@ FR: noms des objets de soin
 
 Chaque lot doit compiler et être testé en jeu avant d'être considéré comme terminé.
 
+## Avancement
+
+| Zone | État |
+|---|---|
+| Introduction du Professeur Chen | Traduit, à vérifier en jeu |
+| Bourg Geon | Traduit, à vérifier en jeu |
+| Laboratoire du Professeur Orme | Traduit, à vérifier en jeu |
+| Germignon, Héricendre et Kaiminus | Noms et catégories traduits |
+
+La mention « traduit » signifie que les sources françaises sont présentes. Une zone n'est considérée comme validée qu'après compilation et vérification visuelle dans le jeu.
+
 ## Signalement pendant une partie
 
 Utiliser le formulaire GitHub « Problème de traduction française » et fournir :

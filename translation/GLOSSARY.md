@@ -15,6 +15,8 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 | Elm | Orme | Professeur Pokémon de Bourg Geon |
 | fainted | est K.O. | Adapter à la phrase et au sujet |
 | item | objet | Terme générique |
+| HP | PV | Abréviation française officielle de « points de vie » |
+| Level | Niveau | Utiliser `Niv.` lorsque l'espace est limité |
 | move | capacité | Attaque utilisable par un Pokémon |
 | party | équipe | Pokémon actuellement transportés |
 | Pokédex | Pokédex | Graphie officielle |
@@ -27,6 +29,19 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 | Trainer | Dresseur / Dresseuse | Accorder seulement si le contexte permet de connaître le genre |
 | wild Pokémon | Pokémon sauvage | Accorder le reste de la phrase avec Pokémon |
 
+## Commandes et interactions
+
+| Anglais | Français retenu |
+|---|---|
+| Back | Retour |
+| Cancel | Annuler |
+| Confirm | Confirmer |
+| Down | Bas |
+| Exit | Quitter |
+| Next | Suivant |
+| Pick / Select | Choisir / Sélectionner | Selon l'espace disponible et le contexte |
+| Up | Haut |
+
 ## Lieux et personnages de Johto
 
 | Anglais | Français retenu |
@@ -38,6 +53,12 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 | Oak | Chen |
 | Olivine City | Oliville |
 | Violet City | Mauville |
+
+## Dresseurs récurrents
+
+| Identifiant anglais | Français retenu | Référence |
+|---|---|---|
+| Bug Catcher Wade | Scout Francis | Localisation française de HeartGold et SoulSilver |
 
 ## À décider avant traduction massive
 

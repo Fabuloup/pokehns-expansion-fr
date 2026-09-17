@@ -104,6 +104,9 @@ jobs:
       - name: Check that SUMMARY.md includes markdown doc files
         run: .github/docs_validate/inclusive_summary.py
 
+      - name: Check translation file integrity
+        run: python3 tools/translation/check_integrity.py
+
   allcontributors:
     if: github.actor == 'allcontributors[bot]'
     runs-on: ubuntu-latest

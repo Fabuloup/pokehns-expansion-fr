@@ -11,7 +11,7 @@ Il s'agit d'un fork du projet anglais [`PokemonHnS-Development/pokehns-expansion
 > [!WARNING]
 > La traduction française est en cours de développement. Aucune version française complète et stable n'est encore disponible.
 
-![Aperçu de Pokémon Heart & Soul](HnS_Collage_YourAdventure.png)
+![Exploration dans Pokémon Heart & Soul](HnS_Collage_Exploration.PNG)
 
 ## État du projet
 
@@ -45,7 +45,7 @@ La liste détaillée des fonctionnalités est disponible dans [`FEATURES.md`](FE
 - permettre la synchronisation avec les futures corrections du projet original ;
 - publier uniquement des fichiers légaux et redistribuables, jamais une ROM Pokémon.
 
-Les choix de traduction sont documentés dans le [guide de style](translation/STYLE_GUIDE.md) et le [glossaire](translation/GLOSSARY.md).
+Les choix de traduction sont documentés dans le [guide de style](translation/STYLE_GUIDE.md), le [glossaire](translation/GLOSSARY.md) et la [hiérarchie des sources françaises](translation/SOURCES.md).
 
 ## Tester et signaler une erreur
 
@@ -69,9 +69,11 @@ Les mises à jour qui ne modifient que les textes sont conçues pour conserver l
 
 N'utilisez pas un save state d'émulateur pour migrer vers une nouvelle build. Sauvegardez d'abord normalement depuis le menu du jeu.
 
-## Compilation
+## Installer, compiler et tester
 
-Les instructions techniques du projet original sont disponibles dans [`INSTALL.md`](INSTALL.md). La commande principale est :
+Les instructions adaptées à la traduction française sont disponibles dans [`INSTALL.md`](INSTALL.md). Elles expliquent comment compiler une ROM de test, conserver une sauvegarde entre deux builds et, lorsqu'un patch sera publié, l'appliquer légalement à la ROM de base demandée.
+
+La commande principale de compilation est :
 
 ```sh
 make hns
@@ -93,7 +95,9 @@ Le serveur Discord du projet original est accessible [ici](https://discord.gg/ks
 
 ## Utilisation de l'intelligence artificielle
 
-Cette localisation utilise ChatGPT et Codex pour aider à analyser le code, préparer des outils, repérer les textes et proposer des formulations. Les traductions destinées au jeu doivent être relues, corrigées et testées dans leur contexte avant validation.
+Cette localisation utilise ChatGPT, Codex et éventuellement d'autres assistants pour analyser le code, repérer les textes, préparer les outils et produire une première proposition de traduction française. L'intelligence artificielle participe donc directement au travail de traduction, mais aucune proposition n'est considérée comme fiable par défaut. Les textes doivent être comparés aux sources françaises officielles disponibles, relus, corrigés, compilés et testés dans leur contexte avant validation.
+
+Les consignes permettant de reprendre le travail avec un autre assistant sont disponibles dans [`translation/AI_HANDOFF.md`](translation/AI_HANDOFF.md).
 
 Le projet original possède également sa propre politique concernant l'utilisation d'outils d'intelligence artificielle. Elle reste consultable dans l'historique et le dépôt officiel.
 

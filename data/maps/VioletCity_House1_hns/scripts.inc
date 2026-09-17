@@ -35,27 +35,27 @@ VioletCity_House1_EventScript_TradeCompleted::
 	end
 
 VioletCity_House1_Text_YouWillTradeWontYou:
-	.string "I collect POKéMON!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
+	.string "Je collectionne les POKéMON!\n"
+	.string "Tu as un {STR_VAR_1}?\p"
+	.string "Veux-tu l'échanger contre mon\n"
 	.string "{STR_VAR_2}?$"
 
 VioletCity_House1_Text_MonYouTakeCare:
-	.string "Yay! I got myself {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "Youpi! J'ai un {STR_VAR_1}!\p"
+	.string "{STR_VAR_2}, prends soin de toi!$"
 
 VioletCity_House1_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "Euh, non, je ne crois pas.\n"
+	.string "Ce n'est pas un {STR_VAR_1}.$"
 
 VioletCity_House1_Text_YouWontTradeMe:
-	.string "You don't want to trade? Aww...$"
+	.string "Tu ne veux pas l'échanger? Mince…$"
 
 VioletCity_House1_Text_After:
-	.string "Hi, how's my old ONIX doing?$"
+	.string "Salut! Comment va mon ancien ONIX?$"
 
 VioletCity_House1_Text_PokefanM:
-	.string "A POKéMON you get in a trade\n"
-	.string "grows quickly.\p"
-	.string "But if you don't have the right\n"
-	.string "GYM BADGE, they may disobey you.$"
+	.string "Un POKéMON obtenu par échange\n"
+	.string "grandit plus vite.\p"
+	.string "Mais sans le bon BADGE d'ARÈNE,\n"
+	.string "il risque de ne pas t'obéir.$"

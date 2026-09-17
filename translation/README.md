@@ -40,7 +40,6 @@ Chaque lot doit compiler et être testé en jeu avant d'être considéré comme 
 | Introduction du Professeur Chen | Traduit, à vérifier en jeu |
 | Bourg Geon | Traduit, à vérifier en jeu |
 | Laboratoire du Professeur Orme | Traduit, à vérifier en jeu |
-| Germignon, Héricendre et Kaiminus | Noms et catégories traduits |
 
 La mention « traduit » signifie que les sources françaises sont présentes. Une zone n'est considérée comme validée qu'après compilation et vérification visuelle dans le jeu.
 

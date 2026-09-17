@@ -200,8 +200,8 @@ static const u16 sTextPal[] = INCBIN_U16("graphics/interface/option_menu_text_cu
 // =============================================================================
 
 static const u8 *const sChoices_OnOff[] = {
-    COMPOUND_STRING("ON"),
-    COMPOUND_STRING("OFF"),
+    COMPOUND_STRING("OUI"),
+    COMPOUND_STRING("NON"),
 };
 
 static const u8 *const sChoices_ShiftSet[] = {
@@ -279,9 +279,9 @@ static const u8 *const sDesc_BattleStyle[] = {
     COMPOUND_STRING("No free switch after fainting the\nenemies {PKMN}."),
 };
 static const u8 *const sDesc_ButtonMode[] = {
-    COMPOUND_STRING("All buttons work as normal."),
-    COMPOUND_STRING("On some screens the L and R buttons\nact as left and right."),
-    COMPOUND_STRING("The L button acts as another A\nbutton for one-handed play."),
+    COMPOUND_STRING("Tous les boutons fonctionnent\nnormalement."),
+    COMPOUND_STRING("Sur certains écrans, L et R servent\nà aller à gauche et à droite."),
+    COMPOUND_STRING("Le bouton L agit comme le bouton A\npour jouer d'une seule main."),
 };
 static const u8 *const sDesc_Follower[] = {
     COMPOUND_STRING("Let the first {PKMN} in your\nparty follow you."),
@@ -292,12 +292,12 @@ static const u8 *const sDesc_LargeFollower[] = {
     COMPOUND_STRING("Disable large {PKMN} followers.\nRecommended."),
 };
 static const u8 *const sDesc_Autorun[] = {
-    COMPOUND_STRING("Run without pressing B."),
-    COMPOUND_STRING("Press and hold B to run."),
+    COMPOUND_STRING("Courir sans maintenir B."),
+    COMPOUND_STRING("Maintenir B pour courir."),
 };
 static const u8 *const sDesc_AutorunSurf[] = {
-    COMPOUND_STRING("Surf faster without pressing B."),
-    COMPOUND_STRING("Press and hold B to surf faster."),
+    COMPOUND_STRING("Surfer plus vite sans maintenir B."),
+    COMPOUND_STRING("Maintenir B pour surfer plus vite."),
 };
 static const u8 *const sDesc_Fishing[] = {
     COMPOUND_STRING("Automatically reel while fishing."),
@@ -335,18 +335,18 @@ static const u8 *const sDesc_NewBattleUI[] = {
     COMPOUND_STRING("Modernized GEN IV Battle UI."),
 };
 static const u8 *const sDesc_BallPrompt[] = {
-    COMPOUND_STRING("Press {R_BUTTON} in battle to use Pokeballs.\nHold {L_BUTTON}/{R_BUTTON} to swap {PKMN}BALLS."),
-    COMPOUND_STRING("Disables the prompt to use\n{PKMN}BALLS quickly."),
+    COMPOUND_STRING("Appuyer sur {R_BUTTON} en combat pour utiliser\nune POKé BALL. Maintenir {L_BUTTON}/{R_BUTTON} pour changer."),
+    COMPOUND_STRING("Masquer le raccourci permettant\nd'utiliser rapidement une POKé BALL."),
 };
 static const u8 *const sDesc_RunType[] = {
-    COMPOUND_STRING("No quick running from battles."),
-    COMPOUND_STRING("Hold {L_BUTTON}+{R_BUTTON}, then {A_BUTTON} to run from\nbattles before they start."),
-    COMPOUND_STRING("Press {B_BUTTON} to move the cursor to the RUN\noption after the battle started."),
-    COMPOUND_STRING("Press {B_BUTTON} to run from battles before\nthey start."),
+    COMPOUND_STRING("Aucun raccourci pour fuir."),
+    COMPOUND_STRING("Maintenir {L_BUTTON}+{R_BUTTON}, puis {A_BUTTON} pour fuir\navant le début du combat."),
+    COMPOUND_STRING("Appuyer sur {B_BUTTON} pour placer le curseur\nsur FUIR après le début du combat."),
+    COMPOUND_STRING("Appuyer sur {B_BUTTON} pour fuir avant le\ndébut du combat."),
 };
 static const u8 *const sDesc_LRRun[] = {
-    COMPOUND_STRING("Enables a prompt to show that you\ncan run away from battles."),
-    COMPOUND_STRING("Disables said prompt to flee.\nButton combo still works."),
+    COMPOUND_STRING("Afficher une indication lorsqu'il\nest possible de fuir."),
+    COMPOUND_STRING("Masquer cette indication.\nLe raccourci reste actif."),
 };
 static const u8 *const sDesc_Sound[] = {
     COMPOUND_STRING("Sound is the same in all speakers.\nRecommended for original hardware."),
@@ -389,7 +389,7 @@ static const struct OptionMenuItem sTabItems_Main[] = {
         .choiceNames  = sChoices_ShiftSet,
     },
     [ITEM_MAIN_BUTTONMODE] = {
-        .name         = COMPOUND_STRING("BUTTON MODE"),
+        .name         = COMPOUND_STRING("MODE BOUTONS"),
         .descriptions = sDesc_ButtonMode,
         .numChoices   = 3,
         .choiceNames  = sChoices_ButtonMode,

@@ -334,13 +334,13 @@ static const u16 sTextPal[] = INCBIN_U16("graphics/interface/option_menu_text_cu
 // =============================================================================
 
 static const u8 *const sChoices_OffOn[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("ON"),
+    COMPOUND_STRING("NON"),
+    COMPOUND_STRING("OUI"),
 };
 
 static const u8 *const sChoices_OnOff[] = {
-    COMPOUND_STRING("ON"),
-    COMPOUND_STRING("OFF"),
+    COMPOUND_STRING("OUI"),
+    COMPOUND_STRING("NON"),
 };
 
 static const u8 *const sChoices_Gamemode[] = {
@@ -364,7 +364,7 @@ static const u8 sText_TopBar_Cancel[] = _("{B_BUTTON}CANCEL");
 
 static const u8 *const sDesc_Gamemode[] = {
     COMPOUND_STRING("Recommended settings."),
-    COMPOUND_STRING("Choose your own rules."),
+    COMPOUND_STRING("Choisis tes propres règles."),
 };
 static const u8 *const sDesc_ModernMoves[] = {
     COMPOUND_STRING("Generation 3 LEARNSETS and EGG\n MOVES with no changes."),
@@ -376,11 +376,11 @@ static const u8 *const sDesc_Synchronize[] = {
 };
 static const u8 *const sDesc_Sturdy[] = {
     COMPOUND_STRING("STURDY works as in GEN III. Only\nnegates OHKO moves (GUILLOTINE, etc.)"),
-    COMPOUND_STRING("STURDY works as in GEN V+.\n{PKMN} survive lethal hits with 1HP."),
+    COMPOUND_STRING("FERMETÉ fonctionne comme en 5G et +.\n{PKMN} survit à un coup fatal avec 1 PV."),
 };
 static const u8 *const sDesc_NewCitrus[] = {
-    COMPOUND_STRING("SITRUS BERRY restores 30HP.\nSame as GEN III."),
-    COMPOUND_STRING("SITRUS BERRY restores 25% of\ntotal HP. Same as GEN IV and up."),
+    COMPOUND_STRING("La BAIE SITRUS restaure 30 PV.\nComme en 3G."),
+    COMPOUND_STRING("La BAIE SITRUS restaure 25 % des\nPV totaux. Comme en 4G et +."),
 };
 static const u8 *const sDesc_FairyTypes[] = {
     COMPOUND_STRING("FAIRY TYPE isn't added to {PKMN}\nthat got it in GEN VI."),
@@ -400,7 +400,7 @@ static const u8 *const sDesc_Mints[] = {
 };
 static const u8 *const sDesc_SurvivePoison[] = {
     COMPOUND_STRING("Your {PKMN} will faint if they are\nPOISONED."),
-    COMPOUND_STRING("Your {PKMN} will survive the POISON\nstatus with 1HP."),
+    COMPOUND_STRING("Un {PKMN} empoisonné survivra\navec 1 PV."),
 };
 static const u8 *const sDesc_Split[] = {
     COMPOUND_STRING("PHYSICAL and SPECIAL MOVES\ndepend on the {PKMN} TYPE."),
@@ -419,7 +419,7 @@ static const u8 *const sDesc_GenOneRecharge[] = {
     COMPOUND_STRING("If a RECHARGE MOVE KO's the opponent,\nno recharge turn is needed."),
 };
 static const u8 *const sDesc_Next[] = {
-    COMPOUND_STRING("Continue to the next page."),
+    COMPOUND_STRING("Passer à la page suivante."),
 };
 
 static const struct ChallengeMenuItem sTabItems_Mode[] = {
@@ -496,15 +496,15 @@ static const struct ChallengeMenuItem sTabItems_Mode[] = {
         .choiceNames  = sChoices_Gen3Gen1,
     },
     [ITEM_MODE_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("SUIVANT"),
         .descriptions = sDesc_Next,
         .numChoices   = 0,
         .choiceNames  = NULL,
     },
 };
 
-static const u8 *const sDesc_SaveExit[] = { COMPOUND_STRING("Save choices and continue...") };
-static const u8 sText_ConfirmSave[] = COMPOUND_STRING("Confirm your choices?");
+static const u8 *const sDesc_SaveExit[] = { COMPOUND_STRING("Sauvegarder les choix et continuer…") };
+static const u8 sText_ConfirmSave[] = COMPOUND_STRING("Confirmer tes choix?");
 
 // =============================================================================
 // Choice strings — shared across tabs
@@ -526,8 +526,8 @@ static const u8 *const sChoices_OffChaos[] = {
 };
 
 static const u8 *const sChoices_YesNo[] = {
-    COMPOUND_STRING("YES"),
-    COMPOUND_STRING("NO"),
+    COMPOUND_STRING("OUI"),
+    COMPOUND_STRING("NON"),
 };
 
 static const u8 *const sChoices_BanUnban[] = {
@@ -549,10 +549,10 @@ static const u8 *const sChoices_ShinyChance[] = {
 };
 
 static const u8 *const sChoices_Nuzlocke[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("EASY"),
+    COMPOUND_STRING("NON"),
+    COMPOUND_STRING("FACILE"),
     COMPOUND_STRING("NORMAL"),
-    COMPOUND_STRING("HARD"),
+    COMPOUND_STRING("DIFFICILE"),
 };
 
 static const u8 *const sChoices_CemeteryRelease[] = {
@@ -598,7 +598,7 @@ static const u8 *const sChoices_TrainerEVs[] = {
 static const u8 *const sChoices_PlayerIVs[] = {
     COMPOUND_STRING("YES"),
     COMPOUND_STRING("NO"),
-    COMPOUND_STRING("NO (HP)"),
+    COMPOUND_STRING("NON (PV)"),
 };
 
 static const u8 *const sChoices_PkmnCenter[] = {
@@ -689,7 +689,7 @@ static const struct ChallengeMenuItem sTabItems_Features[] = {
         .choiceNames  = sChoices_BanUnban,
     },
     [ITEM_FEATURES_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("SUIVANT"),
         .descriptions = sDesc_FeaturesNext,
         .numChoices   = 0,
         .choiceNames  = NULL,
@@ -876,7 +876,7 @@ static const struct ChallengeMenuItem sTabItems_Randomizer[] = {
         .choiceNames  = sChoices_OffChaos,
     },
     [ITEM_RANDOM_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("SUIVANT"),
         .descriptions = sDesc_RandomNext,
         .numChoices   = 0,
         .choiceNames  = NULL,
@@ -955,7 +955,7 @@ static const struct ChallengeMenuItem sTabItems_Nuzlocke[] = {
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_NUZLOCKE_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("SUIVANT"),
         .descriptions = sDesc_NuzlockeNext,
         .numChoices   = 0,
         .choiceNames  = NULL,
@@ -1030,7 +1030,7 @@ static const struct ChallengeMenuItem sTabItems_Difficulty[] = {
         .choiceNames  = sChoices_PartyLimit,
     },
     [ITEM_DIFFICULTY_LEVEL_CAP] = {
-        .name         = COMPOUND_STRING("LEVEL CAP"),
+        .name         = COMPOUND_STRING("NIV. MAX"),
         .descriptions = sDesc_LevelCap,
         .numChoices   = 3,
         .choiceNames  = sChoices_LevelCap,
@@ -1090,7 +1090,7 @@ static const struct ChallengeMenuItem sTabItems_Difficulty[] = {
         .choiceNames  = sChoices_YesNo,
     },
     [ITEM_DIFFICULTY_NEXT] = {
-        .name         = COMPOUND_STRING("NEXT"),
+        .name         = COMPOUND_STRING("SUIVANT"),
         .descriptions = sDesc_DifficultyNext,
         .numChoices   = 0,
         .choiceNames  = NULL,

@@ -3020,7 +3020,7 @@ Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WADE_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -11135,7 +11135,7 @@ Level: 65
 - Iron Tail
 
 === TRAINER_WADE_2_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -11150,7 +11150,7 @@ Pineco
 Level: 20
 
 === TRAINER_WADE_3_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -11168,7 +11168,7 @@ Pineco
 Level: 25
 
 === TRAINER_WADE_4_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -11189,7 +11189,7 @@ Ariados
 Level: 36
 
 === TRAINER_WADE_5_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -16001,4 +16001,3 @@ Tera Type: Fighting
 - Wild Charge  
 - Bulk Up  
 - Throat Chop
-

@@ -1,0 +1,33 @@
+# Glossaire français
+
+Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir des traductions françaises officielles et des vérifications en jeu.
+
+| Anglais | Français retenu | Remarque |
+|---|---|---|
+| Ability | talent | Terme des jeux Pokémon modernes |
+| accuracy | Précision | Statistique de combat |
+| Attack | Attaque | Statistique |
+| Bag | Sac | Nom du menu |
+| battle | combat | Selon le contexte |
+| Berry | Baie | Majuscule pour un nom d'objet |
+| Defense | Défense | Statistique |
+| Egg | Œuf | Terme Pokémon |
+| fainted | est K.O. | Adapter à la phrase et au sujet |
+| item | objet | Terme générique |
+| move | capacité | Attaque utilisable par un Pokémon |
+| party | équipe | Pokémon actuellement transportés |
+| Pokédex | Pokédex | Graphie officielle |
+| Pokémon Center | Centre Pokémon | Graphie officielle |
+| Special Attack | Attaque Spéciale | Abréviation à valider selon l'écran |
+| Special Defense | Défense Spéciale | Abréviation à valider selon l'écran |
+| Speed | Vitesse | Statistique |
+| Trainer | Dresseur / Dresseuse | Accorder seulement si le contexte permet de connaître le genre |
+| wild Pokémon | Pokémon sauvage | Accorder le reste de la phrase avec Pokémon |
+
+## À décider avant traduction massive
+
+- conventions précises de majuscules pour les catégories de Dresseurs ;
+- abréviations des statistiques dans chaque écran ;
+- noms français retenus pour les lieux propres à Heart & Soul ;
+- tutoiement ou vouvoiement des dialogues ambigus ;
+- stratégie pour les textes graphiques intégrés aux images.

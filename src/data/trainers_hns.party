@@ -6406,7 +6406,7 @@ Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LI_HNS ===
-Name: LI
+Name: JEHAN
 Class: Sage Hns
 Pic: Sage Leader Hns
 Gender: Male
@@ -7167,7 +7167,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FALKNER_1_HNS ===
-Name: FALKNER
+Name: ALBERT
 Class: Leader Hns
 Pic: Leader Falkner Hns
 Gender: Male
@@ -7191,7 +7191,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Peck
 
 === TRAINER_FALKNER_2_HNS ===
-Name: FALKNER
+Name: ALBERT
 Class: Leader Hns
 Pic: Leader Falkner Hns
 Gender: Male
@@ -7250,7 +7250,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Hurricane
 
 === TRAINER_BUGSY_1_HNS ===
-Name: BUGSY
+Name: HECTOR
 Class: Leader Hns
 Pic: Leader Bugsy Hns
 Gender: Male
@@ -7285,7 +7285,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Pursuit
 
 === TRAINER_BUGSY_2_HNS ===
-Name: BUGSY
+Name: HECTOR
 Class: Leader Hns
 Pic: Leader Bugsy Hns
 Gender: Male
@@ -10539,7 +10539,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thrash
 
 === TRAINER_PROTON_1_HNS ===
-Name: PROTON
+Name: LANCE
 Class: Rocket Admin Hns
 Pic: Proton Hns
 Gender: Male
@@ -10561,7 +10561,7 @@ Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PROTON_2_HNS ===
-Name: PROTON
+Name: LANCE
 Class: Rocket Admin Hns
 Pic: Proton Hns
 Gender: Male
@@ -14643,7 +14643,7 @@ Naive Nature
 - Double-Edge  
 
 === TRAINER_FALKNER_POSTOBC_HNS ===
-Name: FALKNER
+Name: ALBERT
 Class: Leader Hns
 Pic: Leader Falkner Hns
 Gender: Male
@@ -14704,7 +14704,7 @@ IVs: 0 Atk
 - Roost  
 
 === TRAINER_BUGSY_POSTOBC_HNS ===
-Name: BUGSY
+Name: HECTOR
 Class: Leader Hns
 Pic: Leader Bugsy Hns
 Gender: Male

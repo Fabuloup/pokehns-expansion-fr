@@ -47,12 +47,36 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 | Anglais | Français retenu |
 |---|---|
 | Cherrygrove City | Ville Griotte |
+| Azalea Town | Écorcia |
+| Bugsy | Hector |
 | Ecruteak City | Rosalia |
+| Elder Li | Ancien Jehan |
+| Falkner | Albert |
 | Indigo Plateau | Plateau Indigo |
+| Kurt | Fargas |
 | New Bark Town | Bourg Geon |
 | Oak | Chen |
 | Olivine City | Oliville |
+| Proton | Lance |
 | Violet City | Mauville |
+
+## Classes de Dresseurs du début du jeu
+
+| Anglais | Français officiel retenu |
+|---|---|
+| Bird Keeper | Ornithologue |
+| Bug Catcher | Scout |
+| Camper | Campeur |
+| Cooltrainer | Topdresseur |
+| Firebreather | Crache-Feu |
+| Fisherman | Pêcheur |
+| Gym Leader | Champion |
+| Hiker | Montagnard |
+| Picnicker | Pique-Nique |
+| Rocket Executive / Admin | Cadre Rocket |
+| School Kid | Écolier |
+| Twins | Jumelles |
+| Youngster | Gamin |
 
 ## Famille des jours de la semaine
 

@@ -127,8 +127,8 @@ nom anglais historique `Tin Tower`, et non `Bell Tower` (Tour Carillon).
 ## Libellés de classes affichés
 
 Définis dans `gTrainerClasses` de `src/battle_main.c`, et non dans
-`trainers_hns.party` dont le champ `Class:` n'est qu'une clé. Longueur de
-référence : **13 caractères**, la plus longue valeur préexistante.
+`trainers_hns.party` dont le champ `Class:` n'est qu'une clé. Le champ `name`
+réserve 13 octets, terminateur compris : **12 caractères affichés maximum**.
 
 Ancrés dans le dépôt, déjà employés dans les dialogues traduits :
 
@@ -143,19 +143,19 @@ en jeu :
 | Anglais | Français | | Anglais | Français |
 |---|---|---|---|---|
 | Battle Girl | COMBATTANTE | | Lass | FILLETTE |
-| Beauty | CANON | | Mystery Man | HOMME MYSTÈRE |
+| Beauty | CANON | | Mystery Man | MYSTIQUE |
 | Biker | MOTARD | | Officer | AGENT |
 | Black Belt | KARATÉKA | | Parasol Lady | MISS PARASOL |
 | Burglar | CAMBRIOLEUR | | Psychic | KINÉSISTE |
-| Collector | COLLECTIONNEUR | | Sailor | MARIN |
+| Collector | COLLECTEUR | | Sailor | MARIN |
 | Developer | DÉVELOPPEUR | | Skier | SKIEUR |
 | Dragon Tamer | DRACOLOGUE | | Super Nerd | INTELLO |
 | Guitarist | GUITARISTE | | Swimmer | NAGEUR / NAGEUSE |
 | Hex Maniac | MYSTIMANIAC | | Young Couple | JEUNE COUPLE |
 | Juggler | JONGLEUR | | | |
 
-`COLLECTIONNEUR` fait 14 caractères et dépasse la norme de 13 : à vérifier
-en priorité sur un écran de combat.
+`COLLECTEUR` est une forme raccourcie imposée par la limite technique.
+`MYSTIQUE` reprend le titre français d'Eusine dans Pokémon Cristal.
 
 Titres de la Zone de Combat. Aucune source, invention assumée, les plus
 fragiles de la liste :
@@ -168,7 +168,9 @@ fragiles de la liste :
 | Palace Maven | GUIDE PALAIS |
 | Pike Queen | REINE PIKE |
 | Pyramid King | ROI PYRAMIDE |
-| Salon Maiden | HÔTESSE SALON |
+| Salon Maiden | AS DU SALON |
+
+`AS DU SALON` est le titre français de Cathy dans Pokémon Émeraude.
 
 ## Termes non résolus
 

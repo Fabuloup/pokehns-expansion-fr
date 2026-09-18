@@ -155,7 +155,8 @@ pas sur la chaîne entière, sinon le contrôle signale de fausses alertes.
 `src/data/trainers_hns.party`, `Class:` et `Pic:` sont des clés vers
 `TRAINER_CLASS_*` et vers les assets : les traduire casse la compilation. Seul
 `Name:` est du texte affiché. Les libellés de classes sont dans `gTrainerClasses`,
-fichier `src/battle_main.c`, et leur longueur de référence est 13 caractères.
+fichier `src/battle_main.c`. Leur champ réserve 13 octets, terminateur compris :
+ils sont limités à 12 caractères affichés.
 
 **Un même nom peut désigner deux personnages.** Avant un renommage de masse dans
 les données de dresseurs, cibler par identifiant et non par valeur affichée :
@@ -168,10 +169,10 @@ Ces points sont connus et non traités. Les garder en tête avant d'annoncer une
 zone comme terminée.
 
 - **Les libellés de classes attendent une vérification en jeu.** La plupart sont
-  des choix du projet et non des relevés. `COLLECTIONNEUR` fait 14 caractères et
-  dépasse la norme de 13 : c'est le premier à contrôler sur un écran de combat.
-  Les sept titres de la Zone de Combat n'ont aucune source et sont les plus
-  fragiles. Voir GLOSSARY.md, qui sépare les libellés ancrés des choix assumés.
+  des choix du projet et non des relevés. `COLLECTEUR` est une forme raccourcie
+  imposée par la limite de 12 caractères. Six titres de la Zone de Combat n'ont
+  aucune source et sont les plus fragiles. Voir GLOSSARY.md, qui sépare les
+  libellés ancrés des choix assumés.
 - **Trois termes restent non résolus** : `Scott`, `Steven` et le terme collectif
   `Frontier Brains`. Ils sont recensés dans GLOSSARY.md.
 - **Aucun fichier n'a été validé en jeu.** Le compteur « validé en jeu » est à 0

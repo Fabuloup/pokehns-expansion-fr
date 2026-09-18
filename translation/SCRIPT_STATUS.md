@@ -11,7 +11,7 @@ Règles de suivi :
 - `validé en jeu` est réservé à une vérification visuelle dans l'émulateur ;
 - les scripts hors cartes et les fichiers hérités de `pokeemerald-expansion` sont suivis dans l'audit transversal lorsqu'ils sont réellement utilisés par H&S.
 
-Progression actuelle : **28 / 549 fichiers traduits**, dont **0 validé en jeu**.
+Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**.
 
 | Fichier | État |
 |---|---|
@@ -23,8 +23,8 @@ Progression actuelle : **28 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/AzaleaTown_Gym_hns/scripts.inc` | à traduire |
 | `data/maps/AzaleaTown_House1_hns/scripts.inc` | à traduire |
 | `data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc` | à traduire |
-| `data/maps/AzaleaTown_Mart_hns/scripts.inc` | à traduire |
-| `data/maps/AzaleaTown_PokemonCenter_hns/scripts.inc` | à traduire |
+| `data/maps/AzaleaTown_Mart_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/AzaleaTown_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/AzaleaTown_hns/scripts.inc` | à traduire |
 | `data/maps/BattleColosseum_2P_hns/scripts.inc` | à traduire |
 | `data/maps/BattleFrontier_BattleArenaBattleRoom_hns/scripts.inc` | à traduire |
@@ -384,9 +384,9 @@ Progression actuelle : **28 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/Route30_MrPokemonsHouse_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route30_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route31_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/Route32_PokemonCenter_hns/scripts.inc` | à traduire |
-| `data/maps/Route32_hns/scripts.inc` | à traduire |
-| `data/maps/Route33_hns/scripts.inc` | à traduire |
+| `data/maps/Route32_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route32_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route33_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route34_DayCare_hns/scripts.inc` | à traduire |
 | `data/maps/Route34_hns/scripts.inc` | à traduire |
 | `data/maps/Route35_hns/scripts.inc` | à traduire |
@@ -523,9 +523,9 @@ Progression actuelle : **28 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/UlaUla_Forest_hns/scripts.inc` | à traduire |
 | `data/maps/UlaUla_House_hns/scripts.inc` | à traduire |
 | `data/maps/UlaulaIsle_hns/scripts.inc` | à traduire |
-| `data/maps/UnionCave_1F_hns/scripts.inc` | à traduire |
-| `data/maps/UnionCave_B1F_hns/scripts.inc` | à traduire |
-| `data/maps/UnionCave_B2F_hns/scripts.inc` | à traduire |
+| `data/maps/UnionCave_1F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/UnionCave_B1F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/UnionCave_B2F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/UnionRoom_hns/scripts.inc` | à traduire |
 | `data/maps/VerdanturfTown_BattleTentBattleRoom_hns/scripts.inc` | à traduire |
 | `data/maps/VerdanturfTown_BattleTentCorridor_hns/scripts.inc` | à traduire |

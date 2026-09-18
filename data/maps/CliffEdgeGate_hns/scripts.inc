@@ -18,20 +18,21 @@ CliffEdgeGate_EventScript_Picnicker::
 	end
 
 CliffEdgeGate_Text_IntroOpen:
-	.string "Did you know? There's a SAFARI ZONE\n"
-	.string "just around the corner.\p"
-	.string "It's really fun!\n"
-	.string "You will see many different kinds of\l"
-	.string "POKéMON, and it's all you can catch!\p"
-	.string "There is no reason not to go, right?\n"
-	.string "Just around the corner.$"
+	.string "Tu savais? Il y a un PARC SAFARI\n"
+	.string "juste à côté.\p"
+	.string "C'est vraiment amusant!\n"
+	.string "Tu y verras plein d'espèces de\l"
+	.string "POKéMON, et tu peux tous les\l"
+	.string "attraper!\p"
+	.string "Aucune raison de ne pas y aller,\n"
+	.string "non? C'est juste à côté.$"
 
 CliffEdgeGate_Text_Expectations:
-	.string "I appreciate that everybody is looking\n"
-	.string "forward to it.\p"
-	.string "But the lady at the reception seems\n"
-	.string "a bit too dramatic...\p"
-	.string "Don't get your expectations too high!$"
+	.string "C'est bien que tout le monde\n"
+	.string "l'attende avec impatience.\p"
+	.string "Mais la dame de l'accueil en fait\n"
+	.string "un peu trop…\p"
+	.string "N'espère pas trop non plus!$"
 
 CliffEdgeGate_EventScript_CaveSign::
 	lock
@@ -41,8 +42,8 @@ CliffEdgeGate_EventScript_CaveSign::
 	end
 
 CliffEdgeGate_Text_SignOpen:
-	.string "Everything Is Thrilling!\n"
-	.string "Explore to Find Wild POKéMON!\l"
-	.string "Warden BAOBA's SAFARI ZONE\l"
-	.string "Up and Running!$"
+	.string "Tout est palpitant!\n"
+	.string "Explorez pour trouver des POKéMON\l"
+	.string "sauvages! Le PARC SAFARI du GARDE\l"
+	.string "BAOBA est ouvert!$"
 

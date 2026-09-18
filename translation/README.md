@@ -77,4 +77,4 @@ Une sauvegarde interne de Heart & Soul 2.x doit rester compatible entre les buil
 - [Glossaire](GLOSSARY.md)
 - [Sources françaises et ordre de priorité](SOURCES.md)
 - [Suivi fichier par fichier des scripts](SCRIPT_STATUS.md)
-- [Relais vers un autre assistant](AI_HANDOFF.md)
+- [Notice IA : poursuivre la traduction](AI_HANDOFF.md)

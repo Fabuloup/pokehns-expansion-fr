@@ -29,7 +29,7 @@ dédié. Les anciens lots restent identifiés comme tels dans l'historique.
 | `data/maps/Gate_Route31_VioletCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VioletCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VioletCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/VioletCity_House2_hns/scripts.inc` | à traduire |
+| `data/maps/VioletCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VioletCity_Mart_hns/scripts.inc` | à traduire |
 | `data/maps/VioletCity_PokemonCenter_hns/scripts.inc` | à traduire |
 | `data/maps/VioletCity_TrainerSchool_hns/scripts.inc` | à traduire |

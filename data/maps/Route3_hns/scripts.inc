@@ -32,47 +32,50 @@ Route3_EventScript_Sign::
 	end
 
 Route3_Text_FirebreatherOtis_Seen:
-	.string "Ah! The weather's as fine as ever.$"
+	.string "Ah! Le temps est toujours aussi\n"
+	.string "beau.$"
 
 Route3_Text_FirebreatherOtis_Beaten:
-	.string "It's sunny, but I'm all wet…$"
+	.string "Il fait beau, mais je suis\n"
+	.string "trempé…$"
 
 Route3_Text_FirebreatherOtis_AfterBattle:
-	.string "When it rains, it's hard to get\n"
-	.string "ignition…$"
+	.string "Quand il pleut, j'ai du mal à\n"
+	.string "m'enflammer…$"
 
 Route3_Text_YoungsterWarren_Seen:
-	.string "Hmmm… I don't know what to do…$"
+	.string "Hmmm… Je ne sais pas quoi\n"
+	.string "faire…$"
 
 Route3_Text_YoungsterWarren_Beaten:
-	.string "I knew I'd lose…$"
+	.string "Je savais que j'allais perdre…$"
 
 Route3_Text_YoungsterWarren_AfterBattle:
-	.string "You looked strong.\p"
-	.string "I was afraid to take you on…$"
+	.string "Tu avais l'air fort.\p"
+	.string "J'avais peur de t'affronter…$"
 
 Route3_Text_YoungsterJimmy_Seen:
-	.string "I can run like the wind!$"
+	.string "Je cours comme le vent!$"
 
 Route3_Text_YoungsterJimmy_Beaten:
-	.string "Blown away!$"
+	.string "Soufflé!$"
 
 Route3_Text_YoungsterJimmy_AfterBattle:
-	.string "I wear shorts the whole year round.\p"
-	.string "That's my fashion policy.$"
+	.string "Je porte un short toute l'année.\p"
+	.string "C'est ma règle de style.$"
 
 Route3_Text_FirebreatherBurt_Seen:
-	.string "Step right up and take a look!$"
+	.string "Approche et regarde bien ça!$"
 
 Route3_Text_FirebreatherBurt_Beaten:
-	.string "Yow! That's hot!$"
+	.string "Aïe! Ça brûle!$"
 
 Route3_Text_FirebreatherBurt_AfterBattle:
-	.string "The greatest fire-breather in KANTO,\n"
-	.string "that's me.\p"
-	.string "But not the best trainer…$"
+	.string "Le meilleur cracheur de feu de\n"
+	.string "KANTO, c'est moi.\p"
+	.string "Mais pas le meilleur DRESSEUR…$"
 
 Route3_Text_MtMoonSquareSign:
-	.string "MT.MOON SQUARE\p"
-	.string "Just go up the stairs.$"
+	.string "PLACE DU MONT SÉLÉNITE\p"
+	.string "Il suffit de monter l'escalier.$"
 

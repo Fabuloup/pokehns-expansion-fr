@@ -34,28 +34,27 @@ Route18_EventScript_Sign::
 	end
 
 Route18_Text_BirdKeeperBorisSeen:
-	.string "If you're looking for POKéMON,\n"
-	.string "you have to look in the tall grass.$"
+	.string "Si tu cherches des POKéMON, il\n"
+	.string "faut fouiller les hautes herbes.$"
 
 Route18_Text_BirdKeeperBorisBeaten:
-	.string "Ayieee!$"
+	.string "Aïeee!$"
 
 Route18_Text_BirdKeeperBorisAfterBattle:
-	.string "Since you're so strong, it must be\n"
-	.string "fun to battle.$"
+	.string "Vu ta force, ça doit être\n"
+	.string "amusant de se battre.$"
 
 Route18_Text_BirdKeeperBobSeen:
-	.string "CYCLING ROAD is a quick shortcut\n"
-	.string "to CELADON.$"
+	.string "La PISTE CYCLABLE est un\n"
+	.string "raccourci rapide vers CÉLADOPOLE.$"
 
 Route18_Text_BirdKeeperBobBeaten:
-	.string "…Whew!$"
+	.string "…Ouf!$"
 
 Route18_Text_BirdKeeperBobAfterBattle:
-	.string "If you don't have a BICYCLE,\n"
-	.string "you're not allowed to use the\l"
-	.string "shortcut.$"
+	.string "Sans BICYCLETTE, tu n'as pas le\n"
+	.string "droit d'emprunter le raccourci.$"
 
 Route18_Text_Sign:
 	.string "ROUTE 18\p"
-	.string "CELADON CITY - FUCHSIA CITY$"
+	.string "CÉLADOPOLE - PARMANIE$"

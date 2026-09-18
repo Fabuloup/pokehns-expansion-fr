@@ -233,140 +233,151 @@ Route36_Movement_SudoWoodo:
 	step_end
 
 Route36_Text_UseSquirtbottle:
-	.string "Use SQUIRTBOTTLE?$"
+	.string "Utiliser la CARAPUCE À O?$"
 
 Route36_Text_UsedSquirtbottle:
-	.string "{PLAYER} used the SQUIRTBOTTLE.$"
+	.string "{PLAYER} utilise la CARAPUCE À O.$"
 
 Route36_Text_SudowoodoAttacked:
-	.string "The weird tree doesn't like the\n"
-	.string "SQUIRTBOTTLE!\p"
-	.string "The weird tree attacked!$"
+	.string "L'arbre bizarre n'aime pas la\n"
+	.string "CARAPUCE À O!\p"
+	.string "L'arbre bizarre attaque!$"
 
 Route36_Text_RockSmashGuy1:
-	.string "Wa-hey!\p"
-	.string "I was going to snap that tree\n"
-	.string "with my straight-arm punch.\p"
-	.string "But I couldn't! I'm a failure!$"
+	.string "Ouah!\p"
+	.string "J'allais briser cet arbre d'un\n"
+	.string "direct du bras.\p"
+	.string "Mais je n'ai pas pu! Quel raté!$"
 
 Route36_Text_RockSmashGuy2:
-	.string "Did you clear that wretched tree?\p"
-	.string "I'm impressed!\n"
-	.string "I want you to have this.$"
+	.string "Tu as dégagé ce fichu arbre?\p"
+	.string "Je suis impressionné!\n"
+	.string "Je veux que tu aies ceci.$"
 
 Route36_Text_RockSmashGuy3:
-	.string "That happens to be ROCK SMASH.\p"
-	.string "You can shatter rocks with just a\n"
-	.string "single well-aimed smack.\p"
-	.string "If any rocks are in your way,\n"
-	.string "just smash 'em up!$"
+	.string "Il s'agit d'ÉCLATE-ROC.\p"
+	.string "Tu peux briser des rochers d'un\n"
+	.string "seul coup bien placé.\p"
+	.string "Si des rochers te barrent la\n"
+	.string "route, fais-les voler en éclats!$"
 
 Route36_Text_OddTree:
-	.string "A weird tree is blocking the way.$"
+	.string "Un arbre bizarre bloque le\n"
+	.string "passage.$"
 
 Route36_Text_Lass1:
-	.string "Be careful at night on this route!\p"
-	.string "I saw a POKéMON that looked like\n"
-	.string "GROWLITHE, but it had a scary aura\l"
-	.string "to it.$"
+	.string "Sois prudent la nuit sur cette\n"
+	.string "route!\p"
+	.string "J'ai vu un POKéMON qui\n"
+	.string "ressemblait à CANINOS, mais avec\l"
+	.string "une aura effrayante.$"
 
 Route36_Text_Lass2_ClearedSudowoodo:
-	.string "That odd tree disappeared without\n"
-	.string "a trace.\p"
-	.string "Oh! That tree was really a\n"
+	.string "Cet arbre bizarre a disparu sans\n"
+	.string "laisser de trace.\p"
+	.string "Oh! Cet arbre était vraiment un\n"
 	.string "POKéMON?$"
 
 Route36_Text_PsychicMarkSeen:
-	.string "I'm going to read your thoughts!$"
+	.string "Je vais lire dans tes pensées!$"
 
 Route36_Text_PsychicMarkBeaten:
-	.string "I misread you!$"
+	.string "Je t'ai mal lu!$"
 
 Route36_Text_PsychicMarkAfter:
-	.string "I'd be strong if only I could tell\n"
-	.string "what my opponent was thinking.$"
+	.string "Je serais fort si seulement je\n"
+	.string "devinais les pensées de mon\l"
+	.string "adversaire.$"
 
 Route36_Text_SchoolboyAlan1Seen:
-	.string "Thanks to my studies, I'm ready\n"
-	.string "for any POKéMON!$"
+	.string "Grâce à mes études, je suis prêt\n"
+	.string "pour n'importe quel POKéMON!$"
 
 Route36_Text_SchoolboyAlan1Beaten:
-	.string "Oops! Computation error?$"
+	.string "Oups! Erreur de calcul?$"
 
 Route36_Text_SchoolboyAlanAfter:
-	.string "Darn. I study five hours a day too.\p"
-	.string "There's more to learning than just\n"
-	.string "reading books.$"
+	.string "Zut. J'étudie pourtant cinq\n"
+	.string "heures par jour.\p"
+	.string "Apprendre, ce n'est pas seulement\n"
+	.string "lire des livres.$"
 
 Route36_Text_MeetArthur:
-	.string "ARTHUR: Who are you?\n"
-	.string "I'm ARTHUR of the WEEKDAY FAMILY.\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "JÉROME: Qui es-tu?\n"
+	.string "Moi c'est JÉROME, de la FAMILLE\l"
+	.string "DES JOURS.\p"
+	.string "Si tu devines mon jour préféré,\n"
+	.string "tu auras une récompense.$"
 
 Route36_Text_ArthurNope:
-	.string "Not quite!$"
+	.string "Pas tout à fait!$"
 
 Route36_Text_ArthurGivesGift:
-	.string "Here. You can have this.$"
+	.string "Tiens. C'est pour toi.$"
 
 Route36_Text_ArthurGaveGift:
-	.string "ARTHUR: A POKéMON that uses ROCK-\n"
-	.string "type moves should hold on to that.\p"
-	.string "It pumps up ROCK-type attacks.$"
+	.string "JÉROME: Un POKéMON qui utilise\n"
+	.string "des capacités de type ROCHE\l"
+	.string "devrait tenir ceci.\p"
+	.string "Ça renforce les attaques ROCHE.$"
 
 Route36_Text_ArthurThursday:
-	.string "ARTHUR: I'm ARTHUR of Thursday.\n"
-	.string "I'm the fifth son out of seven.$"
+	.string "JÉROME: Moi c'est JÉROME, du\n"
+	.string "jeudi. Le cinquième fils sur\l"
+	.string "sept.$"
 
 Route36_Text_Sign:
 	.string "ROUTE 36$"
 
 Route36_Text_Sign_RuinsNorth:
-	.string "RUINS OF ALPH\n"
-	.string "NORTH ENTRANCE$"
+	.string "RUINES D'ALPHA\n"
+	.string "ENTRÉE NORD$"
 
 Route36_Text_Tips1:
-	.string "TRAINER TIPS\n"
-	.string "POKéMON stats vary--even within\l"
-	.string "the same species.\p"
-	.string "Their stats may be similar at first.\p"
-	.string "However, differences will become\n"
-	.string "pronounced as the POKéMON grow.$"
+	.string "ASTUCE\n"
+	.string "Les stats des POKéMON varient,\l"
+	.string "même au sein d'une espèce.\p"
+	.string "Elles peuvent sembler proches au\n"
+	.string "début.\p"
+	.string "Mais les écarts se creusent à\n"
+	.string "mesure qu'ils grandissent.$"
 
 Route36_Text_Tips2:
-	.string "TRAINER TIPS\n"
-	.string "Use DIG to return to the entrance of\n"
-	.string "any place.\p"
-	.string "It is convenient for exploring\n"
-	.string "caves and other landmarks.$"
+	.string "ASTUCE\n"
+	.string "Utilise TUNNEL pour revenir à\n"
+	.string "l'entrée de n'importe quel lieu.\p"
+	.string "Bien pratique pour explorer les\n"
+	.string "grottes et autres sites.$"
 
 Route36_Text_AlanRegister:
-	.string "Darn. I study five hours a day too.\p"
-	.string "There's more to learning than just\n"
-	.string "reading books.$"
+	.string "Zut. J'étudie pourtant cinq\n"
+	.string "heures par jour.\p"
+	.string "Apprendre, ce n'est pas seulement\n"
+	.string "lire des livres.$"
 
 Route36_Text_AlanRematchIntro:
-	.string "Thanks to my studies, I'm ready\n"
-	.string "for any POKéMON!$"
+	.string "Grâce à mes études, je suis prêt\n"
+	.string "pour n'importe quel POKéMON!$"
 
 Route36_Text_AlanRematchDefeat:
-	.string "Oops! Computation error?$"
+	.string "Oups! Erreur de calcul?$"
 
 Route36_Text_AlanPostRematch:
-	.string "Darn. I study five hours a day too.\p"
-	.string "There's more to learning than just\n"
-	.string "reading books.$"
+	.string "Zut. J'étudie pourtant cinq\n"
+	.string "heures par jour.\p"
+	.string "Apprendre, ce n'est pas seulement\n"
+	.string "lire des livres.$"
 
 Route36_Text_AlanHasItem:
-	.string "Hey! I found something\n"
-	.string "while studying!\p"
-	.string "Here, you can have it!$"
+	.string "Hé! J'ai trouvé quelque chose en\n"
+	.string "étudiant!\p"
+	.string "Tiens, c'est pour toi!$"
 
 Route36_Text_AlanGaveItem:
-	.string "I'll let you know if I find\n"
-	.string "anything else!$"
+	.string "Je te préviens si je trouve\n"
+	.string "autre chose!$"
 
 Route36_Text_AlanNoRoom:
-	.string "Hmm, your BAG is full.\p"
-	.string "Come back when you have room.$"
+	.string "Hmm, ton SAC est plein.\p"
+	.string "Reviens quand tu auras de la\n"
+	.string "place.$"

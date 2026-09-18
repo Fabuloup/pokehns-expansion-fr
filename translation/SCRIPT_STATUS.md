@@ -11,7 +11,7 @@ Règles de suivi :
 - `validé en jeu` est réservé à une vérification visuelle dans l'émulateur ;
 - les scripts hors cartes et les fichiers hérités de `pokeemerald-expansion` sont suivis dans l'audit transversal lorsqu'ils sont réellement utilisés par H&S.
 
-Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**.
+Progression actuelle : **62 / 549 fichiers traduits**, dont **0 validé en jeu**.
 
 | Fichier | État |
 |---|---|
@@ -20,12 +20,12 @@ Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/Akala_Forest_hns/scripts.inc` | à traduire |
 | `data/maps/Akala_House_hns/scripts.inc` | à traduire |
 | `data/maps/AlolaWater_hns/scripts.inc` | à traduire |
-| `data/maps/AzaleaTown_Gym_hns/scripts.inc` | à traduire |
-| `data/maps/AzaleaTown_House1_hns/scripts.inc` | à traduire |
-| `data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc` | à traduire |
+| `data/maps/AzaleaTown_Gym_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/AzaleaTown_House1_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/AzaleaTown_KurtsHouse_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/AzaleaTown_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/AzaleaTown_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/AzaleaTown_hns/scripts.inc` | à traduire |
+| `data/maps/AzaleaTown_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleColosseum_2P_hns/scripts.inc` | à traduire |
 | `data/maps/BattleFrontier_BattleArenaBattleRoom_hns/scripts.inc` | à traduire |
 | `data/maps/BattleFrontier_BattleArenaCorridor_hns/scripts.inc` | à traduire |
@@ -186,13 +186,13 @@ Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/FuchsiaCity_SafariZoneEntrance_hns/scripts.inc` | à traduire |
 | `data/maps/FuchsiaCity_SafariZoneMountain_hns/scripts.inc` | à traduire |
 | `data/maps/FuchsiaCity_hns/scripts.inc` | à traduire |
-| `data/maps/Gate_AzaleaTown_IlexForest_hns/scripts.inc` | à traduire |
+| `data/maps/Gate_AzaleaTown_IlexForest_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Gate_CeladonCity_Route16_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_EcruteakCity_Route38_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_EcruteakCity_Route42_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_FuchsiaCity_Route18_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_GoldenrodCity_Route35_hns/scripts.inc` | à traduire |
-| `data/maps/Gate_IlexForest_Route34_hns/scripts.inc` | à traduire |
+| `data/maps/Gate_IlexForest_Route34_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Gate_MahoganyTown_Route43_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_NationalPark_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_Route29_Route46_hns/scripts.inc` | à traduire |
@@ -201,15 +201,15 @@ Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/Gate_Route31_VioletCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Gate_Route40_TrainerHill_Courtyard_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_Route43_hns/scripts.inc` | à traduire |
-| `data/maps/Gate_RuinsOfAlph_Route32_hns/scripts.inc` | à traduire |
-| `data/maps/Gate_RuinsOfAlph_Route36_hns/scripts.inc` | à traduire |
+| `data/maps/Gate_RuinsOfAlph_Route32_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Gate_RuinsOfAlph_Route36_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Gate_SaffronCity_Route5_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_SaffronCity_Route6_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_SaffronCity_Route7_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_SaffronCity_Route8_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_ViridianForest_Route2_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_BikeShop_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_BillsHouse_hns/scripts.inc` | à traduire |
+| `data/maps/GoldenrodCity_BikeShop_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_BillsHouse_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_DepartmentStoreBasement_hns/scripts.inc` | à traduire |
 | `data/maps/GoldenrodCity_DepartmentStoreElevator_hns/scripts.inc` | à traduire |
 | `data/maps/GoldenrodCity_DepartmentStore_1F_hns/scripts.inc` | à traduire |
@@ -220,13 +220,13 @@ Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/GoldenrodCity_DepartmentStore_6F_hns/scripts.inc` | à traduire |
 | `data/maps/GoldenrodCity_DepartmentStore_7FNight_hns/scripts.inc` | à traduire |
 | `data/maps/GoldenrodCity_DepartmentStore_7F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_FlowerShop_hns/scripts.inc` | à traduire |
+| `data/maps/GoldenrodCity_FlowerShop_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_GameCorner_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_Gym_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_House1_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_House2_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_House3_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_PokemonCenter_hns/scripts.inc` | à traduire |
+| `data/maps/GoldenrodCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_House3_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_RadioTower_1F_hns/scripts.inc` | à traduire |
 | `data/maps/GoldenrodCity_RadioTower_2F_hns/scripts.inc` | à traduire |
 | `data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc` | à traduire |
@@ -237,13 +237,13 @@ Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/GoldenrodCity_UndergroundStorage_hns/scripts.inc` | à traduire |
 | `data/maps/GoldenrodCity_UndergroundSwitches_hns/scripts.inc` | à traduire |
 | `data/maps/GoldenrodCity_UndergroundTunnel_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_hns/scripts.inc` | à traduire |
+| `data/maps/GoldenrodCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/IcePath_1F_hns/scripts.inc` | à traduire |
 | `data/maps/IcePath_B1F_hns/scripts.inc` | à traduire |
 | `data/maps/IcePath_B2F_hns/scripts.inc` | à traduire |
 | `data/maps/IcePath_B3F_hns/scripts.inc` | à traduire |
 | `data/maps/IcePath_B4F_hns/scripts.inc` | à traduire |
-| `data/maps/IlexForest_hns/scripts.inc` | à traduire |
+| `data/maps/IlexForest_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/IndigoPlateau_PokemonCenter_hns/scripts.inc` | à traduire |
 | `data/maps/IndigoPlateau_hns/scripts.inc` | à traduire |
 | `data/maps/LakeOfRageLowTide_hns/scripts.inc` | à traduire |
@@ -387,8 +387,8 @@ Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/Route32_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route32_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route33_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/Route34_DayCare_hns/scripts.inc` | à traduire |
-| `data/maps/Route34_hns/scripts.inc` | à traduire |
+| `data/maps/Route34_DayCare_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route34_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route35_hns/scripts.inc` | à traduire |
 | `data/maps/Route36_hns/scripts.inc` | à traduire |
 | `data/maps/Route37_hns/scripts.inc` | à traduire |
@@ -421,10 +421,10 @@ Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/Route8_hns/scripts.inc` | à traduire |
 | `data/maps/Route9_PokemonCenter_hns/scripts.inc` | à traduire |
 | `data/maps/Route9_hns/scripts.inc` | à traduire |
-| `data/maps/RuinsOfAlph_B1F_hns/scripts.inc` | à traduire |
-| `data/maps/RuinsOfAlph_Lab_hns/scripts.inc` | à traduire |
-| `data/maps/RuinsOfAlph_Outside_hns/scripts.inc` | à traduire |
-| `data/maps/RuinsOfAlph_PuzzleAndRewardChambers_hns/scripts.inc` | à traduire |
+| `data/maps/RuinsOfAlph_B1F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/RuinsOfAlph_Lab_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/RuinsOfAlph_Outside_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/RuinsOfAlph_PuzzleAndRewardChambers_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/RuinsOfAlph_WordsRoom1_hns/scripts.inc` | à traduire |
 | `data/maps/RuinsOfAlph_WordsRoom2_hns/scripts.inc` | à traduire |
 | `data/maps/RuinsOfAlph_WordsRoom3_hns/scripts.inc` | à traduire |
@@ -485,8 +485,8 @@ Progression actuelle : **36 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/SlateportCity_BattleTentBattleRoom_hns/scripts.inc` | à traduire |
 | `data/maps/SlateportCity_BattleTentCorridor_hns/scripts.inc` | à traduire |
 | `data/maps/SlateportCity_BattleTentLobby_hns/scripts.inc` | à traduire |
-| `data/maps/SlowpokeWell_B1F_hns/scripts.inc` | à traduire |
-| `data/maps/SlowpokeWell_B2F_hns/scripts.inc` | à traduire |
+| `data/maps/SlowpokeWell_B1F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/SlowpokeWell_B2F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SnowsweptCavern_hns/scripts.inc` | à traduire |
 | `data/maps/SouthernIsland_Exterior_hns/scripts.inc` | à traduire |
 | `data/maps/SouthernIsland_Interior_hns/scripts.inc` | à traduire |

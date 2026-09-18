@@ -408,7 +408,7 @@ GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation:
 	.string "POKéMON vivaient jadis ici.\p"
 	.string "Peut-être…\p"
 	.string "Cette aile a un lien avec les\n"
-	.string "ÎLES TOURBILLONS, près d'IRISIA…\p"
+	.string "TOURB'ÎLES, près d'IRISIA…\p"
 	.string "Bon, je retourne à mon BUREAU.$"
 
 GoldenrodCity_RadioTower_5F_Text_DirectorLegendary:

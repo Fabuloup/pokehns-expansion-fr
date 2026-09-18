@@ -26,19 +26,20 @@ RuinsOfAlph_Lab_EventScript_Fossils::
 	end
 
 RuinsOfAlph_Lab_Text_Scientist1:
-	.string "The RUINS are about 1500 years old.\p"
-	.string "But it's not known why they were\n"
-	.string "built--or by whom.$"
+	.string "Les RUINES ont environ 1500 ans.\p"
+	.string "Mais on ignore pourquoi elles ont\n"
+	.string "été bâties, et par qui.$"
 
 RuinsOfAlph_Lab_Text_Scientist2:
-	.string "There are odd patterns drawn on\n"
-	.string "on the walls of the RUINS.\p"
-	.string "They must be the keys for\n"
-	.string "unraveling the RUINS' mystery.$"
+	.string "D'étranges figures sont dessinées\n"
+	.string "sur les murs des RUINES.\p"
+	.string "Ce sont sûrement les clés du\n"
+	.string "mystère des RUINES.$"
 
 RuinsOfAlph_Lab_Text_Fossils:
-	.string "Fossils found within the RUINS.\n"
-	.string "Maybe there are more somewhere...$"
+	.string "Des fossiles trouvés dans les\n"
+	.string "RUINES. Il y en a peut-être\l"
+	.string "d'autres ailleurs…$"
 
 
 RuinsOfAlph_Lab_EventScript_FossilScientist::
@@ -613,119 +614,122 @@ RuinsOfAlph_Lab_EventScript_WorkOnNext::
 	end
 
 RuinsOfAlph_Lab_Text_DeviceForTalkingToPokemon:
-	.string "We're developing a device for talking\n"
-	.string "with POKéMON.\p"
-	.string "But we haven't had much success…$"
+	.string "Nous développons un appareil pour\n"
+	.string "parler aux POKéMON.\p"
+	.string "Mais nous n'avons pas eu beaucoup\n"
+	.string "de succès…$"
 
 RuinsOfAlph_Lab_Text_DevelopingNewBalls:
-	.string "I'm developing new kinds of\n"
-	.string "POKé BALLS…\p"
-	.string "But I haven't made much headway…$"
+	.string "Je développe de nouveaux types de\n"
+	.string "POKé BALL…\p"
+	.string "Mais je n'avance pas beaucoup…$"
 
 RuinsOfAlph_Lab_Text_WeFinallyMadeNewBalls:
-	.string "We finally made new kinds of\n"
-	.string "POKé BALLS!\p"
-	.string "The REPEAT BALL makes it easier to\n"
-	.string "catch POKéMON you've caught before.\p"
-	.string "The TIMER BALL gets better at catching\n"
-	.string "POKéMON the longer a battle runs.\p"
-	.string "Both are proudly developed by\n"
-	.string "the DEVON CORPORATION.\p"
-	.string "Please give them a try!$"
+	.string "Nous avons enfin créé de nouveaux\n"
+	.string "types de POKé BALL!\p"
+	.string "La BIS BALL facilite la capture\n"
+	.string "des POKéMON déjà attrapés.\p"
+	.string "La CHRONO BALL capture d'autant\n"
+	.string "mieux que le combat dure.\p"
+	.string "Les deux sont fièrement mises au\n"
+	.string "point par la DEVON SARL.\p"
+	.string "Essaie-les donc!$"
 
 RuinsOfAlph_Lab_Text_IMadePokenav:
-	.string "I made the POKéNAV!\p"
-	.string "As an engineer, I feel blessed to have\n"
-	.string "made something so great!$"
+	.string "C'est moi qui ai fait le POKéNAV!\p"
+	.string "Comme ingénieur, quelle chance\n"
+	.string "d'avoir créé une telle merveille!$"
 
 RuinsOfAlph_Lab_Text_WowThatsAPokenav:
-	.string "Oh, wow!\n"
-	.string "That's a POKéNAV!\p"
-	.string "It came about as a result of our\n"
-	.string "PRESIDENT's desire to learn about\l"
-	.string "the feelings of POKéMON.\p"
-	.string "Would you like me to describe its\n"
-	.string "features in detail?\p"
-	.string "No, no. I think you'll find out just by\n"
-	.string "trying the POKéNAV out.$"
+	.string "Oh, ça alors!\n"
+	.string "C'est un POKéNAV!\p"
+	.string "Il est né du souhait de notre\n"
+	.string "PRÉSIDENT de comprendre les\l"
+	.string "sentiments des POKéMON.\p"
+	.string "Veux-tu que je te décrive ses\n"
+	.string "fonctions en détail?\p"
+	.string "Non, non. Tu comprendras vite en\n"
+	.string "essayant le POKéNAV toi-même.$"
 
 RuinsOfAlph_Lab_Text_DeviceToVisualizePokemonDreams:
-	.string "I'm trying to develop a device that\n"
-	.string "visually reproduces the dreams of\l"
-	.string "POKéMON…\p"
-	.string "But it's not going well.$"
+	.string "J'essaie de mettre au point un\n"
+	.string "appareil qui reproduit en images\l"
+	.string "les rêves des POKéMON…\p"
+	.string "Mais ça n'avance pas fort.$"
 
 RuinsOfAlph_Lab_Text_DevelopDeviceToResurrectFossils:
-	.string "I've been trying to develop a device\n"
-	.string "that resurrects POKéMON from fossils…\p"
-	.string "And, it's working!$"
+	.string "J'essayais de mettre au point un\n"
+	.string "appareil capable de ressusciter\l"
+	.string "les POKéMON fossiles…\p"
+	.string "Et ça marche!$"
 
 RuinsOfAlph_Lab_Text_WantToBringFossilBackToLife:
-	.string "Wait! That thing you have there…\n"
-	.string "Is that a POKéMON fossil?\p"
-	.string "Would you like to bring that POKéMON\n"
-	.string "back to life?\p"
-	.string "I can with my newly developed\n"
-	.string "FOSSIL REGENERATOR.$"
+	.string "Attends! Ce truc que tu as là…\n"
+	.string "C'est un fossile de POKéMON?\p"
+	.string "Tu veux ramener ce POKéMON à la\n"
+	.string "vie?\p"
+	.string "J'en suis capable avec mon tout\n"
+	.string "nouveau RÉGÉNÉRATEUR DE FOSSILE.$"
 
 RuinsOfAlph_Lab_Text_OhIsThatSo:
-	.string "Oh, is that so?\p"
-	.string "My technological expertise\n"
-	.string "is outstanding, I tell you.$"
+	.string "Ah bon, vraiment?\p"
+	.string "Mon savoir-faire technique est\n"
+	.string "remarquable, je t'assure.$"
 
 RuinsOfAlph_Lab_Text_OhIsThatSo2:
-	.string "Oh, you don't have this fossil.\n"
-	.string "Come back if you manage to find it.$"
+	.string "Oh, tu n'as pas ce fossile.\n"
+	.string "Reviens si tu arrives à le\l"
+	.string "trouver.$"
 
 RuinsOfAlph_Lab_Text_TwoFossilsPickOne:
-	.string "Oh, now that's a surprise!\n"
-	.string "You have more than one fossil?\p"
-	.string "Unfortunately, my machine can only\n"
-	.string "regenerate one POKéMON at a time.\p"
-	.string "Which fossil would you like to\n"
-	.string "regenerate?$"
+	.string "Oh, en voilà une surprise!\n"
+	.string "Tu as plus d'un fossile?\p"
+	.string "Hélas, ma machine ne régénère\n"
+	.string "qu'un POKéMON à la fois.\p"
+	.string "Quel fossile veux-tu régénérer?$"
 
 RuinsOfAlph_Lab_Text_HandedFossilToResearcher:
 	.string "Excellent!\n"
-	.string "Let's do this right away.\p"
-	.string "{PLAYER} handed the {STR_VAR_1} to\n"
-	.string "the RUINS RESEARCHER.$"
+	.string "Faisons ça tout de suite.\p"
+	.string "{PLAYER} confie le {STR_VAR_1} au\n"
+	.string "CHERCHEUR DES RUINES.$"
 
 RuinsOfAlph_Lab_Text_FossilRegeneratorTakesTime:
-	.string "The FOSSIL REGENERATOR, which I made,\n"
-	.string "is incredible.\p"
-	.string "But it has one drawback--it takes\n"
-	.string "a long time to work.\p"
-	.string "So, uh… How about you go for a stroll\n"
-	.string "and look around for a while?$"
+	.string "Le RÉGÉNÉRATEUR DE FOSSILE que\n"
+	.string "j'ai créé est incroyable.\p"
+	.string "Mais il a un défaut: il met très\n"
+	.string "longtemps à agir.\p"
+	.string "Alors, euh… Si tu allais faire\n"
+	.string "un tour en attendant?$"
 
 RuinsOfAlph_Lab_Text_FossilizedMonBroughtBackToLife:
-	.string "Thanks for waiting!\p"
-	.string "Your fossilized POKéMON has been\n"
-	.string "brought back to life!\p"
-	.string "The fossil was an ancient POKéMON.\n"
-	.string "{STR_VAR_2}, it was!$"
+	.string "Merci d'avoir patienté!\p"
+	.string "Ton POKéMON fossile a été ramené\n"
+	.string "à la vie!\p"
+	.string "Le fossile était un POKéMON\n"
+	.string "ancien. Un {STR_VAR_2}!$"
 
 RuinsOfAlph_Lab_Text_ReceivedMonFromResearcher:
-	.string "{PLAYER} received {STR_VAR_2} from\n"
-	.string "the RESEARCHER.$"
+	.string "{PLAYER} reçoit {STR_VAR_2} du\n"
+	.string "CHERCHEUR.$"
 
 @ Unused
 RuinsOfAlph_Lab_Text_TooManyPokemon:
-	.string "Uh-oh, you've got too many POKéMON.\n"
-	.string "You have no room for this one.$"
+	.string "Oh non, tu as trop de POKéMON.\n"
+	.string "Tu n'as plus de place pour lui.$"
 
 RuinsOfAlph_Lab_Text_DevelopNewPokenavFeature:
-	.string "I'm trying to develop a new feature\n"
-	.string "for the POKéNAV…\p"
-	.string "But it's not going well.$"
+	.string "J'essaie de développer une\n"
+	.string "nouvelle fonction pour le\l"
+	.string "POKéNAV…\p"
+	.string "Mais ça n'avance pas fort.$"
 
 RuinsOfAlph_Lab_Text_WhatToWorkOnNext:
-	.string "Well, now what shall I work on\n"
-	.string "developing next?\p"
-	.string "Our company allows us to make our\n"
-	.string "inspirations into reality.\p"
-	.string "One couldn't ask for a better\n"
-	.string "environment as an engineer.$"
+	.string "Bon, sur quoi vais-je travailler\n"
+	.string "maintenant?\p"
+	.string "Notre société nous laisse\n"
+	.string "concrétiser nos inspirations.\p"
+	.string "On ne peut rêver meilleur cadre\n"
+	.string "pour un ingénieur.$"
 
 

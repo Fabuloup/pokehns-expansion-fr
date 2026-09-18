@@ -44,30 +44,33 @@ Route27_Movement_FollowerJump:
 	step_end
 
 SandstormHouse_Text_Woman1:
-    .string "Where are you off to with\n"
+    .string "Où vas-tu comme ça avec tes\n"
     .string "POKéMON?\p"
-    .string "POKéMON LEAGUE?\p"
-    .string "Are your POKéMON loyal enough for\n"
-    .string "you to win?\p"
-    .string "Let me see…$"
+    .string "À la LIGUE POKéMON?\p"
+    .string "Tes POKéMON t'aiment-ils assez\n"
+    .string "pour que tu l'emportes?\p"
+    .string "Voyons voir…$"
 
 SandstormHouse_Text_LoyalMon:
-    .string "Ah! Your POKéMON trusts you very\n"
-    .string "much.\p"
-    .string "It's nice to see a good trainer.\p"
-    .string "Here. A gift for your journey.$"
+    .string "Ah! Ton POKéMON te fait\n"
+    .string "vraiment confiance.\p"
+    .string "Ça fait plaisir de voir un bon\n"
+    .string "DRESSEUR.\p"
+    .string "Tiens. Un cadeau pour la route.$"
 
 SandstormHouse_Text_TM37Description:
-    .string "TM37 happens to be SANDSTORM.\p"
-    .string "It's a move that inflicts damage\n"
-    .string "on both battlers.\p"
-    .string "It's for advanced trainers only.\p"
-    .string "Use it if you dare. Good luck!$"
+    .string "La CT37, c'est TEMPÊTE DE SABLE.\p"
+    .string "Une capacité qui blesse les deux\n"
+    .string "combattants.\p"
+    .string "Elle est réservée aux DRESSEURS\n"
+    .string "chevronnés.\p"
+    .string "Utilise-la si tu l'oses. Bonne\n"
+    .string "chance!$"
 
 SandstormHouse_Text_DisloyalMon:
-    .string "If it doesn't come to trust you\n"
-    .string "some more, it could be tough going.\p"
-    .string "Trust is the tie that binds POKéMON\n"
-    .string "and trainers.$"
+    .string "S'il ne te fait pas davantage\n"
+    .string "confiance, ça va être dur.\p"
+    .string "La confiance est le lien qui unit\n"
+    .string "POKéMON et DRESSEURS.$"
 
 

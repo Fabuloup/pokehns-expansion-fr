@@ -11,7 +11,7 @@ Règles de suivi :
 - `validé en jeu` est réservé à une vérification visuelle dans l'émulateur ;
 - les scripts hors cartes et les fichiers hérités de `pokeemerald-expansion` sont suivis dans l'audit transversal lorsqu'ils sont réellement utilisés par H&S.
 
-Progression actuelle : **21 / 549 fichiers traduits**, dont **0 validé en jeu**.
+Progression actuelle : **22 / 549 fichiers traduits**, dont **0 validé en jeu**.
 
 | Fichier | État |
 |---|---|
@@ -546,7 +546,7 @@ Progression actuelle : **21 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/VioletCity_Gym_hns/scripts.inc` | à traduire |
 | `data/maps/VioletCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VioletCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/VioletCity_Mart_hns/scripts.inc` | à traduire |
+| `data/maps/VioletCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VioletCity_PokemonCenter_hns/scripts.inc` | à traduire |
 | `data/maps/VioletCity_TrainerSchool_hns/scripts.inc` | à traduire |
 | `data/maps/VioletCity_hns/scripts.inc` | traduit, à valider en jeu |

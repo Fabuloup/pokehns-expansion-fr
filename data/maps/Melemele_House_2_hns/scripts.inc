@@ -39,9 +39,11 @@ Alola_Pokemart_BaldMan::
 
 
 Alola_Pokemart_Cook_Text_0:
-	.string "The MALASADAS here are delicious.\n"
-	.string "Just like the real ones in ALOLA!$"
+	.string "Les MALASADAS d'ici sont\n"
+	.string "délicieuses. Comme les vraies,\l"
+	.string "à ALOLA!$"
 
 Alola_Pokemart_BaldMan_Text_0:
-	.string "I'm looking for some sunscreen!\p"
-	.string "It's sunnier here on the ISLES!$"
+	.string "Je cherche de la crème solaire!\p"
+	.string "Il fait bien plus beau sur les\n"
+	.string "ÎLES!$"

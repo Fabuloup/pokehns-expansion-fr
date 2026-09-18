@@ -78,9 +78,11 @@ de script hors chaînes, si un asset est ajouté, ou en préparation d'un jalon
 de test.
 
 ÉTATS DE SUIVI
-à traduire — traduit, à valider en jeu — validé en jeu — bloqué (avec raison).
-Tant qu'aucun test sur émulateur n'a eu lieu, l'état maximal est « traduit, à
-valider en jeu ». « validé en jeu » est interdit.
+à traduire — traduit, à valider en jeu — validé en jeu — sans texte affiché —
+bloqué (avec raison). Tant qu'aucun test sur émulateur n'a eu lieu, l'état
+maximal est « traduit, à valider en jeu » : « validé en jeu » est interdit.
+Les fichiers « sans texte affiché » ne contiennent aucune chaîne affichable et
+sont exclus du décompte : ne pas les traiter comme du travail restant.
 
 SÉCURITÉ GIT
 Travaille uniquement sur fr/main. Jamais de force-push, jamais de réécriture de
@@ -149,17 +151,29 @@ touchera le mauvais. Ajouter des lignes de contexte pour rendre chaque bloc uniq
 milieu de ligne. La largeur se mesure sur le plus long segment entre deux codes,
 pas sur la chaîne entière, sinon le contrôle signale de fausses alertes.
 
+**Les libellés de classes ne sont pas dans le fichier de dresseurs.** Dans
+`src/data/trainers_hns.party`, `Class:` et `Pic:` sont des clés vers
+`TRAINER_CLASS_*` et vers les assets : les traduire casse la compilation. Seul
+`Name:` est du texte affiché. Les libellés de classes sont dans `gTrainerClasses`,
+fichier `src/battle_main.c`, et leur longueur de référence est 13 caractères.
+
+**Un même nom peut désigner deux personnages.** Avant un renommage de masse dans
+les données de dresseurs, cibler par identifiant et non par valeur affichée :
+`TRAINER_PROTON_*` porte légitimement `Name: LANCE`, alors que `TRAINER_LANCE_*`
+doit porter `PETER`. Un remplacement global aurait renommé les deux.
+
 ## Chantiers ouverts
 
 Ces points sont connus et non traités. Les garder en tête avant d'annoncer une
 zone comme terminée.
 
-- **`src/data/trainers_hns.party` est resté en anglais** alors que les dialogues
-  sont traduits. En jeu, la bulle de dialogue et l'écran de combat afficheront
-  deux noms différents pour le même Dresseur.
-- **136 fichiers suivis ne contiennent aucune chaîne affichée.** Ils sont
-  comptés dans les « à traduire » de SCRIPT_STATUS.md et faussent le
-  dénominateur de 549. Ils demandent un état distinct.
+- **Les libellés de classes attendent une vérification en jeu.** La plupart sont
+  des choix du projet et non des relevés. `COLLECTIONNEUR` fait 14 caractères et
+  dépasse la norme de 13 : c'est le premier à contrôler sur un écran de combat.
+  Les sept titres de la Zone de Combat n'ont aucune source et sont les plus
+  fragiles. Voir GLOSSARY.md, qui sépare les libellés ancrés des choix assumés.
+- **Trois termes restent non résolus** : `Scott`, `Steven` et le terme collectif
+  `Frontier Brains`. Ils sont recensés dans GLOSSARY.md.
 - **Aucun fichier n'a été validé en jeu.** Le compteur « validé en jeu » est à 0
   et doit le rester tant qu'aucun test sur émulateur n'a eu lieu.
 - **L'audit transversal reste à faire** : interfaces, menus, aides de touches,

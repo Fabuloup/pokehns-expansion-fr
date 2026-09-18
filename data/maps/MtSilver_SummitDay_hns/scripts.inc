@@ -68,5 +68,3 @@ MtSilver_SummitDay_Text_Red:
 
 MtSilver_SummitDay_Text_RedBeaten:
 	.string "...!$"
-
-

@@ -46,9 +46,11 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 
 | Anglais | Français retenu |
 |---|---|
-| Cherrygrove City | Ville Griotte |
 | Azalea Town | Écorcia |
+| Burned Tower | Tour Cendrée |
 | Bugsy | Hector |
+| Cherrygrove City | Ville Griotte |
+| Cianwood City | Irisia |
 | Ecruteak City | Rosalia |
 | Elder Li | Ancien Jehan |
 | Eusine | Eusine |
@@ -61,12 +63,27 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 | Oak | Chen |
 | Olivine City | Oliville |
 | Proton | Lance |
+| Tin Tower | Tour Ferraille |
 | Violet City | Mauville |
+| Whirl Islands | Tourb'Îles |
 
 > **Piège à ne pas inverser.** L'anglais `Lance`, le maître dragon, devient
 > **Peter**. L'anglais `Proton`, le sbire de la Team Rocket, devient **Lance**.
 > Le mot « Lance » existe donc dans les deux langues mais ne désigne pas la même
 > personne.
+
+`Tin Tower` reste **Tour Ferraille**, nom français des versions Or, Argent et
+Cristal : les scripts et les cartes de Heart & Soul emploient explicitement le
+nom anglais historique `Tin Tower`, et non `Bell Tower` (Tour Carillon).
+
+## Lieux de Kanto
+
+| Anglais | Français retenu |
+|---|---|
+| Celadon City | Céladopole |
+| Cycling Road | Piste Cyclable |
+| Game Corner | Casino |
+| Saffron City | Safrania |
 
 ## Classes de Dresseurs du début du jeu
 

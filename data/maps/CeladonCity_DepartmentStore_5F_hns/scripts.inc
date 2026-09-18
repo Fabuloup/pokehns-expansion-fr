@@ -30,20 +30,22 @@ CeladonDeptStore5_EventScript_Receptionist_Already::
 	end
 
 CeladonDeptStore_Text_5FReceptionistOhYourMon:
-    .string "Hello. Oh, your POKéMON…$"
+    .string "Bonjour. Oh, ton POKéMON…$"
 
 CeladonDeptStore_Text_5FReceptionistWait:
-    .string "Wait, I already gave you that TM!$"
+    .string "Attends, je t'ai déjà donné\n"
+    .string "cette CT!$"
 
 CeladonDeptStore_Text_5FReceptionistPutInSomeMoreEffort:
 	.string "Hmm…\n"
-	.string "It's not bad, but it's also not good.\p"
-	.string "You, as the TRAINER, need to put in\n"
-	.string "some more effort.$"
+	.string "Ce n'est pas mal, mais ce n'est\l"
+	.string "pas bon non plus.\p"
+	.string "Toi, le DRESSEUR, tu dois y\n"
+	.string "mettre plus d'efforts.$"
 
 CeladonDeptStore_Text_5FReceptionistItLooksEvilHowAboutThisTM:
-    .string "It looks evil. How about this TM\n"
-    .string "for it?$"
+    .string "Il a l'air maléfique. Que dis-tu\n"
+    .string "de cette CT en échange?$"
 
 CeladonDept5_EventScript_Gent::
 	msgbox CeladonDeptStore5F_Text_Gentleman, MSGBOX_NPC
@@ -72,26 +74,30 @@ CeladonDeptStore5_EventScript_Falkner::
 	end
 
 CeladonDeptStore5_Text_Falkner:
-	.string "{PLAYER}. I didn't expect to see\n"
-	.string "you here.\p"
-	.string "I'm picking up gear for my\n"
-	.string "bird POKéMON.\p"
-	.string "If you want to face me again, I'll\n"
-	.string "be at the DOJO in SAFFRON CITY.$"
+	.string "{PLAYER}. Je ne m'attendais pas\n"
+	.string "à te voir ici.\p"
+	.string "Je viens chercher du matériel\n"
+	.string "pour mes POKéMON Oiseau.\p"
+	.string "Si tu veux m'affronter à\n"
+	.string "nouveau, je serai au DOJO de\l"
+	.string "SAFRANIA.$"
 
 CeladonDeptStore5F_Text_Gentleman:
-	.string "I want to buy some items that\n"
-	.string "raise POKéMON stats, but I don't\l"
-	.string "have enough money…$"
+	.string "Je veux acheter des objets qui\n"
+	.string "augmentent les stats des\l"
+	.string "POKéMON, mais je n'ai pas assez\l"
+	.string "d'argent…$"
 
 CeladonDeptStore5F_Text_Sailor:
-	.string "I want PP UP, so I can raise the\n"
-	.string "PP of moves. But you can't buy it…$"
+	.string "Je veux des PP PLUS pour\n"
+	.string "augmenter les PP des capacités.\l"
+	.string "Mais ça ne s'achète pas…$"
 
 CeladonDeptStore5F_Text_Teacher:
-	.string "Using items on them makes POKéMON\n"
-	.string "happy.\p"
-	.string "They hate certain items, though…$"
+	.string "Utiliser des objets sur eux rend\n"
+	.string "les POKéMON heureux.\p"
+	.string "Mais ils détestent certains\n"
+	.string "objets…$"
 
 CeladonDeptStore5F_Text_Directory:
-	.string "5F: DRUG STORE$"
+	.string "5F: PHARMACIE$"

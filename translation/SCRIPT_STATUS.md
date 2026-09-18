@@ -11,7 +11,7 @@ Règles de suivi :
 - `validé en jeu` est réservé à une vérification visuelle dans l'émulateur ;
 - les scripts hors cartes et les fichiers hérités de `pokeemerald-expansion` sont suivis dans l'audit transversal lorsqu'ils sont réellement utilisés par H&S.
 
-Progression actuelle : **62 / 549 fichiers traduits**, dont **0 validé en jeu**.
+Progression actuelle : **88 / 549 fichiers traduits**, dont **0 validé en jeu**.
 
 | Fichier | État |
 |---|---|
@@ -191,10 +191,10 @@ Progression actuelle : **62 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/Gate_EcruteakCity_Route38_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_EcruteakCity_Route42_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_FuchsiaCity_Route18_hns/scripts.inc` | à traduire |
-| `data/maps/Gate_GoldenrodCity_Route35_hns/scripts.inc` | à traduire |
+| `data/maps/Gate_GoldenrodCity_Route35_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Gate_IlexForest_Route34_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Gate_MahoganyTown_Route43_hns/scripts.inc` | à traduire |
-| `data/maps/Gate_NationalPark_hns/scripts.inc` | à traduire |
+| `data/maps/Gate_NationalPark_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Gate_Route29_Route46_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_Route2_ViridianForest_hns/scripts.inc` | à traduire |
 | `data/maps/Gate_Route2_hns/scripts.inc` | à traduire |
@@ -210,33 +210,33 @@ Progression actuelle : **62 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/Gate_ViridianForest_Route2_hns/scripts.inc` | à traduire |
 | `data/maps/GoldenrodCity_BikeShop_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_BillsHouse_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/GoldenrodCity_DepartmentStoreBasement_hns/scripts.inc` | à traduire |
+| `data/maps/GoldenrodCity_DepartmentStoreBasement_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_DepartmentStoreElevator_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_DepartmentStore_1F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_DepartmentStore_2F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_DepartmentStore_3F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_DepartmentStore_4F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_DepartmentStore_5F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_DepartmentStore_6F_hns/scripts.inc` | à traduire |
+| `data/maps/GoldenrodCity_DepartmentStore_1F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_DepartmentStore_2F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_DepartmentStore_3F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_DepartmentStore_4F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_DepartmentStore_5F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_DepartmentStore_6F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_DepartmentStore_7FNight_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_DepartmentStore_7F_hns/scripts.inc` | à traduire |
+| `data/maps/GoldenrodCity_DepartmentStore_7F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_FlowerShop_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/GoldenrodCity_GameCorner_hns/scripts.inc` | à traduire |
+| `data/maps/GoldenrodCity_GameCorner_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_House3_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/GoldenrodCity_RadioTower_1F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_RadioTower_2F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_RadioTower_4F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_RadioTower_5F_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_TrainStation_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_UndergroundEntrance_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_UndergroundStorage_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_UndergroundSwitches_hns/scripts.inc` | à traduire |
-| `data/maps/GoldenrodCity_UndergroundTunnel_hns/scripts.inc` | à traduire |
+| `data/maps/GoldenrodCity_RadioTower_1F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_RadioTower_2F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_RadioTower_3F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_RadioTower_4F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_RadioTower_5F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_TrainStation_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_UndergroundEntrance_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_UndergroundStorage_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_UndergroundSwitches_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/GoldenrodCity_UndergroundTunnel_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/GoldenrodCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/IcePath_1F_hns/scripts.inc` | à traduire |
 | `data/maps/IcePath_B1F_hns/scripts.inc` | à traduire |
@@ -291,8 +291,8 @@ Progression actuelle : **62 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/MtSilver_Snow_hns/scripts.inc` | à traduire |
 | `data/maps/MtSilver_SummitDay_hns/scripts.inc` | à traduire |
 | `data/maps/MtSilver_SummitNight_hns/scripts.inc` | à traduire |
-| `data/maps/NationalPark_BugContest_hns/scripts.inc` | à traduire |
-| `data/maps/NationalPark_Normal_hns/scripts.inc` | à traduire |
+| `data/maps/NationalPark_BugContest_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/NationalPark_Normal_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/NewBarkTown_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/NewBarkTown_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/NewBarkTown_Lab_hns/scripts.inc` | traduit, à valider en jeu |
@@ -389,9 +389,9 @@ Progression actuelle : **62 / 549 fichiers traduits**, dont **0 validé en jeu**
 | `data/maps/Route33_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route34_DayCare_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route34_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/Route35_hns/scripts.inc` | à traduire |
-| `data/maps/Route36_hns/scripts.inc` | à traduire |
-| `data/maps/Route37_hns/scripts.inc` | à traduire |
+| `data/maps/Route35_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route36_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route37_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route38_hns/scripts.inc` | à traduire |
 | `data/maps/Route39_Barn_hns/scripts.inc` | à traduire |
 | `data/maps/Route39_FarmHouse_hns/scripts.inc` | à traduire |

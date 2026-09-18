@@ -10,9 +10,11 @@ CeladonCity_Apartments_1F_EventScript_Sign::
 	end
 
 CeladonMansion_Text_Manager:
-	.string "My dear POKéMON keep me company,\n"
-	.string "so I don't ever feel lonely.\p"
-	.string "MEOWTH even brings money home.$"
+	.string "Mes chers POKéMON me tiennent\n"
+	.string "compagnie, je ne me sens jamais\l"
+	.string "seule.\p"
+	.string "MIAOUSS rapporte même de l'argent.$"
 
 CeladonMansion_Text_ManagersSuiteSign:
-	.string "CELADON MANSION MANAGER'S SUITE$"
+	.string "APPARTEMENT DU GÉRANT\n"
+	.string "MANOIR DE CÉLADOPOLE$"

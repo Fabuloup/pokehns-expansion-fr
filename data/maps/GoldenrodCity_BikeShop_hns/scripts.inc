@@ -42,49 +42,52 @@ GoldenrodCity_BikeShop_EventScript_Bike::
 	end
 
 GoldenrodCity_BikeShop_Text_Clerk2:
-	.string "Riding the BIKE is as simple as\n"
-	.string "pressing a button if you\l"
-	.string "REGISTER it from the BAG.\p"
-	.string "If you need to go faster,\n"
-	.string "you first need to come to a stop!\p"
-	.string "That might seem like strange\n"
-	.string "advice, but you can only change\l"
-	.string "gears on the BIKE while stopped.\p"
-	.string "Press your R button when stopped\n"
-	.string "and the next time you pedal,\l"
-	.string "you will reach greater speeds!$"
+	.string "Rouler à VÉLO est aussi simple\n"
+	.string "qu'appuyer sur un bouton si tu\l"
+	.string "l'ENREGISTRES depuis le SAC.\p"
+	.string "Pour aller plus vite, il faut\n"
+	.string "d'abord t'arrêter!\p"
+	.string "Ça peut sembler curieux, mais on\n"
+	.string "ne change de vitesse qu'à\l"
+	.string "l'arrêt.\p"
+	.string "Appuie sur R à l'arrêt et, au\n"
+	.string "prochain coup de pédale, tu\l"
+	.string "iras bien plus vite!$"
 
 GoldenrodCity_BikeShop_Text_ClerkIntro:
-    .string "…sigh… I moved here, but I can't\n"
-    .string "sell my BICYCLES. Why is that?\p"
-    .string "Could you ride a BICYCLE and\n"
-    .string "advertise for me?$"
+    .string "…soupir… J'ai déménagé ici, mais\n"
+    .string "je n'arrive pas à vendre mes\l"
+    .string "BICYCLETTES. Pourquoi donc?\p"
+    .string "Tu voudrais rouler à BICYCLETTE\n"
+    .string "pour me faire de la publicité?$"
 
 GoldenrodCity_BikeShop_Text_ClerkAgreed:
-    .string "Really? Great!\p"
-    .string "Give me your name and phone number,\n"
-    .string "and I'll loan you a BICYCLE.$"
+    .string "Vraiment? Génial!\p"
+    .string "Donne-moi ton nom et ton numéro,\n"
+    .string "et je te prête une BICYCLETTE.$"
 
 GoldenrodCity_BikeShop_Text_BorrowedBicycle:
-    .string "{PLAYER} borrowed a BICYCLE.$"
+    .string "{PLAYER} emprunte une BICYCLETTE.$"
 
 GoldenrodCity_BikeShop_Text_Mainshop:
-	.string "Business has been hard to come\n"
-	.string "by since we moved from KANTO.\l"
-	.string "We appreciate your help!\p"
-	.string "Can you make sure to show off\n"
-	.string "our patented gear-changing tech?\p"
-	.string "It's as simple as pressing R when\n"
-	.string "you are stopped on your BIKE.\p"
-	.string "Beware! You will then go faster!$"
+	.string "Les affaires sont dures depuis\n"
+	.string "notre déménagement de KANTO.\l"
+	.string "Merci de ton aide!\p"
+	.string "Tu peux bien mettre en avant\n"
+	.string "notre technologie brevetée de\l"
+	.string "changement de vitesse?\p"
+	.string "Il suffit d'appuyer sur R quand\n"
+	.string "tu es à l'arrêt sur ton VÉLO.\p"
+	.string "Attention! Tu iras plus vite!$"
 
 GoldenrodCity_BikeShop_Text_Refused:
-    .string "…sigh… Oh, for the kindness of\n"
-    .string "people…$"
+    .string "…soupir… Où est donc passée la\n"
+    .string "gentillesse des gens…$"
 
 GoldenrodCity_BikeShop_Text_JustReleasedCompact:
-    .string "Just released!\p"
-    .string "First-rate compact BICYCLES!$"
+    .string "Nouveauté!\p"
+    .string "BICYCLETTES pliantes de premier\n"
+    .string "choix!$"
 
 GoldenrodCity_BikeShop_Text_Bicycle:
-    .string "It's a shiny new BICYCLE!$"
+    .string "Une BICYCLETTE toute neuve!$"

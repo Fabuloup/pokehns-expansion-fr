@@ -173,16 +173,17 @@ Snowswept_Cavern_Eventscript_Machamp_AfterBoulder::
 
 
 Snowswept_Cavern_Text_DroppedItem:
-    .string "The MACHAMP dropped an item...$"
+    .string "Le MACKOGNEUR a laissé tomber\n"
+    .string "un objet…$"
 
 
 Snowswept_Text_Machamp_Cry:
     .string "Mahh!!$"
 
 Snowswept_Text_Machamp_Plate:
-    .string "The MACHAMP seems to be holding\n"
-    .string "a PLATE in one of its hands.\p"
-    .string "Battle it?$"
+    .string "Le MACKOGNEUR semble tenir une\n"
+    .string "PLAQUE dans une de ses mains.\p"
+    .string "L'affronter?$"
 
 Snowswept_Machamp_Movement:
     jump_in_place_down

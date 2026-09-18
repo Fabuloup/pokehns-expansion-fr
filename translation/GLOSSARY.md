@@ -51,14 +51,22 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 | Bugsy | Hector |
 | Ecruteak City | Rosalia |
 | Elder Li | Ancien Jehan |
+| Eusine | Eusine |
 | Falkner | Albert |
 | Indigo Plateau | Plateau Indigo |
 | Kurt | Fargas |
+| Lance | Peter |
+| Morty | Mortimer |
 | New Bark Town | Bourg Geon |
 | Oak | Chen |
 | Olivine City | Oliville |
 | Proton | Lance |
 | Violet City | Mauville |
+
+> **Piège à ne pas inverser.** L'anglais `Lance`, le maître dragon, devient
+> **Peter**. L'anglais `Proton`, le sbire de la Team Rocket, devient **Lance**.
+> Le mot « Lance » existe donc dans les deux langues mais ne désigne pas la même
+> personne.
 
 ## Classes de Dresseurs du début du jeu
 
@@ -80,17 +88,36 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 
 ## Famille des jours de la semaine
 
-| Anglais | Français officiel |
-|---|---|
-| Monica | Lucie |
-| Tuscany | Marie |
-| Wesley | Homer |
+| Jour | Anglais | Français officiel |
+|---|---|---|
+| Lundi | Monica | Lucie |
+| Mardi | Tuscany | Marie |
+| Mercredi | Wesley | Homer |
+| Jeudi | Arthur | Jérome |
+| Vendredi | Frieda | Vanessa |
+| Samedi | Santos | Samuel |
+| Dimanche | Sunny | Dimitri |
 
 ## Dresseurs récurrents
 
 | Identifiant anglais | Français retenu | Référence |
 |---|---|---|
 | Bug Catcher Wade | Scout Francis | Localisation française de HeartGold et SoulSilver |
+| Bruno | Aldo | Membre du Conseil 4 |
+| Daisy | Nina | Sœur du Champion de Jadielle |
+| Janine | Jeannine | Championne de Parmanie |
+
+## Termes non résolus
+
+Ces termes ont été employés faute de mieux et demandent une décision avant
+d'être figés. Ils apparaissent déjà dans des fichiers traduits.
+
+| Anglais | Employé provisoirement | Problème |
+|---|---|---|
+| Frontier Brains | Cerveaux de la Zone | Terme non vérifié dans les données du dépôt |
+| Kimono Girl | Fille Kimono | Classe de Dresseur sans nom français vérifié |
+| Scott | Scott | Laissé en anglais, aucun équivalent vérifiable |
+| Steven | Steven | Laissé en anglais, aucun équivalent vérifiable |
 
 ## À décider avant traduction massive
 

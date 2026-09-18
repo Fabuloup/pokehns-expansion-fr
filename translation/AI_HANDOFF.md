@@ -23,12 +23,16 @@ Règles impératives :
 - conserver exactement les variables et jetons comme {PLAYER}, {RIVAL}, {STR_VAR_1}, ainsi que les contrôles \n, \l, \p, $ et autres séquences ;
 - traduire aussi les interfaces, aides de touches et libellés globaux : HP devient PV, Level devient Niveau ou Niv., Next devient Suivant, Back devient Retour, etc. ;
 - ne pas modifier la logique du jeu, les identifiants, la structure de sauvegarde ou les mécaniques ;
-- faire des lots petits et cohérents, avec des commits de forme « FR: sujet traduit » ;
-- contrôler git diff --check, les caractères via le préprocesseur du projet et la compilation make hns ;
+- travailler par lots larges, avec un commit par fichier de forme « FR: traduire <NomDuFichier> », puis un commit de suivi distinct en fin de lot ;
+- ne pousser qu'en fin de lot, tous les commits ensemble ; ne jamais mettre [skip ci] sur le commit de tête, sinon la CI de tout le lot est annulée ;
+- contrôler git diff --check, python tools/translation/check_integrity.py, la largeur des chaînes (34 caractères visibles par segment entre \n, \l et \p) et l'absence de dérive des variables et des labels ;
+- ne lancer make hns que si la CI échoue, si un fichier contient des changements de script hors chaînes, ou en préparation d'un jalon de test ;
 - inspecter le résumé du diff avant chaque push. Une suppression massive ou un fichier réduit de moitié est un blocage, pas un changement à valider ;
 - après le push, attendre la fin de GitHub Actions et corriger tout échec avant de déclarer le lot terminé.
 
-Ne prétends jamais que toute la zone ou toute l'interface est traduite s'il reste des chaînes anglaises dynamiques. À la fin, indique les fichiers modifiés, les contrôles réalisés, le commit et ce qui reste à traduire.
+N'emploie que les états définis dans translation/README.md. Tant qu'aucun test sur émulateur n'a eu lieu, l'état maximal est « traduit, à valider en jeu » : « validé en jeu » est interdit.
+
+Ne prétends jamais que toute la zone ou toute l'interface est traduite s'il reste des chaînes anglaises dynamiques. Le fait que le projet compile ne prouve rien sur l'exhaustivité d'une zone. À la fin, indique les fichiers modifiés, les contrôles réalisés, les commits et ce qui reste à traduire.
 ```
 
 ## État attendu du dépôt

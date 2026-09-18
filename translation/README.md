@@ -23,27 +23,41 @@ La branche `master` doit rester identique au dépôt officiel. Les mises à jour
 
 ## Organisation des contributions
 
-Une modification doit idéalement couvrir un ensemble cohérent : une carte, un menu ou une famille de données. Le message de commit suit la forme `FR: sujet traduit`, par exemple :
+Le travail se fait par lots. À l'intérieur d'un lot, **un commit par fichier**, et
+un fichier est terminé avant de passer au suivant. Le message suit la forme
+`FR: traduire <NomDuFichier>` :
 
 ```text
-FR: dialogues de Bourg Geon
-FR: menu principal
-FR: noms des objets de soin
+FR: traduire BurnedTower_1F_hns
+FR: traduire EcruteakCity_Gym_hns
 ```
 
-Chaque lot doit compiler et être testé en jeu avant d'être considéré comme terminé.
+Le lot se termine par un commit de suivi distinct, qui met à jour
+`SCRIPT_STATUS.md` et son compteur en une seule fois :
+
+```text
+docs: actualiser le suivi du lot de traduction
+```
+
+Les commits ne sont poussés qu'à la fin du lot, tous ensemble, après les
+contrôles automatiques. Attention : `[skip ci]` sur le dernier commit poussé
+annule la CI de **tout** le lot, puisque GitHub n'évalue que le commit de tête.
 
 ## Avancement
 
-| Zone | État |
-|---|---|
-| Introduction du Professeur Chen | Traduit, à vérifier en jeu |
-| Bourg Geon | Traduit, à vérifier en jeu |
-| Laboratoire du Professeur Orme | Traduit, à vérifier en jeu |
-| Menu Options | Traduit, à vérifier visuellement |
-| Route 29 | Traduit, à vérifier en jeu |
+Le suivi réel se trouve dans [SCRIPT_STATUS.md](SCRIPT_STATUS.md), fichier par
+fichier. C'est la seule source d'avancement du projet : ne pas en tenir un second ici.
 
-La mention « traduit » signifie que les sources françaises sont présentes. Une zone n'est considérée comme validée qu'après compilation et vérification visuelle dans le jeu.
+États employés :
+
+- `à traduire` : rien n'a encore été fait sur le fichier ;
+- `traduit, à valider en jeu` : les sources françaises sont en place et les
+  contrôles automatiques passent, mais le texte n'a pas encore été vu en jeu ;
+- `validé en jeu` : le texte a été vérifié visuellement pendant une partie ;
+- `bloqué` : accompagné d'une explication.
+
+Aucun fichier ne peut passer à `validé en jeu` sans test sur émulateur. Tant que
+ce test n'a pas eu lieu, l'état maximal atteignable est `traduit, à valider en jeu`.
 
 ## Signalement pendant une partie
 
@@ -62,6 +76,5 @@ Une sauvegarde interne de Heart & Soul 2.x doit rester compatible entre les buil
 - [Guide de style](STYLE_GUIDE.md)
 - [Glossaire](GLOSSARY.md)
 - [Sources françaises et ordre de priorité](SOURCES.md)
-- [Périmètre de validation jusqu'au deuxième badge](EARLY_GAME_SCOPE.md)
 - [Suivi fichier par fichier des scripts](SCRIPT_STATUS.md)
 - [Relais vers un autre assistant](AI_HANDOFF.md)

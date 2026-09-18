@@ -36,44 +36,44 @@ Route33_EventScript_Lass::
 	end
 
 Route33_Text_HikerAnthony2Seen:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "J'ai traversé le tunnel, mais\n"
+	.string "il me reste encore pas mal\l"
+	.string "d'énergie.$"
 
 Route33_Text_HikerAnthony2Beaten:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "Whoa! Alors toi, t'es plus\n"
+	.string "speed que moi!$"
 
 Route33_Text_HikerAnthony2After:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "Nous, MONTAGNARDS, sommes à\n"
+	.string "l'aise dans la montagne.$"
 
 Route33_Text_AnthonyRegister:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "Nous, MONTAGNARDS, sommes à\n"
+	.string "l'aise dans la montagne.$"
 
 Route33_Text_AnthonyRematchIntro:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "J'ai traversé le tunnel, mais\n"
+	.string "il me reste encore pas mal\l"
+	.string "d'énergie.$"
 
 Route33_Text_AnthonyRematchDefeat:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "Whoa! Alors toi, t'es plus\n"
+	.string "speed que moi!$"
 
 Route33_Text_AnthonyPostRematch:
-	.string "We HIKERS are at our best\n"
-	.string "in the mountains.$"
+	.string "Nous, MONTAGNARDS, sommes à\n"
+	.string "l'aise dans la montagne.$"
 
 Route33_Text_HikerAnthonyDunsparce:
-	.string "Hey, did you get a DUNSPARCE?\p"
-	.string "I caught one too.\p"
-	.string "Take a look at it in the light.\n"
-	.string "It's got a funny face!$"
+	.string "Hé! As-tu chopé un INSOLOURDO?\p"
+	.string "Moi ouais, j'en ai un.\p"
+	.string "Regarde-le bien à la lumière.\n"
+	.string "Il a une drôle de bouille!$"
 
 Route33_Text_Lass:
-	.string "Pant, pant…\p"
-	.string "That cave was bigger than\n"
-	.string "I'd expected.\p"
-	.string "I got too tired exploring\n"
-	.string "for MARILL, so I came outside.$"
+	.string "Pfff… Pff…\p"
+	.string "Cette caverne était bien plus\n"
+	.string "grande que je ne croyais.\p"
+	.string "Chercher des MARILL m'a trop\n"
+	.string "crevée, alors je suis sortie.$"

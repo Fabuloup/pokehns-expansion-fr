@@ -18,11 +18,11 @@ OlivineCity_EventScript_PunisherBoy::
 	end
 
 OlivineCity_Text_PunishmentBro:
-	.string "Along the way to CIANWOOD,\n"
-	.string "there are four deserted islands.\p"
-	.string "Bad kids are taken to those\n"
-	.string "islands as punishment!$"
+	.string "Sur la route d'IRISIA, il y a\n"
+	.string "quatre îles désertes.\p"
+	.string "On y emmène les enfants pas\n"
+	.string "sages, en punition!$"
 
 OlivineCity_Text_PunishmentBoy:
-	.string "Whenever I get in trouble,\n"
-	.string "big bro always scares me.$"
+	.string "Dès que je fais une bêtise, mon\n"
+	.string "grand frère me fait peur.$"

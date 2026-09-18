@@ -107,6 +107,52 @@ Ce glossaire fixe les choix récurrents du projet. Il doit évoluer à partir de
 | Daisy | Nina | Sœur du Champion de Jadielle |
 | Janine | Jeannine | Championne de Parmanie |
 
+## Libellés de classes affichés
+
+Définis dans `gTrainerClasses` de `src/battle_main.c`, et non dans
+`trainers_hns.party` dont le champ `Class:` n'est qu'une clé. Longueur de
+référence : **13 caractères**, la plus longue valeur préexistante.
+
+Ancrés dans le dépôt, déjà employés dans les dialogues traduits :
+
+| Anglais | Français | Ancrage |
+|---|---|---|
+| Elite Four | CONSEIL 4 | Employé dans les scripts traduits |
+| Kimono Girl | FILLE KIMONO | Employé dans les scripts traduits |
+
+Choix du projet, vocabulaire courant des classes de Dresseurs. À confirmer
+en jeu :
+
+| Anglais | Français | | Anglais | Français |
+|---|---|---|---|---|
+| Battle Girl | COMBATTANTE | | Lass | FILLETTE |
+| Beauty | CANON | | Mystery Man | HOMME MYSTÈRE |
+| Biker | MOTARD | | Officer | AGENT |
+| Black Belt | KARATÉKA | | Parasol Lady | MISS PARASOL |
+| Burglar | CAMBRIOLEUR | | Psychic | KINÉSISTE |
+| Collector | COLLECTIONNEUR | | Sailor | MARIN |
+| Developer | DÉVELOPPEUR | | Skier | SKIEUR |
+| Dragon Tamer | DRACOLOGUE | | Super Nerd | INTELLO |
+| Guitarist | GUITARISTE | | Swimmer | NAGEUR / NAGEUSE |
+| Hex Maniac | MYSTIMANIAC | | Young Couple | JEUNE COUPLE |
+| Juggler | JONGLEUR | | | |
+
+`COLLECTIONNEUR` fait 14 caractères et dépasse la norme de 13 : à vérifier
+en priorité sur un écran de combat.
+
+Titres de la Zone de Combat. Aucune source, invention assumée, les plus
+fragiles de la liste :
+
+| Anglais | Français |
+|---|---|
+| Arena Tycoon | MAGNAT ARÈNE |
+| Dome Ace | AS DU DÔME |
+| Factory Head | CHEF USINE |
+| Palace Maven | GUIDE PALAIS |
+| Pike Queen | REINE PIKE |
+| Pyramid King | ROI PYRAMIDE |
+| Salon Maiden | HÔTESSE SALON |
+
 ## Termes non résolus
 
 Ces termes ont été employés faute de mieux et demandent une décision avant
@@ -114,8 +160,7 @@ d'être figés. Ils apparaissent déjà dans des fichiers traduits.
 
 | Anglais | Employé provisoirement | Problème |
 |---|---|---|
-| Frontier Brains | Cerveaux de la Zone | Terme non vérifié dans les données du dépôt |
-| Kimono Girl | Fille Kimono | Classe de Dresseur sans nom français vérifié |
+| Frontier Brains | Cerveaux de la Zone | Terme collectif, non vérifié dans le dépôt |
 | Scott | Scott | Laissé en anglais, aucun équivalent vérifiable |
 | Steven | Steven | Laissé en anglais, aucun équivalent vérifiable |
 

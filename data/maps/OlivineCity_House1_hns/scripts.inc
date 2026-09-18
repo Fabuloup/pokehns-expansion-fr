@@ -27,21 +27,22 @@ OlivineCity_House1_EventScript_TradeCompleted::
 	end
 
 OlivineCity_House1_Text_YouWillTradeWontYou:
-	.string "I collect POKéMON!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
+	.string "Je collectionne les POKéMON!\n"
+	.string "Tu as un {STR_VAR_1}?\p"
+	.string "Tu veux l'échanger contre mon\n"
 	.string "{STR_VAR_2}?$"
 
 OlivineCity_House1_Text_MonYouTakeCare:
-	.string "Yay! I got myself {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "Ouais! J'ai eu {STR_VAR_1}!\p"
+	.string "{STR_VAR_2}, prends soin de toi!$"
 
 OlivineCity_House1_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "Euh, non, je ne crois pas.\n"
+	.string "Ce n'est pas un {STR_VAR_1}.$"
 
 OlivineCity_House1_Text_YouWontTradeMe:
-	.string "You don't want to trade? Aww...$"
+	.string "Tu ne veux pas échanger? Ohhh…$"
 
 OlivineCity_House1_Text_After:
-	.string "Hi, how's my old VOLTORB doing?$"
+	.string "Salut, comment va mon vieux\n"
+	.string "VOLTORBE?$"

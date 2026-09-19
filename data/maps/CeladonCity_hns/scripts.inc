@@ -21,9 +21,9 @@ CeladonCity_EventScript_Erika::
 
 CeladonCity_Text_Erika:
     .string "Oh, {PLAYER}.\n"
-	.string "Isn't the fountain lovely today?\p"
-	.string "If you wish for another battle,\n"
-	.string "I'll be at the FIGHTING DOJO.$"
+    .string "La fontaine est ravissante, non?\p"
+    .string "Si vous voulez un autre combat,\n"
+    .string "je serai au DOJO.$"
 
 CeladonCity_EventScript_Fatman::
 	msgbox CeladonCity_Text_Fisher, MSGBOX_NPC
@@ -71,50 +71,50 @@ CeladonCity_EventScript_Item_Recycle::
     end
 
 CeladonCity_Text_Fisher:
-	.string "This POLIWRATH is my partner.\p"
-	.string "I wonder if it'll ever evolve\n"
-	.string "into a frog POKéMON.$"
+	.string "Ce TARTARD est mon\p"
+	.string "partenaire. Peut-il évoluer\n"
+	.string "en un POKéMON grenouille?$"
 
 CeladonCity_Text_Poliwrath:
-	.string "POLIWRATH: Croak!$"
+	.string "TARTARD: Tarr!$"
 
 CeladonCity_Text_Teacher1:
-	.string "I lost at the slot machines again…\p"
-	.string "We girls also play the slots now.\p"
-	.string "You should check them out too.$"
+	.string "J'ai encore perdu aux machines…\p"
+	.string "Nous aussi, les filles, on y joue.\p"
+	.string "Tu devrais essayer.$"
 
 CeladonCity_Text_Gramps1:
-	.string "GRIMER have been appearing lately.\p"
-	.string "See that pond out in front of the\n"
-	.string "house? GRIMER live there now.\p"
-	.string "Where did they come from? This is\n"
-	.string "a serious problem…$"
+	.string "Des TADMORV apparaissent ici.\p"
+	.string "Tu vois l'étang devant cette\n"
+	.string "maison? Ils y vivent maintenant.\p"
+	.string "D'où viennent-ils? C'est vraiment\n"
+	.string "un sérieux problème…$"
 
 CeladonCity_Text_Gramps2:
-	.string "Nihihi! This GYM is great! Only\n"
-	.string "girls are allowed here!$"
+	.string "Hihi! Cette ARÈNE est géniale!\n"
+	.string "C'est réservé aux filles! Youpi!$"
 
 CeladonCity_Text_Youngster1:
-	.string "Want to know a secret?\p"
-	.string "CELADON MANSION has a hidden back\n"
-	.string "door.$"
+	.string "Tu veux connaître un secret?\p"
+	.string "Le MANOIR CÉLADON a une\n"
+	.string "porte cachée à l'arrière.$"
 
 CeladonCity_Text_Youngster2:
-	.string "They're holding an eating contest\n"
-	.string "at the restaurant.\p"
-	.string "Just watching them go at it makes\n"
-	.string "me feel bloated…$"
+	.string "Il y a un concours de\n"
+	.string "bouffe au restaurant.\p"
+	.string "Rien que de les regarder\n"
+	.string "me donne mal au coeur...$"
 
 CeladonCity_Text_Teacher2:
-	.string "CELADON DEPT.STORE has the biggest\n"
-	.string "and best selection of merchandise.\p"
-	.string "If you can't get it there, you\n"
-	.string "can't get it anywhere.\p"
-	.string "Gee… I sound like a sales clerk.$"
+	.string "Le CENTRE COMMERCIAL de CÉLADOPOLE\n"
+	.string "propose le plus grand choix.\p"
+	.string "Si tu n'y trouves pas ton bonheur,\n"
+	.string "tu ne le trouveras nulle part.\p"
+	.string "Euh… On dirait une vendeuse.$"
 
 CeladonCity_Text_Lass:
-	.string "Looking at the ground while I was\n"
-	.string "walking made me dizzy.$"
+	.string "J'ai mal\n"
+	.string "au crâne.$"
 
 CeladonCity_EventScript_CitySign::
 	msgbox CeladonCity_Text_Sign, MSGBOX_SIGN
@@ -141,29 +141,29 @@ CeladonCity_EventScript_TrainerTips::
 	end
 
 CeladonCity_Text_Sign:
-	.string "CELADON CITY\p"
-	.string "The City of Rainbow Dreams$"
+	.string "CELADOPOLE La ville\p"
+	.string "aux rêves arc-en-ciel$"
 
 CeladonGym_Text_Sign:
-	.string "CELADON CITY POKéMON GYM LEADER:\n"
-	.string "ERIKA\p"
-	.string "The Nature-Loving Princess$"
+	.string "CHAMPION d'ARÈNE de\n"
+	.string "CELADOPOLE: ERIKA La\p"
+	.string "princesse de la nature$"
 
 CeladonCity_Text_DeptStoreSign:
-	.string "Find What You Need at CELADON\n"
-	.string "DEPT.STORE!$"
+	.string "Y'a de tout au CENTRE\n"
+	.string "COMMERCIAL de CELADOPOLE!$"
 
 CeladonCity_Text_MansionSign:
-	.string "CELADON MANSION$"
+	.string "MANOIR CÉLADON$"
 
 CeladonCity_Text_GameCornerSign:
-	.string "The Playground for Everybody--\n"
-	.string "CELADON GAME CORNER$"
+	.string "Le terrain de jeu de tous:\n"
+	.string "CASINO DE CÉLADOPOLE$"
 
 CeladonCity_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "GUARD SPEC. protects POKéMON\n"
-	.string "against SPECIAL attacks such as\l"
-	.string "FLAMETHROWER and SURF.\p"
-	.string "Get your items at CELADON DEPT.\n"
-	.string "STORE!$"
+	.string "ASTUCE DRESSEUR\p"
+	.string "GARDE-STATS protège les POKéMON\n"
+	.string "contre les capacités spéciales\l"
+	.string "comme LANCE-FLAMMES et SURF.\p"
+	.string "Achetez vos objets au CENTRE\n"
+	.string "COMMERCIAL DE CÉLADOPOLE!$"

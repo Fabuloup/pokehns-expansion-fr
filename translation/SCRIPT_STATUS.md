@@ -11,12 +11,12 @@ Règles de suivi :
 - `validé en jeu` est réservé à une vérification visuelle dans l'émulateur ;
 - les scripts hors cartes et les fichiers hérités de `pokeemerald-expansion` sont suivis dans l'audit transversal lorsqu'ils sont réellement utilisés par H&S.
 
-Progression actuelle : **347 / 413 fichiers à traduire**, dont **0 validé en jeu**.
+Progression actuelle : **367 / 413 fichiers à traduire**, dont **0 validé en jeu**.
 
 Le tableau suit 549 fichiers, mais **136 d'entre eux ne contiennent aucune chaîne
 affichée** : ce sont des scripts purement logiques (couloirs, ascenseurs, warps).
 Ils portent l'état `sans texte affiché` et sont exclus du décompte. La cible
-réelle est donc de 413 fichiers, dont 66 restent à traduire.
+réelle est donc de 413 fichiers, dont 46 restent à traduire.
 
 | Fichier | État |
 |---|---|
@@ -168,17 +168,17 @@ réelle est donc de 413 fichiers, dont 66 restent à traduire.
 | `data/maps/EcruteakCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/EcruteakCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/EcruteakCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/EcruteakCity_SageOffice1_hns/scripts.inc` | à traduire |
+| `data/maps/EcruteakCity_SageOffice1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/EcruteakCity_SageOffice2_hns/scripts.inc` | sans texte affiché |
-| `data/maps/EcruteakCity_Theater_hns/scripts.inc` | à traduire |
-| `data/maps/EcruteakCity_hns/scripts.inc` | à traduire |
+| `data/maps/EcruteakCity_Theater_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/EcruteakCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/EmbeddedTower_hns/scripts.inc` | sans texte affiché |
 | `data/maps/FallarborTown_BattleTentBattleRoom_hns/scripts.inc` | sans texte affiché |
 | `data/maps/FallarborTown_BattleTentCorridor_hns/scripts.inc` | sans texte affiché |
 | `data/maps/FallarborTown_BattleTentLobby_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/FarawayIsland_Entrance_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/FarawayIsland_Interior_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/FuchsiaCity_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/FuchsiaCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/FuchsiaCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/FuchsiaCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/FuchsiaCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |
@@ -188,7 +188,7 @@ réelle est donc de 413 fichiers, dont 66 restent à traduire.
 | `data/maps/FuchsiaCity_SafariZoneBeach_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/FuchsiaCity_SafariZoneBrush_hns/scripts.inc` | sans texte affiché |
 | `data/maps/FuchsiaCity_SafariZoneCave_hns/scripts.inc` | sans texte affiché |
-| `data/maps/FuchsiaCity_SafariZoneEntrance_hns/scripts.inc` | à traduire |
+| `data/maps/FuchsiaCity_SafariZoneEntrance_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/FuchsiaCity_SafariZoneMountain_hns/scripts.inc` | sans texte affiché |
 | `data/maps/FuchsiaCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Gate_AzaleaTown_IlexForest_hns/scripts.inc` | traduit, à valider en jeu |
@@ -254,30 +254,30 @@ réelle est donc de 413 fichiers, dont 66 restent à traduire.
 | `data/maps/LakeOfRageLowTide_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/LakeOfRage_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/LakeOfRage_House2_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/LakeOfRage_hns/scripts.inc` | à traduire |
+| `data/maps/LakeOfRage_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/LavenderTown_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/LavenderTown_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/LavenderTown_House3_hns/scripts.inc` | sans texte affiché |
 | `data/maps/LavenderTown_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/LavenderTown_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/LavenderTown_RadioStation_hns/scripts.inc` | à traduire |
+| `data/maps/LavenderTown_RadioStation_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/LavenderTown_SoulHouse_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/LavenderTown_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/LilycoveCity_ContestHall_hns/scripts.inc` | à traduire |
-| `data/maps/LilycoveCity_ContestLobby_hns/scripts.inc` | à traduire |
-| `data/maps/MahoganyTown_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/LilycoveCity_ContestHall_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/LilycoveCity_ContestLobby_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/MahoganyTown_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/MahoganyTown_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/MahoganyTown_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/MahoganyTown_Shop_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/Mahoganytown_hns/scripts.inc` | à traduire |
-| `data/maps/MelemeleIsle_hns/scripts.inc` | à traduire |
+| `data/maps/Mahoganytown_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/MelemeleIsle_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Melemele_House_2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Melemele_House_3_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Melemele_House_4_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Melemele_House_5_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Melemele_House_6_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Melemele_House_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/Melemele_PlayerHouse_hns/scripts.inc` | à traduire |
+| `data/maps/Melemele_PlayerHouse_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/MtMoon_Cave_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/MtMoon_Outside_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/MtMoon_Shop_hns/scripts.inc` | traduit, à valider en jeu |
@@ -304,23 +304,23 @@ réelle est donc de 413 fichiers, dont 66 restent à traduire.
 | `data/maps/NewBarkTown_PlayersHouse_1F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/NewBarkTown_PlayersHouse_2F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/NewBarkTown_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/NewSinjoh_HotSprings_hns/scripts.inc` | à traduire |
+| `data/maps/NewSinjoh_HotSprings_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/NewSinjoh_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/NewSinjoh_House2_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/NewSinjoh_House3_hns/scripts.inc` | à traduire |
+| `data/maps/NewSinjoh_House3_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/NewSinjoh_House4_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/NewSinjoh_KimonoHideout_hns/scripts.inc` | à traduire |
+| `data/maps/NewSinjoh_KimonoHideout_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/NewSinjoh_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/NewSinjoh_hns/scripts.inc` | à traduire |
+| `data/maps/NewSinjoh_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/OlivineCity_Cafe_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/OlivineCity_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/OlivineCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/OlivineCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/OlivineCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/OlivineCity_House3_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/OlivineCity_Lighthouse_hns/scripts.inc` | à traduire |
+| `data/maps/OlivineCity_Lighthouse_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/OlivineCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/OlivineCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/OlivineCity_PortInside_hns/scripts.inc` | à traduire |
+| `data/maps/OlivineCity_PortInside_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/OlivineCity_PortOutside_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/OlivineCity_hns/scripts.inc` | à traduire |
 | `data/maps/PalletTown_House2_hns/scripts.inc` | traduit, à valider en jeu |

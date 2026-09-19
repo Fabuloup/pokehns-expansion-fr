@@ -550,7 +550,7 @@ Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_1:
 	.string "la ressemblance des ÎLES D'ALOLA\l"
 	.string "et la région d'ALOLA.\p"
 	.string "J'étudie surtout le phénomène\n"
-	.string "des "Formes Régionales".$"
+	.string "des Formes Régionales.$"
 
 Alola_Melemele_SamsonOakVillaIntro_Trigger_Text_2:
 	.string "Tu sembles très compétent.\p"

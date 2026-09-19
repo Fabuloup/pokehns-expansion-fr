@@ -67,42 +67,42 @@ BlackthornCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 BlackthornCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
-	.string "Uh…\n"
-	.string "Oh, yes, I'm the MOVE DELETER.\p"
-	.string "I can make POKéMON forget their moves.\p"
-	.string "Would you like me to do that?$"
+	.string "Hum… Ah, oui, je suis l'EFFACEUR\n"
+	.string "DE CAPACITES. Je fais oublier\p"
+	.string "leurs capacités aux POKéMON.\p"
+	.string "Tu veux que je le fasse?$"
 
 BlackthornCity_MoveDeletersHouse_Text_WhichMonShouldForget:
-	.string "Which POKéMON should forget a move?$"
+	.string "Quel POKéMON doit oublier ça?$"
 
 BlackthornCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
-	.string "Which move should be forgotten?$"
+	.string "Oublier quelle capacité?$"
 
 BlackthornCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
-	.string "{STR_VAR_1} knows only one move\n"
-	.string "so it can't be forgotten…$"
+	.string "{STR_VAR_1} ne connaît qu'une capacité\n"
+	.string "et ne peut donc pas l'oublier…$"
 
 BlackthornCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
-	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
-	.string "That move should be forgotten?$"
+	.string "Hum! {STR_VAR_1} et sa capacité\n"
+	.string "{STR_VAR_2}? Il faut l'oublier?$"
 
 BlackthornCity_MoveDeletersHouse_Text_MonHasForgottenMove:
-	.string "It worked to perfection!\p"
-	.string "{STR_VAR_1} has forgotten\n"
-	.string "{STR_VAR_2} completely.$"
+	.string "C'est une réussite parfaite!\p"
+	.string "{STR_VAR_1} a complètement oublié\n"
+	.string "{STR_VAR_2}.$"
 
 BlackthornCity_MoveDeletersHouse_Text_ComeAgain:
-	.string "Come again if there are moves that\n"
-	.string "need to be forgotten.$"
+	.string "Reviens si d'autres capacités\n"
+	.string "doivent être oubliées.$"
 
 BlackthornCity_MoveDeletersHouse_Text_EggCantForgetMoves:
-	.string "What?\n"
-	.string "No EGG should know any moves.$"
+	.string "Quoi? Les OEUFS ne\n"
+	.string "connaissent pas de capacité.$"
 
 BlackthornCity_MoveDeletersHouse_Text_CantForgetSurf:
-	.string "Hm!\p"
-	.string "Your {STR_VAR_1} doesn't seem willing\n"
-	.string "to forget SURF.$"
+	.string "Hum!\p"
+	.string "Ton {STR_VAR_1} ne semble pas vouloir\n"
+	.string "oublier SURF.$"
 
 BlackthornCity_MoveRelearnersHouse_EventScript_MoveRelearner::
 	lockall
@@ -170,46 +170,46 @@ BlackthornCity_MoveRelearnersHouse_EventScript_Randomizer::
 	end
 
 BlackthornCity_MoveRelearnersHouse_Text_SorryCantHelp:
-	.string "Sorry, I can't help you.$"
+	.string "Désolé, je ne peux rien faire.$"
 
 BlackthornCity_MoveRelearnersHouse_Text_ImTheMoveTutor:
-	.string "I'm the MOVE TUTOR.\p"
-	.string "I know all the moves that POKéMON\n"
-	.string "learn--every one of them--and I can\l"
-	.string "teach POKéMON those moves.\p"
-	.string "I can teach a move to a POKéMON\n"
-	.string "of yours if you'd like.\p"
-	.string "I'll do it for a HEART SCALE.\n"
-	.string "I'm collecting those now.$"
+	.string "Je suis le MAÎTRE DES CAPACITÉS.\p"
+	.string "Je connais toutes les capacités\n"
+	.string "apprises par les POKéMON et peux\l"
+	.string "les leur enseigner.\p"
+	.string "Je peux en apprendre une à l'un\n"
+	.string "de tes POKéMON, si tu veux.\p"
+	.string "Il me faut une ÉCAILLE COEUR.\n"
+	.string "Je les collectionne.$"
 
 BlackthornCity_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "Oh! That's it! That's an honest to\n"
-	.string "goodness HEART SCALE!\p"
-	.string "Let me guess, you want me to teach\n"
-	.string "a move?$"
+	.string "Oh! Une véritable ÉCAILLE COEUR!\n"
+	.string "C'est exactement ce qu'il me faut!\p"
+	.string "Laisse-moi deviner: tu veux que\n"
+	.string "j'enseigne une capacité?$"
 
 BlackthornCity_MoveRelearnersHouse_Text_TutorWhichMon:
-	.string "Which POKéMON needs tutoring?$"
+	.string "Quel POKéMON doit être entraîné?$"
 
 BlackthornCity_MoveRelearnersHouse_Text_TeachWhichMove:
-	.string "Which move should I teach?$"
+	.string "Quelle attaque dois-je enseigner?$"
 
 BlackthornCity_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that POKéMON.$"
+	.string "Désolé…\p"
+	.string "Je n'ai rien à enseigner\n"
+	.string "à ce POKéMON.$"
 
 BlackthornCity_MoveRelearnersHouse_Text_HandedOverHeartScale:
-	.string "{PLAYER} handed over one HEART SCALE\n"
-	.string "in exchange.$"
+	.string "{PLAYER} donne une ÉCAILLE COEUR\n"
+	.string "en échange.$"
 
 BlackthornCity_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-	.string "If your POKéMON need to learn a move,\n"
-	.string "come back with a HEART SCALE.$"
+	.string "Si ton POKéMON doit apprendre,\n"
+	.string "reviens avec une ÉCAILLE COEUR.$"
 
 BlackthornCity_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an EGG.$"
+	.string "Quoi? Mais je ne peux pas\n"
+	.string "apprendre une attaque à un OEUF.$"
 
 
 

@@ -11,12 +11,12 @@ Règles de suivi :
 - `validé en jeu` est réservé à une vérification visuelle dans l'émulateur ;
 - les scripts hors cartes et les fichiers hérités de `pokeemerald-expansion` sont suivis dans l'audit transversal lorsqu'ils sont réellement utilisés par H&S.
 
-Progression actuelle : **327 / 413 fichiers à traduire**, dont **0 validé en jeu**.
+Progression actuelle : **347 / 413 fichiers à traduire**, dont **0 validé en jeu**.
 
 Le tableau suit 549 fichiers, mais **136 d'entre eux ne contiennent aucune chaîne
 affichée** : ce sont des scripts purement logiques (couloirs, ascenseurs, warps).
 Ils portent l'état `sans texte affiché` et sont exclus du décompte. La cible
-réelle est donc de 413 fichiers, dont 86 restent à traduire.
+réelle est donc de 413 fichiers, dont 66 restent à traduire.
 
 | Fichier | État |
 |---|---|
@@ -62,23 +62,23 @@ réelle est donc de 413 fichiers, dont 86 restent à traduire.
 | `data/maps/BattleFrontier_BattleTowerMultiCorridor_hns/scripts.inc` | sans texte affiché |
 | `data/maps/BattleFrontier_BattleTowerMultiPartnerRoom_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_ExchangeServiceCorner_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BattleFrontier_Lounge1_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_Lounge2_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_Lounge3_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_Lounge1_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_Lounge2_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_Lounge3_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_Lounge4_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_Lounge5_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_Lounge6_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BattleFrontier_Lounge7_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_Lounge7_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_Lounge8_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_Lounge9_hns/scripts.inc` | sans texte affiché |
 | `data/maps/BattleFrontier_Mart_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BattleFrontier_OutsideEast_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_OutsideWest_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_OutsideEast_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_OutsideWest_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_PokemonCenter_1F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_PokemonCenter_2F_hns/scripts.inc` | sans texte affiché |
 | `data/maps/BattleFrontier_RankingHall_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BattleFrontier_ReceptionGate_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_ScottsHouse_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_ReceptionGate_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_ScottsHouse_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattlePyramidSquare01_hns/scripts.inc` | sans texte affiché |
 | `data/maps/BattlePyramidSquare02_hns/scripts.inc` | sans texte affiché |
 | `data/maps/BattlePyramidSquare03_hns/scripts.inc` | sans texte affiché |
@@ -98,13 +98,13 @@ réelle est donc de 413 fichiers, dont 86 restent à traduire.
 | `data/maps/BellchimeTrail_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BirthIsland_Exterior_hns/scripts.inc` | sans texte affiché |
 | `data/maps/BirthIsland_Harbor_hns/scripts.inc` | sans texte affiché |
-| `data/maps/BlackthornCity_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/BlackthornCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BlackthornCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BlackthornCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BlackthornCity_House3_hns/scripts.inc` | à traduire |
+| `data/maps/BlackthornCity_House3_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BlackthornCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BlackthornCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BlackthornCity_hns/scripts.inc` | à traduire |
+| `data/maps/BlackthornCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BurnedTower_1F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BurnedTower_B1F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeladonCity_Apartments_1F_hns/scripts.inc` | traduit, à valider en jeu |
@@ -121,30 +121,30 @@ réelle est donc de 413 fichiers, dont 86 restent à traduire.
 | `data/maps/CeladonCity_DepartmentStore_RoofDay_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeladonCity_DepartmentStore_RoofNight_hns/scripts.inc` | sans texte affiché |
 | `data/maps/CeladonCity_GameCorner_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/CeladonCity_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/CeladonCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeladonCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeladonCity_House2_hns/scripts.inc` | sans texte affiché |
 | `data/maps/CeladonCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/CeladonCity_hns/scripts.inc` | à traduire |
+| `data/maps/CeladonCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeruleanCave_1F_hns/scripts.inc` | sans texte affiché |
 | `data/maps/CeruleanCave_B1F_hns/scripts.inc` | sans texte affiché |
 | `data/maps/CeruleanCave_B2F_hns/scripts.inc` | sans texte affiché |
 | `data/maps/CeruleanCity_BikeShop_hns/scripts.inc` | sans texte affiché |
-| `data/maps/CeruleanCity_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/CeruleanCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeruleanCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeruleanCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeruleanCity_House3_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeruleanCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CeruleanCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/CeruleanCity_hns/scripts.inc` | à traduire |
+| `data/maps/CeruleanCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CherrygroveCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CherrygroveCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CherrygroveCity_House3_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CherrygroveCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CherrygroveCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CherrygroveCity_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/CianwoodCity_hns/scripts.inc` | à traduire |
-| `data/maps/CianwoodGym_hns/scripts.inc` | à traduire |
+| `data/maps/CianwoodCity_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/CianwoodGym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CianwoodHouse1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CianwoodHouse2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/CianwoodHouse3_hns/scripts.inc` | traduit, à valider en jeu |
@@ -160,10 +160,10 @@ réelle est donc de 413 fichiers, dont 86 restent à traduire.
 | `data/maps/DiglettsCave_EntranceNorth_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/DiglettsCave_EntranceSouth_hns/scripts.inc` | sans texte affiché |
 | `data/maps/DiglettsCave_Tunnel_hns/scripts.inc` | sans texte affiché |
-| `data/maps/DragonsDen_Cavern_hns/scripts.inc` | à traduire |
+| `data/maps/DragonsDen_Cavern_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/DragonsDen_Entrance_hns/scripts.inc` | sans texte affiché |
-| `data/maps/DragonsDen_Shrine_hns/scripts.inc` | à traduire |
-| `data/maps/EcruteakCity_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/DragonsDen_Shrine_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/EcruteakCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/EcruteakCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/EcruteakCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/EcruteakCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |

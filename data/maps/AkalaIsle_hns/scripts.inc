@@ -486,7 +486,7 @@ Alola_Akala_Bench_Heal_Movement_0:
 	step_end
 
 Alola_Akala_BattleSandygast_Text_0:
-	.string "Coorr!$"
+	.string "Bacaaa!$"
 
 AkalaIsle_hns_Movement_FacePlayerUpAfterTotemWarp:
 	face_up
@@ -494,122 +494,134 @@ AkalaIsle_hns_Movement_FacePlayerUpAfterTotemWarp:
 
 
 Alola_Akala_Sign_Text_0:
-	.string "AKALA ISLE$"
+	.string "ÎLE D'AKALA$"
 
 Alola_Akala_House_Sign_Text_0:
-	.string "AKALA VILLA\p"
-	.string "A place for visitors to stay while\n"
-	.string "on AKALA ISLE.$"
+	.string "VILLA AKALA\p"
+	.string "Un lieu où séjournent les\n"
+	.string "visiteurs de l'ÎLE D'AKALA.$"
 
 Alola_Akala_Natu_Text_0:
-	.string "NATU: TUUUUU!$"
+	.string "NATU: Natuuu!$"
 
 Alola_Akala_OldManOnBench_Text_0:
-	.string "Ah the weather is so nice today,\n"
-	.string "isn't it?\p"
-	.string "I was just feeding the NATU and this\n"
-	.string "one decided to join me on my bench!$"
+	.string "Quel temps magnifique aujourd'hui,\n"
+	.string "n'est-ce pas?\p"
+	.string "Je nourrissais les NATU et\n"
+	.string "celui-ci m'a rejoint sur le banc!$"
 
 Alola_Akala_TotemBattle_Text_0:
-	.string "Mortaar!$"
+	.string "Maganooon!$"
 
 Alola_Akala_TotemBattle_Text_1:
-	.string "Totem MAGMORTAR was defeated!\n"
-	.string "It scampered off somewhere…$"
+	.string "Le MAGANON DOMINANT est vaincu! Il\n"
+	.string "s'est enfui quelque part...$"
 
 Alola_Akala_TotemBattle_Text_2:
-	.string "Prrrob!$"
+	.string "Tarinorrrme!$"
 
 Alola_Akala_TotemBattle_Text_3:
-	.string "Totem PROBOPASS was defeated!\n"
-	.string "It scampered off somewhere…$"
+	.string "Le TARINORME DOMINANT est vaincu!\n"
+	.string "Il s'est enfui quelque part...$"
 
 Alola_Akala_Totem_sign_Text_0:
-	.string "The totem is emanating a strong\n"
-	.string "energy…\p"
-	.string "Touch the totem to teleport to another\n"
-	.string "Isle?$"
+	.string "Le totem dégage une puissante\n"
+	.string "énergie...\p"
+	.string "Toucher le totem pour aller sur\n"
+	.string "une autre île?$"
 
 Alola_Akala_Totem_sign_Text_1:
-	.string "MELEMELE ISLE$"
+	.string "ÎLE DE MELE-MELE$"
 
 Alola_Akala_Totem_sign_Text_2:
-	.string "ULA'ULA ISLE$"
+	.string "ÎLE D'ULA-ULA$"
 
 Alola_Akala_Totem_sign_Text_3:
-	.string "PONI ISLE$"
+	.string "ÎLE DE PONI$"
 
 Alola_Akala_Totem_sign_Text_4:
-	.string "CANCEL$"
+	.string "RETOUR$"
 
 Alola_Akala_Totem_sign_Text_5:
-	.string "A strange totem stands here,\n"
-	.string "power is emanating from it…$"
+	.string "Un étrange totem se dresse ici. Il\n"
+	.string "dégage une forte énergie...$"
 
 Alola_Akala_BattleVsTapuLele_Text_0:
-	.string "Le-Lele!$"
+	.string "Tokopiyooon!$"
 
 Alola_Akala_TrainerBattleHiker_Text_0:
-	.string "I came to the ISLES to hike the\nmountains!$"
+	.string "Je suis venu sur les ÎLES pour\n"
+	.string "randonner en montagne!$"
 
 Alola_Akala_TrainerBattleHiker_Text_1:
-	.string "And down I tumble…$"
+	.string "Et me voilà à terre...$"
 
 Alola_Akala_TrainerBattleHiker_Text_2:
-	.string "AKALA ISLE has the best hiking!\n"
-	.string "It's got lush forests and rugged trails!$"
+	.string "AKALA offre les meilleures\n"
+	.string "randonnées! Forêts luxuriantes,\l"
+	.string "sentiers escarpés!$"
 
 Alola_Akala_TrainerBattlePicnicker_Text_0:
-	.string "Ha! Didn't see me, did you?$"
+	.string "Ha! Tu ne m'avais pas vu, hein?$"
 
 Alola_Akala_TrainerBattlePicnicker_Text_1:
-	.string "I guess the element of surprise isn't\nalways super effective…$"
+	.string "L'effet de surprise n'est pas\n"
+	.string "toujours super efficace...$"
 
 Alola_Akala_TrainerBattlePicnicker_Text_2:
-	.string "It's so lush on AKALA ISLE,\n"
-	.string "I can easily hide in the trees!$"
+	.string "AKALA est si luxuriante que je\n"
+	.string "peux facilement me cacher dans les\l"
+	.string "arbres!$"
 
 Alola_Akala_TrainerBattleCamper_Text_0:
-	.string "I want to be the first to prove myself\nto the Totem POKéMON!$"
+	.string "Je veux être le premier à faire\n"
+	.string "mes preuves face au POKéMON\l"
+	.string "DOMINANT!$"
 
 Alola_Akala_TrainerBattleCamper_Text_1:
-	.string "Drat,\nthat's not going to help my case.$"
+	.string "Zut... Ça ne va pas arranger mon\n"
+	.string "cas.$"
 
 Alola_Akala_TrainerBattleCamper_Text_2:
-	.string "There's a weird Totem further ahead but\n"
-	.string "I haven't seen a Totem POKéMON.$"
+	.string "Il y a un étrange totem plus loin,\n"
+	.string "mais aucun POKéMON DOMINANT.$"
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_0:
-	.string "Hey! No shoes on the beach!$"
+	.string "Hé! Pas de chaussures sur la\n"
+	.string "plage!$"
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_1:
-	.string "Ouch,\nwhere's a lifeguard when you need one…$"
+	.string "Aïe... Où est le maître-nageur?$"
 
 Alola_Akala_TrainerBattleSwimmerLand_Text_2:
-	.string "AKALA ISLE has the best beaches!\n"
-	.string "It's got soft sand and clear waters!$"
+	.string "AKALA a les plus belles plages!\n"
+	.string "Sable doux et eau cristalline!$"
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_0:
-	.string "Out of my way!\nI'm swimming laps!$"
+	.string "Hors de mon chemin! Je fais des\n"
+	.string "longueurs!$"
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_1:
-	.string "Not the break I was looking for…$"
+	.string "Ce n'est pas la pause espérée...$"
 
 Alola_Akala_TrainerBattleSwimmerWater_Text_2:
-	.string "ULA'ULA ISLE has the best beaches!\n"
-	.string "Ignore anyone who says otherwise!$"
+	.string "ULA-ULA a les plus belles plages!\n"
+	.string "N'écoute pas ceux qui disent le\l"
+	.string "contraire!$"
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_0:
-	.string "Hah!\nYou need to ride a POKéMON to surf?$"
+	.string "Ha! Tu dois monter un POKéMON pour\n"
+	.string "surfer?$"
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_1:
-	.string "If I hadn't swam myself\nmaybe I would've had the energy to win…$"
+	.string "Sans avoir nagé jusqu'ici,\n"
+	.string "j'aurais peut-être eu l'énergie de\l"
+	.string "gagner...$"
 
 Alola_Akala_TrainerBattleSwimmerWaterM_Text_2:
-	.string "The current out here is strong!\n"
-	.string "A POKéMON must be really powerful to\l"
-	.string "migrate all the way out to the ISLES!$"
+	.string "Le courant est puissant ici! Il\n"
+	.string "faut un POKéMON très fort pour\l"
+	.string "migrer jusqu'aux ÎLES!$"
 
 Alola_Akala_Bench_Heal_Text_0:
-	.string "Would you like to take a rest on this\n"
-	.string "bench?$"
+	.string "Veux-tu te reposer sur ce banc?$"

@@ -11,16 +11,16 @@ Règles de suivi :
 - `validé en jeu` est réservé à une vérification visuelle dans l'émulateur ;
 - les scripts hors cartes et les fichiers hérités de `pokeemerald-expansion` sont suivis dans l'audit transversal lorsqu'ils sont réellement utilisés par H&S.
 
-Progression actuelle : **307 / 413 fichiers à traduire**, dont **0 validé en jeu**.
+Progression actuelle : **327 / 413 fichiers à traduire**, dont **0 validé en jeu**.
 
 Le tableau suit 549 fichiers, mais **136 d'entre eux ne contiennent aucune chaîne
 affichée** : ce sont des scripts purement logiques (couloirs, ascenseurs, warps).
 Ils portent l'état `sans texte affiché` et sont exclus du décompte. La cible
-réelle est donc de 413 fichiers, dont 106 restent à traduire.
+réelle est donc de 413 fichiers, dont 86 restent à traduire.
 
 | Fichier | État |
 |---|---|
-| `data/maps/AkalaIsle_hns/scripts.inc` | à traduire |
+| `data/maps/AkalaIsle_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Akala_Cave_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Akala_Forest_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Akala_House_hns/scripts.inc` | traduit, à valider en jeu |
@@ -32,35 +32,35 @@ réelle est donc de 413 fichiers, dont 106 restent à traduire.
 | `data/maps/AzaleaTown_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/AzaleaTown_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleColosseum_2P_hns/scripts.inc` | sans texte affiché |
-| `data/maps/BattleFrontier_BattleArenaBattleRoom_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_BattleArenaBattleRoom_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_BattleArenaCorridor_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BattleFrontier_BattleArenaLobby_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattleDomeBattleRoom_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_BattleArenaLobby_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattleDomeBattleRoom_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_BattleDomeCorridor_hns/scripts.inc` | sans texte affiché |
-| `data/maps/BattleFrontier_BattleDomeLobby_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattleDomePreBattleRoom_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattleFactoryBattleRoom_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattleFactoryLobby_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattleFactoryPreBattleRoom_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattlePalaceBattleRoom_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_BattleDomeLobby_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattleDomePreBattleRoom_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattleFactoryBattleRoom_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattleFactoryLobby_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattleFactoryPreBattleRoom_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattlePalaceBattleRoom_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_BattlePalaceCorridor_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BattleFrontier_BattlePalaceLobby_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_BattlePalaceLobby_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_BattlePikeCorridor_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BattleFrontier_BattlePikeLobby_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_BattlePikeLobby_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_BattlePikeRoomFinal_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/BattleFrontier_BattlePikeRoomNormal_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_BattlePikeRoomNormal_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_BattlePikeRoomWildMons_hns/scripts.inc` | sans texte affiché |
-| `data/maps/BattleFrontier_BattlePikeThreePathRoom_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattlePyramidFloor_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattlePyramidLobby_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattlePyramidTop_hns/scripts.inc` | à traduire |
-| `data/maps/BattleFrontier_BattleTowerBattleRoom_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_BattlePikeThreePathRoom_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattlePyramidFloor_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattlePyramidLobby_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattlePyramidTop_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/BattleFrontier_BattleTowerBattleRoom_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_BattleTowerCorridor_hns/scripts.inc` | sans texte affiché |
 | `data/maps/BattleFrontier_BattleTowerElevator_hns/scripts.inc` | sans texte affiché |
-| `data/maps/BattleFrontier_BattleTowerLobby_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_BattleTowerLobby_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_BattleTowerMultiBattleRoom_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_BattleTowerMultiCorridor_hns/scripts.inc` | sans texte affiché |
-| `data/maps/BattleFrontier_BattleTowerMultiPartnerRoom_hns/scripts.inc` | à traduire |
+| `data/maps/BattleFrontier_BattleTowerMultiPartnerRoom_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_ExchangeServiceCorner_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/BattleFrontier_Lounge1_hns/scripts.inc` | à traduire |
 | `data/maps/BattleFrontier_Lounge2_hns/scripts.inc` | à traduire |

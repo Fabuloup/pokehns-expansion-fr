@@ -484,146 +484,141 @@ BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter_hns:
 	step_end
 
 BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward_hns:
-	.string "REFEREE: TRAINER {PLAYER}!\n"
-	.string "Step forward, please!$"
+	.string "ARBITRE: DRESSEUR {PLAYER}! Avancez, je\n"
+	.string "vous prie!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward_hns:
-	.string "REFEREE: TRAINER {STR_VAR_1}!\n"
-	.string "Step forward, please!$"
+	.string "ARBITRE: DRESSEUR {STR_VAR_1}! Avancez, je\n"
+	.string "vous prie!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin_hns:
-	.string "REFEREE: Set KO Tourney!\n"
-	.string "Begin!$"
+	.string "ARBITRE: Allez-y!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer_hns:
-	.string "REFEREE: The winner is {PLAYER}!$"
+	.string "ARBITRE: Le vainqueur est {PLAYER}!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent_hns:
-	.string "REFEREE: The winner is {STR_VAR_1}!$"
+	.string "ARBITRE: Le vainqueur est {STR_VAR_1}!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored_hns:
-	.string "Your POKéMON will be restored to\n"
-	.string "full health.$"
+	.string "Je vais soigner vos POKéMON.$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent_hns:
-	.string "Next up, your second opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "Votre deuxième adversaire est\n"
+	.string "prêt! On continue?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent_hns:
-	.string "Next up, your third opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "Votre troisième adversaire est\n"
+	.string "prêt! On continue?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent_hns:
-	.string "Next up, your fourth opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "Votre quatrième adversaire est\n"
+	.string "prêt! On continue?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent_hns:
-	.string "Next up, your fifth opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "Votre cinquième adversaire est\n"
+	.string "prêt! On continue?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent_hns:
-	.string "Next up, your sixth opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "Votre sixième adversaire est prêt!\n"
+	.string "On continue?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent_hns:
-	.string "Next up, your seventh opponent!\n"
-	.string "Are you ready to move on?$"
+	.string "Votre septième adversaire est\n"
+	.string "prêt! On continue?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown_hns:
-	.string "Would you like to save the game and\n"
-	.string "shut down now?$"
+	.string "Voulez-vous sauvegarder la partie\n"
+	.string "et arrêter de jouer?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge_hns:
-	.string "Would you like to retire from your\n"
-	.string "Set KO Tourney challenge?$"
+	.string "Voulez-vous abandonner ce TOURNOI\n"
+	.string "K.O.?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait_hns:
-	.string "I am saving your game data.\n"
-	.string "Please wait.$"
+	.string "Je sauvegarde vos données.\n"
+	.string "Veuillez patienter.$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle_hns:
-	.string "Would you like to record your last\n"
-	.string "battle on your FRONTIER PASS?$"
+	.string "Voulez-vous enregistrer votre\n"
+	.string "dernier combat sur votre PASSE\l"
+	.string "ZONE?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon_hns:
-	.string "My dear challenger!\p"
-	.string "Your skill level is truly astounding!\p"
-	.string "We now would like you to face our\n"
-	.string "leader, the ARENA TYCOON!$"
+	.string "Cher DRESSEUR, votre technique est\n"
+	.string "vraiment stupéfiante!\p"
+	.string "Nous aimerions que vous affrontiez\n"
+	.string "notre chef, la PRO DU DOJO!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon_hns:
-	.string "A battle with the ARENA TYCOON!\n"
-	.string "Are you prepared?$"
+	.string "Un combat contre la PRO DU DOJO!\n"
+	.string "On peut commencer?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta_hns:
-	.string "REFEREE: The ARENA TYCOON!\n"
-	.string "Make way for GRETA!$"
+	.string "ARBITRE: Voici la PRO DU DOJO!\n"
+	.string "Faites place à CAROLE!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger_hns:
-	.string "GRETA: Hey!\n"
-	.string "Howdy!\p"
-	.string "…Wait, are you the challenger?$"
+	.string "CAROLE: Hé! Salut!\p"
+	.string "Attends… Je dois me battre contre\n"
+	.string "toi?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight_hns:
-	.string "Is that right? Hmm…\n"
-	.string "Hmhm…$"
+	.string "Sérieusement? Hum…$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy_hns:
-	.string "I don't know how to say it, but…\n"
-	.string "To put it bluntly, you look pretty weak.\l"
-	.string "Are you sure you're up for me?\p"
-	.string "Hmm…\p"
-	.string "Well, all right!\n"
-	.string "We'll take things easy to start with!$"
+	.string "Je ne veux pas te vexer, mais… Tu\n"
+	.string "as l'air plutôt faible. Tu penses\l"
+	.string "être à la hauteur?\p"
+	.string "Hum, hum…\p"
+	.string "Très bien! On va commencer en\n"
+	.string "douceur!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle_hns:
-	.string "Okay! Let's see you ignite my passion\n"
-	.string "for battle!$"
+	.string "Allez! Tu me donnes envie de me\n"
+	.string "battre!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll_hns:
-	.string "GRETA: Ow, wait a second!\n"
-	.string "You are tough after all!\p"
-	.string "I like you!\n"
-	.string "Let's see your FRONTIER PASS.$"
+	.string "CAROLE: Attends! Mais tu n'es pas\n"
+	.string "si faible que ça!\p"
+	.string "Je t'aime bien, tiens! Montre-moi\n"
+	.string "ton PASSE ZONE.$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol_hns:
-	.string "The Guts Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "Le SYMBOLE CRAN a été ajouté sur\n"
+	.string "le PASSE ZONE!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime_hns:
-	.string "Hmm…\p"
-	.string "It's going to be fun the next time!\n"
-	.string "I'm looking forward to it!$"
+	.string "Hum…\p"
+	.string "On s'amusera bien la prochaine\n"
+	.string "fois! J'ai hâte!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain_hns:
-	.string "GRETA: Hey! Howdy!\n"
-	.string "You finally won your way up to me!\p"
-	.string "I was getting worried waiting for you!\n"
-	.string "I was really looking forward to seeing\l"
-	.string "you again!$"
+	.string "CAROLE: Hé! Salut! Te revoilà\n"
+	.string "enfin!\p"
+	.string "Je commençais à m'inquiéter! Je\n"
+	.string "pensais que tu m'avais oubliée!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady_hns:
-	.string "… … …\n"
-	.string "So, are you ready?$"
+	.string "… … … Bon, on y va?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort_hns:
-	.string "I won't allow a halfhearted effort!\n"
-	.string "Be ready for a thrashing!$"
+	.string "Je ne te ferai pas de cadeau!\n"
+	.string "Surveille tes arrières!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted_hns:
-	.string "Come on, REFEREE!\n"
-	.string "Let's get this started!$"
+	.string "Oh, l'ARBITRE, on le commence, ce\n"
+	.string "combat!?!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway_hns:
-	.string "GRETA: Gaaah! Blown away!\n"
-	.string "Let's see your FRONTIER PASS!$"
+	.string "CAROLE: Ahhh! Ecrasée! Donne-moi\n"
+	.string "ton PASSE ZONE!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine_hns:
-	.string "The Guts Symbol took on\n"
-	.string "a golden shine!$"
+	.string "Le SYMBOLE CRAN a pris une belle\n"
+	.string "couleur dorée!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose_hns:
-	.string "Arrrgh!\n"
-	.string "This is so infuriating!\p"
-	.string "If we ever battle again, I won't lose!\n"
-	.string "Don't you forget it! Bye-bye!$"
+	.string "Ahhhh! Ce que c'est rageant!\p"
+	.string "La prochaine fois, je gagnerai! Ça\n"
+	.string "je peux te l'assurer!$"

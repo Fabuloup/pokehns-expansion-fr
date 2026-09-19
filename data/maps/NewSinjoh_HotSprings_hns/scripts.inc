@@ -37,33 +37,33 @@ NewSinjoh_HotSprings_EventScript_MualaniAfter::
 	end
 
 NewSinjoh_HotSprings_Text_MualaniBefore:
-	.string "Am I a local or a visitor?\n"
-    .string "What a rude question!\p"
-    .string "If you must know, I'm a local.\p"
-    .string "My family was among the first to\n"
-    .string "enjoy these springs.\p"
-    .string "See, I even have this SPLASH PLATE\n"
-    .string "to prove it.$"
+	.string "Je suis d'ici ou en visite?\n"
+	.string "Quelle question impolie!\p"
+	.string "Pour tout te dire, je suis d'ici.\p"
+	.string "Ma famille fut la première à\n"
+	.string "profiter de ces sources.\p"
+	.string "J'ai même cette PLAQUE HYDRO\n"
+	.string "pour le prouver.$"
 
 NewSinjoh_HotSprings_Text_MualaniBeforeBattle:
-	.string "Wait...\p"
-	.string "You need the SPLASH PLATE\n"
-	.string "to tame the legendary POKéMON?\p"
-	.string "If the KIMONO GIRLS think you\n"
-	.string "are worthy, then so do I.\p"
-	.string "But you'll still need to earn\n"
-	.string "it.$"
+	.string "Attends…\p"
+	.string "Il te faut la PLAQUE HYDRO\n"
+	.string "pour dompter le POKéMON ancien?\p"
+	.string "Si les FILLES KIMONO te jugent\n"
+	.string "digne, moi aussi.\p"
+	.string "Mais tu devras tout de même\n"
+	.string "la mériter.$"
 
 NewSinjoh_HotSprings_Text_MualaniDefeat:
-	.string "Well earned.$"
+	.string "Tu l'as méritée.$"
 
 NewSinjoh_HotSprings_Text_MualaniAfter:
-	.string "It is hard for me to let that\n"
-	.string "plate go.\p"
-	.string "But when the situation changes,\n"
-	.string "it is important for us to change\l"
-	.string "too.\p"
-	.string "The plate is yours.$"
+	.string "Il est dur de laisser partir\n"
+	.string "cette plaque.\p"
+	.string "Mais quand la situation change,\n"
+	.string "nous devons savoir changer\l"
+	.string "aussi.\p"
+	.string "La plaque est à toi.$"
 
 
 NewSinjoh_HotSprings_EventScript_Sign1::
@@ -71,33 +71,33 @@ NewSinjoh_HotSprings_EventScript_Sign1::
     end
 
 NewSinjoh_HotSprings_Text_Sign1:
-    .string "NEW SINJOH\n"
-    .string "HOT SPRINGS$"
+	.string "NOUVEAU SINJOH\n"
+	.string "SOURCES CHAUDES$"
 
 NewSinjoh_HotSprings_EventScript_Sign2::
     msgbox NewSinjoh_HotSprings_Text_Sign2, MSGBOX_SIGN
     end
 
 NewSinjoh_HotSprings_Text_Sign2:
-    .string "DANGER\n"
-    .string "WILD HIBERNATION DEN$"
+	.string "DANGER\n"
+	.string "TANIÈRE SAUVAGE D'HIBERNATION$"
 
 NewSinjoh_HotSprings_EventScript_SkierF::
     msgbox NewSinjoh_HotSprings_Text_SkierF, MSGBOX_NPC
     end
 
 NewSinjoh_HotSprings_Text_SkierF:
-	.string "I hate the cold!\p"
-    .string "I'm just here for the hot springs!$"
+	.string "Je déteste le froid!\p"
+	.string "Je viens juste pour les sources!$"
 
 NewSinjoh_HotSprings_EventScript_SkierM::
     msgbox NewSinjoh_HotSprings_Text_SkierM, MSGBOX_NPC
     end
 
 NewSinjoh_HotSprings_Text_SkierM:
-	.string "I came here to snowboard\n"
-    .string "but all my girlfriend wants to do\l"
-    .string "is sit in the springs all day!$"
+	.string "Je suis venu faire du snowboard,\n"
+	.string "mais ma copine veut seulement\l"
+	.string "rester aux sources sans arrêt!$"
 
 
 NewSinjoh_HotSprings_EventScript_OldLady::
@@ -105,18 +105,18 @@ NewSinjoh_HotSprings_EventScript_OldLady::
     end
 
 NewSinjoh_HotSprings_Text_OldLady:
-	.string "Ignore my husband.\p"
-    .string "Let your worries melt away.$"
+	.string "Ignore mon mari.\p"
+	.string "Laisse tes soucis fondre.$"
 
 NewSinjoh_HotSprings_EventScript_CreepyMan::
 	msgbox NewSinjoh_HotSprings_Text_CreepyMan, MSGBOX_NPC
 	end
 
 NewSinjoh_HotSprings_Text_CreepyMan:
-	.string "Ouughh...\p"
-	.string "This water feels magical on my back.\p"
-	.string "If you have back pain too,\n"
-	.string "you should stay here with me...$"
+	.string "Ouuugh…\p"
+	.string "Cette eau apaise vraiment mon dos.\p"
+	.string "Si tu as mal au dos aussi,\n"
+	.string "reste donc ici avec moi…$"
 
 NewSinjoh_HotSprings_EventScript_PLATutor::
 	lock
@@ -239,72 +239,72 @@ NewSinjoh_HotSprings_EventScript_PLATutorDecline::
 	end
 
 NewSinjoh_HotSprings_Text_PLATutorIntro:
-	.string "The ancient power flows\n"
-	.string "through these springs.\p"
-	.string "I can teach your POKeMON moves\n"
-	.string "from a forgotten age.\p"
-	.string "Interested?$"
+	.string "Un pouvoir ancestral coule\n"
+	.string "dans ces sources.\p"
+	.string "J'enseigne à tes POKéMON des\n"
+	.string "capacités d'un âge oublié.\p"
+	.string "Ça t'intéresse?$"
 
 NewSinjoh_HotSprings_Text_PLATutorChoose:
-	.string "Which move would you like?$"
+	.string "Quelle capacité veux-tu?$"
 
 NewSinjoh_HotSprings_Text_PLATutorConfirm:
-	.string "You'd like to learn {STR_VAR_1}?$"
+	.string "Tu veux apprendre {STR_VAR_1}?$"
 
 NewSinjoh_HotSprings_Text_PLATutorWhichMon:
-	.string "Which POKeMON should learn it?$"
+	.string "Quel POKéMON doit l'apprendre?$"
 
 NewSinjoh_HotSprings_Text_PLATutorDone:
-	.string "Done! Your POKeMON has mastered\n"
-	.string "the ancient technique.$"
+	.string "Voilà! Ton POKéMON maîtrise\n"
+	.string "la technique ancestrale.$"
 
 NewSinjoh_HotSprings_Text_PLATutorComeBack:
-	.string "Come back anytime.$"
+	.string "Reviens quand tu veux.$"
 
 NewSinjoh_HotSprings_Text_PLAMove_VictoryDance:
-	.string "VICTORY DANCE$"
+	.string "DANSE VICTOIRE$"
 
 NewSinjoh_HotSprings_Text_PLAMove_MountainGale:
-	.string "MOUNTAIN GALE$"
+	.string "BISE GLACIAIRE$"
 
 NewSinjoh_HotSprings_Text_PLAMove_BitterMalice:
-	.string "BITTER MALICE$"
+	.string "CŒUR DE RANCŒUR$"
 
 NewSinjoh_HotSprings_Text_PLAMove_SpringtideStorm:
-	.string "SPRINGTIDE STORM$"
+	.string "TYPHON PASSIONNÉ$"
 
 NewSinjoh_HotSprings_Text_PLAMove_LunarBlessing:
-	.string "LUNAR BLESSING$"
+	.string "PRIÈRE LUNAIRE$"
 
 NewSinjoh_HotSprings_Text_PLAMove_BleakwindStorm:
-	.string "BLEAKWIND STORM$"
+	.string "TYPHON HIVERNAL$"
 
 NewSinjoh_HotSprings_Text_PLAMove_WildboltStorm:
-	.string "WILDBOLT STORM$"
+	.string "TYPHON FULGURANT$"
 
 NewSinjoh_HotSprings_Text_PLAMove_SandsearStorm:
-	.string "SANDSEAR STORM$"
+	.string "TYPHON PYROSABLE$"
 
 NewSinjoh_HotSprings_Text_PLAMove_Shelter:
-	.string "SHELTER$"
+	.string "MUR FUMIGÈNE$"
 
 NewSinjoh_HotSprings_Text_PLAMove_EsperWing:
-	.string "ESPER WING$"
+	.string "AILES PSYCHO$"
 
 NewSinjoh_HotSprings_Text_PLAMove_TakeHeart:
-	.string "TAKE HEART$"
+	.string "EXTRAVAILLANCE$"
 
 NewSinjoh_HotSprings_Text_PLAMove_MysticalPower:
-	.string "MYSTICAL POWER$"
+	.string "FORCE MYSTIQUE$"
 
 NewSinjoh_HotSprings_Text_PLAMove_WaveCrash:
-	.string "WAVE CRASH$"
+	.string "AQUATACLE$"
 
 NewSinjoh_HotSprings_Text_PLAMove_PowerShift:
-	.string "POWER SHIFT$"
+	.string "ÉCHANGE FORCE$"
 
 NewSinjoh_HotSprings_Text_PLAMove_Cancel:
-	.string "CANCEL$"
+	.string "ANNULER$"
 
 
 NewSinjoh_HotSprings_EventScript_ActivateArcanine::

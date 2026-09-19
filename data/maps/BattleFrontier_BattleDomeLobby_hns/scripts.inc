@@ -682,7 +682,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules_hns:
 
 BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree_hns:
 	.string "Dans la salle d'attente, le guide\n"
-	.string "vous donne accès au «TABLEAU».\p"
+	.string "vous donne accès au TABLEAU.\p"
 	.string "Ce tableau des rencontres contient\n"
 	.string "différentes informations.\p"
 	.string "Vous pouvez y consulter les\n"

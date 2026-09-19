@@ -560,7 +560,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid_hns:
 	.string "objets placés dans le SAC DE\l"
 	.string "COMBAT.\p"
 	.string "Si vous voulez interrompre le\n"
-	.string "défi, sélectionnez «REPOS» et\l"
+	.string "défi, sélectionnez REPOS et\l"
 	.string "sauvegardez la partie.\p"
 	.string "Assurez-vous de bien sauvegarder,\n"
 	.string "ou vous ne pourrez pas reprendre\l"

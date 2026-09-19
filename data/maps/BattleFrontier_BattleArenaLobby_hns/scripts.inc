@@ -540,14 +540,14 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules_hns:
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules_hns:
 	.string "Le premier critère de jugement est\n"
-	.string "le «mental». C'est l'agressivité\l"
+	.string "le mental. C'est l'agressivité\l"
 	.string "des concurrents.\p"
 	.string "Cela dépend du nombre de capacités\n"
 	.string "offensives qui ont été utilisées.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules_hns:
 	.string "Le second critère de jugement est\n"
-	.string "la «technique». C'est l'efficacité\l"
+	.string "la technique. C'est l'efficacité\l"
 	.string "avec laquelle les POKéMON\l"
 	.string "utilisent leurs capacités.\p"
 	.string "Si une capacité est réussie, le\n"
@@ -556,9 +556,9 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules_hns:
 	.string "niveau de technique diminue.\p"
 	.string "Pour une capacité offensive, le\n"
 	.string "niveau de technique augmente si la\l"
-	.string "capacité est «super efficace» et\l"
-	.string "diminue si elle n'est «pas très\l"
-	.string "efficace».\p"
+	.string "capacité est super efficace et\l"
+	.string "diminue si elle n'est pas très\l"
+	.string "efficace.\p"
 	.string "Les capacités telles qu'ABRI et\n"
 	.string "DETECTION ne comptent pas.\p"
 	.string "Si l'adversaire a utilisé ABRI ou\n"
@@ -569,7 +569,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules_hns:
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules_hns:
 	.string "Le troisième critère de jugement\n"
-	.string "est le «physique». Il dépend du\l"
+	.string "est le physique. Il dépend du\l"
 	.string "nombre de PV restant à la fin du\l"
 	.string "combat.\p"
 	.string "Cela prend en compte les PV que le\n"

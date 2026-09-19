@@ -643,8 +643,8 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow_hns:
 	.string "attendre!\p"
 	.string "J'ai un message pour vous du\n"
 	.string "patron, le CHEF D'USINE.\p"
-	.string "Il dit: «Nous allons nous battre!\n"
-	.string "Viens ici tout de suite!»$"
+	.string "Il dit: Nous allons nous battre!\n"
+	.string "Viens ici tout de suite!$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead_hns:
 	.string "Le CHEF D'USINE veut se battre\n"

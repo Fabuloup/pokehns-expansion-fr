@@ -78,11 +78,13 @@ de script hors chaînes, si un asset est ajouté, ou en préparation d'un jalon
 de test.
 
 ÉTATS DE SUIVI
-à traduire — traduit, à valider en jeu — validé en jeu — sans texte affiché —
+à traduire — traduit, à valider en jeu — validé en jeu — sans chaîne locale à traduire —
 bloqué (avec raison). Tant qu'aucun test sur émulateur n'a eu lieu, l'état
 maximal est « traduit, à valider en jeu » : « validé en jeu » est interdit.
-Les fichiers « sans texte affiché » ne contiennent aucune chaîne affichable et
-sont exclus du décompte : ne pas les traiter comme du travail restant.
+Les fichiers « sans chaîne locale à traduire » ne contiennent aucune définition de texte
+locale. Ils peuvent appeler un texte ou une interface partagée : cela relève de l'audit
+transversal. Ils sont exclus du décompte par carte : ne pas les traiter comme du travail
+restant sans vérifier leurs appels externes.
 
 SÉCURITÉ GIT
 Travaille uniquement sur fr/main. Jamais de force-push, jamais de réécriture de

@@ -54,8 +54,9 @@ fichier. C'est la seule source d'avancement du projet : ne pas en tenir un secon
 - `traduit, à valider en jeu` : les sources françaises sont en place et les
   contrôles automatiques passent, mais le texte n'a pas encore été vu en jeu ;
 - `validé en jeu` : le texte a été vérifié visuellement pendant une partie ;
-- `sans texte affiché` : le fichier ne contient aucune chaîne affichable et
-  n'a donc rien à traduire. Il est exclu du décompte de progression ;
+- `sans chaîne locale à traduire` : le fichier ne contient aucune définition de texte
+  locale. Il peut néanmoins appeler un texte ou une interface partagée, suivis dans
+  l'audit transversal. Il est exclu du décompte de progression ;
 - `bloqué` : accompagné d'une explication.
 
 Aucun fichier ne peut passer à `validé en jeu` sans test sur émulateur. Tant que

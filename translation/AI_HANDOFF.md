@@ -165,6 +165,20 @@ les données de dresseurs, cibler par identifiant et non par valeur affichée :
 `TRAINER_PROTON_*` porte légitimement `Name: LANCE`, alors que `TRAINER_LANCE_*`
 doit porter `PETER`. Un remplacement global aurait renommé les deux.
 
+**Dans un fichier `.c`, `_()` ne suffit pas pour un tableau de pointeurs.** Un
+tableau déclaré `const u8 *const x[]` doit être initialisé avec
+`COMPOUND_STRING("...")`, jamais avec `_("...")` :
+
+```c
+#define COMPOUND_STRING(str) (const u8[]) _(str)
+```
+
+`_()` seul ne produit qu'une liste d'octets. Le compilateur sort alors
+`braces around scalar initializer` et `excess elements in scalar initializer`,
+autant de fois qu'il y a d'éléments — ce qui a cassé la CI le 20/09/2026 avec
+180 erreurs sur `src/battle_tent.c`. Vérifier aussi que les constantes employées
+sont incluses : `FRONTIER_FACILITY_*` vient de `constants/battle_frontier.h`.
+
 ## Chantiers ouverts
 
 Ces points sont connus et non traités. Les garder en tête avant d'annoncer une
@@ -179,9 +193,32 @@ zone comme terminée.
   `Frontier Brains`. Ils sont recensés dans GLOSSARY.md.
 - **Aucun fichier n'a été validé en jeu.** Le compteur « validé en jeu » est à 0
   et doit le rester tant qu'aucun test sur émulateur n'a eu lieu.
+- **SCRIPT_STATUS.md ne couvre qu'une partie du jeu.** Il annonce
+  « 423 / 423 fichiers traduits », ce qui est exact mais ne porte que sur les
+  549 scripts de cartes `data/maps/*_hns`. Environ **8 100 chaînes anglaises**
+  subsistent ailleurs, et ne sont suivies nulle part :
+
+  | Emplacement | Anglais restant | Principaux fichiers |
+  |---|---|---|
+  | `data/text/` | ~6 715 | `trainers.inc`, `match_call.inc`, `match_call_hns.inc`, `tv.inc`, `apprentice.inc` |
+  | `data/scripts/` | ~1 150 | |
+  | `src/data/text/` | ~233 | `radio_strings.h`, `match_call_messages.h`, `follower_messages.h`, `ribbon_descriptions.h` |
+
+  Ne jamais conclure du compteur que le jeu est prêt à être testé.
+
+- **Deux reliquats dans les cartes** : `LittlerootTown` (74 chaînes, seule carte
+  héritée réellement atteignable encore en anglais) et quelques lignes dans
+  `RuinsOfAlph_Outside_hns`.
+
+- **Ne pas traduire les autres cartes non-`_hns`.** Hoenn, `PetalburgCity_Gym`
+  et environ 594 autres cartes totalisant 24 669 chaînes sont du contenu mort,
+  hérité du moteur et inatteignable depuis Heart & Soul. Avant de traduire une
+  carte non-`_hns`, vérifier qu'elle est citée dans un warp depuis une carte
+  `_hns` :
+  `grep -rhoE 'MAP_[A-Z0-9_]+' data/maps/*_hns/*.inc data/maps/*_hns/*.json | sort -u`
+
 - **L'audit transversal reste à faire** : interfaces, menus, aides de touches,
-  écrans de combat, textes globaux, scripts hérités de pokeemerald-expansion
-  réellement utilisés, et textes intégrés aux images. Suivre des fichiers `_hns`
+  écrans de combat et textes intégrés aux images. Suivre des fichiers `_hns`
   n'en dispense pas.
 
 ## État attendu du dépôt

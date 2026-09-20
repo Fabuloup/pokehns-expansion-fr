@@ -106,155 +106,154 @@ Route44_EventScript_Item_Elixir::
 	end
 
 Route44_Text_FisherWilton1Seen:
-    .string "Aack!\p"
-    .string "You made me lose a POLIWAG!\n"
-    .string "What are you going to do about it?$"
+    .string "Aaargh!\p"
+    .string "Tu m'as fait perdre un PTITARD!\n"
+    .string "Comment vas-tu réparer ça?$"
 
 Route44_Text_FisherWilton1Beaten:
-    .string "Just forget about it.$"
+    .string "Laisse tomber.$"
 
 Route44_Text_FisherWiltonHugePoliwag:
-    .string "That POLIWAG that got away…\n"
-    .string "it was huge.\p"
-    .string "I swear it must've been\n"
-    .string "16 feet long!$"
+    .string "Ce PTITARD qui s'est échappé…\n"
+    .string "Il était énorme.\p"
+    .string "Je jure qu'il devait bien faire\n"
+    .string "cinq mètres de long!$"
 
 Route44_Text_WiltonRegister:
-    .string "That POLIWAG that got away…\n"
-    .string "it was huge.\p"
-    .string "I swear it must've been\n"
-    .string "16 feet long!$"
+    .string "Ce PTITARD qui s'est échappé…\n"
+    .string "Il était énorme.\p"
+    .string "Je jure qu'il devait bien faire\n"
+    .string "cinq mètres de long!$"
 
 Route44_Text_WiltonRematchIntro:
-    .string "Aack!\p"
-    .string "You made me lose a POLIWAG!\n"
-    .string "What are you going to do about it?$"
+    .string "Aaargh!\p"
+    .string "Tu m'as fait perdre un PTITARD!\n"
+    .string "Comment vas-tu réparer ça?$"
 
 Route44_Text_WiltonRematchDefeat:
-    .string "Just forget about it.$"
+    .string "Laisse tomber.$"
 
 Route44_Text_WiltonPostRematch:
-    .string "That POLIWAG that got away…\n"
-    .string "it was huge.\p"
-    .string "I swear it must've been\n"
-    .string "16 feet long!$"
+    .string "Ce PTITARD qui s'est échappé…\n"
+    .string "Il était énorme.\p"
+    .string "Je jure qu'il devait bien faire\n"
+    .string "cinq mètres de long!$"
 
 Route44_Text_WiltonHasItem:
-    .string "Hey! I reeled in something\n"
-    .string "other than a POKéMON!\p"
-    .string "Here, you can have it!$"
+    .string "Hé! J'ai pêché quelque chose\n"
+    .string "qui n'est pas un POKéMON!\p"
+    .string "Tiens, c'est pour toi!$"
 
 Route44_Text_WiltonGaveItem:
-    .string "I'll let you know if I\n"
-    .string "fish up anything else!$"
+    .string "Je te préviendrai si je\n"
+    .string "repêche autre chose!$"
 
 Route44_Text_WiltonNoRoom:
-    .string "Hmm, your BAG is full.\p"
-    .string "Come back when you have room.$"
+    .string "Hum, ton SAC est plein.\p"
+    .string "Reviens avec de la place.$"
 
 Route44_Text_FisherEdgarSeen:
-    .string "I fish until I can't anymore.\p"
-    .string "I also battle until I drop.\p"
-    .string "That's my relationship with my\n"
+    .string "Je pêche jusqu'à l'épuisement.\p"
+    .string "Je combats aussi jusqu'à tomber.\p"
+    .string "Voilà ma relation avec mes\n"
     .string "POKéMON.$"
 
 Route44_Text_FisherEdgarBeaten:
-    .string "Hmmmm… This isn't right.$"
+    .string "Hummm… Ça ne va pas.$"
 
 Route44_Text_FisherEdgarAfter:
-    .string "That's 100 wins to 101 losses.\p"
-    .string "I won't battle again for a while.$"
+    .string "Cent victoires pour 101 défaites.\p"
+    .string "J'éviterai les combats un temps.$"
 
 Route44_Text_BirdKeeperVance1Seen:
-    .string "Do you know about the legendary\n"
-    .string "bird POKéMON?$"
+    .string "Tu connais les légendaires\n"
+    .string "POKéMON oiseaux?$"
 
 Route44_Text_BirdKeeperVance1Beaten:
-    .string "Whew! You're hot stuff.$"
+    .string "Ouf! Tu es redoutable.$"
 
 Route44_Text_BirdKeeperVanceBirds:
-    .string "ARTICUNO, ZAPDOS and MOLTRES are\n"
-    .string "the three legendary bird POKéMON.\p"
-    .string "I heard there are other legendary\n"
-    .string "birds, though.$"
+    .string "ARTIKODIN, ÉLECTHOR et SULFURA\n"
+    .string "sont trois oiseaux légendaires.\p"
+    .string "On dit qu'il existe d'autres\n"
+    .string "oiseaux légendaires.$"
 
 Route44_Text_VanceRegister:
-    .string "ARTICUNO, ZAPDOS and MOLTRES are\n"
-    .string "the three legendary bird POKéMON.\p"
-    .string "I heard there are other legendary\n"
-    .string "birds, though.$"
+    .string "ARTIKODIN, ÉLECTHOR et SULFURA\n"
+    .string "sont trois oiseaux légendaires.\p"
+    .string "On dit qu'il existe d'autres\n"
+    .string "oiseaux légendaires.$"
 
 Route44_Text_VanceRematchIntro:
-    .string "Do you know about the legendary\n"
-    .string "bird POKéMON?$"
+    .string "Tu connais les légendaires\n"
+    .string "POKéMON oiseaux?$"
 
 Route44_Text_VanceRematchDefeat:
-    .string "Whew! You're hot stuff.$"
+    .string "Ouf! Tu es redoutable.$"
 
 Route44_Text_VancePostRematch:
-    .string "ARTICUNO, ZAPDOS and MOLTRES are\n"
-    .string "the three legendary bird POKéMON.\p"
-    .string "I heard there are other legendary\n"
-    .string "birds, though.$"
+    .string "ARTIKODIN, ÉLECTHOR et SULFURA\n"
+    .string "sont trois oiseaux légendaires.\p"
+    .string "On dit qu'il existe d'autres\n"
+    .string "oiseaux légendaires.$"
 
 Route44_Text_PsychicPhilSeen:
-    .string "I'm gonna win, for sure!$"
+    .string "Cette fois, je vais gagner!$"
 
 Route44_Text_PsychicPhilBeaten:
-    .string "Arrgh… That's a shocking loss…$"
+    .string "Argh… Quelle défaite choquante…$"
 
 Route44_Text_PsychicPhilAfter:
-    .string "It's important to have conviction\n"
-    .string "on your side.$"
+    .string "Il est important d'avoir ses\n"
+    .string "convictions avec soi.$"
 
 Route44_Text_PokemaniacZachSeen:
-    .string "I'll do anything to get my hands\n"
-    .string "on rare POKéMON!$"
+    .string "Je ferai tout pour mettre la main\n"
+    .string "sur des POKéMON rares!$"
 
 Route44_Text_PokemaniacZachBeaten:
-    .string "Oooh, your POKéMON are so\n"
-    .string "appealing.$"
+    .string "Oooh, tes POKéMON sont si\n"
+    .string "attirants.$"
 
 Route44_Text_PokemaniacZachAfter:
-    .string "If a POKéMON has different colors\n"
-    .string "from usual, it's more valuable.\p"
-    .string "What? You mean that's not true?$"
+    .string "Un POKéMON de couleur étrange\n"
+    .string "a plus de valeur.\p"
+    .string "Quoi? Ce n'est pas vrai?$"
 
 Route44_Text_CooltrainermAllenSeen:
-    .string "I can tell you're a good trainer\n"
-    .string "by looking at you.\p"
-    .string "I'm good at POKéMON, and I can\n"
-    .string "see that you are too.$"
+    .string "Je vois que tu es un bon Dresseur\n"
+    .string "rien qu'en te regardant.\p"
+    .string "Je connais bien les POKéMON et je\n"
+    .string "vois que toi aussi.$"
 
 Route44_Text_CooltrainermAllenBeaten:
-    .string "Tch! It's a total loss on my part.$"
+    .string "Pff ! J'ai perdu lamentablement.$"
 
 Route44_Text_CooltrainermAllenAfter:
-    .string "Wow. You have a lot of BADGES.\p"
-    .string "No wonder you're so tough.\p"
-    .string "I wonder if ECRUTEAK GYM's MORTY\n"
-    .string "is still in training?\p"
-    .string "He really hammered me.$"
+    .string "Ouah. Tu as beaucoup de BADGES.\p"
+    .string "Pas étonnant que tu sois si fort.\p"
+    .string "Je me demande si MORTIMER de\n"
+    .string "s'entraîne toujours à ROSALIA.\p"
+    .string "Il m'a vraiment écrasé.$"
 
 Route44_Text_CooltrainerfCybilSeen:
-    .string "You look strong.\p"
-    .string "Good trainers seek tough\n"
-    .string "opponents instinctively.$"
+    .string "Tu as l'air fort.\p"
+    .string "Les bons Dresseurs recherchent\n"
+    .string "de puissants adversaires.$"
 
 Route44_Text_CooltrainerfCybilBeaten:
-    .string "Nope! This won't do at all.$"
+    .string "Non! Ça ne va pas du tout.$"
 
 Route44_Text_CooltrainerfCybilAfter:
-    .string "We all get better by experiencing\n"
-    .string "many battles.\p"
-    .string "I battled a lot to become what I\n"
-    .string "am today--an elite.$"
+    .string "On progresse tous en livrant\n"
+    .string "de nombreux combats.\p"
+    .string "J'ai livré bien des combats pour\n"
+    .string "ce que je suis: une experte.$"
 
 Route44_Text_Sign1:
     .string "ROUTE 44\n"
-    .string "ICE PATH AHEAD$"
+    .string "ROUTE DE GLACE DROIT DEVANT$"
 
 Route44_Text_Sign2:
     .string "ROUTE 44\p"
-    .string "MAHOGANY TOWN - BLACKTHORN CITY$"
-
+    .string "ACAJOU - ÉBÈNELLE$"

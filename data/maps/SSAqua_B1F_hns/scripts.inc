@@ -43,33 +43,33 @@ SSAqua_B1F_EventScript_Barfcan::
 	end
 
 SSAqua_B1F_Text_BarfCan:
-    .string "Yuck!\n"
-    .string "Shouldn't have looked!$"
+    .string "Beurk !\n"
+    .string "J'aurais pas dû regarder !$"
 
 SSAqua_B1F_Text_FastShipOnDutySailor:
-	.string "Hey, kid. Could I get you to\n"
-	.string "look for my buddy?\p"
-	.string "He's goofing off somewhere,\n"
-	.string "that lazy bum!\p"
-	.string "I want to go find him, but I'm\n"
-	.string "on duty right now.$"
+	.string "Hé, petit. Tu peux aller\n"
+	.string "chercher mon collègue ?\p"
+	.string "Ce fainéant doit se la couler\n"
+	.string "douce quelque part !\p"
+	.string "J'irais bien le chercher, mais je\n"
+	.string "suis de service.$"
 
 SSAqua_B1F_Text_FastShipOnDutySailorRefused:
-	.string "Oh, gee…\p"
-	.string "The CAPTAIN will be furious…$"
+	.string "Oh là là…\p"
+	.string "Le CAPITAINE va être furieux…$"
 
 SSAqua_B1F_Text_FastShipOnDutySailorThanks:
-	.string "Thanks, kid! I chewed him out\n"
-	.string "good so he'll quit slacking off!$"
+	.string "Merci, petit ! Je l'ai bien\n"
+	.string "grondé, il ne traînera plus !$"
 
 SSAqua_B1F_Text_FastShipOnDutySailorSawGirl:
-	.string "A little girl?\p"
-	.string "I may have seen her go by here.$"
+	.string "Une petite fille ?\p"
+	.string "Je l'ai peut-être vue passer.$"
 
 SSAqua_B1F_Text_FastShipOnDutySailorDirections:
-	.string "The dining room is up ahead.\p"
-	.string "The stairs at the end lead to\n"
-	.string "the CAPTAIN's cabin.$"
+	.string "La salle à manger est devant.\p"
+	.string "L'escalier au fond mène à\n"
+	.string "la cabine du CAPITAINE.$"
 
 SSAqua_B1F_EventScript_Jeff::
 	trainerbattle_single TRAINER_JEFF_HNS, SSAqua_B1F_Text_SailorJeffSeen, SSAqua_B1F_Text_SailorJeffBeaten
@@ -77,15 +77,15 @@ SSAqua_B1F_EventScript_Jeff::
 	end
 
 SSAqua_B1F_Text_SailorJeffSeen:
-	.string "Nothing beats a battle when\n"
-	.string "I'm on my break.$"
+	.string "Rien ne vaut un combat pendant\n"
+	.string "ma pause.$"
 
 SSAqua_B1F_Text_SailorJeffBeaten:
-	.string "Win or lose, my break's over!$"
+	.string "Gagné ou perdu, pause terminée !$"
 
 SSAqua_B1F_Text_SailorJeffAfter:
-	.string "I guess I can't win if I don't\n"
-	.string "get serious.$"
+	.string "Je ne peux pas gagner sans\n"
+	.string "combattre sérieusement.$"
 
 SSAqua_B1F_EventScript_Debra::
 	trainerbattle_single TRAINER_DEBRA_HNS, SSAqua_B1F_Text_PicnickerDebraSeen, SSAqua_B1F_Text_PicnickerDebraBeaten
@@ -93,14 +93,14 @@ SSAqua_B1F_EventScript_Debra::
 	end
 
 SSAqua_B1F_Text_PicnickerDebraSeen:
-	.string "I'm so bored. Want to battle?$"
+	.string "Je m'ennuie. On se bat ?$"
 
 SSAqua_B1F_Text_PicnickerDebraBeaten:
-	.string "Yow! You're too strong!$"
+	.string "Aïe ! Tu es trop fort !$"
 
 SSAqua_B1F_Text_PicnickerDebraAfter:
-	.string "SAFFRON, CELADON… I hear there\n"
-	.string "are many big cities in KANTO.$"
+	.string "SAFRANIA, CÉLADOPOLE… Il y a\n"
+	.string "plein de grandes villes à KANTO.$"
 
 SSAqua_B1F_EventScript_Fritz::
 	trainerbattle_single TRAINER_FRITZ_HNS, SSAqua_B1F_Text_JugglerFritzSeen, SSAqua_B1F_Text_JugglerFritzBeaten
@@ -108,15 +108,15 @@ SSAqua_B1F_EventScript_Fritz::
 	end
 
 SSAqua_B1F_Text_JugglerFritzSeen:
-	.string "Urrf… I'm seasick!$"
+	.string "Beurk… J'ai le mal de mer !$"
 
 SSAqua_B1F_Text_JugglerFritzBeaten:
-	.string "I can't move anymore…$"
+	.string "Je ne peux plus bouger…$"
 
 SSAqua_B1F_Text_JugglerFritzAfter:
-	.string "No more ships for me.\n"
-	.string "Next time,\p"
-	.string "I'm taking the MAGNET TRAIN.$"
+	.string "Plus jamais le bateau.\n"
+	.string "La prochaine fois,\p"
+	.string "je prends le TRAIN MAGNÉTIQUE.$"
 
 SSAqua_B1F_EventScript_Garrett::
 	trainerbattle_single TRAINER_GARRETT_HNS, SSAqua_B1F_Text_SailorGarrettSeen, SSAqua_B1F_Text_SailorGarrettBeaten
@@ -124,15 +124,15 @@ SSAqua_B1F_EventScript_Garrett::
 	end
 
 SSAqua_B1F_Text_SailorGarrettSeen:
-	.string "This is where we sailors work!$"
+	.string "C'est ici qu'on bosse, matelot !$"
 
 SSAqua_B1F_Text_SailorGarrettBeaten:
-	.string "I lost on my home field…$"
+	.string "J'ai perdu sur mon terrain…$"
 
 SSAqua_B1F_Text_SailorGarrettAfter:
-	.string "We get different passengers\n"
-	.string "from VERMILION CITY to\p"
-	.string "OLIVINE CITY.$"
+	.string "Nous avons différents passagers\n"
+	.string "de CARMIN SUR MER à\p"
+	.string "OLIVILLE.$"
 
 SSAqua_B1F_EventScript_Jonah::
 	trainerbattle_single TRAINER_JONAH_HNS, SSAqua_B1F_Text_FisherJonahSeen, SSAqua_B1F_Text_FisherJonahBeaten
@@ -140,16 +140,16 @@ SSAqua_B1F_EventScript_Jonah::
 	end
 
 SSAqua_B1F_Text_FisherJonahSeen:
-	.string "Even though we're out on the\n"
-	.string "sea, I can't fish!\p"
-	.string "This is boring! Let's battle!$"
+	.string "Même en pleine mer, je ne peux\n"
+	.string "pas pêcher !\p"
+	.string "Quel ennui ! Battons-nous !$"
 
 SSAqua_B1F_Text_FisherJonahBeaten:
-	.string "I… I'm not bored anymore…$"
+	.string "Je… Je ne m'ennuie plus…$"
 
 SSAqua_B1F_Text_FisherJonahAfter:
-	.string "I plan to fish off\n"
-	.string "VERMILION's pier.$"
+	.string "Je compte pêcher depuis\n"
+	.string "le quai de CARMIN SUR MER.$"
 
 SSAqua_B1F_EventScript_Wai::
 	trainerbattle_single TRAINER_WAI_HNS, SSAqua_B1F_Text_BlackbeltWaiSeen, SSAqua_B1F_Text_BlackbeltWaiBeaten
@@ -157,18 +157,18 @@ SSAqua_B1F_EventScript_Wai::
 	end
 
 SSAqua_B1F_Text_BlackbeltWaiSeen:
-	.string "I'm building up my legs by\n"
-	.string "bracing\p"
-	.string "against the ship's rocking!$"
+	.string "Je renforce mes jambes en\n"
+	.string "résistant\p"
+	.string "au roulis du bateau !$"
 
 SSAqua_B1F_Text_BlackbeltWaiBeaten:
-	.string "Rocked and rolled over!$"
+	.string "Le roulis m'a renversé !$"
 
 SSAqua_B1F_Text_BlackbeltWaiAfter:
-	.string "I couldn't find the KARATE KING\n"
-	.string "in JOHTO.\p"
-	.string "He's supposed to be training in\n"
-	.string "a cave somewhere.$"
+	.string "Je n'ai pas trouvé le MAÎTRE\n"
+	.string "KARATÉ à JOHTO.\p"
+	.string "Il s'entraînerait dans une\n"
+	.string "grotte quelque part.$"
 
 SSAqua_B1F_EventScript_Kenneth::
 	trainerbattle_single TRAINER_KENNETH_HNS, SSAqua_B1F_Text_SailorKennethSeen, SSAqua_B1F_Text_SailorKennethBeaten
@@ -176,18 +176,18 @@ SSAqua_B1F_EventScript_Kenneth::
 	end
 
 SSAqua_B1F_Text_SailorKennethSeen:
-	.string "I'm a sailor man!\p"
-	.string "But I'm training POKéMON, so I\n"
-	.string "can become the CHAMP!$"
+	.string "Je suis un marin !\p"
+	.string "Mais j'entraîne des POKéMON pour\n"
+	.string "devenir le MAÎTRE !$"
 
 SSAqua_B1F_Text_SailorKennethBeaten:
-	.string "My lack of training is obvious…$"
+	.string "Mon manque d'entraînement se voit…$"
 
 SSAqua_B1F_Text_SailorKennethAfter:
-	.string "Eight BADGES! They must prove\n"
-	.string "that you've beaten\p"
-	.string "GYM LEADERS.\p"
-	.string "No wonder you're so good!$"
+	.string "Huit BADGES ! Ils prouvent que\n"
+	.string "tu as vaincu\p"
+	.string "les CHAMPIONS D'ARÈNE.\p"
+	.string "Pas étonnant que tu sois si fort !$"
 
 SSAqua_B1F_EventScript_Shirley::
 	trainerbattle_single TRAINER_SHIRLEY_HNS, SSAqua_B1F_Text_TeacherShirleySeen, SSAqua_B1F_Text_TeacherShirleyBeaten
@@ -195,15 +195,15 @@ SSAqua_B1F_EventScript_Shirley::
 	end
 
 SSAqua_B1F_Text_TeacherShirleySeen:
-	.string "Don't lay a finger on my\n"
-	.string "students!$"
+	.string "Ne touche pas à mes\n"
+	.string "élèves !$"
 
 SSAqua_B1F_Text_TeacherShirleyBeaten:
-	.string "Aaack!$"
+	.string "Aaaah !$"
 
 SSAqua_B1F_Text_TeacherShirleyAfter:
-	.string "We're on a field trip to the\n"
-	.string "RUINS outside VIOLET.$"
+	.string "Nous visitons les RUINES près\n"
+	.string "de MAUVILLE.$"
 
 SSAqua_B1F_EventScript_Nate::
 	trainerbattle_single TRAINER_NATE_HNS, SSAqua_B1F_Text_SchoolboyNateSeen, SSAqua_B1F_Text_SchoolboyNateBeaten
@@ -211,14 +211,14 @@ SSAqua_B1F_EventScript_Nate::
 	end
 
 SSAqua_B1F_Text_SchoolboyNateSeen:
-	.string "Do you know the RUINS OF ALPH?$"
+	.string "Tu connais les RUINES D'ALPHA ?$"
 
 SSAqua_B1F_Text_SchoolboyNateBeaten:
-	.string "Yaargh!$"
+	.string "Yaaah !$"
 
 SSAqua_B1F_Text_SchoolboyNateAfter:
-	.string "Radios pick up strange signals\n"
-	.string "inside the RUINS.$"
+	.string "Les radios captent des signaux\n"
+	.string "étranges dans les RUINES.$"
 
 SSAqua_B1F_EventScript_Ricky::
 	trainerbattle_single TRAINER_RICKY_HNS, SSAqua_B1F_Text_SchoolboyRickySeen, SSAqua_B1F_Text_SchoolboyRickyBeaten
@@ -226,13 +226,12 @@ SSAqua_B1F_EventScript_Ricky::
 	end
 
 SSAqua_B1F_Text_SchoolboyRickySeen:
-	.string "There are some odd stone panels\n"
-	.string "in the RUINS OF ALPH.$"
+	.string "Il y a d'étranges panneaux de\n"
+	.string "pierre aux RUINES D'ALPHA.$"
 
 SSAqua_B1F_Text_SchoolboyRickyBeaten:
-	.string "I was done in!$"
+	.string "Je me suis fait avoir !$"
 
 SSAqua_B1F_Text_SchoolboyRickyAfter:
-	.string "I read that there are four of\n"
-	.string "those stone panels.$"
-
+	.string "J'ai lu qu'il y avait quatre\n"
+	.string "panneaux de pierre.$"

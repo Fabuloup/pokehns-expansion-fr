@@ -6,19 +6,19 @@ Route50_EventScript_BlackBelt1::
 	end
 
 Route50_Text_BlackBelt1::
-	.string "The body must be hardened\n"
-    .string "and the mind strengthened\l"
-    .string "in the harshest of conditions!$"
+	.string "Le corps doit s'endurcir\n"
+    .string "et l'esprit se renforcer\l"
+    .string "dans les pires conditions !$"
 
 Route50_EventScript_BlackBelt2::
 	msgbox Route50_Text_BlackBelt2, MSGBOX_NPC
 	end
 
 Route50_Text_BlackBelt2::
-    .string "Phew!\p"
-    .string "I'm not as hardcore as he is.\p"
-	.string "There's really not much else\n"
-    .string "to do here but train.$"
+    .string "Ouf !\p"
+    .string "Je suis moins dur que lui.\p"
+	.string "Il n'y a vraiment rien d'autre\n"
+    .string "à faire ici que s'entraîner.$"
   
 
 Route50_EventScript_Wessel::
@@ -49,27 +49,27 @@ Route50_EventScript_WesselAfter::
 	end
 
 Route50_Text_WesselBefore:
-	.string "Incredible, A VOLTORB!\p"
-    .string "But it appears to be made\n"
-    .string "of... Wood?\p"
-    .string "My hypothesis that this route\n"
-    .string "would contain many STEEL TYPE\l"
-    .string "POKéMON is disproven yet again.\p"
-    .string "But why else would I have found\n"
-    .string "this STEEL PLATE here?\p"
-    .string "I must collect more data!$"
+	.string "Incroyable, un VOLTORBE !\p"
+    .string "Mais il semble être fait\n"
+    .string "de... bois ?\p"
+    .string "Mon hypothèse selon laquelle\n"
+    .string "cette route abriterait beaucoup\l"
+    .string "de POKéMON ACIER est fausse.\p"
+    .string "Mais pourquoi ai-je trouvé\n"
+    .string "cette PLAQUE FER ici ?\p"
+    .string "Il me faut plus de données !$"
 
 Route50_Text_WesselBeforeBattle:
-	.string "You want this PLATE?\n"
-	.string "But I haven't analyzed it yet!\p"
-	.string "Fine, we will battle for it.$"
+	.string "Tu veux cette PLAQUE ?\n"
+	.string "Mais je ne l'ai pas analysée !\p"
+	.string "Bien, battons-nous pour elle.$"
 
 Route50_Text_WesselDefeat:
-	.string "My hypothesis was wrong...$"
+	.string "Mon hypothèse était fausse...$"
 
 Route50_Text_WesselAfter:
-	.string "Take the PLATE. I don't want to\n"
-	.string "talk about it.$"
+	.string "Prends la PLAQUE. Je ne veux pas\n"
+	.string "en parler.$"
 
 Route50_EventScript_Finley::
 	goto_if_defeated TRAINER_FINLEY_HNS, Route50_EventScript_FinleyAfter
@@ -99,32 +99,32 @@ Route50_EventScript_FinleyAfter::
 	end
 
 Route50_Text_FinleyBefore:
-	.string "How are the villagers treating\n"
-    .string "you?\p"
-    .string "They can be very unwelcoming to\n"
-    .string "strangers.\p"
-    .string "But meeting new people is one\n"
-    .string "of life's greatest joys.\p"
-    .string "One day, I hope to meet CHAMPION\n"
-    .string "LANCE.\p"
-    .string "He is a legendary dragon tamer,\n"
-    .string "much like myself.\l"
-    .string "Who am I?\p"
-    .string "Well, I am FINLEY, keeper of the\n"
-    .string "DRACO PLATE.$"
+	.string "Comment te traitent les villageois\n"
+    .string "?\p"
+    .string "Ils sont parfois peu accueillants\n"
+    .string "avec les étrangers.\p"
+    .string "Mais rencontrer des gens est l'une\n"
+    .string "des grandes joies de la vie.\p"
+    .string "Un jour, j'espère rencontrer le\n"
+    .string "MAÎTRE PETER.\p"
+    .string "C'est un légendaire Dresseur de\n"
+    .string "dragons, tout comme moi.\l"
+    .string "Qui suis-je ?\p"
+    .string "Eh bien, je suis FINLEY, gardien\n"
+    .string "de la PLAQUE DRACO.$"
 
 Route50_Text_FinleyBeforeBattle:
-	.string "I know the KIMONO's have sent you\n"
-	.string "to collect these PLATES.\p"
-	.string "They say you are worthy...\n"
-	.string "But can you conquer my dragons?$"
+	.string "Je sais que les KIMONOS t'envoient\n"
+	.string "récupérer ces PLAQUES.\p"
+	.string "Elles te disent digne...\n"
+	.string "Mais vaincras-tu mes dragons ?$"
 
 Route50_Text_FinleyDefeat:
-	.string "My dragons fought well.$"
+	.string "Mes dragons se sont bien battus.$"
 
 Route50_Text_FinleyAfter:
-	.string "Perhaps you are even strong enough\n"
-	.string "to beat LANCE...$"
+	.string "Tu es peut-être même assez fort\n"
+	.string "pour battre PETER...$"
 
 Route50_EventScript_Item_ULtraBall::
     finditem ITEM_ULTRA_BALL

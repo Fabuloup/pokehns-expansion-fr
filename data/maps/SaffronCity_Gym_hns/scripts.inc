@@ -60,121 +60,121 @@ SaffronCity_Gym_EventScript_Sabrina_Defeated::
 	end
 
 SaffronCity_Gym_Text_SabrinaIntro:
-	.string "SABRINA: I knew you were coming…\p"
-	.string "Three years ago I had a vision\n"
-	.string "of your arrival.\p"
-	.string "You're after my BADGE.\p"
-	.string "I don't enjoy battling, but it's\n"
-	.string "my duty as a LEADER to confer\l"
-	.string "BADGES on anyone who has proven\l"
-	.string "him- or herself worthy.\p"
-	.string "Since you wish it, I will show\n"
-	.string "you my psychic powers!$"
+	.string "MORGANE : Je savais que tu venais…\p"
+	.string "Il y a trois ans, j'ai eu une\n"
+	.string "vision de ton arrivée.\p"
+	.string "Tu convoites mon BADGE.\p"
+	.string "Je n'aime pas combattre, mais mon\n"
+	.string "devoir de CHAMPIONNE est de donner\l"
+	.string "un BADGE à quiconque s'en montre\l"
+	.string "digne.\p"
+	.string "Puisque tu le souhaites, je vais\n"
+	.string "te montrer mon pouvoir psychique !$"
 
 SaffronCity_Gym_Text_SabrinaWinLoss:
-	.string "SABRINA: Your power…\p"
-	.string "It far exceeds what I foresaw…\p"
-	.string "Maybe it isn't possible to fully\n"
-	.string "predict what the future holds…\p"
-	.string "OK, you win. You earned yourself\n"
-	.string "MARSHBADGE.$"
+	.string "MORGANE : Ton pouvoir…\p"
+	.string "Il dépasse de loin mes prévisions…\p"
+	.string "Peut-être est-il impossible de\n"
+	.string "tout prédire de l'avenir…\p"
+	.string "D'accord, tu gagnes. Tu mérites\n"
+	.string "le BADGE MARAIS.$"
 
 SaffronCity_Gym_Text_ReceivedMarshBadge:
-	.string "{PLAYER} received MARSHBADGE.$"
+	.string "{PLAYER} reçoit le BADGE MARAIS.$"
 
 SaffronCity_Gym_Text_MarshBadgeInfo:
-	.string "SABRINA: MARSHBADGE draws out\n"
-	.string "your subliminal powers…\p"
-	.string "Although I failed to accurately\n"
-	.string "predict your power, this much I\l"
-	.string "know to be true.\p"
-	.string "You will become a celebrated and\n"
-	.string "beloved CHAMPION!$"
+	.string "MORGANE : Le BADGE MARAIS révèle\n"
+	.string "tes pouvoirs subliminaux…\p"
+	.string "Même si j'ai mal prédit ta\n"
+	.string "puissance, je sais une chose\l"
+	.string "avec certitude.\p"
+	.string "Tu deviendras un MAÎTRE célèbre\n"
+	.string "et bien-aimé !$"
 
 SaffronCity_Gym_Text_Sabrina_GiveTM:
-	.string "Here, take this as well.$"
+	.string "Tiens, prends aussi ceci.$"
 
 SaffronCity_Gym_Text_Sabrina_ExplainTM:
-	.string "It holds SKILL SWAP.\p"
-	.string "It can take your opponents' abilities\n"
-	.string "away from them and give them your own.\p"
-	.string "Use it wisely...$"
+	.string "Elle contient ÉCHANGE.\p"
+	.string "Cette capacité échange ton talent\n"
+	.string "avec celui de l'adversaire.\p"
+	.string "Utilise-la judicieusement...$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle:
-	.string "SABRINA: Your love for your\n"
-	.string "POKéMON overwhelmed my psychic\l"
-	.string "power…\p"
-	.string "The power of love, I think, is\n"
-	.string "also a kind of psychic power…$"
+	.string "MORGANE : Ton amour pour tes\n"
+	.string "POKéMON a surpassé mes pouvoirs\l"
+	.string "psychiques…\p"
+	.string "Le pouvoir de l'amour est aussi,\n"
+	.string "je crois, un pouvoir psychique…$"
 
 SaffronCity_Gym_Text_SabrinaRematch:
-	.string "SABRINA: Ah, the KANTO CHAMPION.\p"
-	.string "I sensed your return.\p"
-	.string "Your power has grown immensely.\p"
-	.string "Even now, I feel your aura.\p"
-	.string "Want to have a rematch with me?$"
+	.string "MORGANE : Ah, le MAÎTRE de KANTO.\p"
+	.string "J'ai senti ton retour.\p"
+	.string "Ton pouvoir a énormément grandi.\p"
+	.string "Même maintenant, je sens ton aura.\p"
+	.string "Tu veux une revanche ?$"
 
 SaffronCity_Gym_Text_SabrinaRematchDefeat:
-	.string "SABRINA: Your love for your\n"
-	.string "POKéMON again overwhelmed my\l"
-	.string "psychic power…$"
+	.string "MORGANE : Ton amour pour tes\n"
+	.string "POKéMON a encore surpassé mes\l"
+	.string "pouvoirs psychiques…$"
 
 SaffronCity_Gym_Text_MediumRebeccaSeen:
-	.string "The power of all those you\n"
-	.string "defeated comes to me!$"
+	.string "La puissance de tous ceux que\n"
+	.string "tu as vaincus vient à moi !$"
 
 SaffronCity_Gym_Text_MediumRebeccaBeaten:
-	.string "Strong… Far too strong…$"
+	.string "Fort… Bien trop fort…$"
 
 SaffronCity_Gym_Text_MediumRebeccaAfter:
-	.string "What is the source of your power?$"
+	.string "D'où vient ton pouvoir ?$"
 
 SaffronCity_Gym_Text_PsychicFranklinSeen:
-	.string "Psychic power is the power of\n"
-	.string "your soul.$"
+	.string "Le pouvoir psychique est celui\n"
+	.string "de ton âme.$"
 
 SaffronCity_Gym_Text_PsychicFranklinBeaten:
-	.string "Your soul has more power than\n"
-	.string "mine!$"
+	.string "Ton âme est plus puissante que\n"
+	.string "la mienne !$"
 
 SaffronCity_Gym_Text_PsychicFranklinAfter:
-	.string "You made your soul stronger, not\n"
-	.string "just your abilities.$"
+	.string "Tu as renforcé ton âme, pas\n"
+	.string "seulement tes capacités.$"
 
 SaffronCity_Gym_Text_MediumDorisSeen:
-	.string "Fufufufu… I see it clearly.\p"
-	.string "I can see into your soul!$"
+	.string "Fufufufu… Je le vois clairement.\p"
+	.string "Je peux voir dans ton âme !$"
 
 SaffronCity_Gym_Text_MediumDorisBeaten:
-	.string "Though I read you, I still lost…$"
+	.string "Même en te lisant, j'ai perdu…$"
 
 SaffronCity_Gym_Text_MediumDorisAfter:
-	.string "Darn! I forgot that I predicted I\n"
-	.string "would lose to you.$"
+	.string "Zut ! J'avais oublié avoir prédit\n"
+	.string "ma défaite face à toi.$"
 
 SaffronCity_Gym_Text_PsychicJaredSeen:
-	.string "The FIGHTING DOJO next door was\n"
-	.string "once this city's GYM.$"
+	.string "Le DOJO voisin était autrefois\n"
+	.string "l'ARÈNE de cette ville.$"
 
 SaffronCity_Gym_Text_PsychicJaredBeaten:
-	.string "I was no match…$"
+	.string "Je ne faisais pas le poids…$"
 
 SaffronCity_Gym_Text_PsychicJaredAfter:
-	.string "KARATE KING, the master of the\n"
-	.string "FIGHTING DOJO, was just destroyed\l"
-	.string "by SABRINA.$"
+	.string "Le MAÎTRE KARATÉ, chef du DOJO,\n"
+	.string "a été totalement écrasé par\l"
+	.string "MORGANE.$"
 
 SaffronCity_Gym_Text_GymGuideIntro:
-	.string "Yo, CHAMP in making!\p"
-	.string "A trainer as skilled as you\n"
-	.string "doesn't need to be told how to\l"
-	.string "deal with PSYCHIC-type POKéMON,\l"
-	.string "right?\p"
-	.string "I expect great things from you!\p"
-	.string "Good luck!$"
+	.string "Yo, futur MAÎTRE !\p"
+	.string "Un Dresseur aussi doué que toi\n"
+	.string "n'a pas besoin qu'on lui explique\l"
+	.string "comment affronter les POKéMON\l"
+	.string "PSY, pas vrai ?\p"
+	.string "J'attends beaucoup de toi !\p"
+	.string "Bonne chance !$"
 
 SaffronCity_Gym_Text_GymGuideWin:
-	.string "That was another fantastic battle!$"
+	.string "Encore un combat fantastique !$"
 
 SaffronCity_Gym_EventScript_GymStatue::
 	lockall
@@ -190,13 +190,13 @@ SaffronCity_Gym_EventScript_GymStatuePostVictory::
 
 
 SaffronCity_Gym_Text_GymStatue::
-    .string "SAFFRON POKéMON GYM\n"
-    .string "LEADER: SABRINA\p"
-	.string "WINNING TRAINERS:\n"
+    .string "ARÈNE POKéMON DE SAFRANIA\n"
+    .string "CHAMPIONNE : MORGANE\p"
+	.string "DRESSEURS VAINQUEURS :\n"
 	.string "BLUE, RED$"
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-    .string "SAFFRON POKéMON GYM\n"
-    .string "LEADER: SABRINA\p"
-    .string "WINNING TRAINERS:\n"
+    .string "ARÈNE POKéMON DE SAFRANIA\n"
+    .string "CHAMPIONNE : MORGANE\p"
+    .string "DRESSEURS VAINQUEURS :\n"
 	.string "BLUE, RED, {PLAYER}$"

@@ -11,12 +11,13 @@ Règles de suivi :
 - `validé en jeu` est réservé à une vérification visuelle dans l'émulateur ;
 - les scripts hors cartes et les fichiers hérités de `pokeemerald-expansion` sont suivis dans l'audit transversal lorsqu'ils sont réellement utilisés par H&S.
 
-Progression actuelle : **387 / 413 fichiers à traduire**, dont **0 validé en jeu**.
+Progression actuelle : **413 / 413 fichiers traduits**, dont **0 validé en jeu**.
 
 Le tableau suit 549 fichiers, mais **136 d'entre eux ne contiennent aucune chaîne
 affichée** : ce sont des scripts purement logiques (couloirs, ascenseurs, warps).
 Ils portent l'état `sans texte affiché` et sont exclus du décompte. La cible
-réelle est donc de 413 fichiers, dont 26 restent à traduire.
+réelle est donc de 413 fichiers. Tous sont désormais traduits et restent à
+valider en jeu.
 
 | Fichier | État |
 |---|---|
@@ -400,21 +401,21 @@ réelle est donc de 413 fichiers, dont 26 restent à traduire.
 | `data/maps/Route38_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route39_Barn_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route39_FarmHouse_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/Route39_hns/scripts.inc` | à traduire |
+| `data/maps/Route39_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route3_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/Route40_hns/scripts.inc` | à traduire |
-| `data/maps/Route41_hns/scripts.inc` | à traduire |
-| `data/maps/Route42_hns/scripts.inc` | à traduire |
-| `data/maps/Route43_hns/scripts.inc` | à traduire |
-| `data/maps/Route44_hns/scripts.inc` | à traduire |
-| `data/maps/Route45_hns/scripts.inc` | à traduire |
+| `data/maps/Route40_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route41_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route42_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route43_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route44_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/Route45_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route46_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/Route47_hns/scripts.inc` | à traduire |
+| `data/maps/Route47_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route48_hns/scripts.inc` | sans texte affiché |
 | `data/maps/Route49_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route4_PokemonCenter_hns/scripts.inc` | sans texte affiché |
 | `data/maps/Route4_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/Route50_hns/scripts.inc` | à traduire |
+| `data/maps/Route50_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route5_House_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Route5_TunnelEntrance_hns/scripts.inc` | sans texte affiché |
 | `data/maps/Route5_hns/scripts.inc` | traduit, à valider en jeu |
@@ -435,7 +436,7 @@ réelle est donc de 413 fichiers, dont 26 restent à traduire.
 | `data/maps/RuinsOfAlph_WordsRoom3_hns/scripts.inc` | sans texte affiché |
 | `data/maps/RuinsOfAlph_WordsRoom4_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SSAqua_1F_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/SSAqua_B1F_hns/scripts.inc` | à traduire |
+| `data/maps/SSAqua_B1F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SSAqua_CaptainsRoom_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SSAqua_PlayersRoom_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SSAqua_RoomNE_hns/scripts.inc` | traduit, à valider en jeu |
@@ -449,7 +450,7 @@ réelle est donc de 413 fichiers, dont 26 restent à traduire.
 | `data/maps/SafariZone2_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SafariZone3_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SafariZoneGate_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/SafariZoneGate_SafariZoneEntrance_hns/scripts.inc` | à traduire |
+| `data/maps/SafariZoneGate_SafariZoneEntrance_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SafariZoneGate_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SafariZoneIndoor_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SafariZone_Enterance_hns/scripts.inc` | sans texte affiché |
@@ -460,10 +461,10 @@ réelle est donc de 413 fichiers, dont 26 restent à traduire.
 | `data/maps/SafariZone_Top_Mid_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SafariZone_Top_Right_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SaffronCity_CopyCatsHouse_1F_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/SaffronCity_CopyCatsHouse_2F_hns/scripts.inc` | à traduire |
-| `data/maps/SaffronCity_FightingDojoVIP_hns/scripts.inc` | à traduire |
+| `data/maps/SaffronCity_CopyCatsHouse_2F_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/SaffronCity_FightingDojoVIP_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SaffronCity_FightingDojo_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/SaffronCity_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/SaffronCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SaffronCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SaffronCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SaffronCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
@@ -471,14 +472,14 @@ réelle est donc de 413 fichiers, dont 26 restent à traduire.
 | `data/maps/SaffronCity_TrainStation_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SaffronCity_Tunnel_NS_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SaffronCity_Tunnel_SW_hns/scripts.inc` | sans texte affiché |
-| `data/maps/SaffronCity_hns/scripts.inc` | à traduire |
+| `data/maps/SaffronCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Saffron_Temp_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SeafoamIslands_1F_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SeafoamIslands_B1F_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/SeafoamIslands_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/SeafoamIslands_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SeafoamIslands_SecretCave_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SinjohRuins_ArceusRoom_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/SinjohRuins_House1_hns/scripts.inc` | à traduire |
+| `data/maps/SinjohRuins_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/SinjohRuins_RegiceRoom_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SinjohRuins_RegidracoRoom_hns/scripts.inc` | sans texte affiché |
 | `data/maps/SinjohRuins_RegielekiRoom_hns/scripts.inc` | sans texte affiché |
@@ -518,25 +519,25 @@ réelle est donc de 413 fichiers, dont 26 restent à traduire.
 | `data/maps/TrainerHill_2F_hns/scripts.inc` | sans texte affiché |
 | `data/maps/TrainerHill_3F_hns/scripts.inc` | sans texte affiché |
 | `data/maps/TrainerHill_4F_hns/scripts.inc` | sans texte affiché |
-| `data/maps/TrainerHill_Courtyard_hns/scripts.inc` | à traduire |
+| `data/maps/TrainerHill_Courtyard_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/TrainerHill_Elevator_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/TrainerHill_Entrance_hns/scripts.inc` | à traduire |
+| `data/maps/TrainerHill_Entrance_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/TrainerHill_Roof_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/Trees_hns/scripts.inc` | sans texte affiché |
 | `data/maps/UlaUla_Cave_2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/UlaUla_Cave_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/UlaUla_Forest_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/UlaUla_House_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/UlaulaIsle_hns/scripts.inc` | à traduire |
+| `data/maps/UlaulaIsle_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/UnionCave_1F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/UnionCave_B1F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/UnionCave_B2F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/UnionRoom_hns/scripts.inc` | sans texte affiché |
 | `data/maps/VerdanturfTown_BattleTentBattleRoom_hns/scripts.inc` | sans texte affiché |
 | `data/maps/VerdanturfTown_BattleTentCorridor_hns/scripts.inc` | sans texte affiché |
-| `data/maps/VerdanturfTown_BattleTentLobby_hns/scripts.inc` | à traduire |
-| `data/maps/VermilionCity_FanClub_hns/scripts.inc` | à traduire |
-| `data/maps/VermilionCity_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/VerdanturfTown_BattleTentLobby_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/VermilionCity_FanClub_hns/scripts.inc` | traduit, à valider en jeu |
+| `data/maps/VermilionCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VermilionCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VermilionCity_House2_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VermilionCity_House3_hns/scripts.inc` | traduit, à valider en jeu |
@@ -544,7 +545,7 @@ réelle est donc de 413 fichiers, dont 26 restent à traduire.
 | `data/maps/VermilionCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VermilionCity_PortInside_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VermilionCity_PortOutside_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/VermilionCity_hns/scripts.inc` | à traduire |
+| `data/maps/VermilionCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VictoryRoadKanto_1F_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VictoryRoadKanto_B1F_hns/scripts.inc` | sans texte affiché |
 | `data/maps/VictoryRoadKanto_B2F_hns/scripts.inc` | sans texte affiché |
@@ -555,12 +556,12 @@ réelle est donc de 413 fichiers, dont 26 restent à traduire.
 | `data/maps/VioletCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VioletCity_TrainerSchool_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/VioletCity_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/ViridianCity_Gym_hns/scripts.inc` | à traduire |
+| `data/maps/ViridianCity_Gym_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/ViridianCity_House1_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/ViridianCity_House2_hns/scripts.inc` | sans texte affiché |
 | `data/maps/ViridianCity_Mart_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/ViridianCity_PokemonCenter_hns/scripts.inc` | traduit, à valider en jeu |
-| `data/maps/ViridianCity_hns/scripts.inc` | à traduire |
+| `data/maps/ViridianCity_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/ViridianForest_hns/scripts.inc` | traduit, à valider en jeu |
 | `data/maps/WhirlIslands_1F_hns/scripts.inc` | sans texte affiché |
 | `data/maps/WhirlIslands_B1F_Inner_hns/scripts.inc` | sans texte affiché |

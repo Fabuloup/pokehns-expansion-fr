@@ -49,11 +49,11 @@ FallarborTown_BattleTentBattleRoom_hns_EventScript_NextOpponentEnter::
 	playse SE_M_BELLY_DRUM
 	waitse
 	waitmovement 0
-	msgbox BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin_hns, MSGBOX_DEFAULT
 	battletent_getopponentintro
 	msgbox gStringVar4, MSGBOX_DEFAULT
 	waitmessage
-	call BattleFrontier_BattleArenaBattleRoom_EventScript_DoArenaBattle
+	call BattleFrontier_BattleArenaBattleRoom_EventScript_DoArenaBattle_hns
 	switch VAR_RESULT
 	case 1, FallarborTown_BattleTentBattleRoom_hns_EventScript_DefeatedOpponent
 	applymovement LOCALID_FALLARBOR_TENT_BATTLE_HNS_ATTENDANT, FallarborTown_BattleTentBattleRoom_hns_Movement_AttendantJump
@@ -61,7 +61,7 @@ FallarborTown_BattleTentBattleRoom_hns_EventScript_NextOpponentEnter::
 	waitse
 	waitmovement 0
 	fallarbortent_getopponentname
-	msgbox BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent_hns, MSGBOX_DEFAULT
 FallarborTown_BattleTentBattleRoom_hns_EventScript_WarpToLobbyLost::
 	frontier_set FRONTIER_DATA_CHALLENGE_STATUS, CHALLENGE_STATUS_LOST
 	special LoadPlayerParty
@@ -73,7 +73,7 @@ FallarborTown_BattleTentBattleRoom_hns_EventScript_DefeatedOpponent::
 	playse SE_BANG
 	waitse
 	waitmovement 0
-	msgbox BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer_hns, MSGBOX_DEFAULT
 	closemessage
 FallarborTown_BattleTentBattleRoom_hns_EventScript_IncrementBattleNum::
 	frontier_get FRONTIER_DATA_BATTLE_NUM
@@ -88,7 +88,7 @@ FallarborTown_BattleTentBattleRoom_hns_EventScript_IncrementBattleNum::
 	waitmovement 0
 	applymovement LOCALID_FALLARBOR_TENT_BATTLE_HNS_PLAYER, FallarborTown_BattleTentBattleRoom_hns_Movement_PlayerFaceAttendant
 	waitmovement 0
-	msgbox BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored_hns, MSGBOX_DEFAULT
 	special LoadPlayerParty
 	special SavePlayerParty
 	frontier_setpartyorder FRONTIER_PARTY_SIZE
@@ -106,14 +106,14 @@ FallarborTown_BattleTentBattleRoom_hns_EventScript_AskContinueChallenge::
 	case 2, FallarborTown_BattleTentBattleRoom_hns_EventScript_AskRetireChallenge
 
 FallarborTown_BattleTentBattleRoom_hns_EventScript_AskPauseChallenge::
-	msgbox BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown, MSGBOX_YESNO
+	msgbox BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown_hns, MSGBOX_YESNO
 	switch VAR_RESULT
 	case NO, FallarborTown_BattleTentBattleRoom_hns_EventScript_AskContinueChallenge
 	case YES, FallarborTown_BattleTentBattleRoom_hns_EventScript_PauseChallenge
 	case MULTI_B_PRESSED, FallarborTown_BattleTentBattleRoom_hns_EventScript_AskContinueChallenge
 
 FallarborTown_BattleTentBattleRoom_hns_EventScript_AskRetireChallenge::
-	message BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge
+	message BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge_hns
 	waitmessage
 	multichoicedefault 20, 8, MULTI_YESNO, 1, FALSE
 	switch VAR_RESULT
@@ -145,17 +145,17 @@ FallarborTown_BattleTentBattleRoom_hns_EventScript_WarpToLobbyWon::
 @ See above
 
 FallarborTown_BattleTentBattleRoom_hns_EventScript_ReadyFor2ndOpponent::
-	message BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent
+	message BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent_hns
 	waitmessage
 	return
 
 FallarborTown_BattleTentBattleRoom_hns_EventScript_ReadyFor3rdOpponent::
-	message BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent
+	message BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent_hns
 	waitmessage
 	return
 
 FallarborTown_BattleTentBattleRoom_hns_EventScript_PauseChallenge::
-	message BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait
+	message BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait_hns
 	waitmessage
 	fallarbortent_save CHALLENGE_STATUS_PAUSED
 	playse SE_SAVE
@@ -236,4 +236,3 @@ FallarborTown_BattleTentBattleRoom_hns_EventScript_SetUpObjects::
 	removeobject LOCALID_FALLARBOR_TENT_BATTLE_HNS_OPPONENT
 	setvar VAR_TEMP_1, 1
 	end
-

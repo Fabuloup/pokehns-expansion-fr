@@ -72,6 +72,110 @@ void static (*const sVerdanturfTentFuncs[])(void) =
 
 static const u16 sVerdanturfTentRewards[] = {ITEM_NEST_BALL};
 
+#if IS_HNS
+static const u8 *const sSlateportTentIntroTextsHns[] =
+{
+    _("Que vais-je devenir demain ?"),
+    _("Mauvaise nouvelle ! C'est un\ncombat sans pitié !"),
+    _("En avant ! Mes POKéMON adorent\nl'eau !"),
+    _("Ouais ! Ça va tourner !"),
+    _("On discutera après ma victoire."),
+    _("Ma beauté vous intimide-t-elle ?"),
+    _("Allez ! Trouve-moi un BARBICHA !"),
+    _("Graaah ! Graaah !"),
+    _("Une petite danse pour vous\nplaire !"),
+    _("Je veux courir partout !"),
+    _("Admirez mon attaque confuse !"),
+    _("Écoutez... Vous n'êtes pas très\nfort."),
+    _("...... ?"),
+    _("GOUPIX, XATU, NOCTALI... euh..."),
+    _("Je vais savourer ce combat !"),
+    _("Cet Œuf a un éclat délicieux !"),
+    _("Les POKéMON avant l'argent\net la famille !"),
+    _("J'adore votre allure coriace !"),
+    _("Ma malédiction brisera votre\nesprit !"),
+    _("Hein ? Vous avez dit combat ?"),
+    _("Désolé, vous allez déguster !"),
+    _("Je veux juste des POKéMON mignons."),
+    _("Des jouets ! Il me faut plus de\njouets !"),
+    _("Mmm, délicieux... Je me demande\nquoi ?"),
+    _("Pas de bavardage. On y va !"),
+    _("Monsieur l'arbitre, vous avez\nnotre confiance."),
+    _("Venez chez moi, d'accord ?"),
+    _("Je me fiche du match qui nous\nattend."),
+    _("Oh, je me sens gluant de partout."),
+    _("Je suis fâchée contre mon père...")
+};
+
+static const u8 *const sFallarborTentIntroTextsHns[] =
+{
+    _("Je dois être au régime tous les\njours."),
+    _("Je n'aurai jamais assez d'argent."),
+    _("Ma façon de combattre est bizarre."),
+    _("Regardez mon Métronome, puis dodo."),
+    _("Si je gagne, donnez-moi un POKéMON\npour ma collection."),
+    _("Mon nom est vraiment mystérieux."),
+    _("Je suis le meilleur héros de\ntous !"),
+    _("Le monde est un concours de\nforce !"),
+    _("Vous êtes un bon Dresseur ?\nIncroyable !"),
+    _("Mes POKéMON ont le poil soyeux !"),
+    _("J'ai un pouvoir de prémonition."),
+    _("Vos POKéMON ne peuvent pas me\nbattre."),
+    _("Vos POKéMON sont plutôt sauvages !"),
+    _("Montrez-moi ce que vous valez."),
+    _("Vous voyez ma puissance ?"),
+    _("Un mensonge peut être gentil..."),
+    _("Un Professeur POKéMON ne se\nrepose pas."),
+    _("Ahaha ! Oui ! Un monde de POKéMON\nplein d'amour !"),
+    _("Vous... vous... vous... Allez !"),
+    _("On dirait que vous êtes très bon."),
+    _("Mon pouvoir caché m'enthousiasme !"),
+    _("Vous plaisantez, j'espère ?"),
+    _("Vous ne vous croyez pas très\nrapide ?"),
+    _("Ne faites pas de vacarme !"),
+    _("J'ai vraiment envie de faire la\nfête."),
+    _("Mon PC est ma Base Secrète !"),
+    _("Ce n'est pas très joli, mais\nj'essaie."),
+    _("Je ne suis pas assez fort pour ça."),
+    _("Pas de radio ni de télévision."),
+    _("Je veux faire les magasins !")
+};
+
+static const u8 *const sVerdanturfTentIntroTextsHns[] =
+{
+    _("Pas un jour sans de fausses\nlarmes."),
+    _("Vous ignorez à quel point je\nm'ennuie."),
+    _("Je pars bientôt en vacances."),
+    _("Je suis intelligent ! Si je perds,\nje m'autodétruis."),
+    _("J'en ai assez d'être une idole."),
+    _("Ma beauté ne vous étonne pas ?"),
+    _("Allez, je vais combattre\nsérieusement."),
+    _("Oh oui ! Encore un combat\nexaltant !"),
+    _("Admirez ma superbe danse !"),
+    _("C'est triste de partir seul en\nvacances."),
+    _("Vous êtes vraiment fort ?"),
+    _("C'est un cauchemar pour vous."),
+    _("Cette fête dure pour toujours !"),
+    _("Je veux la collection de films\ndu monde."),
+    _("Je vais vous ménager."),
+    _("J'ai l'air coriace, non ?"),
+    _("Oui ! Mes POKéMON !"),
+    _("Oui ! Allez, je suis prête !"),
+    _("Vous allez me mettre la pression ?"),
+    _("Un combat n'est pas très cool."),
+    _("Danger ! Je sens le danger !"),
+    _("Barrière ! Maintenant, venez !"),
+    _("Je promets de fuir si je perds."),
+    _("C'est tendance, un combat, non ?"),
+    _("Le soleil du matin me rend fort."),
+    _("Je fais les choses à mon rythme."),
+    _("Vous ne devriez pas lambiner."),
+    _("Rien de tout ça n'a de sens."),
+    _("J'adore cette adorable idole\ntélé !"),
+    _("Ma fabuleuse mignonnerie est\nà la mode.")
+};
+#endif
+
 void static (*const sFallarborTentFuncs[])(void) =
 {
     [FALLARBOR_TENT_FUNC_INIT]              = InitFallarborTentChallenge,
@@ -133,8 +237,26 @@ static void SetVerdanturfTentTrainerGfx(void)
 
 static void BufferVerdanturfTentTrainerIntro(void)
 {
+#if IS_HNS
+    if (TRAINER_BATTLE_PARAM.opponentA < NUM_BATTLE_TENT_TRAINERS)
+    {
+        const u8 *const *introTexts = sVerdanturfTentIntroTextsHns;
+
+        switch (VarGet(VAR_FRONTIER_FACILITY))
+        {
+        case FRONTIER_FACILITY_FACTORY:
+            introTexts = sSlateportTentIntroTextsHns;
+            break;
+        case FRONTIER_FACILITY_ARENA:
+            introTexts = sFallarborTentIntroTextsHns;
+            break;
+        }
+        StringCopy(gStringVar4, introTexts[TRAINER_BATTLE_PARAM.opponentA]);
+    }
+#else
     if (TRAINER_BATTLE_PARAM.opponentA < FRONTIER_TRAINERS_COUNT)
         FrontierSpeechToString(gFacilityTrainers[TRAINER_BATTLE_PARAM.opponentA].speechBefore);
+#endif
 }
 
 static void SaveVerdanturfTentChallenge(void)

@@ -18,7 +18,7 @@ RuinsOfAlph_Outside_EventScript_Quagsire::
 	end
 
 RuinsOfAlph_Outside_Text_Quagsire:
-	.string "QUAGSIRE: Quag Quag$"
+	.string "MARAISTE : Quag Quag$"
 
 RuinsOfAlph_Outside_EventScript_Stan::
 	trainerbattle_single TRAINER_STAN_HNS, RuinsOfAlph_Outside_Text_SuperNerdStan_Seen, RuinsOfAlph_Outside_Text_SuperNerdStan_Beaten
@@ -135,25 +135,25 @@ RuinsOfAlph_Outside_Text_MainSign:
 	.string "Bienvenue aux visiteurs$"
 
 RuinsOfAlph_Outside_Text_ResearchSign:
-	.string "RUINS OF ALPH RESEARCH CENTER\p"
-	.string "THE AUTHORITY ON THE\n"
-	.string "RUINS OF ALPH$"
+	.string "CENTRE DES RUINES D'ALPHA\p"
+	.string "LA RÉFÉRENCE DES\n"
+	.string "RUINES D'ALPHA$"
 
 RuinsOfAlph_Outside_Text_Fisher1:
-	.string "While exploring the RUINS, we\n"
-	.string "suddenly noticed an odd presence.\p"
-	.string "We all got scared and ran away.\n"
-	.string "You should be careful too.$"
+	.string "Alors qu'on explorait les RUINES,\n"
+	.string "on a soudain senti une présence.\p"
+	.string "On a eu peur et on s'est enfuis.\n"
+	.string "Fais attention, toi aussi.$"
 
 RuinsOfAlph_Outside_Text_Fisher2:
-	.string "The RUINS hide a huge secret!\p"
-	.string "…I think…$"
+	.string "Les RUINES cachent un secret !\p"
+	.string "… Enfin, je crois…$"
 
 RuinsOfAlph_Outside_Text_Youngster1:
-	.string "There are many kinds of UNOWN, so\n"
-	.string "we use them for our secret codes.$"
+	.string "Les ZARBI sont nombreux, alors on\n"
+	.string "s'en sert pour nos codes secrets.$"
 
 RuinsOfAlph_Outside_Text_Youngster2:
-	.string "A… H… E… A… D… Hmm…\p"
-	.string "What?\p"
-	.string "I'm decoding this message!$"
+	.string "A… H… E… A… D… Hum…\p"
+	.string "Quoi ?\p"
+	.string "Je déchiffre ce message !$"

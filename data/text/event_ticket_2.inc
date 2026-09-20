@@ -41,11 +41,11 @@ FarawayIsland_Entrance_Text_SailorReturn:
 #endif
 
 BirthIsland_Harbor_Text_SailorReturn:
-	.string "What an oddly shaped island, eh?\n"
+	.string "Ma parole, cette île a une drôle\n"
 #if IS_HNS
-	.string "Do you want to return to OLIVINE?$"
+	.string "Voulez-vous rentrer à OLIVILLE ?$"
 #else
-	.string "Do you want to return to LILYCOVE?$"
+	.string "On rentre à NÉNUCRIQUE ?$"
 #endif
 
 EventTicket_Text_OddTicketsWhereTo:

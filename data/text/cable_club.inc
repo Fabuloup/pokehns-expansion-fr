@@ -128,8 +128,8 @@ BattleColosseum_2P_Text_TakePlaceStartBattle:
 	.string "your battle.$"
 
 TradeCenter_Text_TakeSeatStartTrade:
-	.string "Please take your seat and start\n"
-	.string "your trade.$"
+	.string "Veuillez vous asseoir pour\n"
+	.string "commencer l'échange.$"
 
 RecordCorner_Text_ThanksForComing:
 	.string "Thanks for coming.$"

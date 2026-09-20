@@ -39,74 +39,74 @@ PewterCity_Gym_EventScript_Brock_Defeated::
 
 
 PewterCity_Gym_Text_Brock_Intro:
-	.string "BROCK: Wow, it's not often that we get a\n"
-	.string "challenger from JOHTO.\p"
-	.string "I'm BROCK, the PEWTER GYM LEADER.\p"
-	.string "I'm an expert on ROCK-type POKéMON.\p"
-	.string "My POKéMON are impervious to most\n"
-	.string "physical attacks. You'll have a hard\l"
-	.string "time inflicting any damage.\p"
-	.string "Come on!$"
+	.string "PIERRE: Ouah! Un challenger de\n"
+	.string "JOHTO, ça n'arrive pas souvent.\p"
+	.string "Je suis PIERRE, CHAMPION d'ARGENTA\p"
+	.string "J'utilise des POKéMON type ROCHE.\p"
+	.string "Mes POKéMON résistent à la plupart\n"
+	.string "des attaques physiques. Tu auras\l"
+	.string "du mal à leur infliger des dégâts.\p"
+	.string "En garde!$"
 
 PewterCity_Gym_Text_Brock_WinLoss:
-	.string "BROCK: Your POKéMON's powerful attacks\n"
-	.string "overcame my rock-hard defense…\p"
-	.string "You're stronger than I expected…\p"
-	.string "Go ahead--take this BADGE.$"
+	.string "PIERRE: Les puissantes attaques de\n"
+	.string "tes POKéMON ont brisé ma défense…\p"
+	.string "Tu es plus fort que prévu…\p"
+	.string "Tiens, prends ce BADGE.$"
 
 PewterCity_Gym_Text_ReceivedBoulderBadge:
-	.string "{PLAYER} received BOULDERBADGE.$"
+	.string "{PLAYER} reçoit le BADGE ROCHE!$"
 
 PewterCity_Gym_Text_Brock_GiveTM:
-	.string "Here, take this TM with you.$"
+	.string "Tiens, prends aussi cette CT.$"
 
 PewterCity_Gym_Text_Brock_ExplainTM:
-	.string "It contains ROCK SLIDE.\p"
-	.string "It drops rocks on your opponents\n"
-	.string "with a chance to cause flinching.\p"
-	.string "Use it to stop them in their tracks.$"
+	.string "Elle contient ÉBOULEMENT.\p"
+	.string "Des rochers tombent sur l'ennemi\n"
+	.string "et peuvent l'apeurer.\p"
+	.string "Utilise-la pour le stopper net.$"
 
 PewterCity_Gym_Text_Brock_BoulderBadge:
-	.string "BROCK: {PLAYER}, thanks. I enjoyed\n"
-	.string "battling you, even though I am a bit\l"
-	.string "upset.\p"
-	.string "That BOULDERBADGE will make your\n"
-	.string "POKéMON even more powerful.$"
+	.string "PIERRE: Merci, {PLAYER}. J'ai aimé\n"
+	.string "t'affronter malgré ma déception.\l"
+	.string "Ce fut un beau combat.\p"
+	.string "Ce BADGE ROCHE rendra tes POKéMON\n"
+	.string "encore plus puissants.$"
 
 PewterCity_Gym_Text_Brock_FightDone:
-	.string "BROCK: The world is huge. There are\n"
-	.string "still many strong trainers like you.\p"
-	.string "Just wait and see. I'm going to become\n"
-	.string "a lot stronger too.$"
+	.string "PIERRE: Le monde est vaste. Il a\n"
+	.string "de forts Dresseurs comme toi.\p"
+	.string "Tu verras. Je deviendrai moi aussi\n"
+	.string "bien plus fort.$"
 
 PewterCity_Gym_Text_CamperJerry_Seen:
-	.string "The trainers of this GYM use ROCK-type\n"
-	.string "POKéMON.\p"
-	.string "The ROCK-type has high DEFENSE.\p"
-	.string "Battles could end up going a long time.\n"
-	.string "Are you ready for this?$"
+	.string "Les Dresseurs de l'ARÈNE ont des\n"
+	.string "POKéMON de type ROCHE.\p"
+	.string "Ce type possède une haute DÉFENSE.\p"
+	.string "Les combats peuvent donc durer.\n"
+	.string "Tu es prêt?$"
 
 PewterCity_Gym_Text_CamperJerry_Beaten:
-	.string "I have to win these battles…$"
+	.string "Je dois gagner ces combats…$"
 
 PewterCity_Gym_Text_CamperJerry_AfterBattle:
-	.string "Hey, you! Trainer from JOHTO! BROCK is\n"
-	.string "tough. He'll punish you if you don't\l"
-	.string "take him seriously.$"
+	.string "Hé, Dresseur de JOHTO! PIERRE est\n"
+	.string "fort. Gare si tu ne le prends\l"
+	.string "pas au sérieux.$"
 
 PewterCity_Gym_Text_Guide:
-	.string "Yo! CHAMP in making! You're really\n"
-	.string "rocking.\p"
-	.string "Are you battling the GYM LEADERS of\n"
-	.string "KANTO?\p"
-	.string "They're strong and dedicated people,\n"
-	.string "just like JOHTO's GYM LEADERS.$"
+	.string "Hé! Futur CHAMPION! Tu assures\n"
+	.string "vraiment.\p"
+	.string "Tu affrontes les CHAMPIONS d'ARÈNE\n"
+	.string "de KANTO?\p"
+	.string "Ils sont forts et motivés, comme\n"
+	.string "les CHAMPIONS de JOHTO.$"
 
 PewterCity_Gym_Text_Guide_Win:
-	.string "Yo! CHAMP in making! That GYM didn't\n"
-	.string "give you much trouble.\p"
-	.string "The way you took charge was really\n"
-	.string "inspiring. I mean that seriously.$"
+	.string "Hé! Futur CHAMPION! Cette ARÈNE\n"
+	.string "ne t'a pas beaucoup gêné.\p"
+	.string "Ta façon de mener le combat était\n"
+	.string "vraiment inspirante. Sans rire.$"
 
 PewterCity_Gym_EventScript_GymGuy::
 	goto_if_set FLAG_DEFEATED_PEWTER_GYM, PewterCity_Gym_EventScript_GymGuyAfter
@@ -131,15 +131,15 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 PewterCity_Gym_Text_GymStatue::
-    .string "PEWTER POKéMON GYM\n"
-    .string "LEADER: BROCK\p"
-	.string "WINNING TRAINERS:\n"
+    .string "ARÈNE POKéMON D'ARGENTA\n"
+    .string "CHAMPION: PIERRE\p"
+	.string "DRESSEURS VAINQUEURS:\n"
 	.string "BLUE, RED$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "PEWTER POKéMON GYM\n"
-    .string "LEADER: BROCK\p"
-    .string "WINNING TRAINERS:\n"
+    .string "ARÈNE POKéMON D'ARGENTA\n"
+    .string "CHAMPION: PIERRE\p"
+    .string "DRESSEURS VAINQUEURS:\n"
 	.string "BLUE, RED, {PLAYER}$"
 
 PewterCity_Gym_EventScript_Brock_Trade::
@@ -166,26 +166,26 @@ PewterCity_Gym_EventScript_BrockTradeCompleted::
 	end
 
 PewterCity_Gym_Text_BrockWantToTrade:
-	.string "BROCK: Hey, {PLAYER}. I found this\n"
-	.string "little BONSLY while training in the\l"
-	.string "mountains.\p"
-	.string "It's cute, but I think it needs\n"
-	.string "a different kind of trainer.\p"
-	.string "Would you trade a {STR_VAR_1}\n"
-	.string "for my {STR_VAR_2}?$"
+	.string "PIERRE: {PLAYER}, j'ai trouvé ce\n"
+	.string "petit MANZAÏ en m'entraînant dans\l"
+	.string "les montagnes.\p"
+	.string "Il est mignon, mais je pense qu'il\n"
+	.string "il lui faut un autre Dresseur.\p"
+	.string "Tu échangerais un {STR_VAR_1}\n"
+	.string "contre mon {STR_VAR_2}?$"
 
 PewterCity_Gym_Text_BrockTakeCare:
-	.string "BROCK: Thanks! Take good care of\n"
-	.string "WOODY for me!$"
+	.string "PIERRE: Merci! Prends bien soin de\n"
+	.string "WOODY pour moi!$"
 
 PewterCity_Gym_Text_BrockDeclineTrade:
-	.string "BROCK: No? That's okay.\n"
-	.string "WOODY and I will keep training.$"
+	.string "PIERRE: Non? Pas grave.\n"
+	.string "WOODY et moi nous entraînerons.$"
 
 PewterCity_Gym_Text_BrockNotRequestedMon:
-	.string "BROCK: That's not a {STR_VAR_1}.\n"
-	.string "That's not what I'm after.$"
+	.string "Ce n'est pas un {STR_VAR_1}.\n"
+	.string "Ce n'est pas ce que je cherche.$"
 
 PewterCity_Gym_Text_BrockTradeCompleted:
-	.string "BROCK: How's WOODY doing?\n"
-	.string "BONSLY are tougher than they look!$"
+	.string "PIERRE: Comment va WOODY?\n"
+	.string "Les MANZAÏ sont très robustes!$"

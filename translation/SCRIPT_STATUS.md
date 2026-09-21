@@ -571,3 +571,15 @@ valider en jeu.
 | `data/maps/WhirlIslands_B3F_hns/scripts.inc` | sans chaîne locale à traduire |
 | `data/maps/WhirlIslands_Descent_hns/scripts.inc` | sans chaîne locale à traduire |
 | `data/maps/WhirlIslands_LugiaChamber_hns/scripts.inc` | traduit, à valider en jeu |
+
+## Audit transversal
+
+Cette liste recense uniquement les fichiers partagés déjà audités. Elle ne
+constitue pas un inventaire exhaustif des interfaces et textes hors cartes.
+
+Fichiers transversaux audités : **1**, dont **1 traduit, à valider en jeu** et
+**0 validé en jeu**.
+
+| Fichier | État |
+|---|---|
+| `src/data/text/radio_strings.h` | traduit, à valider en jeu |

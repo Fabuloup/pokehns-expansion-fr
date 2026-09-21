@@ -577,9 +577,13 @@ valider en jeu.
 Cette liste recense uniquement les fichiers partagés déjà audités. Elle ne
 constitue pas un inventaire exhaustif des interfaces et textes hors cartes.
 
-Fichiers transversaux audités : **1**, dont **1 traduit, à valider en jeu** et
+Fichiers transversaux audités : **5**, dont **5 traduits, à valider en jeu** et
 **0 validé en jeu**.
 
 | Fichier | État |
 |---|---|
+| `src/data/text/follower_messages.h` | traduit, à valider en jeu |
+| `src/data/text/gift_ribbon_descriptions.h` | traduit, à valider en jeu |
+| `src/data/text/match_call_messages.h` | traduit, à valider en jeu |
 | `src/data/text/radio_strings.h` | traduit, à valider en jeu |
+| `src/data/text/ribbon_descriptions.h` | traduit, à valider en jeu |

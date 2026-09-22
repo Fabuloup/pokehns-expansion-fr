@@ -586,15 +586,17 @@ Cette liste recense les périmètres transversaux actuellement ouverts. Elle ne
 constitue pas encore un inventaire exhaustif des interfaces et textes hors
 cartes.
 
-Fichiers transversaux recensés : **49**, dont **49 traduits, à valider en jeu**,
+Fichiers transversaux recensés : **53**, dont **53 traduits, à valider en jeu**,
 **0 à traduire** et **0 validé en jeu**.
 
 - `src/data/text/` : **5 / 5 traduits** ;
 - `data/text/` : **39 / 39 traduits** ;
 - `data/scripts/` : **4 scripts communs traduits et ajoutés au suivi**.
   D'autres scripts actifs dans ce dossier restent hors de ce compteur.
-- `src/` : **1 / 1 fichier traduit** (48 messages conditionnels du Pokémon
-  suiveur dans `follower_helper.c` ; les autres messages sont suivis séparément).
+- `src/` : **5 / 5 fichiers traduits et recensés** (messages du Pokémon
+  suiveur, légendes de concours, événements mystère, PC du joueur et clavier).
+  Dans `mystery_event_msg.c`, `PETALBURG GYM` reste en anglais faute de
+  correspondance française vérifiée dans le dépôt.
 
 | Fichier | État |
 |---|---|
@@ -646,7 +648,11 @@ Fichiers transversaux recensés : **49**, dont **49 traduits, à valider en jeu*
 | `src/data/text/match_call_messages.h` | traduit, à valider en jeu |
 | `src/data/text/radio_strings.h` | traduit, à valider en jeu |
 | `src/data/text/ribbon_descriptions.h` | traduit, à valider en jeu |
+| `src/contest_painting.c` | traduit, à valider en jeu |
 | `src/follower_helper.c` | traduit, à valider en jeu |
+| `src/mystery_event_msg.c` | traduit, à valider en jeu |
+| `src/player_pc.c` | traduit, à valider en jeu |
+| `src/text_input_strings.c` | traduit, à valider en jeu |
 
 ## Zones non encore suivies
 

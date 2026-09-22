@@ -1,5 +1,5 @@
 gText_Oak_Welcome::
-	.string "Bonjour! Désolé de l'attente!\p"
+	.string "Bonjour ! Désolé pour l'attente !\p"
 	.string "Bienvenue dans le monde des\n"
 	.string "POKéMON!\p"
 	.string "Mon nom est CHEN.\p"
@@ -31,8 +31,8 @@ gText_Oak_AndYouAre::
 	.string "Et toi, qui es-tu?$"
 
 gText_Oak_BoyOrGirl::
-	.string "Es-tu un garçon?\n"
-	.string "Ou bien une fille?$"
+	.string "Es-tu un garçon ?\n"
+	.string "Ou bien une fille ?$"
 
 gText_Oak_WhatChallenge::
 	.string "Quel niveau de difficulté\n"
@@ -40,23 +40,23 @@ gText_Oak_WhatChallenge::
 
 gText_Oak_ChallengeSelected::
 	.string "Ce niveau de difficulté semble\n"
-	.string "te convenir parfaitement!$"
+	.string "te convenir parfaitement !$"
 
 gText_Oak_WhatsYourName::
 	.string "Et comment t'appelles-tu?$"
 
 gText_Oak_SoItsPlayer::
-	.string "Ah! Tu t'appelles {PLAYER}{KUN}?$"
+	.string "Ah ! Tu t'appelles {PLAYER}{KUN} ?$"
 
 gText_Oak_YourePlayer::
-	.string "{PLAYER}{KUN}, es-tu prêt?\p"
+	.string "{PLAYER}{KUN}, es-tu prêt ?\p"
 	.string "Ta propre aventure est sur le\n"
 	.string "point de commencer.\p"
 	.string "$"
 
 gText_Oak_AreYouReady::
 	.string "Joies et épreuves t'attendent.\p"
-	.string "Un monde de rêves, d'aventures\n"
-	.string "et de POKéMON t'attend! En avant!\p"
-	.string "À plus tard!\p"
+	.string "Rêves et aventures t'attendent,\n"
+	.string "avec les POKéMON ! En avant !\p"
+	.string "À plus tard !\p"
 	.string "$"

@@ -49,9 +49,10 @@ annule la CI de **tout** le lot, puisque GitHub n'évalue que le commit de tête
 
 - scripts de cartes H&S : **423 / 423 traduits**, dont **0 validé en jeu** ;
 - `src/data/text/` : **5 / 5 fichiers traduits**, soit 735 chaînes contrôlées ;
-- `data/text/` : **35 / 39 fichiers traduits** ;
-- fichiers restant à traduire dans `data/text/` : `apprentice.inc`,
-  `match_call.inc`, `trainers.inc` et `tv.inc`.
+- `data/text/` : **39 / 39 fichiers traduits**.
+
+Les quatre derniers fichiers du périmètre `data/text/` sont désormais traduits :
+`apprentice.inc`, `match_call.inc`, `trainers.inc` et `tv.inc`.
 
 Ces chiffres ne signifient pas que l'intégralité du jeu est traduite. Les menus,
 interfaces et autres textes partagés qui ne figurent pas encore dans l'audit

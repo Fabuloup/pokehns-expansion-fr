@@ -574,14 +574,57 @@ valider en jeu.
 
 ## Audit transversal
 
-Cette liste recense uniquement les fichiers partagés déjà audités. Elle ne
-constitue pas un inventaire exhaustif des interfaces et textes hors cartes.
+Cette liste recense les périmètres transversaux actuellement ouverts. Elle ne
+constitue pas encore un inventaire exhaustif des interfaces et textes hors
+cartes.
 
-Fichiers transversaux audités : **5**, dont **5 traduits, à valider en jeu** et
-**0 validé en jeu**.
+Fichiers transversaux recensés : **44**, dont **40 traduits, à valider en jeu**,
+**4 à traduire** et **0 validé en jeu**.
+
+- `src/data/text/` : **5 / 5 traduits** ;
+- `data/text/` : **35 / 39 traduits**.
 
 | Fichier | État |
 |---|---|
+| `data/text/abnormal_weather.inc` | traduit, à valider en jeu |
+| `data/text/apprentice.inc` | à traduire |
+| `data/text/battle_tent.inc` | traduit, à valider en jeu |
+| `data/text/berries.inc` | traduit, à valider en jeu |
+| `data/text/birch_speech.inc` | traduit, à valider en jeu |
+| `data/text/blend_master.inc` | traduit, à valider en jeu |
+| `data/text/braille.inc` | traduit, à valider en jeu |
+| `data/text/cable_club.inc` | traduit, à valider en jeu |
+| `data/text/check_furniture.inc` | traduit, à valider en jeu |
+| `data/text/day_care_frlg.inc` | traduit, à valider en jeu |
+| `data/text/event_ticket_1.inc` | traduit, à valider en jeu |
+| `data/text/event_ticket_2.inc` | traduit, à valider en jeu |
+| `data/text/fame_checker_frlg.inc` | traduit, à valider en jeu |
+| `data/text/ingame_trade_frlg.inc` | traduit, à valider en jeu |
+| `data/text/lottery_corner.inc` | traduit, à valider en jeu |
+| `data/text/mart_clerk.inc` | traduit, à valider en jeu |
+| `data/text/match_call.inc` | à traduire |
+| `data/text/match_call_hns.inc` | traduit, à valider en jeu |
+| `data/text/mauville_man.inc` | traduit, à valider en jeu |
+| `data/text/move_relearner.inc` | traduit, à valider en jeu |
+| `data/text/move_tutors.inc` | traduit, à valider en jeu |
+| `data/text/new_game_intro_frlg.inc` | traduit, à valider en jeu |
+| `data/text/oak_speech_hns.inc` | traduit, à valider en jeu |
+| `data/text/obtain_item.inc` | traduit, à valider en jeu |
+| `data/text/pc.inc` | traduit, à valider en jeu |
+| `data/text/pc_transfer.inc` | traduit, à valider en jeu |
+| `data/text/pkmn_center_nurse.inc` | traduit, à valider en jeu |
+| `data/text/pokedex_rating.inc` | traduit, à valider en jeu |
+| `data/text/pokemon_news.inc` | traduit, à valider en jeu |
+| `data/text/questionnaire.inc` | traduit, à valider en jeu |
+| `data/text/record_mix.inc` | traduit, à valider en jeu |
+| `data/text/save.inc` | traduit, à valider en jeu |
+| `data/text/secret_base_trainers.inc` | traduit, à valider en jeu |
+| `data/text/shoal_cave.inc` | traduit, à valider en jeu |
+| `data/text/surf.inc` | traduit, à valider en jeu |
+| `data/text/trainer_card_frlg.inc` | traduit, à valider en jeu |
+| `data/text/trainers.inc` | à traduire |
+| `data/text/trainers_frlg.inc` | traduit, à valider en jeu |
+| `data/text/tv.inc` | à traduire |
 | `src/data/text/follower_messages.h` | traduit, à valider en jeu |
 | `src/data/text/gift_ribbon_descriptions.h` | traduit, à valider en jeu |
 | `src/data/text/match_call_messages.h` | traduit, à valider en jeu |

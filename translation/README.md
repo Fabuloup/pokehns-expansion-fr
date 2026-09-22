@@ -45,8 +45,21 @@ annule la CI de **tout** le lot, puisque GitHub n'évalue que le commit de tête
 
 ## Avancement
 
-Le suivi réel se trouve dans [SCRIPT_STATUS.md](SCRIPT_STATUS.md), fichier par
-fichier. C'est la seule source d'avancement du projet : ne pas en tenir un second ici.
+État actuel du chantier :
+
+- scripts de cartes H&S : **423 / 423 traduits**, dont **0 validé en jeu** ;
+- `src/data/text/` : **5 / 5 fichiers traduits**, soit 735 chaînes contrôlées ;
+- `data/text/` : **35 / 39 fichiers traduits** ;
+- fichiers restant à traduire dans `data/text/` : `apprentice.inc`,
+  `match_call.inc`, `trainers.inc` et `tv.inc`.
+
+Ces chiffres ne signifient pas que l'intégralité du jeu est traduite. Les menus,
+interfaces et autres textes partagés qui ne figurent pas encore dans l'audit
+transversal restent à inventorier. Aucun des fichiers ci-dessus n'a encore été
+validé visuellement en jeu.
+
+Le détail fichier par fichier et la source de vérité du suivi se trouvent dans
+[SCRIPT_STATUS.md](SCRIPT_STATUS.md).
 
 États employés :
 

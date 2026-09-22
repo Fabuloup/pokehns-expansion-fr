@@ -332,7 +332,7 @@ const u8 gText_MatchCallLass_Haley_Intro1[] = _("Après un combat, je prends");
 const u8 gText_MatchCallLass_Haley_Intro2[] = _("toujours un bain avec eux.");
 
 const u8 gText_MatchCallBugCatcher_James_Strategy[] = _("Attaquer à la vitesse éclair !");
-const u8 gText_MatchCallBugCatcher_James_Pokemon[] = _("Les POKéMON INSECTE sont N° 1 !");
+const u8 gText_MatchCallBugCatcher_James_Pokemon[] = _("Les POKéMON INSECTE sont les\nmeilleurs !");
 const u8 gText_MatchCallBugCatcher_James_Intro1[] = _("Pour attraper des POKéMON");
 const u8 gText_MatchCallBugCatcher_James_Intro2[] = _("INSECTE, lève-toi tôt.");
 

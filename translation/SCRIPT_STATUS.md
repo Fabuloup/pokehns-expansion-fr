@@ -20,6 +20,13 @@ partagés : ces contenus relèvent de l'audit transversal. La cible réelle est 
 de 423 fichiers. Tous les scripts suivis sont désormais traduits et restent à
 valider en jeu.
 
+> **Ce compteur ne mesure pas l'avancement du jeu.** Il ne porte que sur les
+> scripts de cartes et les fichiers transversaux recensés plus bas. Au
+> 22/09/2026, il reste **2 724 chaînes anglaises** ailleurs dans les sources,
+> dont tous les messages de combat, qui sont le texte le plus vu du jeu.
+> Voir la section « Zones non encore suivies ». Ne pas conclure de « 423 / 423 »
+> que le jeu est prêt à être testé en français.
+
 | Fichier | État |
 |---|---|
 | `data/maps/AkalaIsle_hns/scripts.inc` | traduit, à valider en jeu |
@@ -630,3 +637,56 @@ Fichiers transversaux recensés : **44**, dont **44 traduits, à valider en jeu*
 | `src/data/text/match_call_messages.h` | traduit, à valider en jeu |
 | `src/data/text/radio_strings.h` | traduit, à valider en jeu |
 | `src/data/text/ribbon_descriptions.h` | traduit, à valider en jeu |
+
+## Zones non encore suivies
+
+Relevé du 22/09/2026. Ces zones ne figurent dans aucun compteur ci-dessus.
+
+| Emplacement | Chaînes anglaises |
+|---|---|
+| `data/scripts/*.inc` | 1 291 |
+| `src/*.c` | 1 087 |
+| `src/data/*.h` | 288 |
+| `data/event_scripts.s` | 53 |
+| `data/maps/*_hns` (reliquats) | 4 |
+| `data/text/*.inc` (reliquat) | 1 |
+| **Total** | **2 724** |
+
+### Priorité pour un premier test
+
+Par ordre de visibilité en jeu, pas par volume :
+
+| Fichier | Chaînes | Pourquoi c'est prioritaire |
+|---|---|---|
+| `src/battle_message.c` | 339 | tous les messages de combat |
+| `src/strings.c` | 325 | menus et interface, déjà partiellement traduit |
+| `src/data/abilities.h` | 45 | descriptions des talents |
+| `src/data/items.h` | 26 | descriptions d'objets |
+| `src/berry.c` | 81 | Baies |
+| `src/follower_helper.c` | 31 | Pokémon suiveur |
+
+### `data/scripts/` : vivant ou contenu mort
+
+Le test appliqué est l'appel effectif depuis une carte `_hns` ou une référence
+depuis `src/` ou `data/event_scripts.s`.
+
+**Appelés depuis les cartes `_hns`, donc à traduire :**
+
+| Fichier | Chaînes |
+|---|---|
+| `contest_hall.inc` | 145 |
+| `bug_contest.inc` | 21 |
+| `secret_base.inc` | 19 |
+| `field_move_scripts_hns.inc` | 16 |
+
+**Référencés ailleurs, à vérifier au cas par cas :** `flavor_text.inc`,
+`debug.inc` (débogage uniquement), `safari_zone.inc`, `berry_tree.inc`,
+`mauville_man.inc`.
+
+**Aucune référence trouvée, probablement contenu mort hérité de Hoenn/FRLG :**
+`cable_club_frlg.inc` (161), `berry_blender.inc` (96), `lilycove_lady.inc` (79),
+`day_care.inc` (51), `profile_man.inc` (35), `mystery_event_club.inc` (21).
+
+> `day_care.inc` demande une vérification manuelle : la Pension existe bien dans
+> Heart & Soul, donc une variante `_hns` la remplace probablement. Ne pas le
+> classer mort sans avoir vérifié.

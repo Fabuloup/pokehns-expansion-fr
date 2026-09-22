@@ -194,21 +194,29 @@ zone comme terminée.
 - **Aucun fichier n'a été validé en jeu.** Le compteur « validé en jeu » est à 0
   et doit le rester tant qu'aucun test sur émulateur n'a eu lieu.
 - **SCRIPT_STATUS.md ne couvre qu'une partie du jeu.** Il annonce
-  « 423 / 423 fichiers traduits », ce qui est exact mais ne porte que sur les
-  549 scripts de cartes `data/maps/*_hns`. Environ **8 100 chaînes anglaises**
-  subsistent ailleurs, et ne sont suivies nulle part :
+  « 423 / 423 », ce qui est exact pour les scripts de cartes et les fichiers
+  transversaux, mais **2 724 chaînes anglaises** subsistent ailleurs
+  (relevé du 22/09/2026) :
 
-  | Emplacement | Anglais restant | Principaux fichiers |
-  |---|---|---|
-  | `data/text/` | ~6 715 | `trainers.inc`, `match_call.inc`, `match_call_hns.inc`, `tv.inc`, `apprentice.inc` |
-  | `data/scripts/` | ~1 150 | |
-  | `src/data/text/` | ~233 | `radio_strings.h`, `match_call_messages.h`, `follower_messages.h`, `ribbon_descriptions.h` |
+  | Emplacement | Anglais restant |
+  |---|---|
+  | `data/scripts/` | 1 291 |
+  | `src/*.c` | 1 087 |
+  | `src/data/*.h` | 288 |
+  | `data/event_scripts.s` | 53 |
 
   Ne jamais conclure du compteur que le jeu est prêt à être testé.
 
-- **Deux reliquats dans les cartes** : `LittlerootTown` (74 chaînes, seule carte
-  héritée réellement atteignable encore en anglais) et quelques lignes dans
-  `RuinsOfAlph_Outside_hns`.
+- **Le plus visible est `src/battle_message.c`** (339 chaînes) : tous les
+  messages de combat. Viennent ensuite `src/strings.c` (325, déjà partiellement
+  traduit), `src/berry.c` (81), `src/data/abilities.h` (45, descriptions des
+  talents), `src/follower_helper.c` (31), `src/data/items.h` (26).
+
+- **Dans `data/scripts/`, trier avant de traduire.** Seuls `contest_hall.inc`,
+  `bug_contest.inc`, `secret_base.inc` et `field_move_scripts_hns.inc` sont
+  appelés depuis les cartes `_hns`. `cable_club_frlg.inc`, `berry_blender.inc`,
+  `lilycove_lady.inc` et `profile_man.inc` n'ont aucune référence et sont
+  probablement du contenu mort hérité de Hoenn. Détail dans SCRIPT_STATUS.md.
 
 - **Ne pas traduire les autres cartes non-`_hns`.** Hoenn, `PetalburgCity_Gym`
   et environ 594 autres cartes totalisant 24 669 chaînes sont du contenu mort,

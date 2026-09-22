@@ -18,10 +18,25 @@ Il s'agit d'un fork du projet anglais [`PokemonHnS-Development/pokehns-expansion
 - Base actuelle : **Heart & Soul 2.0.6**
 - Branche officielle conservée : [`master`](https://github.com/nhykola/HeartAndSoul-FR/tree/master)
 - Branche de traduction : [`fr/main`](https://github.com/nhykola/HeartAndSoul-FR/tree/fr/main)
-- Traduction : **démarrage du projet**
+- Traduction : **scripts de cartes terminés, interfaces en cours**
 - Première version jouable française : **pas encore publiée**
+- Aucun texte n'a encore été vérifié en jeu
 
-Le travail commence par les textes indispensables au début du jeu, puis progressera par zones et par interfaces. Chaque lot doit être compilé, relu et vérifié en jeu.
+État au 22/09/2026 :
+
+| Zone | Avancement |
+|---|---|
+| Scripts de cartes (`data/maps/*_hns`) | 423 / 423 traduits |
+| Textes transversaux (`data/text`, `src/data/text`) | 44 / 44 traduits |
+| Reste des sources (`src/`, `data/scripts`) | ~2 700 chaînes anglaises |
+
+Le suivi détaillé, fichier par fichier, est dans
+[`translation/SCRIPT_STATUS.md`](translation/SCRIPT_STATUS.md). Attention : son
+compteur ne porte que sur les zones qu'il recense, et ne mesure donc pas
+l'avancement du jeu entier.
+
+Le plus visible de ce qui reste est `src/battle_message.c`, qui contient tous les
+messages de combat. Chaque lot doit être compilé, relu et vérifié en jeu.
 
 ## Qu'est-ce que Pokémon Heart & Soul ?
 

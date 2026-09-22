@@ -586,17 +586,18 @@ Cette liste recense les périmètres transversaux actuellement ouverts. Elle ne
 constitue pas encore un inventaire exhaustif des interfaces et textes hors
 cartes.
 
-Fichiers transversaux recensés : **47**, dont **47 traduits, à valider en jeu**,
+Fichiers transversaux recensés : **48**, dont **48 traduits, à valider en jeu**,
 **0 à traduire** et **0 validé en jeu**.
 
 - `src/data/text/` : **5 / 5 traduits** ;
 - `data/text/` : **39 / 39 traduits** ;
-- `data/scripts/` : **3 scripts communs traduits et ajoutés au suivi**.
+- `data/scripts/` : **4 scripts communs traduits et ajoutés au suivi**.
   D'autres scripts actifs dans ce dossier restent hors de ce compteur.
 
 | Fichier | État |
 |---|---|
 | `data/scripts/bug_contest.inc` | traduit, à valider en jeu |
+| `data/scripts/contest_hall.inc` | traduit, à valider en jeu |
 | `data/scripts/field_move_scripts_hns.inc` | traduit, à valider en jeu |
 | `data/scripts/secret_base.inc` | traduit, à valider en jeu |
 | `data/text/abnormal_weather.inc` | traduit, à valider en jeu |
@@ -646,8 +647,8 @@ Fichiers transversaux recensés : **47**, dont **47 traduits, à valider en jeu*
 
 ## Zones non encore suivies
 
-Relevé du 22/09/2026, **avant** le lot de trois scripts communs ajouté au
-tableau ci-dessus. Les chiffres ci-dessous sont historiques et ne constituent
+Relevé du 22/09/2026, **avant** la traduction des quatre scripts communs ajoutés
+au tableau ci-dessus. Les chiffres ci-dessous sont historiques et ne constituent
 plus un décompte actuel ; refaire l'inventaire pour établir le reste exact.
 
 | Emplacement | Chaînes anglaises |
@@ -682,13 +683,17 @@ depuis `src/` ou `data/event_scripts.s`.
 
 | Fichier | Chaînes |
 |---|---|
-| `contest_hall.inc` | 145 |
+| `contest_hall.inc` | 145 (relevé initial ; traduit, à valider en jeu) |
 | `bug_contest.inc` | 21 (relevé initial ; traduit, à valider en jeu) |
 | `secret_base.inc` | 19 (relevé initial ; traduit, à valider en jeu) |
 | `field_move_scripts_hns.inc` | 16 (relevé initial ; traduit, à valider en jeu) |
 
-`contest_hall.inc` reste à traduire. Le suivi de ces trois fichiers ne valide
-pas leurs textes à l'écran ni les autres interfaces qu'ils appellent.
+Ces quatre fichiers attendent une vérification en jeu. Dans `contest_hall.inc`,
+les 76 blocs de dialogue (269 segments `.string`) sont traduits, mais certains
+libellés de catégorie et menus injectés depuis `src/strings.c` et
+`src/data/script_menu.h` restent en anglais. Les modes en liaison citent encore
+les noms Emerald, Ruby et Sapphire tels qu'ils figurent dans le dépôt : leurs
+équivalents français doivent être vérifiés avant un éventuel remplacement.
 
 **Référencés ailleurs, à vérifier au cas par cas :** `flavor_text.inc`,
 `debug.inc` (débogage uniquement), `safari_zone.inc`, `berry_tree.inc`,

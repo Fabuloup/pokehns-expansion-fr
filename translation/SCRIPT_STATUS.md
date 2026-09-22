@@ -586,13 +586,15 @@ Cette liste recense les périmètres transversaux actuellement ouverts. Elle ne
 constitue pas encore un inventaire exhaustif des interfaces et textes hors
 cartes.
 
-Fichiers transversaux recensés : **48**, dont **48 traduits, à valider en jeu**,
+Fichiers transversaux recensés : **49**, dont **49 traduits, à valider en jeu**,
 **0 à traduire** et **0 validé en jeu**.
 
 - `src/data/text/` : **5 / 5 traduits** ;
 - `data/text/` : **39 / 39 traduits** ;
 - `data/scripts/` : **4 scripts communs traduits et ajoutés au suivi**.
   D'autres scripts actifs dans ce dossier restent hors de ce compteur.
+- `src/` : **1 / 1 fichier traduit** (48 messages conditionnels du Pokémon
+  suiveur dans `follower_helper.c` ; les autres messages sont suivis séparément).
 
 | Fichier | État |
 |---|---|
@@ -644,6 +646,7 @@ Fichiers transversaux recensés : **48**, dont **48 traduits, à valider en jeu*
 | `src/data/text/match_call_messages.h` | traduit, à valider en jeu |
 | `src/data/text/radio_strings.h` | traduit, à valider en jeu |
 | `src/data/text/ribbon_descriptions.h` | traduit, à valider en jeu |
+| `src/follower_helper.c` | traduit, à valider en jeu |
 
 ## Zones non encore suivies
 
@@ -672,7 +675,7 @@ Par ordre de visibilité en jeu, pas par volume :
 | `src/data/abilities.h` | 45 | descriptions des talents |
 | `src/data/items.h` | 26 | descriptions d'objets |
 | `src/berry.c` | 81 | Baies |
-| `src/follower_helper.c` | 31 | Pokémon suiveur |
+| `src/follower_helper.c` | 31 (relevé initial ; 48 messages traduits, à valider en jeu) | Pokémon suiveur |
 
 ### `data/scripts/` : vivant ou contenu mort
 

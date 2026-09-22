@@ -578,16 +578,16 @@ Cette liste recense les périmètres transversaux actuellement ouverts. Elle ne
 constitue pas encore un inventaire exhaustif des interfaces et textes hors
 cartes.
 
-Fichiers transversaux recensés : **44**, dont **40 traduits, à valider en jeu**,
-**4 à traduire** et **0 validé en jeu**.
+Fichiers transversaux recensés : **44**, dont **44 traduits, à valider en jeu**,
+**0 à traduire** et **0 validé en jeu**.
 
 - `src/data/text/` : **5 / 5 traduits** ;
-- `data/text/` : **35 / 39 traduits**.
+- `data/text/` : **39 / 39 traduits**.
 
 | Fichier | État |
 |---|---|
 | `data/text/abnormal_weather.inc` | traduit, à valider en jeu |
-| `data/text/apprentice.inc` | à traduire |
+| `data/text/apprentice.inc` | traduit, à valider en jeu |
 | `data/text/battle_tent.inc` | traduit, à valider en jeu |
 | `data/text/berries.inc` | traduit, à valider en jeu |
 | `data/text/birch_speech.inc` | traduit, à valider en jeu |
@@ -602,7 +602,7 @@ Fichiers transversaux recensés : **44**, dont **40 traduits, à valider en jeu*
 | `data/text/ingame_trade_frlg.inc` | traduit, à valider en jeu |
 | `data/text/lottery_corner.inc` | traduit, à valider en jeu |
 | `data/text/mart_clerk.inc` | traduit, à valider en jeu |
-| `data/text/match_call.inc` | à traduire |
+| `data/text/match_call.inc` | traduit, à valider en jeu |
 | `data/text/match_call_hns.inc` | traduit, à valider en jeu |
 | `data/text/mauville_man.inc` | traduit, à valider en jeu |
 | `data/text/move_relearner.inc` | traduit, à valider en jeu |
@@ -622,9 +622,9 @@ Fichiers transversaux recensés : **44**, dont **40 traduits, à valider en jeu*
 | `data/text/shoal_cave.inc` | traduit, à valider en jeu |
 | `data/text/surf.inc` | traduit, à valider en jeu |
 | `data/text/trainer_card_frlg.inc` | traduit, à valider en jeu |
-| `data/text/trainers.inc` | à traduire |
+| `data/text/trainers.inc` | traduit, à valider en jeu |
 | `data/text/trainers_frlg.inc` | traduit, à valider en jeu |
-| `data/text/tv.inc` | à traduire |
+| `data/text/tv.inc` | traduit, à valider en jeu |
 | `src/data/text/follower_messages.h` | traduit, à valider en jeu |
 | `src/data/text/gift_ribbon_descriptions.h` | traduit, à valider en jeu |
 | `src/data/text/match_call_messages.h` | traduit, à valider en jeu |

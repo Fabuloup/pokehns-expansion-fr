@@ -478,7 +478,7 @@ static const struct ChallengeMenuItem sTabItems_Mode[] = {
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_SURVIVE_POISON] = {
-        .name         = COMPOUND_STRING("SURVIVE POISON"),
+        .name         = COMPOUND_STRING("POISON"),
         .descriptions = sDesc_SurvivePoison,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
@@ -549,10 +549,10 @@ static const u8 *const sChoices_ShinyChance[] = {
 };
 
 static const u8 *const sChoices_Nuzlocke[] = {
-    COMPOUND_STRING("NON"),
+    COMPOUND_STRING("OFF"),
     COMPOUND_STRING("FACILE"),
     COMPOUND_STRING("NORMAL"),
-    COMPOUND_STRING("DIFFICILE"),
+    COMPOUND_STRING("DIFFI."),
 };
 
 static const u8 *const sChoices_CemeteryRelease[] = {

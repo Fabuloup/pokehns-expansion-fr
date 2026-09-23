@@ -2025,7 +2025,7 @@ MatchCall_Text_Mom1::
 MatchCall_Text_Mom2::
 	.string "MAMAN: Bonjour, {PLAYER}! Ton père\n"
 	.string "passe tout son temps dans\l"
-	.string "l'ARÈNE de CLEMENTI-VILLE. Il\p"
+	.string "l'ARÈNE de CLÉMENTI-VILLE. Il\p"
 	.string "passe de temps en temps, avale\n"
 	.string "tout ce qu'il peut et repart\l"
 	.string "immédiatement à l'ARÈNE. Je me\p"
@@ -2355,7 +2355,7 @@ MatchCall_Text_May1::
 
 MatchCall_Text_May2::
 	.string "FLORA: Bonjour, {PLAYER}{KUN}! Tu sais qu'il y\p"
-	.string "a une ARÈNE à CLEMENTI-VILLE et\n"
+	.string "a une ARÈNE à CLÉMENTI-VILLE et\n"
 	.string "MYOKARA? Ce sont pourtant de\p"
 	.string "petites villes. Par contre, il n'y\n"
 	.string "en a pas dans la grande ville\p"
@@ -2481,7 +2481,7 @@ MatchCall_Text_Brendan1::
 
 MatchCall_Text_Brendan2::
 	.string "BRICE: Salut, {PLAYER}! Pourquoi\p"
-	.string "CLEMENTI-VILLE et MYOKARA\n"
+	.string "CLÉMENTI-VILLE et MYOKARA\n"
 	.string "ont une ARÈNE? Après tout,\p"
 	.string "POIVRESSEL n'en a pas et\n"
 	.string "c'est beaucoup plus grand!\p"
@@ -2778,7 +2778,7 @@ MatchCall_Text_Norman8::
 	.string "moment! Je t'invite à\n"
 	.string "venir faire un combat\p"
 	.string "contre moi. Je suis dans\n"
-	.string "l'ARÈNE de CLEMENTI-VILLE.$"
+	.string "l'ARÈNE de CLÉMENTI-VILLE.$"
 
 MatchCall_Text_Norman9::
 	.string "PAPA: Tu m'épates, {PLAYER}.\n"
@@ -2911,7 +2911,7 @@ MatchCall_Text_MrStone4::
 MatchCall_Text_MrStone5::
 	.string "M. ROCHARD: Bonjour,\p"
 	.string "{PLAYER}{KUN}! Quelqu'un de\n"
-	.string "CLEMENTI-VILLE m'a dit\p"
+	.string "CLÉMENTI-VILLE m'a dit\p"
 	.string "que NORMAN est ton\n"
 	.string "père! Tu as de qui tenir!$"
 

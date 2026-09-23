@@ -4,15 +4,18 @@ Relevé du 23/09/2026, commit `ec0d367842`.
 
 ## État en un coup d'œil
 
-| | Fichiers | Chaînes anglaises restantes |
+| Zone | Fichiers | Chaînes anglaises |
 |---|---|---|
 | Scripts de cartes `_hns` | 423 traduits, 126 sans texte | 4 |
 | Fichiers transversaux (`data/text`, `src/data/text`) | 45 traduits | 2 |
-| **Code source `src/`** | — | **1 959** |
-| **`data/scripts/`** | — | **1 269** |
-| `data/event_scripts.s` | — | 65 |
-| Cartes héritées atteignables | — | 24 |
-| **Reste à traduire** | | **3 323** |
+| **Cartes héritées atteignables** | 279 | **10 887** |
+| **Code source `src/`** | 70 | **1 959** |
+| **`data/scripts/`** | 36 | **1 269** |
+| `data/event_scripts.s` | 1 | 65 |
+| **Reste à traduire** | | **~14 200** |
+| | | |
+| Cartes sans chemin d'accès | 305 | 6 429 |
+| Fixture de test (hors ROM) | 1 | 39 |
 
 Aucun texte n'a été validé en jeu. Le jeu compile, ce qui ne prouve rien sur
 l'exhaustivité ni sur l'affichage.
@@ -45,17 +48,30 @@ Dans `data/scripts/`, seuls quatre fichiers étaient appelés depuis les cartes
 `_hns` et ils sont déjà traduits. Le reste demande un tri avant traduction :
 voir la section suivante.
 
-## Ce qu'il ne faut PAS traduire
+## Contenu hérité : ce qui est atteignable et ce qui ne l'est pas
 
-**581 fichiers de cartes héritées, 17 288 chaînes.** Hoenn, FRLG et compagnie
-sont compilés dans la ROM mais inatteignables depuis Heart & Soul. Les traduire
-serait cinq fois le travail restant, pour rien.
+Le projet est bâti sur une décompilation : il hérite de tout Émeraude et d'une
+partie de Rouge Feu / Vert Feuille, qu'ils servent ou non. Du contenu inutilisé
+est donc normal et attendu.
 
-Test d'atteignabilité d'une carte non-`_hns` :
+Mais **la majorité de ce contenu est accessible**. Depuis
+`BATTLE_FRONTIER_OUTSIDE_WEST_HNS`, un warp mène à `ARTISAN_CAVE_B1F`, qui
+rouvre la Zone de Combat de Hoenn puis Hoenn entier. Un parcours du graphe des
+warps depuis la carte de départ atteint **921 cartes sur 1 499**.
 
-```bash
-grep -rhoE 'MAP_[A-Z0-9_]+' data/maps/*_hns/*.inc data/maps/*_hns/*.json | sort -u
-```
+| | Fichiers | Chaînes |
+|---|---|---|
+| Cartes héritées avec un chemin d'accès | 279 | 10 887 |
+| Cartes héritées sans aucun chemin | 305 | 6 429 |
+
+Les 6 429 sont un plancher fiable : aucun warp n'y mène. Les 10 887 sont un
+**majorant** : le parcours suit tous les warps sans vérifier les drapeaux qui
+les conditionnent, donc certaines de ces cartes peuvent rester inaccessibles en
+pratique. Seul un test en jeu tranchera.
+
+Pour recalculer l'atteignabilité, le script de parcours est décrit dans
+« Comment mesurer ». Ne jamais se fier au seul test des warps cités depuis les
+cartes `_hns` : il rate toutes les chaînes de warps de plus d'un saut.
 
 Dans `data/scripts/`, sans référence trouvée et probablement morts :
 `mauville_man.inc` (245), `cable_club_frlg.inc` (200), `berry_blender.inc` (125),

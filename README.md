@@ -28,7 +28,8 @@ Il s'agit d'un fork du projet anglais [`PokemonHnS-Development/pokehns-expansion
 |---|---|
 | Scripts de cartes (`data/maps/*_hns`) | 423 / 423 traduits |
 | Textes transversaux (`data/text`, `src/data/text`) | 44 / 44 traduits |
-| Reste des sources (`src/`, `data/scripts`) | ~2 700 chaînes anglaises |
+| Cartes héritées accessibles (Hoenn via la Zone de Combat) | ~10 900 chaînes anglaises |
+| Reste des sources (`src/`, `data/scripts`) | ~3 300 chaînes anglaises |
 
 Le suivi détaillé, fichier par fichier, est dans
 [`translation/SCRIPT_STATUS.md`](translation/SCRIPT_STATUS.md). Attention : son

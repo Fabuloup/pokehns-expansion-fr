@@ -194,36 +194,42 @@ zone comme terminée.
 - **Aucun fichier n'a été validé en jeu.** Le compteur « validé en jeu » est à 0
   et doit le rester tant qu'aucun test sur émulateur n'a eu lieu.
 - **SCRIPT_STATUS.md ne couvre qu'une partie du jeu.** Il annonce
-  « 423 / 423 », ce qui est exact pour les scripts de cartes et les fichiers
-  transversaux, mais **2 724 chaînes anglaises** subsistent ailleurs
-  (relevé du 22/09/2026) :
+  « 423 / 423 », ce qui est exact pour les scripts de cartes `_hns` et les
+  fichiers transversaux, mais **environ 14 200 chaînes anglaises** subsistent
+  ailleurs (relevé du 23/09/2026, balayage de tout le dépôt) :
 
   | Emplacement | Anglais restant |
   |---|---|
-  | `data/scripts/` | 1 291 |
-  | `src/*.c` | 1 087 |
-  | `src/data/*.h` | 288 |
-  | `data/event_scripts.s` | 53 |
+  | Cartes héritées atteignables | 10 887 |
+  | `src/` | 1 959 |
+  | `data/scripts/` | 1 269 |
+  | `data/event_scripts.s` | 65 |
 
   Ne jamais conclure du compteur que le jeu est prêt à être testé.
 
-- **Le plus visible est `src/battle_message.c`** (339 chaînes) : tous les
-  messages de combat. Viennent ensuite `src/strings.c` (325, déjà partiellement
-  traduit), `src/berry.c` (81), `src/data/abilities.h` (45, descriptions des
-  talents), `src/follower_helper.c` (31), `src/data/items.h` (26).
+- **Le plus visible est `src/battle_message.c`** (524 chaînes) : tous les
+  messages de combat. Viennent ensuite `src/strings.c` (402),
+  `src/data/union_room.h` (155), `src/berry.c` (114),
+  `src/challenge_menu.c` (105), `src/data/abilities.h` (73, descriptions des
+  talents), `src/data/items.h` (28).
 
-- **Dans `data/scripts/`, trier avant de traduire.** Seuls `contest_hall.inc`,
-  `bug_contest.inc`, `secret_base.inc` et `field_move_scripts_hns.inc` sont
-  appelés depuis les cartes `_hns`. `cable_club_frlg.inc`, `berry_blender.inc`,
-  `lilycove_lady.inc` et `profile_man.inc` n'ont aucune référence et sont
-  probablement du contenu mort hérité de Hoenn. Détail dans SCRIPT_STATUS.md.
+- **Le contenu hérité n'est pas mort, contrairement à ce qui a longtemps été
+  écrit ici.** Le projet est bâti sur une décompilation et hérite de tout
+  Émeraude, mais depuis `BATTLE_FRONTIER_OUTSIDE_WEST_HNS` un warp mène à
+  `ARTISAN_CAVE_B1F`, qui rouvre la Zone de Combat de Hoenn puis Hoenn entier.
+  Un parcours du graphe des warps depuis la carte de départ atteint 921 cartes
+  sur 1 499 : **279 cartes héritées contenant 10 887 chaînes anglaises sont
+  accessibles au joueur**. Seules 305 cartes (6 429 chaînes) n'ont aucun chemin.
 
-- **Ne pas traduire les autres cartes non-`_hns`.** Hoenn, `PetalburgCity_Gym`
-  et environ 594 autres cartes totalisant 24 669 chaînes sont du contenu mort,
-  hérité du moteur et inatteignable depuis Heart & Soul. Avant de traduire une
-  carte non-`_hns`, vérifier qu'elle est citée dans un warp depuis une carte
-  `_hns` :
-  `grep -rhoE 'MAP_[A-Z0-9_]+' data/maps/*_hns/*.inc data/maps/*_hns/*.json | sort -u`
+  Ne jamais juger de l'atteignabilité par les seuls warps cités depuis les
+  cartes `_hns` : ce test rate toutes les chaînes de warps de plus d'un saut,
+  et c'est ainsi que l'erreur a été commise. Construire le graphe complet à
+  partir des `warp_events` et `connections` de chaque `map.json`, plus les
+  `warp` des scripts, puis partir de
+  `MAP_NEW_BARK_TOWN_PLAYERS_HOUSE_2F_HNS`.
+
+  Réserve : ce parcours suit tous les warps sans vérifier les drapeaux qui les
+  conditionnent. Les 10 887 sont un majorant, les 6 429 un plancher fiable.
 
 - **L'audit transversal reste à faire** : interfaces, menus, aides de touches,
   écrans de combat et textes intégrés aux images. Suivre des fichiers `_hns`

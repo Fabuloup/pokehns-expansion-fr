@@ -1300,9 +1300,9 @@ MatchCall_PersonalizedText58::
 
 MatchCall_PersonalizedText59::
 	.string "C'est {STR_VAR_1}! Je suis retourné\p"
-	.string "à l'ARENE de MYOKARA pour\n"
+	.string "à l'ARÈNE de MYOKARA pour\n"
 	.string "m'entraîner. BASTIEN, le\p"
-	.string "CHAMPION D'ARENE, est\n"
+	.string "CHAMPION D'ARÈNE, est\n"
 	.string "devenu bien meilleur. Il\p"
 	.string "a parlé des vagues\n"
 	.string "sauvages… Ou un truc dans\p"
@@ -2025,10 +2025,10 @@ MatchCall_Text_Mom1::
 MatchCall_Text_Mom2::
 	.string "MAMAN: Bonjour, {PLAYER}! Ton père\n"
 	.string "passe tout son temps dans\l"
-	.string "l'ARENE de CLEMENTI-VILLE. Il\p"
+	.string "l'ARÈNE de CLEMENTI-VILLE. Il\p"
 	.string "passe de temps en temps, avale\n"
 	.string "tout ce qu'il peut et repart\l"
-	.string "immédiatement à l'ARENE. Je me\p"
+	.string "immédiatement à l'ARÈNE. Je me\p"
 	.string "fais du souci pour lui. Perdre\n"
 	.string "contre toi a été un gros choc!$"
 
@@ -2053,9 +2053,9 @@ MatchCall_Text_Roxanne1::
 	.string "ROXANNE: Bonjour, {PLAYER}! Je\p"
 	.string "suis en train de me\n"
 	.string "remettre à niveau. Je ne\p"
-	.string "vais pas rouvrir l'ARENE\n"
+	.string "vais pas rouvrir l'ARÈNE\n"
 	.string "tout de suite. Mais dès\p"
-	.string "que l'ARENE sera prête,\n"
+	.string "que l'ARÈNE sera prête,\n"
 	.string "passe faire un combat!$"
 
 MatchCall_Text_Roxanne2::
@@ -2063,19 +2063,19 @@ MatchCall_Text_Roxanne2::
 	.string "Félicitations! J'ai\l"
 	.string "entendu parler de toi! Eh\p"
 	.string "bien, je ne vais pas\n"
-	.string "rouvrir l'ARENE tout de\p"
-	.string "suite. Mais dès que l'ARENE\n"
+	.string "rouvrir l'ARÈNE tout de\p"
+	.string "suite. Mais dès que l'ARÈNE\n"
 	.string "sera prête, passe faire un combat!$"
 
 MatchCall_Text_Roxanne3::
-	.string "ROXANNE: {PLAYER}! L'ARENE\n"
+	.string "ROXANNE: {PLAYER}! L'ARÈNE\n"
 	.string "est prête! J'espère\p"
 	.string "que tu vas bientôt\n"
 	.string "venir à MEROUVILLE!$"
 
 MatchCall_Text_Roxanne4::
 	.string "ROXANNE: M'être battue\n"
-	.string "contre toi dans l'ARENE de\l"
+	.string "contre toi dans l'ARÈNE de\l"
 	.string "MEROUVILLE me remplit de fierté, {PLAYER}.$"
 
 MatchCall_Text_Brawly1::
@@ -2083,7 +2083,7 @@ MatchCall_Text_Brawly1::
 	.string "combat m'a beaucoup\n"
 	.string "appris. Je vais suivre un\p"
 	.string "entraînement intensif\n"
-	.string "avant de rouvrir l'ARENE.\p"
+	.string "avant de rouvrir l'ARÈNE.\p"
 	.string "Mais ça risque de durer\n"
 	.string "quelque temps. Quand tout\p"
 	.string "sera prêt, j'espère que tu\n"
@@ -2097,14 +2097,14 @@ MatchCall_Text_Brawly2::
 	.string "remettre sérieusement à\n"
 	.string "l'entraînement. Ça va\p"
 	.string "prendre un peu de temps avant\n"
-	.string "que je rouvre l'ARENE. Quand\p"
+	.string "que je rouvre l'ARÈNE. Quand\p"
 	.string "tout sera prêt, j'espère que\n"
 	.string "tu passeras refaire un combat.$"
 
 MatchCall_Text_Brawly3::
 	.string "BASTIEN: Salut, {PLAYER}{KUN}! Je\n"
 	.string "suis prêt à rouvrir\p"
-	.string "l'ARENE! Reviens à\n"
+	.string "l'ARÈNE! Reviens à\n"
 	.string "MYOKARA quand tu veux!$"
 
 MatchCall_Text_Brawly4::
@@ -2117,7 +2117,7 @@ MatchCall_Text_Wattson1::
 	.string "l'entraînement depuis le début.\p"
 	.string "J'ai besoin d'encore un petit\n"
 	.string "peu de temps avant de rouvrir\p"
-	.string "l'ARENE. Tu vas devoir attendre\n"
+	.string "l'ARÈNE. Tu vas devoir attendre\n"
 	.string "Ouhahahahaha!$"
 
 MatchCall_Text_Wattson2::
@@ -2127,13 +2127,13 @@ MatchCall_Text_Wattson2::
 	.string "moi! J'ai encore besoin de\n"
 	.string "continuer un peu\p"
 	.string "l'entraînement. Je ne vais pas\n"
-	.string "rouvrir l'ARENE tout de suite.\p"
+	.string "rouvrir l'ARÈNE tout de suite.\p"
 	.string "Tu vas devoir attendre avant\n"
 	.string "de m'affronter encore. Wahahaha!$"
 
 MatchCall_Text_Wattson3::
 	.string "VOLTERE: Oh, c'est\n"
-	.string "toi! L'ARENE est\p"
+	.string "toi! L'ARÈNE est\p"
 	.string "prête! Viens à LAVANDIA\n"
 	.string "quand tu veux! Waaaaaouh!$"
 
@@ -2149,7 +2149,7 @@ MatchCall_Text_Flannery1::
 	.string "je ne baisse pas les bras\p"
 	.string "pour autant! Je vais\n"
 	.string "m'entraîner dur avant de\p"
-	.string "rouvrir l'ARENE. Quand le moment\n"
+	.string "rouvrir l'ARÈNE. Quand le moment\n"
 	.string "sera venu, nous nous battrons, {PLAYER}.$"
 
 MatchCall_Text_Flannery2::
@@ -2158,13 +2158,13 @@ MatchCall_Text_Flannery2::
 	.string "nouvelle de ta réussite\n"
 	.string "m'a fait chaud au cœur!\p"
 	.string "L'entraînement se passe à\n"
-	.string "merveille. Dès que l'ARENE\p"
+	.string "merveille. Dès que l'ARÈNE\p"
 	.string "sera prête, une marque\n"
 	.string "apparaîtra près de mon nom\l"
 	.string "dans la liste du MATCH PHONE.$"
 
 MatchCall_Text_Flannery3::
-	.string "ADRIANE: Oh, {PLAYER}? L'ARENE est\n"
+	.string "ADRIANE: Oh, {PLAYER}? L'ARÈNE est\n"
 	.string "prête! Viens à VERMILAVA! On a\p"
 	.string "des sources chaudes et Je\n"
 	.string "dans la source chaude et un défi!$"
@@ -2190,7 +2190,7 @@ MatchCall_Text_Winona2::
 
 MatchCall_Text_Winona3::
 	.string "ALIZEE: C'est toi, {PLAYER}? J'ai\n"
-	.string "rouvert l'ARENE! On\p"
+	.string "rouvert l'ARÈNE! On\p"
 	.string "t'attend tous à CIMETRONELLE!$"
 
 MatchCall_Text_Winona4::
@@ -2204,8 +2204,8 @@ MatchCall_Text_TateLiza1::
 	.string "LEVY: Oh! C'est… TATIA: {PLAYER}!\n"
 	.string "LEVY: On a repris\p"
 	.string "l'entraînement… TATIA: pour\n"
-	.string "rouvrir l'ARENE! LEVY: Quand\p"
-	.string "l'ARENE sera prête… TATIA:\n"
+	.string "rouvrir l'ARÈNE! LEVY: Quand\p"
+	.string "l'ARÈNE sera prête… TATIA:\n"
 	.string "il y aura un symbole… LEVY:\p"
 	.string "près de nos noms dans…\n"
 	.string "TATIA: la liste du MATCH PHONE.$"
@@ -2215,16 +2215,16 @@ MatchCall_Text_TateLiza2::
 	.string "TATIA: Félicitations, {PLAYER}!\p"
 	.string "LEVY: Nous, on s'entraîne…\n"
 	.string "TATIA: encore! LEVY: Quand\p"
-	.string "l'ARENE sera prête… TATIA:\n"
+	.string "l'ARÈNE sera prête… TATIA:\n"
 	.string "il y aura un symbole… LEVY:\p"
 	.string "près de nos noms dans…\n"
 	.string "TATIA: la liste du MATCH PHONE.$"
 
 MatchCall_Text_TateLiza3::
 	.string "LEVY: {PLAYER}! TATIA: {PLAYER}!\n"
-	.string "LEVY: L'ARENE est\p"
+	.string "LEVY: L'ARÈNE est\p"
 	.string "prête! TATIA:\n"
-	.string "L'ARENE est prête!\p"
+	.string "L'ARÈNE est prête!\p"
 	.string "LEVY: Passe nous\n"
 	.string "voir… TATIA: à ALGATIA!$"
 
@@ -2253,7 +2253,7 @@ MatchCall_Text_Juan2::
 	.string "de pouvoir et de prestige.$"
 
 MatchCall_Text_Juan3::
-	.string "JUAN: Ho, ho… {PLAYER}{KUN}… L'ARENE\p"
+	.string "JUAN: Ho, ho… {PLAYER}{KUN}… L'ARÈNE\p"
 	.string "d'ATALANOPOLIS a enfin\n"
 	.string "rouvert. Si vous voulez\p"
 	.string "me voir, vous pouvez\n"
@@ -2355,7 +2355,7 @@ MatchCall_Text_May1::
 
 MatchCall_Text_May2::
 	.string "FLORA: Bonjour, {PLAYER}{KUN}! Tu sais qu'il y\p"
-	.string "a une ARENE à CLEMENTI-VILLE et\n"
+	.string "a une ARÈNE à CLEMENTI-VILLE et\n"
 	.string "MYOKARA? Ce sont pourtant de\p"
 	.string "petites villes. Par contre, il n'y\n"
 	.string "en a pas dans la grande ville\p"
@@ -2458,7 +2458,7 @@ MatchCall_Text_May13::
 MatchCall_Text_May14::
 	.string "FLORA: {PLAYER}{KUN}! Les gens\n"
 	.string "parlent de toi! Tu as\p"
-	.string "battu le CHAMPION D'ARENE\n"
+	.string "battu le CHAMPION D'ARÈNE\n"
 	.string "d'ATALANOPOLIS, c'est\p"
 	.string "super! Il ne te reste plus\n"
 	.string "beaucoup de chemin à parcourir.$"
@@ -2482,7 +2482,7 @@ MatchCall_Text_Brendan1::
 MatchCall_Text_Brendan2::
 	.string "BRICE: Salut, {PLAYER}! Pourquoi\p"
 	.string "CLEMENTI-VILLE et MYOKARA\n"
-	.string "ont une ARENE? Après tout,\p"
+	.string "ont une ARÈNE? Après tout,\p"
 	.string "POIVRESSEL n'en a pas et\n"
 	.string "c'est beaucoup plus grand!\p"
 	.string "S'il y en avait une, je\n"
@@ -2586,7 +2586,7 @@ MatchCall_Text_Brendan14::
 	.string "BRICE: {PLAYER}! Hé, je suis\n"
 	.string "au courant! Tu as\p"
 	.string "battu le CHAMPION\n"
-	.string "D'ARENE d'ATALANOPOLIS!\p"
+	.string "D'ARÈNE d'ATALANOPOLIS!\p"
 	.string "Trop cool! Tu es près du but!$"
 
 MatchCall_Text_Brendan15::
@@ -2701,7 +2701,7 @@ MatchCall_Text_Scott6::
 	.string "SCOTT: Bonjour, bonjour,\p"
 	.string "{PLAYER}{KUN}! Tu sais que si tu as\n"
 	.string "tous les BADGES\l"
-	.string "D'ARENES, tu as le droit\p"
+	.string "D'ARÈNES, tu as le droit\p"
 	.string "de défier la LIGUE\n"
 	.string "POKéMON? Avec ton talent,\p"
 	.string "tu as toutes les chances\n"
@@ -2778,7 +2778,7 @@ MatchCall_Text_Norman8::
 	.string "moment! Je t'invite à\n"
 	.string "venir faire un combat\p"
 	.string "contre moi. Je suis dans\n"
-	.string "l'ARENE de CLEMENTI-VILLE.$"
+	.string "l'ARÈNE de CLEMENTI-VILLE.$"
 
 MatchCall_Text_Norman9::
 	.string "PAPA: Tu m'épates, {PLAYER}.\n"

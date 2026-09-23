@@ -4,7 +4,7 @@
 
 [![Build](https://github.com/nhykola/HeartAndSoul-FR/actions/workflows/build.yml/badge.svg?branch=fr%2Fmain)](https://github.com/nhykola/HeartAndSoul-FR/actions/workflows/build.yml)
 
-Ce dépôt héberge la **traduction française communautaire de Pokémon Heart & Soul 2.0**.
+Ce dépôt héberge une **traduction française communautaire de Pokémon Heart & Soul 2.0**. Certaines traductions sont récupérées de [https://github.com/nhykola/HeartAndSoul-FR](https://github.com/nhykola/HeartAndSoul-FR).
 
 Il s'agit d'un fork du projet anglais [`PokemonHnS-Development/pokehns-expansion`](https://github.com/PokemonHnS-Development/pokehns-expansion). La traduction est réalisée directement dans les sources afin de rester maintenable lorsque le projet original reçoit des corrections.
 
@@ -16,8 +16,8 @@ Il s'agit d'un fork du projet anglais [`PokemonHnS-Development/pokehns-expansion
 ## État du projet
 
 - Base actuelle : **Heart & Soul 2.0.6**
-- Branche officielle conservée : [`master`](https://github.com/nhykola/HeartAndSoul-FR/tree/master)
-- Branche de traduction : [`fr/main`](https://github.com/nhykola/HeartAndSoul-FR/tree/fr/main)
+- Branche officielle conservée : [`master`](https://github.com/Fabuloup/pokehns-expansion-fr/tree/master)
+- Branche de traduction : [`trad/fr`](https://github.com/Fabuloup/pokehns-expansion-fr/tree/trad/fr)
 - Traduction : **scripts de cartes terminés, interfaces en cours**
 - Première version jouable française : **pas encore publiée**
 - Aucun texte n'a encore été vérifié en jeu
@@ -93,6 +93,12 @@ La commande principale de compilation est :
 
 ```sh
 make hns
+```
+
+Le commande optimisée de compilation est :
+
+```sh
+make hns -j$(nproc)
 ```
 
 Le dépôt ne contient et ne distribuera aucune ROM `.gba`. Les Releases proposeront uniquement des éléments redistribuables, comme un patch, lorsque la traduction sera suffisamment avancée.

@@ -238,7 +238,7 @@ DragonsDen_Cavern_Text_CooltrainermDarinBeaten:
 
 DragonsDen_Cavern_Text_CooltrainermDarinAfter:
     .string "Le TEMPLE est la demeure de notre\n"
-    .string "MAITRE, chef du clan des dragons.\p"
+    .string "MAÎTRE, chef du clan des dragons.\p"
     .string "Tu n'as pas le droit d'entrer!$"
 
 DragonsDen_Cavern_Text_CooltrainerfCaraSeen:
@@ -249,9 +249,9 @@ DragonsDen_Cavern_Text_CooltrainerfCaraBeaten:
 
 DragonsDen_Cavern_Text_CooltrainerfCaraAfter:
     .string "Je vais bientôt avoir l'accord\n"
-    .string "du MAITRE pour utili- ser des\p"
+    .string "du MAÎTRE pour utili- ser des\p"
     .string "dragons. Et alors, je pour-\n"
-    .string "rai rendre mon MAITRE fier en\l"
+    .string "rai rendre mon MAÎTRE fier en\l"
     .string "devenant un grand dresseur.$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1Seen:

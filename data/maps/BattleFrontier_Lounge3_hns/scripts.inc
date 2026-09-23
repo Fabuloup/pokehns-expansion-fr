@@ -260,14 +260,14 @@ BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble_hns::
 BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle_hns::
 	.string "Je cherche un DRESSEUR qui va\n"
 	.string "participer au TOURNOI COMBAT\l"
-	.string "ECHANGE SOLO de l'USINE DE\p"
+	.string "ÉCHANGE SOLO de l'USINE DE\p"
 	.string "COMBAT. Mais je n'ai pas vu\n"
 	.string "un seul DRESSEUR à la hauteur.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble_hns::
 	.string "Je cherche un DRESSEUR qui va\n"
 	.string "participer au TOURNOI COMBAT\l"
-	.string "ECHANGE DUO de l'USINE DE\p"
+	.string "ÉCHANGE DUO de l'USINE DE\p"
 	.string "COMBAT. Mais je n'ai pas vu\n"
 	.string "un seul DRESSEUR à la hauteur.$"
 
@@ -368,14 +368,14 @@ BattleFrontier_Lounge3_Text_GetToBattleDomeDouble_hns::
 	.string "tous les deux en dépend!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactorySingle_hns::
-	.string "Vite, le TOURNOI COMBAT ECHANGE\n"
+	.string "Vite, le TOURNOI COMBAT ÉCHANGE\n"
 	.string "SOLO de l'USINE DE COMBAT\p"
 	.string "t'attend! Tu dois gagner! Je\n"
 	.string "compte sur toi! Notre avenir\l"
 	.string "à tous les deux en dépend!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble_hns::
-	.string "Vite, le TOURNOI COMBAT ECHANGE\n"
+	.string "Vite, le TOURNOI COMBAT ÉCHANGE\n"
 	.string "DUO de l'USINE DE COMBAT\p"
 	.string "t'attend! Tu dois gagner! Je\n"
 	.string "compte sur toi! Notre avenir\l"

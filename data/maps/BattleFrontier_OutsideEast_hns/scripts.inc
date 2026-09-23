@@ -253,7 +253,7 @@ BattleFrontier_OutsideEast_Text_RankingHallSign_hns:
 	.string "œil aux records des meilleurs!$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign_hns:
-	.string "SERVICE D'ECHANGE Echangez\n"
+	.string "SERVICE D'ÉCHANGE Echangez\n"
 	.string "vos POINTS DE COMBAT!$"
 
 BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial_hns:
@@ -384,7 +384,7 @@ BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll_hns:
 	.string "Chouette! J'ai enfin assez\n"
 	.string "de POINTS DE COMBAT! Je pense\p"
 	.string "que je vais les échanger\n"
-	.string "contre une autre POUPEE!$"
+	.string "contre une autre POUPÉE!$"
 
 BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere_hns:
 	.string "Ah oui, d'accord!\n"

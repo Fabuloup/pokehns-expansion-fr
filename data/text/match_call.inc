@@ -2184,7 +2184,7 @@ MatchCall_Text_Winona1::
 MatchCall_Text_Winona2::
 	.string "ALIZEE: Bravo, {PLAYER}! Tout le\p"
 	.string "monde à CIMETRONELLE sait qui\n"
-	.string "est le nouveau MAITRE! Mais…\p"
+	.string "est le nouveau MAÎTRE! Mais…\p"
 	.string "l'issue de notre prochain\n"
 	.string "combat sera différente, crois-moi.$"
 
@@ -2372,7 +2372,7 @@ MatchCall_Text_May3::
 	.string "à LAVANDIA. Tu veux\p"
 	.string "savoir comment il\n"
 	.string "s'appelle? … … … … … … … …\p"
-	.string "… … … … TYPE ECLATE-ROC!$"
+	.string "… … … … TYPE ÉCLATE-ROC!$"
 
 MatchCall_Text_May4::
 	.string "FLORA: {PLAYER}{KUN}? TUNNEL\p"
@@ -2498,7 +2498,7 @@ MatchCall_Text_Brendan3::
 	.string "LAVANDIA. Devine\p"
 	.string "comment il s'appelle!\n"
 	.string "… … … … … … … … … …\p"
-	.string "… … TYPE ECLATE-ROC!$"
+	.string "… … TYPE ÉCLATE-ROC!$"
 
 MatchCall_Text_Brendan4::
 	.string "BRICE: {PLAYER}? Tu sais que\p"
@@ -2705,7 +2705,7 @@ MatchCall_Text_Scott6::
 	.string "de défier la LIGUE\n"
 	.string "POKéMON? Avec ton talent,\p"
 	.string "tu as toutes les chances\n"
-	.string "de devenir MAITRE. Mais\p"
+	.string "de devenir MAÎTRE. Mais\p"
 	.string "tu sais… Il y a un\n"
 	.string "endroit encore mieux. Je\p"
 	.string "ne veux pas t'en dire plus\n"
@@ -2767,7 +2767,7 @@ MatchCall_Text_Norman6::
 
 MatchCall_Text_Norman7::
 	.string "PAPA: {PLAYER}! Si j'avais su que\p"
-	.string "tu deviendrais le MAITRE\n"
+	.string "tu deviendrais le MAÎTRE\n"
 	.string "de la LIGUE POKéMON…\p"
 	.string "Bien! Je dois réagir! Je ne\n"
 	.string "vais pas me laisser faire!$"

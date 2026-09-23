@@ -247,7 +247,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead_hns:
 	.string "responsable de cet endroit, je\l"
 	.string "suis le CHEF D'USINE!\p"
 	.string "J'ai regardé tes scores au COMBAT\n"
-	.string "ECHANGE.\p"
+	.string "ÉCHANGE.\p"
 	.string "Tu as de bonnes idées, mais ce\n"
 	.string "n'est pas encore tout à fait ça!\p"
 	.string "Ecoute-moi. Lire des livres et\n"

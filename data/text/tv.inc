@@ -1230,7 +1230,7 @@ gTVTodaysRivalTrainerText06::
 	.string "aller au devant de ses rivaux!$"
 
 TrendWatcher_Text_Intro::
-	.string "CHAINE IN DE MYOKARA!\p"
+	.string "CHAÎNE IN DE MYOKARA!\p"
 	.string "ANIMATEUR: Quoi d'neuf chez\n"
 	.string "vous? Nous vous tenons au\l"
 	.string "courant des dernières modes\p"
@@ -1371,7 +1371,7 @@ gTVFindThatGamerText03::
 	.string "Ce sera tout pour aujourd'hui!$"
 
 gTVBreakingNewsText00::
-	.string "CHAINE DES SCOOPS!$"
+	.string "CHAÎNE DES SCOOPS!$"
 
 gTVBreakingNewsText01::
 	.string "Un {STR_VAR_2} rare attrapé\n"
@@ -1531,7 +1531,7 @@ gTVSecretBaseVisitText09::
 	.string "POKéMON de ce\n"
 	.string "DRESSEUR ont aussi\p"
 	.string "mérité le titre de\n"
-	.string "MAITRE. Ils reflètent\p"
+	.string "MAÎTRE. Ils reflètent\p"
 	.string "la résistance de {STR_VAR_1} en\n"
 	.string "tant que DRESSEUR. Le {STR_VAR_2}\p"
 	.string "connaissait même {STR_VAR_3}… Ça\n"
@@ -1931,14 +1931,14 @@ gTVPokemonNewsBattleFrontierText07::
 	.string "Le DRESSEUR {STR_VAR_1} a établi un\n"
 	.string "record de {STR_VAR_2} victoires\l"
 	.string "consécutives au défi du\l"
-	.string "COMBAT ECHANGE SOLO de\p"
+	.string "COMBAT ÉCHANGE SOLO de\p"
 	.string "l'USINE DE COMBAT. Bien joué, {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText08::
 	.string "Le DRESSEUR {STR_VAR_1} a établi un\n"
 	.string "record de {STR_VAR_2} victoires\l"
 	.string "consécutives au défi du\l"
-	.string "COMBAT ECHANGE DUO de\p"
+	.string "COMBAT ÉCHANGE DUO de\p"
 	.string "l'USINE DE COMBAT. Bien joué, {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText09::

@@ -791,8 +791,8 @@ BattleFrontier_BattlePyramidLobby_Text_HintFighting_hns:
 	.string "d'attaques de type COMBAT…$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintWeather_hns:
-	.string "DANSE PLUIE… ZENITH… TEMPETESABLE…\n"
-	.string "GRELE…\p"
+	.string "DANSE PLUIE… ZÉNITH… TEMPETESABLE…\n"
+	.string "GRÊLE…\p"
 	.string "Je vois des POKéMON qui se\n"
 	.string "renforcent avec les conditions\l"
 	.string "climatiques…\p"

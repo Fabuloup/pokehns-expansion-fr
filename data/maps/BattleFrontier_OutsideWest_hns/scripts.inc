@@ -349,7 +349,7 @@ BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons_hns:
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper_hns:
 	.string "J'ai peur d'aller au REPTILE\n"
-	.string "DE COMBAT à cause de SEVIPER…\p"
+	.string "DE COMBAT à cause de SÉVIPER…\p"
 	.string "Mais je ne suis pas venue\n"
 	.string "ici pour rien! Je vais\l"
 	.string "me battre! … J'ai peur…$"

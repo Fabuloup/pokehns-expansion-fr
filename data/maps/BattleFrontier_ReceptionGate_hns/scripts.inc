@@ -381,7 +381,7 @@ BattleFrontier_ReceptionGate_Text_BattleFactoryInfo_hns:
 	.string "L'USINE DE COMBAT est\n"
 	.string "le grand bâtiment tout\p"
 	.string "près d'ici. On y propose\n"
-	.string "le COMBAT ECHANGE. Ce\p"
+	.string "le COMBAT ÉCHANGE. Ce\p"
 	.string "défi peut prendre la\n"
 	.string "forme de COMBATS SOLO\l"
 	.string "ou de COMBATS DUO.$"
@@ -408,7 +408,7 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo_hns:
 	.string "dans la ZONE DE COMBAT.$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo_hns:
-	.string "Le SERVICE D'ECHANGE se trouve\n"
+	.string "Le SERVICE D'ÉCHANGE se trouve\n"
 	.string "près de la TOUR DE COMBAT. Vous\p"
 	.string "pouvez y échanger les POINTS DE\n"
 	.string "COMBAT obtenus dans la ZONE DE\l"
@@ -504,5 +504,5 @@ BattleFrontier_ReceptionGate_Text_BattlePointsInfo_hns:
 	.string "beaux combats dans la ZONE DE\p"
 	.string "COMBAT. Vous pouvez échanger\n"
 	.string "vos POINTS DE COMBAT contre\l"
-	.string "des prix au SERVICE D'ECHANGE.$"
+	.string "des prix au SERVICE D'ÉCHANGE.$"
 

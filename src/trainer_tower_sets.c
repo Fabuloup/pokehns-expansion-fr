@@ -4461,7 +4461,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
                     .spDefenseIV = 20,
                     .abilityNum = 0,
                     .personality = PERSONALITY_MALE_SERIOUS_2,
-                    .nickname = _("MEGANIUM"),
+                    .nickname = _("MÉGANIUM"),
                     .friendship = MAX_FRIENDSHIP
                 },
             }
@@ -6209,7 +6209,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
                     .spDefenseIV = 10,
                     .abilityNum = 0,
                     .personality = PERSONALITY_MALE_HARDY_3,
-                    .nickname = _("REMORAID"),
+                    .nickname = _("RÉMORAID"),
                     .friendship = MAX_FRIENDSHIP
                 },
                 {
@@ -6231,7 +6231,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
                     .spDefenseIV = 10,
                     .abilityNum = 0,
                     .personality = PERSONALITY_FEMALE_HARDY,
-                    .nickname = _("REMORAID"),
+                    .nickname = _("RÉMORAID"),
                     .friendship = MAX_FRIENDSHIP
                 },
                 {
@@ -6907,7 +6907,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
                     .spDefenseIV = 10,
                     .abilityNum = 1,
                     .personality = PERSONALITY_GENDERLESS_JOLLY,
-                    .nickname = _("ELECTRODE"),
+                    .nickname = _("ÉLECTRODE"),
                     .friendship = MAX_FRIENDSHIP
                 },
                 {
@@ -7064,7 +7064,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
                     .spDefenseIV = 10,
                     .abilityNum = 1,
                     .personality = PERSONALITY_GENDERLESS_TIMID,
-                    .nickname = _("MAGNETON"),
+                    .nickname = _("MAGNÉTON"),
                     .friendship = MAX_FRIENDSHIP
                 },
                 {
@@ -7466,7 +7466,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
                     .spDefenseIV = 31,
                     .abilityNum = 0,
                     .personality = PERSONALITY_GENDERLESS_CALM,
-                    .nickname = _("ELECTRODE"),
+                    .nickname = _("ÉLECTRODE"),
                     .friendship = MAX_FRIENDSHIP
                 },
                 {
@@ -7844,7 +7844,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
                     .spDefenseIV = 20,
                     .abilityNum = 1,
                     .personality = PERSONALITY_GENDERLESS_TIMID,
-                    .nickname = _("MAGNETON"),
+                    .nickname = _("MAGNÉTON"),
                     .friendship = MAX_FRIENDSHIP
                 },
                 {
@@ -8144,7 +8144,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
                     .spDefenseIV = 10,
                     .abilityNum = 0,
                     .personality = PERSONALITY_FEMALE_BRAVE,
-                    .nickname = _("ELEKID"),
+                    .nickname = _("ÉLEKID"),
                     .friendship = MAX_FRIENDSHIP
                 },
                 {
@@ -8278,7 +8278,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
                     .spDefenseIV = 20,
                     .abilityNum = 1,
                     .personality = PERSONALITY_GENDERLESS_CALM,
-                    .nickname = _("ELECTRODE"),
+                    .nickname = _("ÉLECTRODE"),
                     .friendship = MAX_FRIENDSHIP
                 },
                 {
@@ -8344,7 +8344,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
                     .spDefenseIV = 20,
                     .abilityNum = 1,
                     .personality = PERSONALITY_GENDERLESS_CALM,
-                    .nickname = _("MAGNETON"),
+                    .nickname = _("MAGNÉTON"),
                     .friendship = MAX_FRIENDSHIP
                 },
                 {

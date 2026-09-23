@@ -13849,7 +13849,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .abilities = { ABILITY_SOUNDPROOF, ABILITY_STATIC, ABILITY_AFTERMATH },
         .bodyColor = BODY_COLOR_RED,
 #if P_SEPARATE_REGIONAL_FORMS
-        .speciesName = _("ELECTRODE-H"),
+        .speciesName = _("ÉLECTRODE-H"),
 #else
         .speciesName = _("ÉLECTRODE"),
 #endif

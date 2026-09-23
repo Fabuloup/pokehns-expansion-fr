@@ -415,7 +415,7 @@ BlackthornGym_Text_GuideWinText:
     .string "Il ne reste plus que le\n"
     .string "challenge de la LIGUE\p"
     .string "POKéMON. Tu es sur le point\n"
-    .string "de devenir MAITRE POKéMON!$"
+    .string "de devenir MAÎTRE POKéMON!$"
 
 
 BlackthornGym_EventScript_Statue::

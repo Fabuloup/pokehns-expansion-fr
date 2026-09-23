@@ -327,14 +327,14 @@ BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle_hns:
 	.string "Ici, nous mettons à l'épreuve le\n"
 	.string "savoir des DRESSEURS!\p"
 	.string "Je serai votre guide pour le\n"
-	.string "TOURNOI COMBAT ECHANGE SOLO.$"
+	.string "TOURNOI COMBAT ÉCHANGE SOLO.$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge_hns:
 	.string "Voulez-vous relever le défi du\n"
-	.string "COMBAT ECHANGE SOLO?$"
+	.string "COMBAT ÉCHANGE SOLO?$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge_hns:
-	.string "Le TOURNOI COMBAT ECHANGE SOLO se\n"
+	.string "Le TOURNOI COMBAT ÉCHANGE SOLO se\n"
 	.string "compose de COMBATS SOLO. Vous\l"
 	.string "utilisez des POKéMON de location.\p"
 	.string "Vous devez choisir trois POKéMON\n"
@@ -388,7 +388,7 @@ BattleFrontier_BattleFactoryLobby_Text_ReturnMons_hns:
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins_hns:
 	.string "Félicitations! Vous avez gagné\n"
-	.string "sept COMBATS ECHANGE à la suite!$"
+	.string "sept COMBATS ÉCHANGE à la suite!$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints_hnsForStreak_hns:
@@ -428,14 +428,14 @@ BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle_hns:
 	.string "Ici, nous mettons à l'épreuve le\n"
 	.string "savoir des DRESSEURS!\p"
 	.string "Je serai votre guide pour le\n"
-	.string "TOURNOI COMBAT ECHANGE DUO.$"
+	.string "TOURNOI COMBAT ÉCHANGE DUO.$"
 
 BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge_hns:
 	.string "Voulez-vous relever le défi du\n"
-	.string "COMBAT ECHANGE DUO?$"
+	.string "COMBAT ÉCHANGE DUO?$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge_hns:
-	.string "Le TOURNOI COMBAT ECHANGE DUO se\n"
+	.string "Le TOURNOI COMBAT ÉCHANGE DUO se\n"
 	.string "compose de COMBATS DUO. Vous\l"
 	.string "utilisez des POKéMON de location.\p"
 	.string "Vous devez choisir trois POKéMON\n"
@@ -520,13 +520,13 @@ BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried_hns:
 	.string "de location changeaient.$"
 
 BattleFrontier_BattleFactoryLobby_Text_RulesAreListed_hns:
-	.string "Règles du COMBAT ECHANGE.$"
+	.string "Règles du COMBAT ÉCHANGE.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading_hns:
 	.string "Quel chapitre voulez-vous lire?$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules_hns:
-	.string "Lors d'un COMBAT ECHANGE, vous ne\n"
+	.string "Lors d'un COMBAT ÉCHANGE, vous ne\n"
 	.string "pouvez utiliser que trois POKéMON.\p"
 	.string "Qu'ils aient été prêtés ou\n"
 	.string "échangés, votre équipe ne peut pas\l"

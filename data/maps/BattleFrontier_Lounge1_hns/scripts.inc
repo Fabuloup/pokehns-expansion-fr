@@ -197,11 +197,11 @@ BattleFrontier_Lounge1_Text_BestAspectDef_hns:
 
 BattleFrontier_Lounge1_Text_BestAspectSpAtk_hns:
 	.string "Son point fort, c'est\n"
-	.string "son ATTAQUE SPECIALE…$"
+	.string "son ATTAQUE SPÉCIALE…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpDef_hns:
 	.string "Son point fort, c'est\n"
-	.string "sa DEFENSE SPECIALE…$"
+	.string "sa DEFENSE SPÉCIALE…$"
 
 BattleFrontier_Lounge1_Text_BestAspectSpeed_hns:
 	.string "Son point fort,\n"

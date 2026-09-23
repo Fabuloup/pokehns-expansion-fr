@@ -1089,7 +1089,7 @@ Route110_Text_JasmineDefeated:
 	.string "J'ai peur d'avoir des crampes…$"
 
 Route110_Text_JasminePostBattle:
-	.string "Oh, tu as des BADGES D'ARENE? Pas\n"
+	.string "Oh, tu as des BADGES D'ARÈNE? Pas\n"
 	.string "Pas étonnant que tu sois si forte!$"
 
 Route110_Text_EdwardIntro:
@@ -2145,7 +2145,7 @@ Route115_Text_HelenePostBattle:
 	.string "J'ai rarement vu quelqu'un\n"
 	.string "d'aussi fort que moi… J'ai\p"
 	.string "compris! Tu dois être un\n"
-	.string "CHAMPION D'ARENE, n'est-ce pas?$"
+	.string "CHAMPION D'ARÈNE, n'est-ce pas?$"
 
 Route115_Text_AlixIntro:
 	.string "Tu oses croiser mon regard?\n"
@@ -2157,7 +2157,7 @@ Route115_Text_AlixDefeat:
 
 Route115_Text_AlixPostBattle:
 	.string "Très bien! Je vais me\n"
-	.string "TELEPORTER à la maison!$"
+	.string "TÉLÉPORTER à la maison!$"
 
 Route115_Text_MarleneIntro:
 	.string "Tu déranges ma méditation…\n"
@@ -3350,7 +3350,7 @@ Route123_Text_WendyPostBattle:
 
 Route123_Text_BraxtonIntro:
 	.string "Tu sembles avoir une belle\n"
-	.string "collection de BADGES D'ARENES.\p"
+	.string "collection de BADGES D'ARÈNES.\p"
 	.string "Laisse-moi voir si tu es\n"
 	.string "Ces BADGES!$"
 
@@ -3370,7 +3370,7 @@ Route123_Text_VioletDefeat:
 	.string "odeur de la souffrance…$"
 
 Route123_Text_VioletPostBattle:
-	.string "Le jardin du MAITRE DES BAIES\n"
+	.string "Le jardin du MAÎTRE DES BAIES\n"
 	.string "avec des parfums exaltants.$"
 
 Route123_Text_CameronIntro:
@@ -3671,7 +3671,7 @@ Route124_Text_ChadDefeat:
 Route124_Text_ChadPostBattle:
 	.string "Je tiens de source sûre qu'il y a\n"
 	.string "par ici un endroit où l'on peut\p"
-	.string "faire de la PLONGEE. Je ne résiste\n"
+	.string "faire de la PLONGÉE. Je ne résiste\n"
 	.string "Encore...$"
 
 Route124_Text_LilaIntro:
@@ -4193,7 +4193,7 @@ Route128_Text_KatelynRegister:
 
 Route128_Text_KatelynRematchIntro:
 	.string "C'est long un triathlon. Mais je\n"
-	.string "suppose que devenir le MAITRE\l"
+	.string "suppose que devenir le MAÎTRE\l"
 	.string "est aussi un long et épuisant.$"
 
 Route128_Text_KatelynRematchDefeat:
@@ -4355,7 +4355,7 @@ Route130_Text_KatieDefeat:
 Route130_Text_KatiePostBattle:
 	.string "Le rêve de tous les\n"
 	.string "enfants du monde, c'est de\l"
-	.string "devenir un jour MAITRE POKéMON.$"
+	.string "devenir un jour MAÎTRE POKéMON.$"
 
 Route130_Text_SantiagoIntro:
 	.string "Flotter au milieu de l'eau\n"
@@ -4690,7 +4690,7 @@ Route134_Text_LaurelDefeat:
 
 Route134_Text_LaurelPostBattle:
 	.string "Il y a un collectionneur qui\n"
-	.string "recherche les ECAILLES de LOVDISC.$"
+	.string "recherche les ÉCAILLES de LOVDISC.$"
 
 Route134_Text_AlexIntro:
 	.string "Dacodac! Assez flemmardé!\n"

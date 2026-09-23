@@ -688,7 +688,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop_hns:
 	.string "Non, KIRLIA! Arrête immédiatement!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop_hns:
-	.string "TERACLOPE, enfin! Arrête\n"
+	.string "TÉRACLOPE, enfin! Arrête\n"
 	.string "immédiatement!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic_hns:
@@ -704,10 +704,10 @@ BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp_hns:
 	.string "KIRLIA utilise FEU FOLLET!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp_hns:
-	.string "TERACLOPE utilise FEU FOLLET!$"
+	.string "TÉRACLOPE utilise FEU FOLLET!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam_hns:
-	.string "TERACLOPE utilise LASER GLACE!$"
+	.string "TÉRACLOPE utilise LASER GLACE!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough_hns:
 	.string "Par ici! Ça suffit!$"
@@ -718,7 +718,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia_hns:
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops_hns:
 	.string "Je suis vraiment désolé…\p"
-	.string "Mon TERACLOPE est de nature\n"
+	.string "Mon TÉRACLOPE est de nature\n"
 	.string "TIMIDE…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled_hns:

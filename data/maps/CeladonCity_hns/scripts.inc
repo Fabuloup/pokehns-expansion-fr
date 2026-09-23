@@ -141,17 +141,17 @@ CeladonCity_EventScript_TrainerTips::
 	end
 
 CeladonCity_Text_Sign:
-	.string "CELADOPOLE La ville\p"
+	.string "CÉLADOPOLE La ville\p"
 	.string "aux rêves arc-en-ciel$"
 
 CeladonGym_Text_Sign:
 	.string "CHAMPION d'ARÈNE de\n"
-	.string "CELADOPOLE: ERIKA La\p"
+	.string "CÉLADOPOLE: ERIKA La\p"
 	.string "princesse de la nature$"
 
 CeladonCity_Text_DeptStoreSign:
 	.string "Y'a de tout au CENTRE\n"
-	.string "COMMERCIAL de CELADOPOLE!$"
+	.string "COMMERCIAL de CÉLADOPOLE!$"
 
 CeladonCity_Text_MansionSign:
 	.string "MANOIR CÉLADON$"

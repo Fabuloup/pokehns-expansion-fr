@@ -437,7 +437,7 @@ gText_ApprenticePleaseTeach10::
 	.string "cherche partout! … … …\p"
 	.string "Mais non, je rigole! Je\n"
 	.string "m'appelle {STR_VAR_1}. Je suis le\p"
-	.string "MAITRE POKéMON. Je suis\n"
+	.string "MAÎTRE POKéMON. Je suis\n"
 	.string "ici incognito… Mais non, je\l"
 	.string "rigole! Je suis plus doué\p"
 	.string "pour les blagues que pour\n"
@@ -561,7 +561,7 @@ gText_ApprenticePleaseTeach13::
 	.string "pas en grande forme… J'ai\n"
 	.string "donc décidé de me mettre\p"
 	.string "aux combats de POKéMON. Tu\n"
-	.string "es {PLAYER}{KUN}, non? Le MAITRE de la\p"
+	.string "es {PLAYER}{KUN}, non? Le MAÎTRE de la\p"
 	.string "LIGUE POKéMON? Dis, tu veux\n"
 	.string "bien me donner un conseil?$"
 

@@ -491,7 +491,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame_hns:
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge_hns:
 	.string "Voulez-vous abandonner ce COMBAT\n"
-	.string "ECHANGE?$"
+	.string "ÉCHANGE?$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent_hns:
 	.string "J'ai fait ma petite enquête sur\n"
@@ -511,7 +511,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType_hns:
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType_hns:
 	.string "Ce DRESSEUR semble être doué en ce\n"
-	.string "qui concerne le type ELECTRIK.$"
+	.string "qui concerne le type ÉLECTRIK.$"
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType_hns:
 	.string "Ce DRESSEUR semble être doué en ce\n"

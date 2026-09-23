@@ -367,8 +367,8 @@ static const u8 *const sDesc_Gamemode[] = {
     COMPOUND_STRING("Choisis tes propres règles."),
 };
 static const u8 *const sDesc_ModernMoves[] = {
-    COMPOUND_STRING("Generation 3 LEARNSETS and EGG\n MOVES with no changes."),
-    COMPOUND_STRING("Generation 7 LEARNSETS and EGG\n MOVES + minor changes."),
+    COMPOUND_STRING("Capacités de la GEN 3\nsans modifications."),
+    COMPOUND_STRING("Capacités de la GEN 7\n+ des changements mineurs."),
 };
 static const u8 *const sDesc_Synchronize[] = {
     COMPOUND_STRING("SYNCHRONIZE works as in GEN III.\n50% chance to copy nature."),
@@ -383,28 +383,28 @@ static const u8 *const sDesc_NewCitrus[] = {
     COMPOUND_STRING("SITRUS BERRY restores 25% of\ntotal HP. Same as GEN IV and up."),
 };
 static const u8 *const sDesc_FairyTypes[] = {
-    COMPOUND_STRING("FAIRY TYPE isn't added to {PKMN}\nthat got it in GEN VI."),
-    COMPOUND_STRING("FAIRY TYPE is added / changed to\ncertain {PKMN}, as in GEN VI."),
+    COMPOUND_STRING("Le TYPE FÉE n'est pas ajouté aux\n{PKMN} de la GEN VI."),
+    COMPOUND_STRING("Le TYPE FÉE est ajouté/modifié,\n comme dans GEN VI."),
 };
 static const u8 *const sDesc_LegAbilities[] = {
     COMPOUND_STRING("PRESSURE stays as the main\nability of some legendaries."),
     COMPOUND_STRING("Legendaries have PRESSURE changed\nfor a better ability."),
 };
 static const u8 *const sDesc_InfiniteTMs[] = {
-    COMPOUND_STRING("TMs are not reusable.\nLike in the original."),
-    COMPOUND_STRING("TMs are reusable."),
+    COMPOUND_STRING("Les CTs ne sont à usage unique.\nComme dans l'original."),
+    COMPOUND_STRING("Les CTs sont réutilisable."),
 };
 static const u8 *const sDesc_Mints[] = {
-    COMPOUND_STRING("Mints are not available ingame until\nfinishing the game."),
-    COMPOUND_STRING("Mints can be bought at the\nFLOWER SHOP after the 3rd badge."),
+    COMPOUND_STRING("Les Aromates ne sont disponible\nqu'en post-game"),
+    COMPOUND_STRING("Les Aromates sont achetables au\nFLEURISTE après le 3ème badge."),
 };
 static const u8 *const sDesc_SurvivePoison[] = {
-    COMPOUND_STRING("Your {PKMN} will faint if they are\nPOISONED."),
-    COMPOUND_STRING("Your {PKMN} will survive the POISON\nstatus with 1HP."),
+    COMPOUND_STRING("Tes {PKMN} peuvent mourir\nEMPOISONNÉ."),
+    COMPOUND_STRING("Tes {PKMN} survivent au POISON\navec 1HP."),
 };
 static const u8 *const sDesc_Split[] = {
-    COMPOUND_STRING("PHYSICAL and SPECIAL MOVES\ndepend on the {PKMN} TYPE."),
-    COMPOUND_STRING("PHYSICAL and SPECIAL MOVES\nare MOVE specific."),
+    COMPOUND_STRING("Les capacités SPE. et PHYS.\ndépendent du TYPE du {PKMN}."),
+    COMPOUND_STRING("Les capacités SPE. et PHYS.\nont leurs propres règles."),
 };
 static const u8 *const sChoices_Gen3Gen7[] = {
     COMPOUND_STRING("GEN 3"),
@@ -419,18 +419,18 @@ static const u8 *const sDesc_GenOneRecharge[] = {
     COMPOUND_STRING("If a RECHARGE MOVE KO's the opponent,\nno recharge turn is needed."),
 };
 static const u8 *const sDesc_Next[] = {
-    COMPOUND_STRING("Continue to the next page."),
+    COMPOUND_STRING("Continuer à la page suivante."),
 };
 
 static const struct ChallengeMenuItem sTabItems_Mode[] = {
     [ITEM_MODE_GAMEMODE] = {
-        .name         = COMPOUND_STRING("GAMEMODE"),
+        .name         = COMPOUND_STRING("PARAMÈTRE"),
         .descriptions = sDesc_Gamemode,
         .numChoices   = 2,
         .choiceNames  = sChoices_Gamemode,
     },
     [ITEM_MODE_MODERN_MOVES] = {
-        .name         = COMPOUND_STRING("{PKMN} MOVEPOOL"),
+        .name         = COMPOUND_STRING("ATTAQUES {PKMN}"),
         .descriptions = sDesc_ModernMoves,
         .numChoices   = 2,
         .choiceNames  = sChoices_Gen3Gen7,
@@ -454,7 +454,7 @@ static const struct ChallengeMenuItem sTabItems_Mode[] = {
         .choiceNames  = sChoices_OriginalModern,
     },
     [ITEM_MODE_FAIRY_TYPES] = {
-        .name         = COMPOUND_STRING("ADD FAIRY TYPE"),
+        .name         = COMPOUND_STRING("TYPE FÉE"),
         .descriptions = sDesc_FairyTypes,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
@@ -466,13 +466,13 @@ static const struct ChallengeMenuItem sTabItems_Mode[] = {
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_INFINITE_TMS] = {
-        .name         = COMPOUND_STRING("REUSABLE TMS"),
+        .name         = COMPOUND_STRING("CTs JETABLE"),
         .descriptions = sDesc_InfiniteTMs,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_MINTS] = {
-        .name         = COMPOUND_STRING("NATURE MINTS"),
+        .name         = COMPOUND_STRING("AROMATES"),
         .descriptions = sDesc_Mints,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
@@ -484,13 +484,13 @@ static const struct ChallengeMenuItem sTabItems_Mode[] = {
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_SPLIT] = {
-        .name         = COMPOUND_STRING("PHYS/SP SPLIT"),
+        .name         = COMPOUND_STRING("CAP./CAP. SPÉ."),
         .descriptions = sDesc_Split,
         .numChoices   = 2,
         .choiceNames  = sChoices_OffOn,
     },
     [ITEM_MODE_GEN_ONE_RECHARGE] = {
-        .name         = COMPOUND_STRING("RECHARGE MOVES"),
+        .name         = COMPOUND_STRING("RECHARGEMENT"),
         .descriptions = sDesc_GenOneRecharge,
         .numChoices   = 2,
         .choiceNames  = sChoices_Gen3Gen1,

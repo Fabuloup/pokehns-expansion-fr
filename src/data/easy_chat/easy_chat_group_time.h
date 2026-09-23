@@ -169,7 +169,7 @@ const struct EasyChatWordInfo gEasyChatGroup_Time[] = {
     },
     [EC_INDEX(EC_WORD_NEXT)] =
     {
-        .text = COMPOUND_STRING("NEXT"),
+        .text = COMPOUND_STRING("SUIVANT"),
         .alphabeticalOrder = EC_INDEX(EC_WORD_SATURDAY),
         .enabled = TRUE,
     },

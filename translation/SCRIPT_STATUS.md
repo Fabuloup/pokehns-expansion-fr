@@ -1,32 +1,97 @@
-# Suivi global des scripts H&S
+# Suivi de la traduction française
 
-Ce tableau inventorie tous les fichiers `data/maps/*_hns/scripts.inc` du projet.
-Le deuxième badge est un jalon de test, pas une limite de traduction.
+Relevé du 23/09/2026, commit `ec0d367842`.
 
-Règles de suivi :
+## État en un coup d'œil
 
-- un fichier est traduit intégralement dans un commit dédié ;
-- les codes, variables et contrôles de dialogue doivent rester intacts ;
-- `traduit, à valider en jeu` signifie que les contrôles automatiques et la compilation ont réussi ;
-- `validé en jeu` est réservé à une vérification visuelle dans l'émulateur ;
-- les scripts hors cartes et les fichiers hérités de `pokeemerald-expansion` sont suivis dans l'audit transversal lorsqu'ils sont réellement utilisés par H&S.
+| | Fichiers | Chaînes anglaises restantes |
+|---|---|---|
+| Scripts de cartes `_hns` | 423 traduits, 126 sans texte | 4 |
+| Fichiers transversaux (`data/text`, `src/data/text`) | 45 traduits | 2 |
+| **Code source `src/`** | — | **1 959** |
+| **`data/scripts/`** | — | **1 269** |
+| `data/event_scripts.s` | — | 65 |
+| Cartes héritées atteignables | — | 24 |
+| **Reste à traduire** | | **3 323** |
 
-Progression actuelle : **423 / 423 fichiers traduits**, dont **0 validé en jeu**.
+Aucun texte n'a été validé en jeu. Le jeu compile, ce qui ne prouve rien sur
+l'exhaustivité ni sur l'affichage.
 
-Le tableau suit 549 fichiers, mais **126 d'entre eux ne contiennent aucune chaîne
-locale à traduire**. Ils portent l'état `sans chaîne locale à traduire` et sont
-exclus du décompte. Certains peuvent néanmoins appeler des textes ou interfaces
-partagés : ces contenus relèvent de l'audit transversal. La cible réelle est donc
-de 423 fichiers. Tous les scripts suivis sont désormais traduits et restent à
-valider en jeu.
+> Les scripts de cartes sont terminés, mais ils ne représentent qu'une partie
+> du jeu. L'essentiel de ce qui reste est dans le code source, et c'est le plus
+> visible en jeu.
 
-> **Ce compteur ne mesure pas l'avancement du jeu.** Il ne porte que sur les
-> scripts de cartes et les fichiers transversaux recensés plus bas. Au
-> 22/09/2026, un relevé réalisé avant ce lot comptait **2 724 chaînes anglaises**
-> ailleurs dans les sources,
-> dont tous les messages de combat, qui sont le texte le plus vu du jeu.
-> Voir la section « Zones non encore suivies ». Ne pas conclure de « 423 / 423 »
-> que le jeu est prêt à être testé en français.
+## Ce qu'il reste à faire, par priorité
+
+L'ordre est celui de la visibilité en jeu, pas du volume.
+
+| Rang | Fichier | Chaînes | Ce que le joueur voit |
+|---|---|---|---|
+| 1 | `src/battle_message.c` | 524 | tous les messages de combat |
+| 2 | `src/strings.c` | 402 | menus et interface |
+| 3 | `src/data/union_room.h` | 155 | jeu en réseau |
+| 4 | `src/berry.c` | 114 | Baies |
+| 5 | `src/challenge_menu.c` | 105 | menu de défis |
+| 6 | `src/data/abilities.h` | 73 | descriptions des talents |
+| 7 | `src/battle_dome.c` | 59 | Dôme de Combat |
+| 8 | `src/data/contest_moves.h` | 55 | concours |
+| 9 | `src/data/items.h` | 28 | descriptions d'objets |
+
+Les descriptions de talents et l'écran de résumé sont signalés par une autre
+traduction française du jeu comme sources de **plantages** quand le texte est
+trop long. À traiter avec prudence et à tester en priorité.
+
+Dans `data/scripts/`, seuls quatre fichiers étaient appelés depuis les cartes
+`_hns` et ils sont déjà traduits. Le reste demande un tri avant traduction :
+voir la section suivante.
+
+## Ce qu'il ne faut PAS traduire
+
+**581 fichiers de cartes héritées, 17 288 chaînes.** Hoenn, FRLG et compagnie
+sont compilés dans la ROM mais inatteignables depuis Heart & Soul. Les traduire
+serait cinq fois le travail restant, pour rien.
+
+Test d'atteignabilité d'une carte non-`_hns` :
+
+```bash
+grep -rhoE 'MAP_[A-Z0-9_]+' data/maps/*_hns/*.inc data/maps/*_hns/*.json | sort -u
+```
+
+Dans `data/scripts/`, sans référence trouvée et probablement morts :
+`mauville_man.inc` (245), `cable_club_frlg.inc` (200), `berry_blender.inc` (125),
+`safari_zone.inc` (105), `lilycove_lady.inc` (99), `profile_man.inc` (41),
+`mystery_event_club.inc` (32).
+
+`debug.inc` (76) ne sert qu'au débogage. `day_care.inc` (63) et `berry_tree.inc`
+(48) demandent une vérification manuelle : ces fonctions existent en jeu, donc
+une variante `_hns` les remplace probablement.
+
+Ne jamais traduire un identifiant. `FLAG_HIDE_PETALBURG_GYM_WALLY`,
+`VAR_PETALBURG_GYM_STATE` et `MAPSEC_PETALBURG_WOODS` sont du code : un terme
+anglais dans les sources n'est pas forcément une lacune de traduction.
+
+## Comment mesurer
+
+Le compte ci-dessus vient d'un détecteur qui extrait les chaînes réellement
+affichées (`.string "..."`, `_("...")`, `COMPOUND_STRING("...")`), neutralise
+les codes entre accolades, puis cherche des mots outils anglais sans ambiguïté
+en français. Il ne compte ni les identifiants, ni les commentaires.
+
+## États de suivi
+
+- `à traduire` : rien n'a été fait ;
+- `traduit, à valider en jeu` : sources françaises en place, contrôles
+  automatiques passés, jamais vu en jeu ;
+- `validé en jeu` : vérifié visuellement pendant une partie ;
+- `sans chaîne locale à traduire` : aucune chaîne affichable dans ce fichier,
+  exclu du décompte ;
+- `bloqué` : accompagné d'une explication.
+
+Tant qu'aucun test sur émulateur n'a eu lieu, `validé en jeu` est interdit.
+
+## Détail : scripts de cartes
+
+549 fichiers suivis, dont 423 traduits et 126 sans chaîne locale.
 
 | Fichier | État |
 |---|---|
@@ -580,30 +645,12 @@ valider en jeu.
 | `data/maps/WhirlIslands_Descent_hns/scripts.inc` | sans chaîne locale à traduire |
 | `data/maps/WhirlIslands_LugiaChamber_hns/scripts.inc` | traduit, à valider en jeu |
 
-## Audit transversal
+## Détail : fichiers transversaux
 
-Cette liste recense les périmètres transversaux actuellement ouverts. Elle ne
-constitue pas encore un inventaire exhaustif des interfaces et textes hors
-cartes.
-
-Fichiers transversaux recensés : **53**, dont **53 traduits, à valider en jeu**,
-**0 à traduire** et **0 validé en jeu**.
-
-- `src/data/text/` : **5 / 5 traduits** ;
-- `data/text/` : **39 / 39 traduits** ;
-- `data/scripts/` : **4 scripts communs traduits et ajoutés au suivi**.
-  D'autres scripts actifs dans ce dossier restent hors de ce compteur.
-- `src/` : **5 / 5 fichiers traduits et recensés** (messages du Pokémon
-  suiveur, légendes de concours, événements mystère, PC du joueur et clavier).
-  Dans `mystery_event_msg.c`, `PETALBURG GYM` reste en anglais faute de
-  correspondance française vérifiée dans le dépôt.
+45 fichiers, tous traduits et à valider en jeu.
 
 | Fichier | État |
 |---|---|
-| `data/scripts/bug_contest.inc` | traduit, à valider en jeu |
-| `data/scripts/contest_hall.inc` | traduit, à valider en jeu |
-| `data/scripts/field_move_scripts_hns.inc` | traduit, à valider en jeu |
-| `data/scripts/secret_base.inc` | traduit, à valider en jeu |
 | `data/text/abnormal_weather.inc` | traduit, à valider en jeu |
 | `data/text/apprentice.inc` | traduit, à valider en jeu |
 | `data/text/battle_tent.inc` | traduit, à valider en jeu |
@@ -648,70 +695,4 @@ Fichiers transversaux recensés : **53**, dont **53 traduits, à valider en jeu*
 | `src/data/text/match_call_messages.h` | traduit, à valider en jeu |
 | `src/data/text/radio_strings.h` | traduit, à valider en jeu |
 | `src/data/text/ribbon_descriptions.h` | traduit, à valider en jeu |
-| `src/contest_painting.c` | traduit, à valider en jeu |
-| `src/follower_helper.c` | traduit, à valider en jeu |
-| `src/mystery_event_msg.c` | traduit, à valider en jeu |
-| `src/player_pc.c` | traduit, à valider en jeu |
-| `src/text_input_strings.c` | traduit, à valider en jeu |
-
-## Zones non encore suivies
-
-Relevé du 22/09/2026, **avant** la traduction des quatre scripts communs ajoutés
-au tableau ci-dessus. Les chiffres ci-dessous sont historiques et ne constituent
-plus un décompte actuel ; refaire l'inventaire pour établir le reste exact.
-
-| Emplacement | Chaînes anglaises |
-|---|---|
-| `data/scripts/*.inc` | 1 291 |
-| `src/*.c` | 1 087 |
-| `src/data/*.h` | 288 |
-| `data/event_scripts.s` | 53 |
-| `data/maps/*_hns` (reliquats) | 4 |
 | `data/text/*.inc` (reliquat) | 1 |
-| **Total** | **2 724** |
-
-### Priorité pour un premier test
-
-Par ordre de visibilité en jeu, pas par volume :
-
-| Fichier | Chaînes | Pourquoi c'est prioritaire |
-|---|---|---|
-| `src/battle_message.c` | 339 | tous les messages de combat |
-| `src/strings.c` | 325 | menus et interface, déjà partiellement traduit |
-| `src/data/abilities.h` | 45 | descriptions des talents |
-| `src/data/items.h` | 26 | descriptions d'objets |
-| `src/berry.c` | 81 | Baies |
-| `src/follower_helper.c` | 31 (relevé initial ; 48 messages traduits, à valider en jeu) | Pokémon suiveur |
-
-### `data/scripts/` : vivant ou contenu mort
-
-Le test appliqué est l'appel effectif depuis une carte `_hns` ou une référence
-depuis `src/` ou `data/event_scripts.s`.
-
-**Appelés depuis les cartes `_hns` :**
-
-| Fichier | Chaînes |
-|---|---|
-| `contest_hall.inc` | 145 (relevé initial ; traduit, à valider en jeu) |
-| `bug_contest.inc` | 21 (relevé initial ; traduit, à valider en jeu) |
-| `secret_base.inc` | 19 (relevé initial ; traduit, à valider en jeu) |
-| `field_move_scripts_hns.inc` | 16 (relevé initial ; traduit, à valider en jeu) |
-
-Ces quatre fichiers attendent une vérification en jeu. Dans `contest_hall.inc`,
-les 76 blocs de dialogue (269 segments `.string`) sont traduits, mais certains
-libellés de catégorie et menus injectés depuis `src/strings.c` et
-`src/data/script_menu.h` restent en anglais. Les modes en liaison citent encore
-les noms Emerald, Ruby et Sapphire tels qu'ils figurent dans le dépôt : leurs
-équivalents français doivent être vérifiés avant un éventuel remplacement.
-
-**Référencés ailleurs, à vérifier au cas par cas :** `flavor_text.inc`,
-`debug.inc` (débogage uniquement), `safari_zone.inc`, `berry_tree.inc`,
-`mauville_man.inc`.
-
-**Aucune référence trouvée, probablement contenu mort hérité de Hoenn/FRLG :**
-`cable_club_frlg.inc` (161), `berry_blender.inc` (96), `lilycove_lady.inc` (79),
-`day_care.inc` (51), `profile_man.inc` (35), `mystery_event_club.inc` (21).
-
-> `day_care.inc` demande une vérification manuelle : la Pension existe bien dans
-> Heart & Soul, donc une variante `_hns` la remplace probablement. Ne pas le
-> classer mort sans avoir vérifié.

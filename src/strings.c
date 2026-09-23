@@ -62,7 +62,7 @@ const u8 gText_HTHeight[] = _("HT");
 const u8 gText_WTWeight[] = _("WT");
 const u8 gText_SearchingPleaseWait[] = _("Recherche…\nPatientez.");
 const u8 gText_SearchCompleted[] = _("Recherche terminée.");
-const u8 gText_NoMatchingPkmnWereFound[] = _("Aucun POKéMON correpsondant trouvé.");
+const u8 gText_NoMatchingPkmnWereFound[] = _("Aucun POKéMON correspondant trouvé.");
 const u8 gText_SearchForPkmnBasedOnParameters[] = _("Search for POKéMON based on\nselected parameters.");
 const u8 gText_SwitchPokedexListings[] = _("Switch POKéDEX listings.");
 const u8 gText_ReturnToPokedex[] = _("Retour vers le POKéDEX.");
@@ -216,28 +216,28 @@ const u8 gText_ReturnToVar1[] = _("Return to\n{STR_VAR_1}.");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
-    [POCKET_ITEMS] =        COMPOUND_STRING("ITEMS"),
+    [POCKET_ITEMS] =        COMPOUND_STRING("OBJETS"),
     [POCKET_POKE_BALLS] =   COMPOUND_STRING("POKé BALLS"),
-    [POCKET_TM_HM]  =       COMPOUND_STRING("TMs & HMs"),
-    [POCKET_BERRIES] =      COMPOUND_STRING("BERRIES"),
-    [POCKET_KEY_ITEMS] =    COMPOUND_STRING("KEY ITEMS"),
-    [POCKET_MEDICINE] =     COMPOUND_STRING("MEDICINE"),
+    [POCKET_TM_HM]  =       COMPOUND_STRING("CTs & CSs"),
+    [POCKET_BERRIES] =      COMPOUND_STRING("BAIES"),
+    [POCKET_KEY_ITEMS] =    COMPOUND_STRING("OBJETS CLÉS"),
+    [POCKET_MEDICINE] =     COMPOUND_STRING("MEDICAMENTS"),
 #if I_COMBINE_BAG_POCKETS == FALSE
-    [POCKET_BATTLE_ITEMS] = COMPOUND_STRING("BATTLE"),
-    [POCKET_TREASURES] =    COMPOUND_STRING("TREASURES"),
+    [POCKET_BATTLE_ITEMS] = COMPOUND_STRING("COMBAT"),
+    [POCKET_TREASURES] =    COMPOUND_STRING("TRÉSORS"),
 #endif
 };
 
 const u8 gText_NumberItem_TMBerry[] = _("{NO}{STR_VAR_1}{CLEAR 0x03}{STR_VAR_2}");
 const u8 gText_NumberItem_HM[] = _("{CLEAR_TO 0x11}{STR_VAR_1}{CLEAR 0x05}{STR_VAR_2}");
 
-const u8 gText_ShopBuy[] = _("BUY");
-const u8 gText_ShopSell[] = _("SELL");
-const u8 gText_ShopQuit[] = _("QUIT");
-const u8 gText_ThatItemIsSoldOut[] = _("I'm sorry, but that item is sold out.{PAUSE_UNTIL_PRESS}");
-const u8 gText_SoldOut[] = _("SOLD OUT");
-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
-const u8 gText_QuitShopping[] = _("Quit shopping.");
+const u8 gText_ShopBuy[] = _("ACHETER");
+const u8 gText_ShopSell[] = _("VENDRE");
+const u8 gText_ShopQuit[] = _("QUITTER");
+const u8 gText_ThatItemIsSoldOut[] = _("Je suis désolé, cet objet est épuisé.{PAUSE_UNTIL_PRESS}");
+const u8 gText_SoldOut[] = _("ÉPUISÉ");
+const u8 gText_InBagVar1[] = _("POSSÉDÉ: {STR_VAR_1}");
+const u8 gText_QuitShopping[] = _("Arrêter les achats.");
 const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
 const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
 const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
@@ -708,8 +708,8 @@ const u8 gText_IsThisQuizOK[] = _("Is this quiz OK?");
 const u8 gText_CreateAQuiz[] = _("Create a quiz!");
 const u8 gText_SelectTheAnswer[] = _("Select the answer!");
 const u8 gText_LyricsCantBeDeleted[] = _("The lyrics can't be deleted.");
-const u8 gText_PokemonLeague[] = _("POKéMON LEAGUE");
-const u8 gText_PokemonCenter[] = _("POKéMON CENTER");
+const u8 gText_PokemonLeague[] = _("LIGUE POKéMON");
+const u8 gText_PokemonCenter[] = _("CENTRE POKéMON");
 const u8 gText_Coolness[] = _("Coolness ");
 const u8 gText_Beauty3[] = _("Beauty ");
 const u8 gText_Cuteness[] = _("Cuteness ");

@@ -81,103 +81,109 @@ SlowpokeWell_B1F_Movement_Kurt:
 	step_end
 
 SlowpokeWell_B1F_Text_KurtIntro:
-	.string "KURT: Hey there, {PLAYER}!\p"
-	.string "The guard up top took off when\n"
-	.string "I shouted at him.\p"
-	.string "But then I took a tumble down\n"
-	.string "the WELL.\p"
-	.string "I slammed down hard on my back,\n"
-	.string "so I can't move.\p"
-	.string "Rats! If I were fit, my POKéMON\n"
-	.string "would've punished them…\p"
-	.string "Ah, it can't be helped.\p"
-	.string "{PLAYER}, show them how gutsy\n"
-	.string "you are in my place!$"
+	.string "FARGAS: Salut, {PLAYER}!\p"
+	.string "Le garde a décampé quand je lui\n"
+	.string "ai crié dessus.\p"
+	.string "Et puis je suis tombé dans le\n"
+	.string "PUITS.\p"
+	.string "Je me suis reçu sur le dos, je\n"
+	.string "ne peux plus bouger.\p"
+	.string "Pfff! Si j'étais en forme, mes\n"
+	.string "POKéMON les auraient punis…\p"
+	.string "C'est vraiment trop bête.\p"
+	.string "{PLAYER}, va leur montrer ce que\n"
+	.string "tu as dans le ventre à ma place!$"
 
 SlowpokeWell_B1F_Text_KurtAfter:
-	.string "KURT: Way to go, {PLAYER}!\p"
-	.string "TEAM ROCKET has taken off.\p"
-	.string "My back's better too.\n"
-	.string "Let's get out of here.$"
+	.string "FARGAS: Bravo, {PLAYER}!\p"
+	.string "La TEAM ROCKET a décampé.\p"
+	.string "Mon dos va mieux aussi.\n"
+	.string "Allez, on sort d'ici.$"
 
 SlowpokeWell_B1F_Text_GruntM29Seen:
-	.string "Darn! I was standing guard up\n"
-	.string "top when some old coot yelled\l"
-	.string "at me.\p"
-	.string "He startled me so much that\n"
-	.string "I fell down here.\p"
-	.string "I think I'll vent my anger by\n"
-	.string "taking it out on you!$"
+	.string "Grrah! Je montais la garde\n"
+	.string "là-haut quand un vieux dingue\l"
+	.string "est venu me crier dessus.\p"
+	.string "Il m'a fichu une telle trouille\n"
+	.string "que je suis tombé ici.\p"
+	.string "Tu sais quoi? Je vais calmer mes\n"
+	.string "nerfs sur toi!$"
 
 SlowpokeWell_B1F_Text_GruntM29Beaten:
-	.string "Arrgh! This is NOT my day!$"
+	.string "Grrah! C'est pas mon jour!$"
 
 SlowpokeWell_B1F_Text_GruntM29After:
-	.string "Sure, we've been hacking the\n"
-	.string "tails off SLOWPOKE and selling\l"
-	.string "them.\p"
-	.string "Everything we do is for profit.\p"
-	.string "That's right! We're TEAM ROCKET,\n"
-	.string "and we'll do anything for money!$"
+	.string "Bah oui, on coupe les queues\n"
+	.string "des RAMOLOSS et on les vend.\p"
+	.string "Tout ce qu'on fait, c'est pour\n"
+	.string "le profit.\p"
+	.string "Et oui! On est la TEAM ROCKET,\n"
+	.string "et on ferait n'importe quoi\l"
+	.string "pour le pognon!$"
 
 SlowpokeWell_B1F_Text_ProtonSeen:
-	.string "What do you want?\p"
-	.string "If you interrupt our work,\n"
-	.string "don't expect any mercy!$"
+	.string "Kesstu veux?\p"
+	.string "Si tu viens gêner notre travail,\n"
+	.string "n'attends aucune pitié!$"
 
 SlowpokeWell_B1F_Text_ProtonBeaten:
-	.string "You did OK today,\n"
-	.string "but wait till next time!$"
+	.string "Tu t'en sors bien aujourd'hui,\n"
+	.string "mais attends la prochaine fois!$"
 
 SlowpokeWell_B1F_Text_ProtonAfter:
-	.string "Yeah, TEAM ROCKET was broken up\n"
-	.string "three years ago.\p"
-	.string "The boss went into hiding.\p"
-	.string "But we continued our activities\n"
-	.string "underground!\p"
-	.string "A small obstacle like you won't be\n"
-	.string "much of a problem for our mission.\p"
-	.string "I advise you to be very afraid of\n"
-	.string "what is to come!$"
+	.string "Oui, la TEAM ROCKET a été\n"
+	.string "dissoute il y a trois ans.\p"
+	.string "Le boss est entré dans la\n"
+	.string "clandestinité.\p"
+	.string "Mais on a continué nos affaires\n"
+	.string "dans l'ombre!\p"
+	.string "Un petit obstacle comme toi ne\n"
+	.string "gênera pas notre mission.\p"
+	.string "Je te conseille de bien redouter\n"
+	.string "ce qui va suivre!$"
 
 SlowpokeWell_B1F_Text_GruntM2Seen:
-	.string "Hyuck-hyuck-hyuck!\n"
-	.string "Quit taking SLOWPOKETAILS?\p"
-	.string "You're nuts!\n"
-	.string "If we obeyed you, TEAM ROCKET's\l"
-	.string "rep would be ruined!$"
+	.string "Hé-hé-hé!\n"
+	.string "Arrêter de voler les QUEUES?\p"
+	.string "Ça va pas la tête!\n"
+	.string "Si on t'écoutait, la réputation\l"
+	.string "de la TEAM ROCKET serait ruinée!$"
 
 SlowpokeWell_B1F_Text_GruntM2Beaten:
-	.string "Hyuck…\n"
-	.string "Too strong…$"
+	.string "Heu…\n"
+	.string "Trop fort…$"
 
 SlowpokeWell_B1F_Text_GruntM2After:
-	.string "We need the money,\n"
-	.string "but selling SLOWPOKETAILS?\p"
-	.string "It's tough being a ROCKET GRUNT!$"
+	.string "On a besoin de sous, d'accord,\n"
+	.string "mais vendre des QUEUES de\l"
+	.string "RAMOLOSS?\p"
+	.string "C'est pas facile d'être SBIRE\n"
+	.string "de la TEAM ROCKET!$"
 
 SlowpokeWell_B1F_Text_GruntF1Seen:
-	.string "Stop taking TAILS?\p"
-	.string "Yeah, just try to defeat all\n"
-	.string "of us!$"
+	.string "Arrêter de voler les QUEUES?\p"
+	.string "C'est ça, essaie donc de tous\n"
+	.string "nous battre!$"
 
 SlowpokeWell_B1F_Text_GruntF1Beaten:
-	.string "You rotten brat!$"
+	.string "Sale môme!$"
 
 SlowpokeWell_B1F_Text_GruntF1After:
-	.string "SLOWPOKETAILS grow back fast!\p"
-	.string "What's wrong with selling them?$"
+	.string "Les QUEUES de RAMOLOSS, ça\n"
+	.string "repousse vite!\p"
+	.string "Alors où est le mal à les\n"
+	.string "vendre?$"
 
 SlowpokeWell_B1F_Text_SlowpokeWithMail:
-	.string "A SLOWPOKE with its TAIL cut off…\p"
-	.string "Huh? It has MAIL.\n"
-	.string "Read it?$"
+	.string "Un RAMOLOSS à la QUEUE coupée…\p"
+	.string "Hein? Il a une LETTRE.\n"
+	.string "La lire?$"
 
 SlowpokeWell_B1F_Text_SlowpokeMail:
-	.string "{PLAYER} read the MAIL.\p"
-	.string "Be good and look after the\n"
-	.string "house with Grandpa and SLOWPOKE.\p"
-	.string "Love, Dad$"
+	.string "{PLAYER} lit la LETTRE.\p"
+	.string "Sois sage et occupe-toi bien de\n"
+	.string "la maison avec pépé et RAMOLOSS.\p"
+	.string "Bisous. Papa$"
 
 SlowpokeWell_B1F_Text_TaillessSlowpoke:
-	.string "A SLOWPOKE with its TAIL cut off…$"
+	.string "Un RAMOLOSS à la QUEUE coupée…$"

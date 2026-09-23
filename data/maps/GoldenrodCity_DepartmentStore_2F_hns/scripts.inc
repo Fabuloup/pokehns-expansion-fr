@@ -35,20 +35,20 @@ GoldenrodDeptStore2_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_2FYoungster:
-    .string "POKéGEAR can store up to 100 phone\n"
-    .string "numbers.\p"
-    .string "It's hard to decide which numbers\n"
-    .string "to keep.$"
+    .string "Le POKéMATOS peut enregistrer\n"
+    .string "jusqu'à 100 numéros.\p"
+    .string "Difficile de choisir lesquels\n"
+    .string "garder.$"
 
 GoldenrodDeptStore_Text_2FCooltrainerF:
-    .string "I got my ABRA at the GAME CORNER.\p"
-    .string "Now it's my best partner.$"
+    .string "J'ai eu mon ABRA au CASINO.\p"
+    .string "C'est mon meilleur partenaire.$"
 
 GoldenrodDeptStore_Text_2FGentleman:
-    .string "This DEPT.STORE makes me realize\n"
-    .string "that GOLDENROD is a big city.\p"
-    .string "The selection here is unmatched\n"
-    .string "anywhere else.$"
+    .string "Ce CENTRE COMMERCIAL me rappelle\n"
+    .string "que DOUBLONVILLE est une grande\l"
+    .string "ville.\p"
+    .string "Le choix ici est inégalé.$"
 
 GoldenrodDeptStore2_EventScript_Clerk::
 	lock
@@ -206,24 +206,24 @@ GoldenrodDeptStore_EventScript_ExitVendingMachine::
 	end
 
 GoldenrodDeptStore_Text_WhichDrinkWouldYouLike:
-	.string "It's a VENDING MACHINE.\n"
-	.string "Which drink would you like?$"
+	.string "C'est un DISTRIBUTEUR.\n"
+	.string "Quelle boisson veux-tu?$"
 
 GoldenrodDeptStore_Text_DrinkClankedDown:
-	.string "Clang!\p"
-	.string "A can of {STR_VAR_1} dropped down.$"
+	.string "Cling!\p"
+	.string "Une canette de {STR_VAR_1} tombe.$"
 
 GoldenrodDeptStore_Text_ExtraDrinkClankedDown:
-	.string "Clang!\p"
-	.string "Score! An extra can of {STR_VAR_1}\n"
-	.string "dropped down!$"
+	.string "Cling!\p"
+	.string "Génial! Une canette de\n"
+	.string "{STR_VAR_1} en plus!$"
 
 GoldenrodDeptStore_Text_NotEnoughMoney:
-	.string "Not enough money…$"
+	.string "Pas assez d'argent…$"
 
 GoldenrodDeptStore_Text_DecidedAgainstBuyingDrink:
-	.string "Decided against buying a drink.$"
+	.string "Pas de boisson, finalement.$"
 
 GoldenrodDeptStore_Text_2FDirectory:
-    .string "Your Travel Companion\p"
-    .string "2F TRAINER'S MARKET$"
+    .string "Votre compagnon de voyage\p"
+    .string "2F BOUTIQUE DRESSEUR$"

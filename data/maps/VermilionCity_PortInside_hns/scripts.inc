@@ -9,12 +9,12 @@ VermilionPortIndoor_EventScript_Nerd::
 	end
 
 VermilionPortPassage_Text_Teacher:
-	.string "The FAST SHIP sails every day!$"
+	.string "Le PAQUEBOT navigue chaque jour !$"
 
 VermilionPort_Text_SuperNerd:
-	.string "You came from JOHTO?\p"
-	.string "I hear many rare POKéMON live\n"
-	.string "over there.$"
+	.string "Tu viens de JOHTO ?\p"
+	.string "Il paraît que beaucoup de POKéMON\n"
+	.string "rares y vivent.$"
 
 VermilionPort_EventScript_Sailor::
 	lock
@@ -167,46 +167,46 @@ VermilionPort_Movement_BoatLeave:
 	step_end
 
 VermilionPort_Text_SailorCantSail:
-	.string "There's been a break-in at the\n"
-	.string "POWER PLANT, so we cannot set sail\l"
-	.string "until the THIEF is found.$"
+	.string "Il y a eu un cambriolage à la\n"
+	.string "CENTRALE. Nous ne partirons pas\l"
+	.string "avant que le VOLEUR soit trouvé.$"
 
 VermilionPort_Text_NoPass:
-    .string "{PLAYER} tried to show the\n"
+    .string "{PLAYER} tente de montrer le\n"
     .string "{STR_VAR_1}…\p"
-    .string "…But no {STR_VAR_1}!\p"
-    .string "Sorry!\n"
-    .string "You may board only if you have an\l"
-    .string "{STR_VAR_1}.$"
+    .string "…Mais pas de {STR_VAR_1} !\p"
+    .string "Désolé !\n"
+    .string "Vous ne pouvez embarquer qu'avec\l"
+    .string "un {STR_VAR_1}.$"
 
 VermilionPort_Text_SailorGetOnBoard:
-    .string "We're departing soon.\n"
-    .string "Please get on board.$"
+    .string "Nous partons bientôt.\n"
+    .string "Veuillez monter à bord.$"
 
 VermilionPort_Text_CantBoard:
-    .string "Sorry. You can't board now.$"
+    .string "Désolé. Embarquement impossible.$"
 
 VermilionPort_Text_WhereSail:
-    .string "Where would you like to sail?$"
+    .string "Où voulez-vous aller ?$"
 
 VermilionPort_Text_AskBoard:
-    .string "Welcome to FAST SHIP S.S.AQUA.\p"
-    .string "Will you be boarding today?$"
+    .string "Bienvenue sur le S.S.AQUA.\p"
+    .string "Voulez-vous embarquer ?$"
 
 VermilionPort_Text_AskTicket:
-    .string "May I see your S.S.TICKET?$"
+    .string "Puis-je voir votre PASSE BATEAU ?$"
 
 VermilionPort_Text_ComeAgain:
-    .string "We hope to see you again!$"
+    .string "Nous espérons vous revoir !$"
 
 VermilionPort_Text_FlashTicket:
-    .string "{PLAYER} flashed the S.S.TICKET.\p"
-    .string "That's it. Thank you!$"
+    .string "{PLAYER} montre le PASSE BATEAU.\p"
+    .string "C'est bon. Merci !$"
 
 VermilionPort_Text_NoTicket:
-    .string "{PLAYER} tried to show the\n"
-    .string "S.S.TICKET…\p"
-    .string "…But no TICKET!\p"
-    .string "Sorry!\n"
-    .string "You may board only\l"
-    .string "if you have an S.S.TICKET.$"
+    .string "{PLAYER} tente de montrer le\n"
+    .string "PASSE BATEAU…\p"
+    .string "…Mais pas de PASSE !\p"
+    .string "Désolé !\n"
+    .string "Vous ne pouvez embarquer\l"
+    .string "qu'avec un PASSE BATEAU.$"

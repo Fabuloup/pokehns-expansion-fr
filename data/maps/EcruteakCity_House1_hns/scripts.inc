@@ -18,13 +18,16 @@ EcruteakCity_House1_EventScript_Youngster::
 	end
 
 EcruteakLugiaSpeechHouse_Text_Gramps:
-	.string "This happened when I was young.\p"
-	.string "The sky suddenly turned black. A\n"
-	.string "giant flying POKéMON was blocking\l"
-	.string "out the sun.\p"
-	.string "I wonder what that POKéMON was?\p"
-	.string "It was like a bird and a dragon.$"
+	.string "C'est arrivé quand j'étais jeune.\p"
+	.string "Le ciel est devenu noir d'un\n"
+	.string "coup. Un POKéMON volant géant\l"
+	.string "masquait le soleil.\p"
+	.string "Quel POKéMON était-ce donc?\p"
+	.string "On aurait dit un oiseau et un\n"
+	.string "dragon à la fois.$"
 
 EcruteakLugiaSpeechHouse_Text_Youngster:
-	.string "Is there really a POKéMON that big?\p"
-	.string "If it exists, it must be powerful.$"
+	.string "Un POKéMON aussi grand existe\n"
+	.string "vraiment?\p"
+	.string "S'il existe, il doit être\n"
+	.string "puissant.$"

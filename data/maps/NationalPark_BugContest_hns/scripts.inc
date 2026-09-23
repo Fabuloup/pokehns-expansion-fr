@@ -158,62 +158,65 @@ NationalPark_BugContest_Movement_AttendantSide:
 	step_end
 
 NationalPark_BugContest_Text_Trash:
-	.string "Nothing here.$"
+	.string "Il n'y a rien ici.$"
 
 NationlParkBugContest_Text_EnjoyTheContest:
-	.string "ATTENDANT: Enjoy the Contest!$"
+	.string "HÔTESSE: Bon Concours!$"
 
 NationalParkBugContest_Text_Attendant:
-	.string "ATTENDANT: Would you like to end\n"
-	.string "the contest?$"
+	.string "HÔTESSE: Veux-tu mettre fin au\n"
+	.string "concours?$"
 
 NationalParkBugContest_Text_ContestantBelinda:
-	.string "BELINDA: I'm going to win!\n"
-	.string "Don't bother me.$"
+	.string "BELINDA: Je vais gagner!\n"
+	.string "Ne me dérange pas.$"
 
 NationalParkBugContest_Text_Contestant2A:
-	.string "ED: My PARASECT puts POKéMON to\n"
-	.string "sleep with SPORE.$"
+	.string "ED: Mon PARASECT endort les\n"
+	.string "POKéMON avec SPORE.$"
 
 NationalParkBugContest_Text_ContestantShaun:
-	.string "SHAUN: I'm not concerned about\n"
-	.string "winning.\p"
-	.string "I'm just looking for rare POKéMON.$"
+	.string "SHAUN: Gagner ne m'intéresse pas.\p"
+	.string "Je cherche juste des POKéMON\n"
+	.string "rares.$"
 
 NationalParkBugContest_Text_Contestant6A:
-	.string "BARRY: You should weaken bug\n"
-	.string "POKéMON first,\p"
-	.string "then throw a BALL.$"
+	.string "BARRY: Affaiblis d'abord les\n"
+	.string "POKéMON Insecte,\p"
+	.string "puis lance une BALL.$"
 
 NationalParkBugContest_Text_Contestant7A:
-	.string "CINDY: I love bug POKéMON.\p"
-	.string "I guess you must like them too.$"
+	.string "CINDY: J'adore les POKéMON\n"
+	.string "Insecte.\p"
+	.string "Tu dois les aimer aussi, non?$"
 
 NationalParkBugContest_Text_Contestant8A:
-	.string "JOSH: I've been collecting bug\n"
-	.string "POKéMON since I was just a baby.\p"
-	.string "There's no way I'm going to lose!$"
+	.string "JOSH: Je collectionne les POKéMON\n"
+	.string "Insecte depuis tout petit.\p"
+	.string "Pas question que je perde!$"
 
 NationalParkBugContest_Text_Contestant9A:
-	.string "SAMUEL: If you've got the time to\n"
-	.string "chat, go find some bug POKéMON.$"
+	.string "SAMUEL: Si tu as le temps de\n"
+	.string "bavarder, va chercher des POKéMON\l"
+	.string "Insecte.$"
 
 NationalParkBugContest_Text_Contestant10A:
-	.string "KIPP: I've studied about bug\n"
-	.string "POKéMON a lot.\p"
-	.string "I'm going to win for sure.$"
+	.string "KIPP: J'ai beaucoup étudié les\n"
+	.string "POKéMON Insecte.\p"
+	.string "Je vais gagner, c'est certain.$"
 
 NationalParkBugContest_Text_Sign_RelaxationSquare:
-	.string "RELAXATION SQUARE\n"
-	.string "NATIONAL PARK$"
+	.string "PLACE DE LA DÉTENTE\n"
+	.string "PARC NATUREL$"
 
 NationalParkBugContest_Text_Sign_BattleNotice:
-	.string "What is this notice?\p"
-	.string "Please battle only in the grass.\p"
-	.string "NATIONAL PARK WARDEN'S OFFICE$"
+	.string "Qu'est-ce que cet avis?\p"
+	.string "Merci de ne combattre que dans\n"
+	.string "les hautes herbes.\p"
+	.string "BUREAU DU GARDE DU PARC NATUREL$"
 
 NationalParkBugContest_Text_TrainerTips:
-	.string "The NATIONAL PARK has different\n"
-	.string "POKéMON during the BUG-CATCHING\l"
-	.string "CONTEST.$"
+	.string "Le PARC NATUREL abrite d'autres\n"
+	.string "POKéMON pendant le CONCOURS DE\l"
+	.string "CAPTURE.$"
 

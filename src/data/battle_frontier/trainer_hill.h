@@ -531,7 +531,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 24,
                         .abilityNum = 0,
                         .personality = 0x40,
-                        .nickname = _("ELECTRODE"),
+                        .nickname = _("ÉLECTRODE"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                     [1] =
@@ -1314,7 +1314,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 20,
                         .abilityNum = 0,
                         .personality = 0xD,
-                        .nickname = _("METANG"),
+                        .nickname = _("MÉTANG"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                     [5] =
@@ -2122,7 +2122,7 @@ static const struct TrainerHillFloor sFloors_Variety[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0xA,
-                                            .nickname = _("ELECTRIKE"),
+                                            .nickname = _("ÉLECTRIKE"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [2] =
@@ -2797,7 +2797,7 @@ static const struct TrainerHillFloor sFloors_Unique[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0x41,
-                                            .nickname = _("CAMERUPT"),
+                                            .nickname = _("CAMÉRUPT"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [1] =
@@ -3136,7 +3136,7 @@ static const struct TrainerHillFloor sFloors_Unique[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 1,
                                             .personality = 0x3,
-                                            .nickname = _("MAGNETON"),
+                                            .nickname = _("MAGNÉTON"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [4] =
@@ -3844,7 +3844,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 1,
                                             .personality = 0x35,
-                                            .nickname = _("CAMERUPT"),
+                                            .nickname = _("CAMÉRUPT"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [4] =
@@ -5122,7 +5122,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 15,
                         .abilityNum = 0,
                         .personality = 0x0,
-                        .nickname = _("MAGNETON"),
+                        .nickname = _("MAGNÉTON"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                     [5] =
@@ -5361,7 +5361,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 15,
                         .abilityNum = 1,
                         .personality = 0xF,
-                        .nickname = _("ROSELIA"),
+                        .nickname = _("ROSÉLIA"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                     [3] =
@@ -5970,7 +5970,7 @@ static const struct TrainerHillFloor sFloors_Normal[] =
                         .spDefenseIV = 15,
                         .abilityNum = 0,
                         .personality = 0x1F,
-                        .nickname = _("MEGANIUM"),
+                        .nickname = _("MÉGANIUM"),
                         .friendship = MAX_FRIENDSHIP,
                     },
                 },
@@ -7871,7 +7871,7 @@ static const struct TrainerHillFloor sFloors_Unique[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 0,
                                             .personality = 0x0,
-                                            .nickname = _("ELEKID"),
+                                            .nickname = _("ÉLEKID"),
                                             .friendship = 50,
                                         },
                                     [3] =
@@ -8895,7 +8895,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 0,
                                             .personality = 0x5,
-                                            .nickname = _("ELECTRODE"),
+                                            .nickname = _("ÉLECTRODE"),
                                             .friendship = 0,
                                         },
                                     [5] =
@@ -9113,7 +9113,7 @@ static const struct TrainerHillFloor sFloors_Expert[] = {
                                             .spDefenseIV = MAX_PER_STAT_IVS,
                                             .abilityNum = 1,
                                             .personality = 0xC,
-                                            .nickname = _("ELECTRODE"),
+                                            .nickname = _("ÉLECTRODE"),
                                             .friendship = MAX_FRIENDSHIP,
                                         },
                                     [2] =

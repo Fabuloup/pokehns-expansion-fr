@@ -63,110 +63,109 @@ Route26_EventScript_Richard::
 	end
 
 Route26_Text_CooltrainermJakeSeen:
-    .string "I'm making my final preparations\n"
-    .string "for the POKéMON LEAGUE.$"
+    .string "Je termine mes préparatifs pour\n"
+    .string "la LIGUE POKéMON.$"
 
 Route26_Text_CooltrainermJakeBeaten:
-    .string "I blew it!$"
+    .string "J'ai tout raté!$"
 
 Route26_Text_CooltrainermJakeAfter:
-    .string "It's going to be tough to win at\n"
-    .string "the LEAGUE.\p"
-    .string "I need to do some more training.\p"
-    .string "I hear that the LEAGUE's ELITE\n"
-    .string "FOUR are tougher than GYM LEADERS.$"
+    .string "Gagner à la LIGUE ne sera pas\n"
+    .string "facile.\p"
+    .string "Je dois encore m'entraîner.\p"
+    .string "Il paraît que le CONSEIL 4 de la\n"
+    .string "LIGUE surpasse les CHAMPIONS.$"
 
 Route26_Text_CooltrainermGavenSeen:
-    .string "By experiencing tough battles, you\n"
-    .string "gain power.$"
+    .string "Les combats ardus nous rendent\n"
+    .string "plus puissants.$"
 
 Route26_Text_CooltrainermGavenBeaten:
-    .string "Gaah! Life is even tougher!$"
+    .string "Argh! La vie est encore plus dure!$"
 
 Route26_Text_CooltrainermGavenAfter:
-    .string "To get to POKéMON LEAGUE, you have\n"
-    .string "to get through VICTORY ROAD.\p"
-    .string "But VICTORY ROAD is tough.\p"
-    .string "Practically nobody goes there!$"
+    .string "Pour gagner la LIGUE POKéMON, il\n"
+    .string "faut traverser la ROUTE VICTOIRE.\p"
+    .string "Mais elle est très difficile.\p"
+    .string "Presque personne n'y va!$"
 
 Route26_Text_GavenRegister:
-    .string "To get to POKéMON LEAGUE, you have\n"
-    .string "to get through VICTORY ROAD.\p"
-    .string "But VICTORY ROAD is tough.\p"
-    .string "Practically nobody goes there!$"
+    .string "Pour gagner la LIGUE POKéMON, il\n"
+    .string "faut traverser la ROUTE VICTOIRE.\p"
+    .string "Mais elle est très difficile.\p"
+    .string "Presque personne n'y va!$"
 
 Route26_Text_GavenRematchIntro:
-    .string "By experiencing tough battles, you\n"
-    .string "gain power.$"
+    .string "Les combats ardus nous rendent\n"
+    .string "plus puissants.$"
 
 Route26_Text_GavenRematchDefeat:
-    .string "Gaah! Life is even tougher!$"
+    .string "Argh! La vie est encore plus dure!$"
 
 Route26_Text_GavenPostRematch:
-    .string "To get to POKéMON LEAGUE, you have\n"
-    .string "to get through VICTORY ROAD.\p"
-    .string "But VICTORY ROAD is tough.\p"
-    .string "Practically nobody goes there!$"
+    .string "Pour gagner la LIGUE POKéMON, il\n"
+    .string "faut traverser la ROUTE VICTOIRE.\p"
+    .string "Mais elle est très difficile.\p"
+    .string "Presque personne n'y va!$"
 
 Route26_Text_CooltrainerfJoyceSeen:
-    .string "Since you've come this far,\n"
-    .string "you must be good.\p"
-    .string "I'm going to give this battle\n"
-    .string "everything I've got!$"
+    .string "Si tu es arrivé jusqu'ici,\n"
+    .string "tu dois être fort.\p"
+    .string "Je vais tout donner dans ce\n"
+    .string "combat!$"
 
 Route26_Text_CooltrainerfJoyceBeaten:
-    .string "No! I don't believe this!$"
+    .string "Non! Je n'y crois pas!$"
 
 Route26_Text_CooltrainerfJoyceAfter:
-    .string "I've defeated eight GYM LEADERS,\n"
-    .string "so I was feeling confident.\p"
-    .string "I'll have to try harder next time.$"
+    .string "J'ai vaincu huit CHAMPIONS,\n"
+    .string "alors j'avais confiance.\p"
+    .string "Je ferai mieux la prochaine fois.$"
 
 Route26_Text_CooltrainerfBethSeen:
-    .string "I lost to a trainer named {RIVAL}.\p"
-    .string "He was really strong, but…\p"
-    .string "It was as if he absolutely had to\n"
-    .string "win at any cost.\p"
-    .string "I felt sorry for his POKéMON.$"
+    .string "J'ai perdu face à {RIVAL}.\p"
+    .string "Il était très fort, mais…\p"
+    .string "On aurait dit qu'il devait\n"
+    .string "gagner à tout prix.\p"
+    .string "J'ai eu pitié de ses POKéMON.$"
 
 Route26_Text_CooltrainerfBethBeaten:
-    .string "POKéMON aren't tools of war.$"
+    .string "Les POKéMON ne sont pas des armes.$"
 
 Route26_Text_CooltrainerfBethAfter:
-    .string "POKéMON are in-valuable, lifelong\n"
-    .string "partners.$"
+    .string "Les POKéMON sont de précieux\n"
+    .string "partenaires pour la vie.$"
 
 Route26_Text_BethRegister:
-    .string "POKéMON are invaluable, lifelong\n"
-    .string "partners.$"
+    .string "Les POKéMON sont de précieux\n"
+    .string "partenaires pour la vie.$"
 
 Route26_Text_BethRematchIntro:
-    .string "I lost to a trainer named {RIVAL}.\p"
-    .string "But I won't lose to you!$"
+    .string "J'ai perdu face à {RIVAL}.\p"
+    .string "Mais je ne perdrai pas contre toi!$"
 
 Route26_Text_BethRematchDefeat:
-    .string "POKéMON aren't tools of war.$"
+    .string "Les POKéMON ne sont pas des armes.$"
 
 Route26_Text_BethPostRematch:
-    .string "POKéMON are invaluable, lifelong\n"
-    .string "partners.$"
+    .string "Les POKéMON sont de précieux\n"
+    .string "partenaires pour la vie.$"
 
 Route26_Text_PsychicRichardSeen:
-    .string "Wow, look at all those BADGES!\n"
-    .string "I'm impressed.\p"
-    .string "But you're not satisfied by just\n"
-    .string "collecting them, right?$"
+    .string "Ouah, regarde tous ces BADGES!\n"
+    .string "Je suis impressionné.\p"
+    .string "Mais les réunir ne te suffit\n"
+    .string "pas, n'est-ce pas?$"
 
 Route26_Text_PsychicRichardBeaten:
-    .string "Good battle!$"
+    .string "Beau combat!$"
 
 Route26_Text_PsychicRichardAfter:
-    .string "People and POKéMON grow from their\n"
-    .string "experiences.\p"
-    .string "Don't get lazy and complacent.$"
+    .string "Humains et POKéMON grandissent\n"
+    .string "grâce à leurs expériences.\p"
+    .string "Ne deviens ni paresseux ni imbu.$"
 
 Route26_Text_Sign:
     .string "ROUTE 26\p"
-    .string "POKéMON LEAGUE\n"
-    .string "RECEPTION GATE$"
-
+    .string "LIGUE POKéMON\n"
+    .string "PORTAIL D'ACCUEIL$"

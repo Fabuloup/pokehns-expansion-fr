@@ -176,51 +176,51 @@ DragonsDen_Shrine_EventScript_ElderQuizFinish::
 
 
 DragonsDen_Shrine_Text_ElderGreeting:
-    .string "Hm… Good to see you here.\p"
-    .string "No need to explain why you came.\n"
-    .string "CLAIR sent you here, didn't she?\p"
-    .string "That girl is a handful…\n"
-    .string "I am sorry, but I must test you.\p"
-    .string "Not to worry, you are to answer\n"
-    .string "only a few questions.\l"
-    .string "Ready?$"
+    .string "Hum… Ravi de te voir ici.\p"
+    .string "Inutile d'expliquer ta venue.\n"
+    .string "SANDRA t'a envoyé, n'est-ce pas?\p"
+    .string "Cette fille est impossible…\n"
+    .string "Désolé, mais je dois te tester.\p"
+    .string "Ne t'inquiète pas, tu n'auras\n"
+    .string "que quelques questions.\l"
+    .string "Prêt?$"
 
 DragonsDen_Shrine_Text_Question1:
-    .string "What are POKéMON to you?$"
+    .string "Que sont les POKéMON pour toi?$"
 
 DragonsDen_Shrine_Text_Question2:
-    .string "What helps you to win battles?$"
+    .string "Qu'est-ce qui t'aide à gagner?$"
 
 DragonsDen_Shrine_Text_Question3:
-    .string "What kind of trainer do you wish\n"
-    .string "to battle?$"
+    .string "Quel type de dresseur\n"
+    .string "veux-tu affronter?$"
 
 DragonsDen_Shrine_Text_Question4:
-    .string "What is most important for\n"
-    .string "raising POKéMON?$"
+    .string "Qu'est-ce qui compte le plus pour\n"
+    .string "élever des POKéMON?$"
 
 DragonsDen_Shrine_Text_Question5:
-    .string "Strong POKéMON. Weak POKéMON.\n"
-    .string "Which is more important?$"
+    .string "POKéMON puissant. POKéMON faible.\n"
+    .string "Lequel est le plus important?$"
 
 DragonsDen_Shrine_Text_WrongAnswer1:
-    .string "Hah? I didn't quite catch that…$"
+    .string "Hein? Je n'ai pas bien entendu…$"
 
 DragonsDen_Shrine_Text_WrongAnswer2:
-    .string "What was it you said?$"
+    .string "Qu'as-tu dit?$"
 
 DragonsDen_Shrine_Text_RightAnswer:
-    .string "Oh, I understand…$"
+    .string "Oh, je vois...$"
 
 DragonsDen_Shrine_Text_PassedTest:
-    .string "Hm… I see…\p"
-    .string "You care deeply for POKéMON.\p"
-    .string "Very commendable.\p"
-    .string "That conviction is what is\n"
-    .string "important!\p"
-    .string "{PLAYER}, don't lose that belief.\p"
-    .string "It will see you through at the\n"
-    .string "POKéMON LEAGUE.$"
+    .string "Hum… Je vois…\p"
+    .string "Tu tiens beaucoup aux POKéMON.\p"
+    .string "C'est très admirable.\p"
+    .string "Cette conviction est vraiment\n"
+    .string "essentielle!\p"
+    .string "{PLAYER}, ne perds jamais cette foi.\p"
+    .string "Elle te guidera jusqu'à la\n"
+    .string "LIGUE POKéMON.$"
 
 DragonsDen_Shrine_EventScript_ClairEnter::
 	clearflag FLAG_HIDE_DRAGONS_DEN_SHRINE_CLAIR
@@ -336,61 +336,61 @@ DragonsDen_Shrine_Movement_ClairLeave:
 	step_end
 
 DragonsDen_Shrine_Text_ClairYouPassed:
-    .string "So how did it go?\p"
-    .string "I guess there's no point\n"
-	.string "in asking. You did fail?\p"
+    .string "Alors, comment ça s'est passé?\p"
+    .string "Inutile de poser la question.\n"
+    .string "Tu as échoué, pas vrai?\p"
     .string "..................................\p"
-    .string "…What? You passed?$"
+    .string "…Quoi? Tu as réussi?$"
 
 DragonsDen_Shrine_Text_ClairThatCantBe:
-    .string "That can't be!$"
+    .string "Y'a maldonne!$"
 
 DragonsDen_Shrine_Text_ClairYoureLying:
-    .string "You're lying!\p"
-    .string "Even I haven't been approved!$"
+    .string "Tu mens! Ce n'est pas possible...\p"
+    .string "Moi, je... Je n'ai toujours pas...$"
 
 DragonsDen_Shrine_Text_MustIInformLance:
-    .string "CLAIR!\p"
-    .string "This child is impeccable,\n"
-    .string "in skill and spirit!\p"
-    .string "Admit defeat and confer the\n"
-    .string "RISINGBADGE!\p"
-    .string "…Or must I inform LANCE of this?$"
+    .string "SANDRA!\p"
+    .string "Cet enfant est irréprochable,\n"
+	.string "par le talent comme par l'esprit!\p"
+    .string "Accepte ta défaite et remets-lui\n"
+    .string "le BADGE LEVER!\p"
+    .string "…Ou dois-je en informer PETER?$"
 
 DragonsDen_Shrine_Text_IUnderstand:
-    .string "I-I understand…$"
+    .string "Je... Je vois.$"
 
 DragonsDen_Shrine_Text_HereRisingBadge:
-    .string "Here, this is the RISINGBADGE…\p"
-    .string "Hurry up! Take it!$"
+    .string "Tiens, voilà le BADGE\p"
+    .string "LEVER... Allez! Prends-le!$"
 
 DragonsDen_Shrine_Text_PlayerReceivedRisingBadge:
-    .string "{PLAYER} received RISINGBADGE.$"
+    .string "{PLAYER} reçoit le BADGE LEVER.$"
 
 DragonsDen_Shrine_Text_RisingBadgeExplanation:
-    .string "RISINGBADGE will enable your\n"
-    .string "POKéMON to use the move for\l"
-    .string "climbing waterfalls.\p"
-    .string "Also, all POKéMON will recognize\n"
-    .string "you as a trainer and obey your\l"
-    .string "every command without question.$"
+    .string "Le BADGE LEVER permet à\n"
+    .string "tes POKéMON de lancer une\l"
+    .string "capacité pour escalader\p"
+    .string "les cascades. De plus,\n"
+    .string "tous les POKéMON t'obéiront\l"
+    .string "au doigt et à l'oeil.$"
 
 DragonsDen_Shrine_Text_ElderScoldsClair:
-    .string "CLAIR…\p"
-    .string "Reflect upon what it is that you\n"
-    .string "lack and this child has.$"
+    .string "SANDRA…\p"
+    .string "Réfléchis à ce qui te manque\n"
+    .string "et que cet enfant possède.$"
 
 DragonsDen_Shrine_Text_Speechless:
     .string "..................................$"
 
 DragonsDen_Shrine_Text_ComeAgain:
-    .string "Come again, if you so desire.$"
+    .string "N'hésite pas à revenir.$"
 
 DragonsDen_Shrine_Text_SilverIsInTraining:
-    .string "A boy close to your age is in\n"
-    .string "training here.\p"
-    .string "He is much like CLAIR when she was\n"
-    .string "younger. It is a little worrisome…$"
+    .string "Un garçon de ton âge s'entraîne\n"
+    .string "ici. Il ressemble à Sandra\p"
+    .string "avant votre rencontre...\n"
+    .string "Je le garde à l'œil.$"
 
 DragonsDen_Shrine_EventScript_Elder2::
 	msgbox DragonsDen_Shrine_Text_Elder2, MSGBOX_NPC
@@ -401,16 +401,16 @@ DragonsDen_Shrine_EventScript_Elder3::
 	end
 
 DragonsDen_Shrine_Text_Elder2:
-    .string "It's been quite some time since a\n"
-    .string "trainer has gained our MASTER's\l"
-    .string "rare approval.\p"
-    .string "In fact, not since Master LANCE.$"
+    .string "Cela fait longtemps que notre\n"
+    .string "maître n'avait pas reconnu\l"
+    .string "la valeur d'un Dresseur...\p"
+    .string "Pas une fois depuis Peter.$"
 
 DragonsDen_Shrine_Text_Elder3:
-    .string "You know young Master LANCE?\p"
-    .string "He looks so much like our MASTER\n"
-    .string "did in his youth.\p"
-    .string "It's in their blood.$"
+    .string "Tu connais le maître\p"
+    .string "Peter? Il ressemble à notre\n"
+    .string "maître dans sa jeunesse.\p"
+    .string "Ils ont ça dans le sang...$"
 
 DragonsDen_Shrine_EventScript_ElderChooseDratini::
 	goto_if_eq VAR_DRAGONS_DEN_QUIZ, 0, DragonsDen_Shrine_EventScript_ElderGiveSpecialDratini
@@ -450,19 +450,19 @@ DragonsDen_Shrine_EventScript_ElderAlreadyGotDratini::
 	end
 
 DragonsDen_Shrine_Text_TakeThisDratini:
-    .string "Hm… Good to see you here.\p"
-    .string "Your arrival is most fortunate.\p"
-    .string "I have something for you.\p"
-    .string "Take this DRATINI as proof that I\n"
-    .string "have recognized your worth.$"
+    .string "Hmm... Bienvenue. Tu\p"
+    .string "tombes au bon moment.\p"
+    .string "J'ai quelque chose pour\p"
+    .string "toi. Ce MINIDRACO est la\n"
+    .string "preuve de ta valeur...$"
 
 DragonsDen_Shrine_Text_SymbolicDragon:
-    .string "Dragon POKéMON are symbolic of our\n"
-    .string "clan.\p"
-    .string "You have shown that you can be\n"
-    .string "entrusted with one.$"
+    .string "Les POKéMON de type\n"
+    .string "Dragon sont l'emblème\p"
+    .string "de notre clan. Tu es\n"
+    .string "digne d'en posséder un.$"
 
 DragonsDen_Shrine_Text_ClairsGrandfather:
-    .string "CLAIR appears to have learned an\n"
-    .string "invaluable lesson from you.\p"
-    .string "I thank you as her grandfather.$"
+    .string "SANDRA semble avoir appris de toi\n"
+    .string "une leçon inestimable.\p"
+    .string "Son grand-père t'en remercie.$"

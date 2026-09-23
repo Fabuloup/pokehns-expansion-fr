@@ -20,8 +20,8 @@ GoldenrodCity_FlowerShop_EventScript_MintClerkNotReady::
 	end
 
 GoldenrodCity_FlowerShop_Text_MintClerkNotReady:
-	.string "We are currently out of stock.\p"
-	.string "Please come back later.$"
+	.string "Nous sommes en rupture de stock.\p"
+	.string "Reviens plus tard, s'il te plaît.$"
 
 	.align 2
 GoldenrodCity_FlowerShop_Mints:
@@ -109,53 +109,54 @@ GoldenrodCity_FlowerShop_EventScript_Floria3::
 	end
 
 GoldenrodCity_FlowerShop_Text_Floria:
-	.string "When I told my sis about the jiggly\n"
-	.string "tree, she said it's dangerous.\p"
-	.string "If I beat WHITNEY, I wonder if\n"
-	.string "she'll lend me her water bottle…$"
+	.string "Quand j'ai parlé de l'arbre qui\n"
+	.string "gigote à ma soeur, elle a dit\l"
+	.string "que c'était dangereux.\p"
+	.string "Si je bats BLANCHE, elle me\n"
+	.string "prêtera peut-être sa bouteille…$"
 
 GoldenrodCity_FlowerShop_Text_Owner1:
-.string "Apparently, there is an odd tree\n"
-.string "on ROUTE 36.\p"
-.string "They say it dances when you water\n"
-.string "it...\p"
-.string "Oh, of course not!\p"
-.string "This is a flower shop, so we do\n"
-.string "have watering cans...\p"
-.string "But I cannot let you have one!\n"
-.string "It's too dangerous!\p"
-.string "Well, maybe if you manage to\n"
-.string "defeat gym leader WHITNEY, it\l"
-.string "might be okay.$"
+.string "Il paraît qu'il y a un arbre\n"
+.string "bizarre sur la ROUTE 36.\p"
+.string "On dit qu'il danse quand on\n"
+.string "l'arrose…\p"
+.string "Oh, bien sûr que non!\p"
+.string "Ici c'est un fleuriste, alors\n"
+.string "oui, nous avons des arrosoirs…\p"
+.string "Mais je ne peux pas t'en donner!\n"
+.string "C'est bien trop dangereux!\p"
+.string "Enfin… si tu arrives à battre la\n"
+.string "CHAMPIONNE BLANCHE, ça ira\l"
+.string "peut-être.$"
 
 GoldenrodCity_FlowerShop_Text_Owner2:
-.string "Apparently, there is an odd tree\n"
-.string "on ROUTE 36.\p"
-.string "They say it dances when you water\n"
-.string "it...\p"
-.string "Oh, that's a PLAINBADGE from\n"
-.string "the GOLDENROD GYM!\p"
-.string "Did you defeat WHITNEY?!\p"
-.string "Well, then there's nothing to worry\n"
-.string "about, is there?\p"
-.string "I'll let you use this SQUIRTBOTTLE\n"
-.string "for a while then.\l"
-.string "...\p"
-.string "Oh, never mind. Keep it!$"
+.string "Il paraît qu'il y a un arbre\n"
+.string "bizarre sur la ROUTE 36.\p"
+.string "On dit qu'il danse quand on\n"
+.string "l'arrose…\p"
+.string "Oh, c'est un BADGE PLAINE de\n"
+.string "l'ARÈNE de DOUBLONVILLE!\p"
+.string "Tu as battu BLANCHE?!\p"
+.string "Alors il n'y a plus de souci,\n"
+.string "n'est-ce pas?\p"
+.string "Je te prête cette CARAPUCE À O\n"
+.string "un moment, dans ce cas.\l"
+.string "…\p"
+.string "Oh, laisse tomber. Garde-la!$"
 
 GoldenrodCity_FlowerShop_Text_Owner3:
-.string "The odd tree is on ROUTE 36.\n"
-.string "Please be careful!$"
+.string "L'arbre bizarre est sur la\n"
+.string "ROUTE 36. Sois prudent!$"
 
 GoldenrodCity_FlowerShop_Text_Owner4:
-    .string "Lalala lalalala. Have plenty of\n"
-    .string "water, my lovely!$"
+    .string "Lalala lalalala. Bois beaucoup\n"
+    .string "d'eau, ma jolie!$"
 
 GoldenrodCity_FlowerShop_Text_FloriaYouBeatWhitney:
-    .string "Wow, you beat WHITNEY? Cool!$"
+    .string "Ouah, tu as battu BLANCHE? Cool!$"
 
 GoldenrodCity_FlowerShop_Text_FloriaItWasAMon:
-    .string "So it really was a POKéMON!$"
+    .string "Alors c'était bien un POKéMON!$"
 
 
 GoldenrodCity_FlowerShop_EventScript_RandomBerryGirl::

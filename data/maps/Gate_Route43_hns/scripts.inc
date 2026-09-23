@@ -70,39 +70,40 @@ Gate_Route43_Rocket_EventScript_Rockets::
 	end
 
 Gate_Route43_Rocket_Text_TollFee:
-    .string "Hold it there, kiddo!\p"
-    .string "The toll is ¥500 to go\n"
-    .string "through.$"
+    .string "Halte-là, gamin!\p"
+    .string "Le péage est de ¥500 pour\n"
+    .string "passer.$"
 
 Gate_Route43_Rocket_Text_ThankYou:
-    .string "Thank you very much!$"
+    .string "Merci beaucoup!$"
 
 Gate_Route43_Rocket_Text_AllYouGot:
-    .string "Then pay what you have, please.$"
+    .string "Alors paie ce que tu as.$"
 
 Gate_Route43_Rocket_Text_KickOut:
-	.string "Wow!\p"
-	.string "You're totally broke!\p"
-	.string "I almost feel sorry for you.\p"
-	.string "Okay, you can pass...\p"
-	.string "Just don't tell the other guard,\n"
-	.string "okay?$"
+	.string "Ouah!\p"
+	.string "Tu es complètement fauché!\p"
+	.string "Tu me ferais presque pitié.\p"
+	.string "Bon, tu peux passer…\p"
+	.string "Mais ne le dis pas à l'autre\n"
+	.string "garde, d'accord?$"
 
 Gate_Route43_Rocket_Text_MakingABundle:
-    .string "He-he-he. We're making a bundle.\p"
-    .string "Everyone wants to see what's going\n"
-    .string "on up at LAKE OF RAGE.$"
+    .string "Hé-hé-hé. On se fait un joli\n"
+    .string "paquet.\p"
+    .string "Tout le monde veut voir ce qui\n"
+    .string "se passe au LAC COLÈRE.$"
 
 Route43Gate_Text_OfficerFoundTM:
-    .string "I got chased from my post by these\n"
-    .string "thugs in black.\p"
-    .string "They left this behind.\p"
-    .string "It makes me uncomfortable. Could\n"
-    .string "you take it away?$"
+    .string "Ces voyous en noir m'ont chassé\n"
+    .string "de mon poste.\p"
+    .string "Ils ont laissé ça derrière eux.\p"
+    .string "Ça me met mal à l'aise. Tu peux\n"
+    .string "l'emporter?$"
 
 Gate_Route43_Text_ReceivedTM30:
-    .string "{PLAYER} received TM36.$"
+    .string "{PLAYER} reçoit la CT36.$"
 
 Gate_Route43_Text_OfficerAvoidGrass:
-    .string "Use this gate to avoid walking in\n"
-    .string "the grass.$"
+    .string "Passe par ce poste pour éviter\n"
+    .string "de marcher dans les herbes.$"

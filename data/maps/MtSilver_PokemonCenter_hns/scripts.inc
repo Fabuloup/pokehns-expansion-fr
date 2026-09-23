@@ -63,30 +63,31 @@ MtSilver_PokemonCenter_EventScript_Meara_WarpToSinjoh::
 	end
 
 MtSilver_PokemonCenter_Text_Meara1:
-	.string "I'm a researcher from... Uhh...\n"
-	.string "the PEWTER CITY museum!\p"
-	.string "An unusual amount of artifacts have\n"
-	.string "been discovered in this area, so\l"
-	.string "I've come here to investigate.\p"
-	.string "Have you found anything strange\n"
-	.string "in the mountain?\p"
-	.string "Maybe something like a FLUTE?\p"
-	.string "If you do, please show me.$"
+	.string "Je suis chercheuse au… Euh…\n"
+	.string "musée d'ARGENTA!\p"
+	.string "On a découvert un nombre\n"
+	.string "inhabituel de vestiges par ici,\l"
+	.string "alors je viens enquêter.\p"
+	.string "Tu n'aurais rien trouvé\n"
+	.string "d'étrange dans la montagne?\p"
+	.string "Quelque chose comme une FLÛTE?\p"
+	.string "Si oui, montre-la-moi.$"
 
 MtSilver_PokemonCenter_Text_Meara2:
-	.string "That flute!\p"
-	.string "You have the spirit of a true\n"
-	.string "archaeologist!\p"
-	.string "There's a branch of the cave\n"
-	.string "where the POKéMON are too strong\l"
-	.string "for me to safely explore.\p"
-	.string "If I take you there, would you\n"
-	.string "explore it for more artifacts?$"
+	.string "Cette flûte!\p"
+	.string "Tu as l'âme d'un vrai\n"
+	.string "archéologue!\p"
+	.string "Il y a une galerie de la grotte\n"
+	.string "où les POKéMON sont trop forts\l"
+	.string "pour que je m'y aventure.\p"
+	.string "Si je t'y emmène, tu veux bien\n"
+	.string "y chercher d'autres vestiges?$"
 
 MtSilver_PokemonCenter_Text_Prompt:
-	.string "If I take you there, would you\n"
-	.string "explore it for more artifacts?$"
+	.string "Si je t'y emmène, tu veux bien\n"
+	.string "y chercher d'autres vestiges?$"
 
 MtSilver_PokemonCenter_Text_Meara3:
-	.string "Ready to search for more artifacts?$"
+	.string "Prêt à chercher d'autres\n"
+	.string "vestiges?$"
 

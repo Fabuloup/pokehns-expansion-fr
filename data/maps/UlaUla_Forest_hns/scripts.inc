@@ -339,15 +339,15 @@ Alola_Ulaula_TotemBattle_Text_0:
 	.string "Graah!$"
 
 Alola_Ulaula_TotemBattle_Text_1:
-	.string "Totem TANGROWTH was defeated!\n"
-	.string "It scampered off somewhere…$"
+	.string "Le Totem BOULDENEU est vaincu!\n"
+	.string "Il a détalé quelque part…$"
 
 Alola_Ulaula_TotemBattle_Text_2:
 	.string "Graah!$"
 
 Alola_Ulaula_TotemBattle_Text_3:
-	.string "Totem PRIMEAPE was defeated!\n"
-	.string "It scampered off somewhere…$"
+	.string "Le Totem COLOSSINGE est vaincu!\n"
+	.string "Il a détalé quelque part…$"
 
 UlaUla_Forest_hns_Movement_FacePlayerUpAfterTotemWarp:
 	face_up
@@ -355,29 +355,29 @@ UlaUla_Forest_hns_Movement_FacePlayerUpAfterTotemWarp:
 
 
 Alola_Ulaula_Totem_sign_Text_0:
-	.string "The totem is emanating a strong\n"
-	.string "energy…\p"
-	.string "Touch the totem to teleport to another\n"
-	.string "Isle?$"
+	.string "Le totem dégage une puissante\n"
+	.string "énergie…\p"
+	.string "Toucher le totem pour aller sur\n"
+	.string "une autre ÎLE?$"
 
 Alola_Ulaula_Totem_sign_Text_1:
-	.string "MELEMELE ISLE$"
+	.string "ÎLE MÉLÉMÉLÉ$"
 
 Alola_Ulaula_Totem_sign_Text_2:
-	.string "AKALA ISLE$"
+	.string "ÎLE AKALA$"
 
 Alola_Ulaula_Totem_sign_Text_3:
-	.string "ULA'ULA ISLE$"
+	.string "ÎLE ULA-ULA$"
 
 Alola_Ulaula_Totem_sign_Text_4:
-	.string "PONI ISLE$"
+	.string "ÎLE PONI$"
 
 Alola_Ulaula_Totem_sign_Text_5:
-	.string "CANCEL$"
+	.string "ANNULER$"
 
 Alola_Ulaula_Totem_sign_Text_6:
-	.string "A strange totem stands here,\n"
-	.string "power is emanating from it…$"
+	.string "Un totem étrange se dresse ici,\n"
+	.string "une force s'en dégage…$"
 
 Alola_Ulaula_BattleVsTapuBulu_Text_0:
 	.string "Bu-Bulu!$"

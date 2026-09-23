@@ -1,0 +1,70 @@
+name: Problème de traduction française
+description: Signaler un texte incorrect, en anglais ou mal affiché
+title: "[FR] "
+labels:
+  - translation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de joindre une capture si possible. Ne joignez jamais de ROM ni de sauvegarde contenant des données personnelles.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Type de problème
+      options:
+        - Texte encore en anglais
+        - Traduction incorrecte ou peu naturelle
+        - Terminologie incohérente
+        - Texte coupé ou qui dépasse
+        - Accent ou caractère mal affiché
+        - Autre
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Emplacement dans le jeu
+      description: Ville, route, bâtiment, menu, combat ou écran concerné.
+      placeholder: "Exemple : Bourg Geon, laboratoire du Professeur Orme"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Texte actuellement affiché
+      description: Recopiez le texte aussi fidèlement que possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_text
+    attributes:
+      label: Correction proposée
+      description: Facultatif. Proposez une formulation si vous en avez une.
+
+  - type: input
+    id: build
+    attributes:
+      label: Version ou commit utilisé
+      description: Indiquez la version FR ou les premiers caractères du commit si vous les connaissez.
+      placeholder: "Exemple : 0.1.0-alpha ou a1b2c3d"
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Capture d'écran
+      description: Glissez la capture ici. Elle aide à vérifier la largeur du texte et le contexte.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Vérifications
+      options:
+        - label: J'ai vérifié que ce problème n'a pas déjà été signalé.
+          required: true
+        - label: Je n'ai joint aucune ROM Pokémon.
+          required: true

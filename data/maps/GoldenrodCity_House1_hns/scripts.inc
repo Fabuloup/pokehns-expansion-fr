@@ -16,13 +16,15 @@ GoldenrodCity_NameRatersHouse_EventScript_ToggleShiniesRefused::
 	end
 
 GoldenrodCity_NameRatersHouse_Text_AskToggleShinies:
-	.string "Would you like to toggle the Unique\n"
-	.string "Shiny Colors setting?$"
+	.string "Veux-tu activer ou désactiver\n"
+	.string "les Couleurs Chromatiques\l"
+	.string "Uniques?$"
 
 GoldenrodCity_NameRatersHouse_Text_ToggleShinies:
-	.string "Shiny Colors Toggled!\p"
-	.string "View your setting at the CHALLENGE\n"
-	.string "VIEWER at any PC.$"
+	.string "Couleurs Chromatiques basculées!\p"
+	.string "Consulte ton réglage dans le\n"
+	.string "VISUALISEUR DE DÉFIS, sur\l"
+	.string "n'importe quel PC.$"
 
 GoldenrodCity_NameRatersHouse_EventScript_RenameRival::
 	msgbox GoldenrodCity_NameRatersHouse_Text_RenameRival, MSGBOX_DEFAULT
@@ -32,10 +34,10 @@ GoldenrodCity_NameRatersHouse_EventScript_RenameRival::
 	end
 
 GoldenrodCity_NameRatersHouse_Text_RenameRival:
-	.string "It's the news...\p"
-	.string "The POLICE are looking for this\n"
-	.string "REDHEADED BOY!\p"
-	.string "Do YOU know his name?$"
+	.string "C'est aux infos…\p"
+	.string "La POLICE recherche ce GARÇON\n"
+	.string "AUX CHEVEUX ROUGES!\p"
+	.string "Connais-TU son nom?$"
 
 GoldenrodCity_NameRatersHouse_EventScript_NameRater::
 	lock
@@ -99,51 +101,55 @@ GoldenrodCity_NameRatersHouse_EventScript_NewNameDifferent::
 	end
 
 GoldenrodCity_NameRatersHouse_Text_PleasedToRateMonNickname:
-	.string "Hi, hi! I'm the NAME RATER!\n"
-	.string "I'm the fortune-teller of names!\p"
-	.string "I shall be pleased to rate your\n"
-	.string "POKéMON's nickname.$"
+	.string "Salut, salut! Je suis le NOTEUR\n"
+	.string "DE NOM!\p"
+	.string "Je suis le diseur de bonne\n"
+	.string "aventure des noms!\p"
+	.string "Je serai ravi de noter le surnom\n"
+	.string "de ton POKéMON.$"
 
 GoldenrodCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
-	.string "Which POKéMON's nickname should\n"
-	.string "I critique?$"
+	.string "De quel POKéMON dois-je\n"
+	.string "critiquer le surnom?$"
 
 GoldenrodCity_NameRatersHouse_Text_FineNameSuggestBetterOne:
-	.string "Hmmm… {STR_VAR_1}, is it? That is\n"
-	.string "quite a fine name you bestowed.\p"
-	.string "But! What say you, if I were to\n"
-	.string "suggest a slightly better name?$"
+	.string "Hmmm… {STR_VAR_1}, c'est cela?\n"
+	.string "Voilà un bien joli nom.\p"
+	.string "Mais! Que dirais-tu si je t'en\n"
+	.string "proposais un légèrement meilleur?$"
 
 GoldenrodCity_NameRatersHouse_Text_WhatShallNewNameBe:
-	.string "Ah, good. Then, what shall the new\n"
-	.string "nickname be?$"
+	.string "Ah, parfait. Alors, quel sera le\n"
+	.string "nouveau surnom?$"
 
 GoldenrodCity_NameRatersHouse_Text_MonShallBeKnownAsName:
-	.string "Done! From now on, this POKéMON\n"
-	.string "shall be known as {STR_VAR_1}!\p"
-	.string "It is a better name than before!\n"
-	.string "How fortunate for you!$"
+	.string "Voilà! Désormais, ce POKéMON\n"
+	.string "s'appellera {STR_VAR_1}!\p"
+	.string "C'est un meilleur nom qu'avant!\n"
+	.string "Quelle chance pour toi!$"
 
 GoldenrodCity_NameRatersHouse_Text_DoVisitAgain:
-	.string "I see.\n"
-	.string "Do come visit again.$"
+	.string "Je vois.\n"
+	.string "Reviens me voir.$"
 
 GoldenrodCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
-	.string "Done! From now on, this POKéMON\n"
-	.string "shall be known as {STR_VAR_1}!\p"
-	.string "It looks no different from before,\n"
-	.string "and yet, this is vastly superior!\p"
-	.string "How fortunate for you!$"
+	.string "Voilà! Désormais, ce POKéMON\n"
+	.string "s'appellera {STR_VAR_1}!\p"
+	.string "Il ne semble pas différent\n"
+	.string "d'avant, et pourtant, c'est bien\l"
+	.string "supérieur!\p"
+	.string "Quelle chance pour toi!$"
 
 GoldenrodCity_NameRatersHouse_Text_MagnificentName:
-	.string "Hmmm… {STR_VAR_1} it is!\p"
-	.string "This is a magnificent nickname!\n"
-	.string "It is impeccably beyond reproach!\p"
-	.string "You'll do well to cherish your\n"
-	.string "{STR_VAR_1} now and beyond.$"
+	.string "Hmmm… {STR_VAR_1}, donc!\p"
+	.string "Voilà un surnom magnifique!\n"
+	.string "Absolument irréprochable!\p"
+	.string "Tu feras bien de chérir ton\n"
+	.string "{STR_VAR_1} aujourd'hui et\l"
+	.string "toujours.$"
 
 GoldenrodCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
-	.string "Now, now.\n"
-	.string "That is merely an EGG!$"
+	.string "Allons, allons.\n"
+	.string "Ce n'est qu'un ŒUF!$"
 
 

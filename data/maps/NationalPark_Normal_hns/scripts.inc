@@ -67,41 +67,44 @@ NationalPark_Normal_EventScript_Persian::
 
 
 NationalPark_Normal_Text_Lass:
-	.string "Look! Check out my bag!\p"
-	.string "I printed out my favorites from my\n"
-	.string "POKéDEX and stuck them on my bag.$"
+	.string "Regarde mon sac!\p"
+	.string "J'ai imprimé mes préférés depuis\n"
+	.string "mon POKéDEX et je les ai collés\l"
+	.string "dessus.$"
 
 NationalPark_Normal_Text_PokefanF:
-	.string "This is MAIL I got from my daughter.\n"
-	.string "It cheers me up.$"
+	.string "C'est une LETTRE de ma fille.\n"
+	.string "Ça me remonte le moral.$"
 
 NationalPark_Normal_Text_Teacher1:
-	.string "Pay attention, please!\p"
-	.string "…Oops, I have to quit thinking like\n"
-	.string "a teacher all the time.\p"
-	.string "You must be a POKéMON trainer.\p"
-	.string "Since you're working so hard, I\n"
-	.string "want you to have this.$"
+	.string "Un peu d'attention, je vous prie!\p"
+	.string "…Oups, je dois arrêter de penser\n"
+	.string "comme une enseignante.\p"
+	.string "Tu dois être Dresseur POKéMON.\p"
+	.string "Puisque tu travailles si dur,\n"
+	.string "prends donc ceci.$"
 
 NationalPark_Normal_Text_Teacher1_QuickClaw:
-	.string "Let a POKéMON hold that QUICK CLAW.\p"
-	.string "Sometimes it will strike first\n"
-	.string "during battle.$"
+	.string "Fais tenir cette VIVE GRIFFE à un\n"
+	.string "POKéMON.\p"
+	.string "Il frappera parfois en premier\n"
+	.string "pendant le combat.$"
 
 NationalPark_Normal_Text_Youngster1:
-	.string "I'm playing with stickers I printed\n"
-	.string "from my POKéDEX.$"
+	.string "Je joue avec des autocollants\n"
+	.string "imprimés depuis mon POKéDEX.$"
 
 NationalPark_Normal_Text_Youngster2:
-	.string "I get the other guy's POKéDEX sticker\n"
-	.string "if I win.$"
+	.string "Si je gagne, je récupère\n"
+	.string "l'autocollant POKéDEX de l'autre.$"
 
 NationalPark_Normal_Text_Teacher2:
-	.string "I take walks in the PARK, but I\n"
-	.string "never go into the grass.\p"
-	.string "Trainers always want to battle…\p"
-	.string "You must have been in many battles.\n"
-	.string "Let me heal your POKéMON for you.$"
+	.string "Je me promène dans le PARC, mais\n"
+	.string "jamais dans les hautes herbes.\p"
+	.string "Les Dresseurs veulent toujours se\n"
+	.string "battre…\p"
+	.string "Tu as dû livrer bien des combats.\n"
+	.string "Laisse-moi soigner tes POKéMON.$"
 
 NationalPark_Normal_Text_Persian:
 	.string "PERSIAN: Fufushaa!$"
@@ -178,102 +181,108 @@ NationalPark_Normal_EventScript_Item_Soothe_Bell::
 	end
 
 NationalPark_Normal_Text_SchoolboyJack1_Seen:
-	.string "The world of POKéMON is deep.\p"
-	.string "There are still lots of things we\n"
-	.string "don't know.\p"
-	.string "But I know more than you do!$"
+	.string "Le monde des POKéMON est vaste.\p"
+	.string "Il reste plein de choses qu'on\n"
+	.string "ignore.\p"
+	.string "Mais j'en sais plus que toi!$"
 
 NationalPark_Normal_Text_SchoolboyJack1_Beaten:
-	.string "Wha-wha-what?$"
+	.string "Q-q-quoi?$"
 
 NationalPark_Normal_Text_SchoolboyJack_After:
-	.string "There is a lot to learn.\p"
-	.string "For example…\p"
-	.string "There are 92 kinds of TMs.\p"
-	.string "Traded POKéMON level up faster.$"
+	.string "Il y a beaucoup à apprendre.\p"
+	.string "Par exemple…\p"
+	.string "Il existe 92 sortes de CT.\p"
+	.string "Les POKéMON échangés montent de\n"
+	.string "niveau plus vite.$"
 
 NationalPark_Normal_Text_JackRegister:
-	.string "There is a lot to learn.\p"
-	.string "For example…\p"
-	.string "There are 92 kinds of TMs.\p"
-	.string "Traded POKéMON level up faster.$"
+	.string "Il y a beaucoup à apprendre.\p"
+	.string "Par exemple…\p"
+	.string "Il existe 92 sortes de CT.\p"
+	.string "Les POKéMON échangés montent de\n"
+	.string "niveau plus vite.$"
 
 NationalPark_Normal_Text_JackRematchIntro:
-	.string "I've learned a lot since we\n"
-	.string "last battled! Let's go!$"
+	.string "J'ai appris plein de choses\n"
+	.string "depuis notre dernier combat!$"
 
 NationalPark_Normal_Text_JackRematchDefeat:
-	.string "Wha-wha-what?$"
+	.string "Q-q-quoi?$"
 
 NationalPark_Normal_Text_JackPostRematch:
-	.string "There is a lot to learn.\p"
-	.string "For example…\p"
-	.string "There are 92 kinds of TMs.\p"
-	.string "Traded POKéMON level up faster.$"
+	.string "Il y a beaucoup à apprendre.\p"
+	.string "Par exemple…\p"
+	.string "Il existe 92 sortes de CT.\p"
+	.string "Les POKéMON échangés montent de\n"
+	.string "niveau plus vite.$"
 
 NationalPark_Normal_Text_PokefanFBeverly1_Seen:
-	.string "My POKéMON are simply darling.\p"
-	.string "Let me tell you how proud my\n"
-	.string "darlings make me.$"
+	.string "Mes POKéMON sont adorables.\p"
+	.string "Laisse-moi te dire à quel point\n"
+	.string "ils font ma fierté.$"
 
 NationalPark_Normal_Text_PokefanFBeverly1_Beaten:
-	.string "I can beat you in pride, but…$"
+	.string "Je te bats en fierté, mais…$"
 
 NationalPark_Normal_Text_PokefanFBeverly_After:
-	.string "I must say, your POKéMON are quite\n"
-	.string "cute, too.$"
+	.string "Je dois dire que tes POKéMON sont\n"
+	.string "mignons aussi.$"
 
 NationalPark_Normal_Text_PokefanmWilliam_Seen:
-	.string "We adore our POKéMON, even if they\n"
-	.string "dislike us.\p"
-	.string "That's what being a FAN is about.$"
+	.string "On adore nos POKéMON, même s'ils\n"
+	.string "ne nous aiment pas.\p"
+	.string "C'est ça, être un FAN.$"
 
 NationalPark_Normal_Text_PokefanmWilliam_Beaten:
-	.string "M-my POKéMON!$"
+	.string "M-mes POKéMON!$"
 
 NationalPark_Normal_Text_PokefanmWilliam_After:
-	.string "I lost the battle, but my POKéMON win\n"
-	.string "the prize for being most lovely.$"
+	.string "J'ai perdu le combat, mais mes\n"
+	.string "POKéMON gagnent le prix des plus\l"
+	.string "adorables.$"
 
 NationalPark_Normal_Text_LassKrise_Seen:
-	.string "Hello? Why are you staring at me?\p"
-	.string "Oh, a battle?$"
+	.string "Hé? Pourquoi tu me fixes?\p"
+	.string "Oh, un combat?$"
 
 NationalPark_Normal_Text_LassKrise_Beaten:
 	.string "…Hmmm…$"
 
 NationalPark_Normal_Text_LassKrise_After:
-	.string "I thought you were staring at me\n"
-	.string "because I'm cute!$"
+	.string "Je croyais que tu me fixais parce\n"
+	.string "que je suis mignonne!$"
 
 NationalPark_Normal_Text_Sign_RelaxationSquare:
-	.string "RELAXATION SQUARE\n"
-	.string "NATIONAL PARK$"
+	.string "PLACE DE LA DÉTENTE\n"
+	.string "PARC NATUREL$"
 
 NationalPark_Normal_Text_Sign_BattleNotice:
-	.string "What is this notice?\p"
-	.string "Please battle only in the grass.\p"
-	.string "NATIONAL PARK WARDEN'S OFFICE$"
+	.string "Qu'est-ce que cet avis?\p"
+	.string "Merci de ne combattre que dans\n"
+	.string "les hautes herbes.\p"
+	.string "BUREAU DU GARDE DU PARC NATUREL$"
 
 NationalPark_Normal_Text_TrainerTips:
-	.string "TRAINER TIPS\p"
-	.string "Print out MAIL by opening it then\n"
-	.string "pressing START.$"
+	.string "ASTUCE\p"
+	.string "Imprime une LETTRE en l'ouvrant,\n"
+	.string "puis appuie sur START.$"
 
 NationalPark_Normal_Text_BeverlyRegister:
-	.string "I must say, your POKéMON are quite\n"
-	.string "cute, too.$"
+	.string "Je dois dire que tes POKéMON sont\n"
+	.string "mignons aussi.$"
 
 NationalPark_Normal_Text_BeverlyHasItem:
-	.string "Oh, hello! I have something\n"
-	.string "for you.\p"
-	.string "Please take it as a token of\n"
-	.string "my appreciation!$"
+	.string "Oh, bonjour! J'ai quelque chose\n"
+	.string "pour toi.\p"
+	.string "Accepte-le en gage de ma\n"
+	.string "reconnaissance!$"
 
 NationalPark_Normal_Text_BeverlyGaveItem:
-	.string "My darling POKéMON and I will\n"
-	.string "be cheering for you!$"
+	.string "Mes adorables POKéMON et moi\n"
+	.string "t'encouragerons!$"
 
 NationalPark_Normal_Text_BeverlyNoRoom:
-	.string "Hmm, your BAG is full.\p"
-	.string "Come back when you have room.$"
+	.string "Hmm, ton SAC est plein.\p"
+	.string "Reviens quand tu auras de la\n"
+	.string "place.$"

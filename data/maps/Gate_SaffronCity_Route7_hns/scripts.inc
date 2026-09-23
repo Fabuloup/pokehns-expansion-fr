@@ -11,12 +11,13 @@ Gate_SaffronCity_Route7_EventScript_GuardReturnedPart::
 	end
 
 Route7_Text_SaffronGuard_PowerPlant:
-	.string "Did you hear about the accident\n"
-	.string "at the POWER PLANT?\p"
-	.string "It's located in the East, close\n"
-	.string "to LAVENDER TOWN.$"
+	.string "Tu as entendu parler de\n"
+	.string "l'accident à la CENTRALE?\p"
+	.string "Elle se trouve à l'est, près de\n"
+	.string "LAVANVILLE.$"
 
 Route7_Text_SaffronGuard_Serious:
-	.string "I take my GUARD job seriously.\p"
-	.string "Hey! You have a POKéDEX.\p"
-	.string "OK. You can go through.$"
+	.string "Je prends mon rôle de GARDE très\n"
+	.string "au sérieux.\p"
+	.string "Hé! Tu as un POKéDEX.\p"
+	.string "D'accord. Tu peux passer.$"

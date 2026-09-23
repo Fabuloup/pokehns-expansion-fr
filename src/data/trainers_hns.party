@@ -3020,7 +3020,7 @@ Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WADE_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -6406,7 +6406,7 @@ Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LI_HNS ===
-Name: LI
+Name: JEHAN
 Class: Sage Hns
 Pic: Sage Leader Hns
 Gender: Male
@@ -7167,7 +7167,7 @@ Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FALKNER_1_HNS ===
-Name: FALKNER
+Name: ALBERT
 Class: Leader Hns
 Pic: Leader Falkner Hns
 Gender: Male
@@ -7191,7 +7191,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Peck
 
 === TRAINER_FALKNER_2_HNS ===
-Name: FALKNER
+Name: ALBERT
 Class: Leader Hns
 Pic: Leader Falkner Hns
 Gender: Male
@@ -7250,7 +7250,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Hurricane
 
 === TRAINER_BUGSY_1_HNS ===
-Name: BUGSY
+Name: HECTOR
 Class: Leader Hns
 Pic: Leader Bugsy Hns
 Gender: Male
@@ -7285,7 +7285,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Pursuit
 
 === TRAINER_BUGSY_2_HNS ===
-Name: BUGSY
+Name: HECTOR
 Class: Leader Hns
 Pic: Leader Bugsy Hns
 Gender: Male
@@ -7344,7 +7344,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Roost
 
 === TRAINER_WHITNEY_1_HNS ===
-Name: WHITNEY
+Name: BLANCHE
 Class: Leader Hns
 Pic: Leader Whitney Hns
 Gender: Male
@@ -7379,7 +7379,7 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Milk Drink
 
 === TRAINER_WHITNEY_2_HNS ===
-Name: WHITNEY
+Name: BLANCHE
 Class: Leader Hns
 Pic: Leader Whitney Hns
 Gender: Male
@@ -7438,7 +7438,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Supersonic
 
 === TRAINER_MORTY_1_HNS ===
-Name: MORTY
+Name: MORTIMER
 Class: Leader Hns
 Pic: Leader Morty Hns
 Gender: Male
@@ -7483,7 +7483,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Dream Eater
 
 === TRAINER_MORTY_2_HNS ===
-Name: MORTY
+Name: MORTIMER
 Class: Leader Hns
 Pic: Leader Morty Hns
 Gender: Male
@@ -8274,7 +8274,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Dragon Pulse
 
 === TRAINER_BROCK_HNS ===
-Name: BROCK
+Name: PIERRE
 Class: Leader Kanto Hns
 Pic: Leader Brock Hns
 Gender: Male
@@ -8333,7 +8333,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Agility
 
 === TRAINER_MISTY_HNS ===
-Name: MISTY
+Name: ONDINE
 Class: Leader Kanto Hns
 Pic: Leader Misty Hns
 Gender: Male
@@ -8510,7 +8510,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Attract
 
 === TRAINER_SABRINA_HNS ===
-Name: SABRINA
+Name: MORGANE
 Class: Leader Kanto Hns
 Pic: Leader Sabrina Hns
 Gender: Male
@@ -8569,7 +8569,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Calm Mind
 
 === TRAINER_JANINE_HNS ===
-Name: JANINE
+Name: JEANNINE
 Class: Leader Kanto Hns
 Pic: Leader Janine Hns
 Gender: Male
@@ -8628,7 +8628,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Double Team
 
 === TRAINER_BLAINE_HNS ===
-Name: BLAINE
+Name: AUGUSTE
 Class: Leader Kanto Hns
 Pic: Leader Blaine Hns
 Gender: Male
@@ -8915,7 +8915,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 
 === TRAINER_BRUNO_1_HNS ===
-Name: BRUNO
+Name: ALDO
 Class: Elite Four Hns
 Pic: Elite Four Bruno Hns
 Gender: Male
@@ -8966,7 +8966,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Cross Chop
 
 === TRAINER_BRUNO_2_HNS ===
-Name: BRUNO
+Name: ALDO
 Class: Elite Four Hns
 Pic: Elite Four Bruno Hns
 Gender: Male
@@ -9245,7 +9245,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confuse Ray
 
 === TRAINER_LANCE_1_HNS ===
-Name: LANCE
+Name: PETER
 Class: Champion Hns
 Pic: Champion Lance Hns
 Gender: Male
@@ -9304,7 +9304,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hyper Beam
 
 === TRAINER_LANCE_2_HNS ===
-Name: LANCE
+Name: PETER
 Class: Champion Hns
 Pic: Champion Lance Hns
 Gender: Male
@@ -9363,7 +9363,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hurricane
 
 === TRAINER_LANCE_3_HNS ===
-Name: LANCE
+Name: PETER
 Class: Champion Hns
 Pic: Champion Lance Hns
 Gender: Male
@@ -10539,7 +10539,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thrash
 
 === TRAINER_PROTON_1_HNS ===
-Name: PROTON
+Name: LANCE
 Class: Rocket Admin Hns
 Pic: Proton Hns
 Gender: Male
@@ -10561,7 +10561,7 @@ Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PROTON_2_HNS ===
-Name: PROTON
+Name: LANCE
 Class: Rocket Admin Hns
 Pic: Proton Hns
 Gender: Male
@@ -11135,7 +11135,7 @@ Level: 65
 - Iron Tail
 
 === TRAINER_WADE_2_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -11150,7 +11150,7 @@ Pineco
 Level: 20
 
 === TRAINER_WADE_3_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -11168,7 +11168,7 @@ Pineco
 Level: 25
 
 === TRAINER_WADE_4_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -11189,7 +11189,7 @@ Ariados
 Level: 36
 
 === TRAINER_WADE_5_HNS ===
-Name: WADE
+Name: FRANCIS
 Class: Bug Catcher Hns
 Pic: Bug Catcher
 Gender: Male
@@ -14643,7 +14643,7 @@ Naive Nature
 - Double-Edge  
 
 === TRAINER_FALKNER_POSTOBC_HNS ===
-Name: FALKNER
+Name: ALBERT
 Class: Leader Hns
 Pic: Leader Falkner Hns
 Gender: Male
@@ -14704,7 +14704,7 @@ IVs: 0 Atk
 - Roost  
 
 === TRAINER_BUGSY_POSTOBC_HNS ===
-Name: BUGSY
+Name: HECTOR
 Class: Leader Hns
 Pic: Leader Bugsy Hns
 Gender: Male
@@ -14766,7 +14766,7 @@ Level: 69
 - Roost  
 
 === TRAINER_WHITNEY_POSTOBC_HNS ===
-Name: WHITNEY
+Name: BLANCHE
 Class: Leader Hns
 Pic: Leader Whitney Hns
 Gender: Male
@@ -14827,7 +14827,7 @@ Level: 70
 - Baby-Doll Eyes  
 
 === TRAINER_MORTY_POSTOBC_HNS ===
-Name: MORTY
+Name: MORTIMER
 Class: Leader Hns
 Pic: Leader Morty Hns
 Gender: Male
@@ -15136,7 +15136,7 @@ Level: 70
 - Hyper Beam  
 
 === TRAINER_BROCK_POSTOBC_HNS ===
-Name: BROCK
+Name: PIERRE
 Class: Leader Kanto Hns
 Pic: Leader Brock Hns
 Gender: Male
@@ -15196,7 +15196,7 @@ Level: 72
 - Charge  
 
 === TRAINER_MISTY_POSTOBC_HNS ===
-Name: MISTY
+Name: ONDINE
 Class: Leader Kanto Hns
 Pic: Leader Misty Hns
 Gender: Male
@@ -15385,7 +15385,7 @@ IVs: 0 Atk
 - Double Team  
 
 === TRAINER_JANINE_POSTOBC_HNS ===
-Name: JANINE
+Name: JEANNINE
 Class: Leader Kanto Hns
 Pic: Leader Janine Hns
 Gender: Male
@@ -15447,7 +15447,7 @@ IVs: 0 Atk
 - Toxic  
 
 === TRAINER_SABRINA_POSTOBC_HNS ===
-Name: SABRINA
+Name: MORGANE
 Class: Leader Kanto Hns
 Pic: Leader Sabrina Hns
 Gender: Male
@@ -15510,7 +15510,7 @@ IVs: 0 Atk
 - Tri Attack  
 
 === TRAINER_BLAINE_POSTOBC_HNS ===
-Name: BLAINE
+Name: AUGUSTE
 Class: Leader Kanto Hns
 Pic: Leader Blaine Hns
 Gender: Male
@@ -15760,7 +15760,7 @@ Level: 79
 - Confuse Ray  
 
 === TRAINER_BRUNO_POSTOBC_HNS ===
-Name: BRUNO
+Name: ALDO
 Class: Elite Four Hns
 Pic: Elite Four Bruno Hns
 Gender: Male
@@ -15881,7 +15881,7 @@ Level: 79
 - Destiny Bond  
 
 === TRAINER_LANCE_POSTOBC_HNS ===
-Name: LANCE
+Name: PETER
 Class: Champion Hns
 Pic: Champion Lance Hns
 Gender: Male
@@ -16001,4 +16001,3 @@ Tera Type: Fighting
 - Wild Charge  
 - Bulk Up  
 - Throat Chop
-

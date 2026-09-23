@@ -50,38 +50,39 @@ UnionCave_B2F_EventScript_Item_MaxRevive::
 	end
 
 UnionCave_B2F_Text_CooltrainermNickSeen:
-	.string "There are two kinds of people.\p"
-	.string "Those who have style, and those\n"
-	.string "who don't.\p"
-	.string "What kind of person are you?$"
+	.string "Il existe deux types de gens.\p"
+	.string "Ceux qui ont la classe, et ceux\n"
+	.string "qui ne l'ont pas.\p"
+	.string "Toi, tu es de quel côté?$"
 
 UnionCave_B2F_Text_CooltrainermNickBeaten:
-	.string "You've got dazzling style!$"
+	.string "Purée… Quelle classe!$"
 
 UnionCave_B2F_Text_CooltrainermNickAfter:
-	.string "Your POKéMON style is stunning and\n"
-	.string "colorful, I admit.\p"
-	.string "You'll just keep getting better!$"
+	.string "Tes POKéMON ont une classe\n"
+	.string "éclatante, je l'admets.\p"
+	.string "Et tu vas encore t'améliorer!$"
 
 UnionCave_B2F_Text_CooltrainerfGwenSeen:
-	.string "I'm in training. Care for a round?$"
+	.string "Je m'entraîne. Ça te tente?$"
 
 UnionCave_B2F_Text_CooltrainerfGwenBeaten:
-	.string "Aww, no! You're too good for me.$"
+	.string "Hmmm! T'es trop balèze pour moi.$"
 
 UnionCave_B2F_Text_CooltrainerfGwenAfter:
-	.string "I'm going to train by myself until I\n"
-	.string "improve.$"
+	.string "Je vais m'entraîner seule\n"
+	.string "jusqu'à ce que je progresse.$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaSeen:
-	.string "If the POKéMON I liked were there,\n"
-	.string "I'd go anywhere.\p"
-	.string "That's what a real trainer does.$"
+	.string "J'irais n'importe où si le\n"
+	.string "POKéMON de mes rêves s'y\l"
+	.string "trouvait.\p"
+	.string "C'est ça, un vrai Dresseur.$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaBeaten:
-	.string "I'd rather pet my babies than this!$"
+	.string "Je préfère câliner mes bébés!$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaAfter:
-	.string "Just once a week, a POKéMON comes to\n"
-	.string "the water's edge.\p"
-	.string "I wanted to see that POKéMON…$"
+	.string "Une fois par semaine, un POKéMON\n"
+	.string "vient au bord de l'eau.\p"
+	.string "Je voulais tant le voir…$"

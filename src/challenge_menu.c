@@ -334,13 +334,13 @@ static const u16 sTextPal[] = INCBIN_U16("graphics/interface/option_menu_text_cu
 // =============================================================================
 
 static const u8 *const sChoices_OffOn[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("ON"),
+    COMPOUND_STRING("NON"),
+    COMPOUND_STRING("OUI"),
 };
 
 static const u8 *const sChoices_OnOff[] = {
-    COMPOUND_STRING("ON"),
-    COMPOUND_STRING("OFF"),
+    COMPOUND_STRING("OUI"),
+    COMPOUND_STRING("NON"),
 };
 
 static const u8 *const sChoices_Gamemode[] = {
@@ -376,11 +376,11 @@ static const u8 *const sDesc_Synchronize[] = {
 };
 static const u8 *const sDesc_Sturdy[] = {
     COMPOUND_STRING("STURDY works as in GEN III. Only\nnegates OHKO moves (GUILLOTINE, etc.)"),
-    COMPOUND_STRING("STURDY works as in GEN V+.\n{PKMN} survive lethal hits with 1HP."),
+    COMPOUND_STRING("FERMETÉ fonctionne comme en 5G et +.\n{PKMN} survit à un coup fatal avec 1 PV."),
 };
 static const u8 *const sDesc_NewCitrus[] = {
-    COMPOUND_STRING("SITRUS BERRY restores 30HP.\nSame as GEN III."),
-    COMPOUND_STRING("SITRUS BERRY restores 25% of\ntotal HP. Same as GEN IV and up."),
+    COMPOUND_STRING("La BAIE SITRUS restaure 30 PV.\nComme en 3G."),
+    COMPOUND_STRING("La BAIE SITRUS restaure 25 % des\nPV totaux. Comme en 4G et +."),
 };
 static const u8 *const sDesc_FairyTypes[] = {
     COMPOUND_STRING("Le TYPE FÉE n'est pas ajouté aux\n{PKMN} de la GEN VI."),
@@ -400,7 +400,7 @@ static const u8 *const sDesc_Mints[] = {
 };
 static const u8 *const sDesc_SurvivePoison[] = {
     COMPOUND_STRING("Tes {PKMN} peuvent mourir\nEMPOISONNÉ."),
-    COMPOUND_STRING("Tes {PKMN} survivent au POISON\navec 1HP."),
+    COMPOUND_STRING("Un {PKMN} empoisonné survivra\navec 1PV."),
 };
 static const u8 *const sDesc_Split[] = {
     COMPOUND_STRING("Les capacités SPE. et PHYS.\ndépendent du TYPE du {PKMN}."),
@@ -419,7 +419,7 @@ static const u8 *const sDesc_GenOneRecharge[] = {
     COMPOUND_STRING("If a RECHARGE MOVE KO's the opponent,\nno recharge turn is needed."),
 };
 static const u8 *const sDesc_Next[] = {
-    COMPOUND_STRING("Continuer à la page suivante."),
+    COMPOUND_STRING("Passer à la page suivante."),
 };
 
 static const struct ChallengeMenuItem sTabItems_Mode[] = {
@@ -504,7 +504,7 @@ static const struct ChallengeMenuItem sTabItems_Mode[] = {
 };
 
 static const u8 *const sDesc_SaveExit[] = { COMPOUND_STRING("Sauvegarder et continuer...") };
-static const u8 sText_ConfirmSave[] = COMPOUND_STRING("Confirmer vos choix?");
+static const u8 sText_ConfirmSave[] = COMPOUND_STRING("Confirmer tes choix?");
 
 // =============================================================================
 // Choice strings — shared across tabs
@@ -549,10 +549,10 @@ static const u8 *const sChoices_ShinyChance[] = {
 };
 
 static const u8 *const sChoices_Nuzlocke[] = {
-    COMPOUND_STRING("OFF"),
-    COMPOUND_STRING("EASY"),
+    COMPOUND_STRING("NON"),
+    COMPOUND_STRING("FACILE"),
     COMPOUND_STRING("NORMAL"),
-    COMPOUND_STRING("HARD"),
+    COMPOUND_STRING("DIFFICILE"),
 };
 
 static const u8 *const sChoices_CemeteryRelease[] = {
@@ -598,7 +598,7 @@ static const u8 *const sChoices_TrainerEVs[] = {
 static const u8 *const sChoices_PlayerIVs[] = {
     COMPOUND_STRING("YES"),
     COMPOUND_STRING("NO"),
-    COMPOUND_STRING("NO (HP)"),
+    COMPOUND_STRING("NON (PV)"),
 };
 
 static const u8 *const sChoices_PkmnCenter[] = {
@@ -1030,7 +1030,7 @@ static const struct ChallengeMenuItem sTabItems_Difficulty[] = {
         .choiceNames  = sChoices_PartyLimit,
     },
     [ITEM_DIFFICULTY_LEVEL_CAP] = {
-        .name         = COMPOUND_STRING("LEVEL CAP"),
+        .name         = COMPOUND_STRING("NIV. MAX"),
         .descriptions = sDesc_LevelCap,
         .numChoices   = 3,
         .choiceNames  = sChoices_LevelCap,

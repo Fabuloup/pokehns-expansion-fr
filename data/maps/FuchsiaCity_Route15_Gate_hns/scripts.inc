@@ -6,6 +6,6 @@ Route15_EventScript_Officer::
 	end
 
 Route15FuchsiaGate_Text_Officer:
-	.string "You're working on a POKéDEX? That's\n"
-	.string "really something.\p"
-	.string "Don't give up!$"
+	.string "Tu remplis un POKéDEX? C'est\n"
+	.string "vraiment quelque chose.\p"
+	.string "N'abandonne pas!$"

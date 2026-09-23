@@ -35,11 +35,12 @@ MtSilver_1F_WaterfallRoom_Scientist_Scene::
 	end
 
 MtSilver_1F_WaterfallRoom_Text_Scientist:
-	.string "This is the entrance to the\n"
-	.string "unexplored branch... {PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}\p"
-	.string "Does it feel cold here to you?\p"
-	.string "Okay, I'm going to leave now.\p"
-	.string "Good luck!$"
+	.string "Voici l'entrée de l'embranchement\n"
+	.string "inexploré… {PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}\p"
+	.string "Tu ne trouves pas qu'il fait\n"
+	.string "froid ici?\p"
+	.string "Bon, je m'en vais.\p"
+	.string "Bonne chance!$"
 
 MtSilver_1F_Movement_Scientist:
 	jump_2_down

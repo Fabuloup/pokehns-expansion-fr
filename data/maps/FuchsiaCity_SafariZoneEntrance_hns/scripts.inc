@@ -69,7 +69,7 @@ FuchsiaCity_SafariZoneEntrance_EventScript_StevenGiveCase::
 	return
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenGiveCase:
-	.string "Oh and you might need this.$"
+	.string "Oh, et ceci pourrait te servir.$"
 
 FuchsiaCity_SafariZoneEntrance_Steven::
 	lock
@@ -89,13 +89,13 @@ FuchsiaCity_SafariZoneEntrance_StevenChamp::
 	end
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenChamp:
-	.string "Oh, hey {PLAYER}.\n"
-	.string "Or should I say KANTO champion?\p"
-	.string "You know, for some time, I was the\n"
-	.string "champion of the HOENN region.\p"
-	.string "So welcome to the club, {PLAYER}.\p"
-	.string "In fact, here.\n"
-	.string "Consider this a welcome gift.$"
+	.string "Oh, salut {PLAYER}.\n"
+	.string "Ou plutôt Champion de KANTO?\p"
+	.string "Tu sais, j'ai été pendant un temps\n"
+	.string "le Champion de la région de HOENN.\p"
+	.string "Bienvenue au club, {PLAYER}.\p"
+	.string "Tiens, d'ailleurs.\n"
+	.string "Considère ceci comme un cadeau.$"
 
 FuchsiaCity_SafariZoneEntrance_EventScript_EntranceCounterTrigger::
 	lockall
@@ -217,21 +217,21 @@ FuchsiaCity_SafariZoneEntrance_Movement_ReturnToTable:
 	step_end
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenWelcome:
-	.string "Hello again, {PLAYER}!\p"
-	.string "Welcome to the DEVON SAFARI ZONE!\p"
-	.string "This specially designed safari\n"
-	.string "has 4 different habitats that\l"
-	.string "attract and house different invasive\l"
-	.string "species from the HOENN region.\p"
-	.string "We encourage trainers to capture\n"
-	.string "as many as they can to safely\l"
-	.string "remove them from the environment.\p"
-	.string "You'll find very rare POKéMON\n"
-	.string "here. Especially if you increase\l"
-	.string "your SAFARI LEVEL.\p"
-	.string "Just speak to the attendant here\n"
-	.string "any time to increase your SAFARI\l"
-	.string "LEVEL.$"
+	.string "Rebonjour, {PLAYER}!\p"
+	.string "Bienvenue au PARC SAFARI DEVON!\p"
+	.string "Ce safari conçu spécialement\n"
+	.string "comprend 4 habitats différents\l"
+	.string "qui accueillent diverses espèces\l"
+	.string "invasives venues de HOENN.\p"
+	.string "Nous encourageons les Dresseurs à\n"
+	.string "en capturer autant que possible\l"
+	.string "pour protéger l'environnement.\p"
+	.string "Tu trouveras des POKéMON rares,\n"
+	.string "surtout en augmentant ton\l"
+	.string "NIVEAU SAFARI.\p"
+	.string "Parle à l'employé ici présent\n"
+	.string "quand tu veux pour augmenter ton\l"
+	.string "NIVEAU SAFARI.$"
 
 FuchsiaCity_SafariZoneEntrance_UpgradeGuy::
 	goto_if_eq VAR_KANTO_SAFARI_ZONE_PROGRESS, 1, FuchsiaCity_SafariZoneEntrance_UpgradeGuy1
@@ -296,32 +296,32 @@ FuchsiaCity_SafariZoneEntrance_UpgradeGuyNotEnoughMoney::
 	end
 
 FuchsiaCity_SafariZoneEntrance_Text_Steven:
-	.string "Oh, hey, {PLAYER}.\p"
-	.string "I hope you're enjoying the SAFARI.\p"
-	.string "Have you seen any rare stones\n"
-	.string "lately?$"
+	.string "Oh, salut, {PLAYER}.\p"
+	.string "J'espère que le SAFARI te plaît.\p"
+	.string "As-tu vu des pierres rares\n"
+	.string "récemment?$"
 
 FuchsiaCity_SafariZoneEntrance_Text_Level1:
-	.string "Hello {PLAYER}, would you\n"
-	.string "like to increase your SAFARI LEVEL\l"
-	.string "to 2? It will cost you ¥200,000.$"
+	.string "Bonjour {PLAYER}, veux-tu\n"
+	.string "augmenter ton NIVEAU SAFARI\l"
+	.string "à 2? Cela coûtera 200 000 ¥.$"
 
 FuchsiaCity_SafariZoneEntrance_Text_Level2:
-	.string "Hello {PLAYER}, would you\n"
-	.string "like to increase your SAFARI LEVEL\l"
-	.string "to 3? It will cost you ¥300,000.$"
+	.string "Bonjour {PLAYER}, veux-tu\n"
+	.string "augmenter ton NIVEAU SAFARI\l"
+	.string "à 3? Cela coûtera 300 000 ¥.$"
 
 FuchsiaCity_SafariZoneEntrance_Text_Level3:
-	.string "Hello {PLAYER}, would you\n"
-	.string "like to increase your SAFARI LEVEL\l"
-	.string "to 4? It will cost you ¥400,000.$"
+	.string "Bonjour {PLAYER}, veux-tu\n"
+	.string "augmenter ton NIVEAU SAFARI\l"
+	.string "à 4? Cela coûtera 400 000 ¥.$"
 
 FuchsiaCity_SafariZoneEntrance_Text_UpgradeGuyDeclined:
-	.string "Oh, that's too bad, then...$"
+	.string "Oh, quel dommage, alors...$"
 
 FuchsiaCity_SafariZoneEntrance_Text_UpgradeGuyAccepted:
-	.string "Enjoy the premium SAFARI ZONE\n"
-	.string "experience!$"
+	.string "Profite de ton expérience premium\n"
+	.string "au PARC SAFARI premium!$"
 
 FuchsiaCity_SafariZoneEntrance_EventScript_Steven_Trade::
 	goto_if_set FLAG_FUCHSIA_SAFARI_NPC_TRADE_COMPLETED, FuchsiaCity_SafariZoneEntrance_EventScript_StevenTradeCompleted
@@ -347,35 +347,35 @@ FuchsiaCity_SafariZoneEntrance_EventScript_StevenTradeCompleted::
 	end
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenWantToTrade:
-	.string "Say, {PLAYER}…\n"
-	.string "I've been raising this BELDUM\l"
-	.string "for a while now.\p"
-	.string "But I think it would do better\n"
-	.string "with a trainer like you.\p"
-	.string "Would you trade me a {STR_VAR_1}\n"
-	.string "for my {STR_VAR_2}?$"
+	.string "Dis-moi, {PLAYER}…\n"
+	.string "J'élève ce TERHAL\l"
+	.string "depuis un moment.\p"
+	.string "Mais je crois qu'il serait mieux\n"
+	.string "avec un Dresseur comme toi.\p"
+	.string "Échangerais-tu ton {STR_VAR_1}\n"
+	.string "contre mon {STR_VAR_2}?$"
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenTakeCare:
 	.string "Excellent!\n"
-	.string "Please take good care of IRON.$"
+	.string "Prends bien soin d'IRON.$"
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenDeclineTrade:
-	.string "That's all right.\n"
-	.string "The offer stands if you change\l"
-	.string "your mind.$"
+	.string "Pas de problème.\n"
+	.string "Ma proposition tient si tu changes\l"
+	.string "d'avis.$"
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenNotRequestedMon:
-	.string "Hmm, that's not a {STR_VAR_1}.\n"
-	.string "That's not quite what I had\l"
-	.string "in mind.$"
+	.string "Hum, ce n'est pas un {STR_VAR_1}.\n"
+	.string "Ce n'est pas tout à fait ce que\l"
+	.string "j'avais en tête.$"
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenTradeCompleted:
-	.string "How is IRON doing?\n"
-	.string "BELDUM are fascinating POKéMON.\p"
-	.string "They communicate with each other\n"
-	.string "using magnetic pulses.$"
+	.string "Comment va IRON?\n"
+	.string "Les TERHAL sont fascinants.\p"
+	.string "Ils communiquent entre eux\n"
+	.string "par impulsions magnétiques.$"
 
 FuchsiaCity_SafariZoneEntrance_Text_MaxLevel:
-	.string "Hello {PLAYER}, thank you for\n"
-	.string "continuing to be a premium member\l"
-	.string "at the FUCHSIA SAFARI ZONE.$"
+	.string "Bonjour {PLAYER}, merci de\n"
+	.string "rester membre premium\l"
+	.string "du PARC SAFARI DE PARMANIE.$"

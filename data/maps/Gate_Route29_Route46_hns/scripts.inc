@@ -18,12 +18,13 @@ Gate_Route29_Route46_EventScript_Youngster::
 	end
 
 Gate_Route29_Route46_Text_Officer:
-	.string "You can't climb ledges.\p"
-	.string "But you can jump down from\n"
-	.string "them to take a shortcut.$"
+	.string "On ne peut pas escalader les\n"
+	.string "rebords.\p"
+	.string "Mais on peut sauter en bas pour\n"
+	.string "prendre un raccourci.$"
 
 Gate_Route29_Route46_Text_Youngster:
-	.string "Different kinds of POKéMON\n"
-	.string "appear past here.\p"
-	.string "If you want to catch them all,\n"
-	.string "you have to look everywhere.$"
+	.string "D'autres espèces de POKéMON\n"
+	.string "apparaissent au-delà.\p"
+	.string "Si tu veux tous les attraper, il\n"
+	.string "faut chercher partout.$"

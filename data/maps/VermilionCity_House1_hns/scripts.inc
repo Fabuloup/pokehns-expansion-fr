@@ -8,17 +8,17 @@ VermilionCity_House1_EventScript_Photo::
 	msgbox VermilionCity_House1_Text_Photo, MSGBOX_NPC
 	end
 VermilionCity_House1_Text_FishingDude:
-	.string "I am the FISHING DUDE, the elder\n"
-	.string "of the FISHING BROS.\p"
-	.string "Have you met the FISHING GURU at\n"
-	.string "LAKE OF RAGE?\p"
-	.string "He dreams about seeing the\n"
-	.string "world's greatest MAGIKARP.\p"
-	.string "If you don't mind, could you show\n"
-	.string "him any MAGIKARP you catch?\p"
-	.string "Who knows, you may catch the\n"
-	.string "MAGIKARP of his dreams.$"
+	.string "Je suis le PÊCHEUR, l'aîné des\n"
+	.string "FRÈRES PÊCHEURS.\p"
+	.string "Tu as rencontré le GOUROU DE LA\n"
+	.string "PÊCHE au LAC COLÈRE?\p"
+	.string "Il rêve de voir la plus grande\n"
+	.string "MAGICARPE du monde.\p"
+	.string "Si ça ne t'ennuie pas, montre-lui\n"
+	.string "les MAGICARPE que tu attrapes.\p"
+	.string "Qui sait, tu attraperas\n"
+	.string "peut-être celle de ses rêves.$"
 
 VermilionCity_House1_Text_Photo:
-	.string "It's a photo of people fishing…\p"
-	.string "They're having a great time…$"
+	.string "Une photo de gens qui pêchent…\p"
+	.string "Ils ont l'air de bien s'amuser…$"

@@ -659,151 +659,166 @@ AzaleaTown_Gym_EventScript_Statue2::
 	end
 
 AzaleaTown_Gym_Text_GymStatue:
-	.string "AZALEA POKéMON GYM$"
+	.string "ARÈNE POKéMON d'ÉCORCIA$"
 
 AzaleaTown_Gym_Text_GymStatueCertified:
-	.string "AZALEA TOWN POKéMON GYM\p"
-	.string "BUGSY'S CERTIFIED TRAINERS:\n"
+	.string "ARÈNE POKéMON d'ÉCORCIA\p"
+	.string "DRESSEURS AGRÉÉS PAR HECTOR:\n"
 	.string "{PLAYER}$"
 
 AzaleaTown_Gym_Text_BugsyIntro:
-	.string "I'm BUGSY!\p"
-	.string "I never lose when it comes\n"
-	.string "to bug POKéMON.\p"
-	.string "My research is going to make me the\n"
-	.string "authority on bug POKéMON!\p"
-	.string "Let me demonstrate all I've\n"
-	.string "learned from my studies.$"
+	.string "Je suis HECTOR!\p"
+	.string "Je ne perds jamais lorsqu'il\n"
+	.string "s'agit de POKéMON Insecte.\p"
+	.string "Mes recherches vont faire de moi\n"
+	.string "LE spécialiste des POKéMON\l"
+	.string "Insecte!\p"
+	.string "Laisse-moi te montrer tout ce\n"
+	.string "que mes études m'ont appris.$"
 
 AzaleaTown_Gym_Text_BugsyBeaten:
-	.string "Whoa, amazing! You're an\n"
-	.string "expert on POKéMON!\p"
-	.string "My research isn't complete\n"
-	.string "yet.\p"
-	.string "OK, you win. Take this\n"
+	.string "Whaou, dingue! Tu connais bien\n"
+	.string "les POKéMON!\p"
+	.string "Mes recherches ne sont pas\n"
+	.string "encore finies.\p"
+	.string "OK, tu as gagné. Prends ce\n"
 	.string "BADGE.$"
 
 AzaleaTown_Gym_Text_ReceivedHiveBadge:
-	.string "{PLAYER} received HIVEBADGE.$"
+	.string "{PLAYER} reçoit le BADGE ESSAIM.$"
 
 AzaleaTown_Gym_Text_HiveBadgeSpeech:
-	.string "Do you know the benefits\n"
-	.string "of HIVEBADGE?\p"
-	.string "If you have it, POKéMON up\n"
-	.string "to L30 will obey you,\l"
-	.string "even traded ones.\p"
-	.string "POKéMON that know CUT will be able\n"
-	.string "to use it outside of battle too.\p"
-	.string "Here, I also want you to\n"
-	.string "have this.$"
+	.string "Connais-tu les pouvoirs du\n"
+	.string "BADGE ESSAIM?\p"
+	.string "Avec lui, les POKéMON jusqu'au\n"
+	.string "niveau 30 t'obéissent, même\l"
+	.string "ceux que tu as échangés.\p"
+	.string "Et les POKéMON qui connaissent\n"
+	.string "COUPE peuvent l'utiliser hors\l"
+	.string "des combats.\p"
+	.string "Tiens, je veux que tu prennes\n"
+	.string "ceci aussi.$"
 
 AzaleaTown_Gym_Text_FuryCutterSpeech:
-	.string "TM89 contains U-TURN.\p"
-	.string "U-TURN lets you do damage and\n"
-	.string "switch your POKéMON in the same\l"
-	.string "turn!\p"
-	.string "Isn't that great?\n"
-	.string "I discovered it!$"
+	.string "La CT89 contient DEMI-TOUR.\p"
+	.string "DEMI-TOUR inflige des dégâts et\n"
+	.string "change ton POKéMON dans le même\l"
+	.string "tour!\p"
+	.string "C'est pas super ça?\n"
+	.string "Et c'est moi qui l'ai trouvée!$"
 
 AzaleaTown_Gym_Text_BugsyAdvice:
-	.string "Bug POKéMON are deep. There are\n"
-	.string "many mysteries to be explored.\p"
-	.string "Study your favorites thoroughly.$"
+	.string "Les POKéMON Insecte ont des\n"
+	.string "talents cachés. Il reste tant\l"
+	.string "de mystères à percer.\p"
+	.string "Étudie tes préférés à fond.$"
 
 AzaleaTown_Gym_Text_BugsyRematch:
-	.string "Wow, you're the JOHTO CHAMPION now!\p"
-	.string "Your skills are truly impressive!\p"
-	.string "I've been busy with my research.\p"
-	.string "I'm ready to show you my new\n"
-	.string "findings.\p"
-	.string "Want to have a rematch with me?$"
+	.string "Whaou, te voilà MAÎTRE de\n"
+	.string "JOHTO!\p"
+	.string "Ton talent est impressionnant!\p"
+	.string "J'ai été très pris par mes\n"
+	.string "recherches.\p"
+	.string "Je suis prêt à te montrer mes\n"
+	.string "nouvelles découvertes.\p"
+	.string "Ça te dit, une revanche?$"
 
 AzaleaTown_Gym_Text_BugsyRematchDefeat:
-	.string "Wow, you must be an expert trainer.\n"
-	.string "My research must not be complete...$"
+	.string "Whaou, tu dois être un Dresseur\n"
+	.string "hors pair.\p"
+	.string "Mes recherches ne sont vraiment\n"
+	.string "pas finies…$"
 
 AzaleaTown_Gym_Text_BugCatcherBennySeen:
-	.string "Bug POKéMON evolve young. So they\n"
-	.string "get stronger that much faster.$"
+	.string "Les POKéMON Insecte évoluent\n"
+	.string "jeunes. Ils deviennent donc\l"
+	.string "forts bien plus vite.$"
 
 AzaleaTown_Gym_Text_BugCatcherBennyBeaten:
-	.string "Just evolving isn't enough!$"
+	.string "Évoluer ne suffit pas!$"
 
 AzaleaTown_Gym_Text_BugCatcherBennyAfter:
-	.string "POKéMON become stronger\n"
-	.string "if they evolve. Really!$"
+	.string "Les POKéMON deviennent plus\n"
+	.string "forts en évoluant. Si si!$"
 
 AzaleaTown_Gym_Text_BugCatcherAlSeen:
-	.string "Bug POKéMON are cool and tough!\n"
-	.string "I'll prove it to you!$"
+	.string "Les POKéMON Insecte sont cool\n"
+	.string "et résistants! Je vais te le\l"
+	.string "prouver!$"
 
 AzaleaTown_Gym_Text_BugCatcherAlBeaten:
-	.string "You proved how tough you are…$"
+	.string "T'as prouvé à quel point t'es\n"
+	.string "balèze…$"
 
 AzaleaTown_Gym_Text_BugCatcherAlAfter:
-	.string "They're so cool, but most girls\n"
-	.string "don't like bug POKéMON.\p"
-	.string "I don't know why…$"
+	.string "Ils sont trop cool, mais la\n"
+	.string "plupart des filles n'aiment pas\l"
+	.string "les POKéMON Insecte.\p"
+	.string "Je ne sais pas pourquoi…$"
 
 AzaleaTown_Gym_Text_BugCatcherJoshSeen:
-	.string "You saved all the SLOWPOKE?\n"
-	.string "Whew, you're mighty!\p"
-	.string "But my grown-up POKéMON are\n"
-	.string "pretty tough too!$"
+	.string "Tu as sauvé tous les RAMOLOSS?\n"
+	.string "Ouah, t'es balèze!\p"
+	.string "Mais mes POKéMON adultes sont\n"
+	.string "plutôt costauds aussi!$"
 
 AzaleaTown_Gym_Text_BugCatcherJoshBeaten:
-	.string "Urrgggh!$"
+	.string "Aarrgggh!$"
 
 AzaleaTown_Gym_Text_BugCatcherJoshAfter:
-	.string "I guess I should teach them\n"
-	.string "better moves…$"
+	.string "Je devrais leur apprendre de\n"
+	.string "meilleures capacités…$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Seen:
-	.string "AMY: Hi! Are you challenging\n"
-	.string "the LEADER? No way!$"
+	.string "PIM: Salut! Tu veux défier le\n"
+	.string "CHAMPION? Oh non!$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Beaten:
-	.string "AMY & MAY: Oh, double\n"
-	.string "goodness!$"
+	.string "PIM & PAM: Oh,\n"
+	.string "double zut!$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay1After:
-	.string "AMY: You're really strong!\p"
-	.string "But BUGSY's even stronger!\n"
-	.string "His SCYTHER's CUT almost\l"
-	.string "always makes critical hits!$"
+	.string "PIM: T'es vraiment fort!\p"
+	.string "Mais HECTOR l'est encore plus!\n"
+	.string "La COUPE de son INSÉCATEUR fait\l"
+	.string "presque toujours mouche!$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Seen:
-	.string "MAY: You want to see the\n"
-	.string "LEADER? Good luck!\p"
-	.string "BUGSY is so strong!\n"
-	.string "His SCYTHER's CUT always\l"
-	.string "seems to crit!$"
+	.string "PAM: Tu veux voir le CHAMPION?\n"
+	.string "Bonne chance!\p"
+	.string "HECTOR est si fort!\n"
+	.string "La COUPE de son INSÉCATEUR fait\l"
+	.string "toujours des coups critiques!$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Beaten:
-	.string "AMY & MAY: Oh, double\n"
-	.string "goodness!$"
+	.string "PIM & PAM: Oh,\n"
+	.string "mince et re-mince!$"
 
 AzaleaTown_Gym_Text_TwinsAmyMay2After:
-	.string "MAY: Our bug POKéMON lost!\n"
-	.string "Oh, what a shame.\p"
-	.string "BUGSY's won't lose though!\p"
-	.string "His PINECO makes short work\n"
-	.string "of ROCK-type POKéMON!$"
+	.string "PAM: Nos POKéMON Insecte ont\n"
+	.string "perdu! Quelle honte.\p"
+	.string "Mais ceux d'HECTOR ne perdront\n"
+	.string "pas!\p"
+	.string "Son POMDEPIK fait un sort aux\n"
+	.string "POKéMON de type ROCHE!$"
 
 AzaleaTown_Gym_Text_GymGuide:
 	.string "Yo, challenger!\p"
-	.string "BUGSY's young, but his knowledge\n"
-	.string "of bug POKéMON is for real.\p"
-	.string "It's going to be tough\n"
-	.string "without my advice.\p"
-	.string "Let's see… BUGSY's bagworm POKéMON\n"
-	.string "knows a move that covers its\l"
-	.string "ROCK-type weakness.\p"
-	.string "Oh, and don't forget about those\n"
-	.string "nasty critical hits! Good luck!$"
+	.string "HECTOR est jeune, mais il s'y\n"
+	.string "connaît vraiment en POKéMON\l"
+	.string "Insecte.\p"
+	.string "Ça va être dur sans mes\n"
+	.string "conseils.\p"
+	.string "Voyons voir… Son POKéMON\n"
+	.string "sac-de-feuilles connaît une\l"
+	.string "capacité qui couvre sa\l"
+	.string "faiblesse au type ROCHE.\p"
+	.string "Ah, et méfie-toi de ces vilains\n"
+	.string "coups critiques! Bonne chance!$"
 
 AzaleaTown_Gym_Text_GymGuideWin:
-	.string "Well done! That was a great\n"
-	.string "clash of talented young trainers.\p"
-	.string "With people like you, the\n"
-	.string "future of POKéMON is bright!$"
+	.string "Bien joué! Voilà un beau duel\n"
+	.string "entre jeunes talents.\p"
+	.string "Avec des gens comme toi,\n"
+	.string "l'avenir des POKéMON est\l"
+	.string "brillant!$"

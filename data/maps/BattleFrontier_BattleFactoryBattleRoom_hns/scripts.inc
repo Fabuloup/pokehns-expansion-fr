@@ -240,71 +240,71 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle_hns::
 	return
 
 BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn_hns:
-	.string "Hey, hey!\n"
-	.string "Get a move on!$"
+	.string "Hé, toi! Avance!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead_hns:
-	.string "Hey, my name's NOLAND!\n"
-	.string "I'm basically in charge of this place,\l"
-	.string "which is why I'm the FACTORY HEAD!\p"
-	.string "I had a look at your Battle Swap data.\p"
-	.string "You seem to have the right idea,\n"
-	.string "but you're still square in your head!\p"
-	.string "Listen up, okay? Knowledge isn't only\n"
-	.string "about reading books or doing desk work.\p"
-	.string "Just doing that sort of thing…\n"
-	.string "It may as well be useless!\p"
-	.string "You have to experience things with\n"
-	.string "your heart and your body, understand?\p"
-	.string "I'll take you on under the same\n"
-	.string "conditions as you.\p"
-	.string "I'll be using rental POKéMON, too!$"
+	.string "Je m'appelle SAM! C'est moi le\n"
+	.string "responsable de cet endroit, je\l"
+	.string "suis le CHEF D'USINE!\p"
+	.string "J'ai regardé tes scores au COMBAT\n"
+	.string "ÉCHANGE.\p"
+	.string "Tu as de bonnes idées, mais ce\n"
+	.string "n'est pas encore tout à fait ça!\p"
+	.string "Ecoute-moi. Lire des livres et\n"
+	.string "faire des exercices, ça ne suffit\l"
+	.string "pas.\p"
+	.string "En fait… Sans la pratique, ça ne\n"
+	.string "sert à rien!\p"
+	.string "Tu dois travailler avec ton cœur\n"
+	.string "et ton corps, tu comprends?\p"
+	.string "Je vais me battre dans les mêmes\n"
+	.string "conditions que toi.\p"
+	.string "Moi aussi, je vais utiliser des\n"
+	.string "POKéMON de location!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn_hns:
-	.string "Shake out every last bit of your\n"
-	.string "knowledge and bring it on!$"
+	.string "Creuse-toi la tête, sors ta\n"
+	.string "science et bats-toi!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass_hns:
-	.string "NOLAND: Smart going!\n"
-	.string "Let's see your FRONTIER PASS.$"
+	.string "SAM: Joli combat! Montre-moi ton\n"
+	.string "PASSE ZONE.$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol_hns:
-	.string "The Knowledge Symbol was embossed\n"
-	.string "on the FRONTIER PASS!$"
+	.string "Le SYMBOLE SAVOIR a été ajouté sur\n"
+	.string "le PASSE ZONE!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred_hns:
-	.string "Heh…\n"
-	.string "You're a pretty bright spark…\p"
-	.string "Next time, I'll come after you hard.\n"
-	.string "No holds barred, understand?\p"
-	.string "You keep up your studies!$"
+	.string "Hé… Tu sais de quoi tu parles…\p"
+	.string "La prochaine fois je ne te\n"
+	.string "laisserai aucune chance, compris?\p"
+	.string "Continue d'étudier!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime_hns:
-	.string "NOLAND: Hey, hey! How's it going?\n"
-	.string "You keeping up with your studies?\p"
-	.string "…Oh?\p"
-	.string "You've taken on a harder look than\n"
-	.string "the last time I saw you.\p"
-	.string "Now, this should be fun!\n"
-	.string "I'm getting excited, hey!$"
+	.string "SAM: Hé! Comment vas-tu? Tu\n"
+	.string "continues d'étudier?\p"
+	.string "Oh?\p"
+	.string "Ton regard est plus dur que la\n"
+	.string "dernière fois.\p"
+	.string "Je crois que je vais bien\n"
+	.string "m'amuser! Je suis impatient de\l"
+	.string "commencer!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn_hns:
-	.string "All right!\n"
-	.string "Bring it on!$"
+	.string "Allez! Au combat!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass_hns:
-	.string "NOLAND: What the…\n"
-	.string "You're getting out of my league!\p"
-	.string "Sheesh!\n"
-	.string "Let's see that FRONTIER PASS!$"
+	.string "SAM: Mais… Tu es déjà au niveau\n"
+	.string "supérieur!\p"
+	.string "Pfff! Ton PASSE ZONE…$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine_hns:
-	.string "The Knowledge Symbol took on\n"
-	.string "a golden shine!$"
+	.string "Le SYMBOLE SAVOIR a pris une\n"
+	.string "couleur dorée!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_LastTimeILoseToYou_hns:
-	.string "Pfft, man!\p"
-	.string "That's absolutely the last time\n"
-	.string "I lose to you!\p"
-	.string "We have to do this again, hey?$"
+	.string "Pfff!\p"
+	.string "C'est la dernière fois que je\n"
+	.string "perds contre toi!\p"
+	.string "On refera un combat, d'accord?$"
 

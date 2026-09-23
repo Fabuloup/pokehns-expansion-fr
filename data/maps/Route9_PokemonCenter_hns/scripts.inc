@@ -17,11 +17,12 @@ Route9_PokemonCenter_EventScript_Engineer2::
 	end
 
 Route9_PokemonCenter_Text_Engineer1:
-	.string "Sometimes us engineers come here\n"
-	.string "for our break. Or just to get away\l"
-	.string "from our MANAGER.\p"
-	.string "That guy is crazy.$"
+	.string "Nous, les techniciens, on vient\n"
+	.string "parfois ici en pause. Ou juste\l"
+	.string "pour fuir notre CHEF.\p"
+	.string "Ce type est dingue.$"
 
 Route9_PokemonCenter_Text_Engineer2:
-	.string "The POWER PLANT is very remote, so\n"
-	.string "I travel far for work.$"
+	.string "La CENTRALE est très isolée, je\n"
+	.string "fais de la route pour aller\l"
+	.string "travailler.$"

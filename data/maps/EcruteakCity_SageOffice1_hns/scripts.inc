@@ -15,8 +15,8 @@ EcruteakCity_SageOffice1_EventScript_Sign::
 	end
 
 EcruteakCity_SageOffice1_Text_Sign:
-	.string "The bell of tin rings clearly for\n"
-	.string "those under the tower's wing.$"
+	.string "La cloche d'étain résonne pour\n"
+	.string "ceux que la tour protège.$"
 
 EcruteakCity_SageOffice2_EventScript_SageA::
 	lock
@@ -89,63 +89,63 @@ EcruteakCity_SageOffice2_Movement_StandAside:
 	step_end
 
 EcruteakTinTowerEntrance_Text_SageNoBadge:
-	.string "TIN TOWER is off limits to the\n"
-	.string "unworthy. Sorry but you'll have\l"
-	.string "to leave.$"
+	.string "La TOUR FERRAILLE est interdite\n"
+	.string "aux indignes. Navré, mais vous\l"
+	.string "devez partir.$"
 
 EcruteakTinTowerEntrance_Text_SageWithBadge:
-	.string "TIN TOWER is off limits to anyone\n"
-	.string "without ECRUTEAK GYM's BADGE.\p"
+	.string "La TOUR FERRAILLE est interdite\n"
+	.string "sans le BADGE de ROSALIA.\p"
 	.string "Ah!\p"
-	.string "ECRUTEAK's GYM BADGE! Please, go\n"
-	.string "right through.$"
+	.string "Le BADGE de ROSALIA! Je vous en\n"
+	.string "prie, passez.$"
 
 EcruteakTinTowerEntrance_Text_SageNoClearBell:
-	.string "A momentous event has occurred.\p"
-	.string "I beg your pardon, but I must ask\n"
-	.string "you to leave.\p"
-	.string "…What soothes the soul…\p"
-	.string "The WISE TRIO say things that are\n"
-	.string "so very difficult to understand…$"
+	.string "Un événement capital a eu lieu.\p"
+	.string "Pardonnez-moi, mais je dois vous\n"
+	.string "demander de partir.\p"
+	.string "…Ce qui apaise l'âme…\p"
+	.string "Les TROIS SAGES tiennent des\n"
+	.string "propos bien difficiles à saisir…$"
 
 EcruteakTinTowerEntrance_Text_SageHearsClearBell1:
-	.string "A momentous event has occurred.\p"
-	.string "I beg your pardon, but I must ask\n"
-	.string "you to leave.\p"
+	.string "Un événement capital a eu lieu.\p"
+	.string "Pardonnez-moi, mais je dois vous\n"
+	.string "demander de partir.\p"
 	.string "..............................$"
 EcruteakTinTowerEntrance_Text_SageHearsClearBell2:
 	.string "Ah!\p"
-	.string "The sound of that CLEAR BELL!\p"
-	.string "It… It's sublime!\p"
-	.string "I've never heard so beautiful a\n"
-	.string "sound before!\p"
-	.string "That bell's chime is indicative of\n"
-	.string "the bearer's soul.\p"
+	.string "Le son de cette GLAS TRANSPARENT!\p"
+	.string "C'est… C'est sublime!\p"
+	.string "Jamais je n'avais entendu un son\n"
+	.string "aussi beau!\p"
+	.string "Ce carillon révèle la nature de\n"
+	.string "l'âme de son porteur.\p"
 	.string "You…\p"
-	.string "You may be able to make it through\n"
-	.string "TIN TOWER.\p"
-	.string "Please, do go on.$"
+	.string "Vous pourrez peut-être gravir la\n"
+	.string "TOUR FERRAILLE.\p"
+	.string "Je vous en prie, continuez.$"
 
 EcruteakTinTowerEntrance_Text_SagePleaseDoGoOn:
-	.string "Please, do go on.$"
+	.string "Je vous en prie, continuez.$"
 
 EcruteakTinTowerEntrance_Text_SageDone:
-	.string "That bell's chime is indicative of\n"
-	.string "the bearer's soul.\p"
+	.string "Ce carillon révèle la nature de\n"
+	.string "l'âme de son porteur.\p"
 	.string "You…\n"
-	.string "Truly are worthy.$"
+	.string "Vous en êtes vraiment digne.$"
 
 EcruteakTinTowerEntrance_Text_WanderingSage:
-	.string "The TIN TOWER ahead is a nine-\n"
-	.string "tier tower of divine beauty.\p"
-	.string "It soothes the soul of all who\n"
-	.string "see it.$"
+	.string "La TOUR FERRAILLE devant nous a\n"
+	.string "neuf étages d'une beauté divine.\p"
+	.string "Elle apaise l'âme de tous ceux\n"
+	.string "qui la contemplent.$"
 
 EcruteakTinTowerEntrance_Text_WanderingSageClearBell:
-	.string "The TIN TOWER shook! A POKéMON must\n"
-	.string "have returned to the top!$"
+	.string "La TOUR FERRAILLE a tremblé! Un\n"
+	.string "POKéMON a dû regagner son sommet!$"
 
 EcruteakTinTowerEntrance_Text_Gramps:
-	.string "Two towers… Two POKéMON…\p"
-	.string "But when one burned down, both\n"
-	.string "POKéMON flew away, never to return.$"
+	.string "Deux tours… Deux POKéMON…\p"
+	.string "Mais quand l'une brûla, tous deux\n"
+	.string "s'envolèrent à jamais.$"

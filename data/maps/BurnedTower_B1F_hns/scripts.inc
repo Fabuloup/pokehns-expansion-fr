@@ -184,22 +184,22 @@ BurnedTower_B1F_Movement_EusineLeave:
 	step_end
 
 BurnedTowerB1FEusineText:
-	.string "EUSINE: I'm shocked!\p"
-	.string "SUICUNE raced by like a blur,\n"
-	.string "right in front of my eyes!\p"
-	.string "For ten years I chased\n"
-	.string "SUICUNE, and I finally got to\l"
-	.string "see it.\p"
-	.string "I'm all choked up!\p"
-	.string "{PLAYER}, I owe this all to you!\p"
-	.string "Thank you!\p"
-	.string "I heard that the legendary\n"
-	.string "POKéMON of ECRUTEAK test\l"
-	.string "chosen humans by allowing them\l"
-	.string "to get close.\p"
-	.string "I'm going to track SUICUNE.\p"
-	.string "{PLAYER}, let's meet again!\p"
-	.string "Farewell!$"
+	.string "EUSINE: Je suis bouleversé!\p"
+	.string "SUICUNE est passé comme un\n"
+	.string "éclair, juste sous mes yeux!\p"
+	.string "Dix ans que je poursuivais\n"
+	.string "SUICUNE, et j'ai enfin pu le\l"
+	.string "voir.\p"
+	.string "J'en ai la gorge nouée!\p"
+	.string "{PLAYER}, je te dois tout!\p"
+	.string "Merci!\p"
+	.string "On dit que les POKéMON\n"
+	.string "légendaires de ROSALIA mettent\l"
+	.string "à l'épreuve les élus en les\l"
+	.string "laissant approcher.\p"
+	.string "Je pars sur la piste de SUICUNE.\p"
+	.string "{PLAYER}, à bientôt!\p"
+	.string "Adieu!$"
 
 
 BurnedTower_B1F_EventScript_Item_Taunt::

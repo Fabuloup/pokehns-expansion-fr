@@ -63,44 +63,43 @@ SafariZoneGate_EventScript_SlowpokeLady::
 
 
 SafariZone_Text_ForeignFeeling:
-	.string "SAFARI ZONE...\n"
-	.string "It makes me feel like I am in a\l"
-	.string "foreign country.\p"
-	.string "It brings up a strange feeling.$"
+	.string "PARC SAFARI…\n"
+	.string "J'ai l'impression d'être dans un\l"
+	.string "pays étranger.\p"
+	.string "C'est une étrange sensation.$"
 
 SafariZone_Text_SilentNPC:
 	.string "..................\p"
-	.string "(I am not a talker.)$"
+	.string "(Je ne suis pas bavard.)$"
 
 SafariZone_Text_Kangaskhan:
-	.string "KANGASKHAN: ..................$"
+	.string "KANGOUREX : ..................$"
 
 SafariZone_Text_JigglypuffTrainer:
-	.string "This SAFARI ZONE is great!\n"
-	.string "I just kept going after POKéMON!\p"
-	.string "That made my JIGGLYPUFF upset though.$"
+	.string "Ce PARC SAFARI est génial !\n"
+	.string "Je poursuis sans cesse les POKéMON !\p"
+	.string "Mais mon RONDOUDOU n'aime pas ça.$"
 
 SafariZone_Text_FirstCatch:
-	.string "I have always wanted to catch my first\n"
-	.string "POKéMON at the SAFARI ZONE.$"
+	.string "J'ai toujours voulu attraper mon premier\n"
+	.string "POKéMON au PARC SAFARI.$"
 
 SafariZone_Text_SlowpokeFan:
-	.string "There are many POKéMON to choose from,\n"
-	.string "but nothing beats the cuteness of\l"
-	.string "SLOWPOKE.\p"
-	.string "People often say that I look like one!$"
+	.string "Il y a beaucoup de POKéMON, mais rien\n"
+	.string "ne vaut la mignonnerie de\l"
+	.string "RAMOLOSS.\p"
+	.string "On dit souvent que je lui ressemble !$"
 
 SafariZone_Text_CustomSystem:
-	.string "You may be under the impression there\n"
-	.string "is a sophisticated system to\l"
-	.string "customizing the SAFARI ZONE, right?\p"
-	.string "The real truth is that...$"
+	.string "Tu crois peut-être qu'il existe un\n"
+	.string "système sophistiqué pour modifier\l"
+	.string "le PARC SAFARI, non ?\p"
+	.string "La vérité, c'est que…$"
 
 SafariZone_Text_Sign:
-	.string "SAFARI ZONE\n"
-	.string "This is where everything is thrilling.\p"
-	.string "Feel free to come by and experience\n"
-	.string "the wild!$"
+	.string "PARC SAFARI\n"
+	.string "Ici, tout est passionnant.\p"
+	.string "Venez découvrir la vie sauvage !$"
 
 
 SafariZoneGate_EventScript_IncenseClerk::
@@ -167,6 +166,5 @@ SafariZoneGate_Pokemart_VitaminGuru:
 
 
 SafariZoneGate_Text_VitaminGuruSellWhatYouNeed:
-	.string "I'm the ENERGY GURU! I'll go for it and\n"
-	.string "sell you what you need!$"
-
+	.string "Je suis le GOUROU ÉNERGIE ! Je vais\n"
+	.string "vous vendre ce qu'il vous faut !$"

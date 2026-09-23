@@ -7,6 +7,7 @@
 #include "sound.h"
 #include "task.h"
 #include "constants/field_effects.h"
+#include "constants/flags.h"
 #include "constants/songs.h"
 #include "constants/metatile_labels.h"
 #include "fieldmap.h"

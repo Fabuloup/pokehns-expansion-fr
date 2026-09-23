@@ -56,82 +56,82 @@ SeafoamIslands_Gym_EventScript_GymStatuePostVictory::
 	end
 
 SeafoamIslands_Gym_Text_GymStatue::
-    .string "CINNABAR POKéMON GYM\n"
-    .string "LEADER: BLAINE\p"
-	.string "WINNING TRAINERS:\n"
+    .string "ARÈNE POKéMON DE CRAMOIS'ÎLE\n"
+    .string "CHAMPION : AUGUSTE\p"
+	.string "DRESSEURS VAINQUEURS :\n"
 	.string "BLUE, RED$"
 
 SeafoamIslands_Gym_Text_GymStatuePlayerWon::
-    .string "CINNABAR POKéMON GYM\n"
-    .string "LEADER: BLAINE\p"
-    .string "WINNING TRAINERS:\n"
+    .string "ARÈNE POKéMON DE CRAMOIS'ÎLE\n"
+    .string "CHAMPION : AUGUSTE\p"
+    .string "DRESSEURS VAINQUEURS :\n"
 	.string "BLUE, RED, {PLAYER}$"
 
 SeafoamIslands_Gym_Text_Blaine_GiveTM:
-	.string "Take this too!$"
+	.string "Prends aussi ceci !$"
 
 SeafoamIslands_Gym_Text_Blaine_ExplainTM:
-	.string "This TM contains\n"
-	.string "the awesome OVERHEAT!\p"
-	.string "The overwhelming heat scorches your\n"
-	.string "opponents, but then drops your power.\p"
-	.string "I hope your next opponent has an\n"
-	.string "extra BURN HEAL! Waaah!$"
+	.string "Cette CT contient\n"
+	.string "la terrible SURCHAUFFE !\p"
+	.string "La chaleur extrême brûle l'ennemi,\n"
+	.string "mais réduit ensuite ta puissance.\p"
+	.string "Ton prochain adversaire, j'espère,\n"
+	.string "aura un ANTI-BRÛLE ! Waaah !$"
 
 SeafoamIslands_Gym_Text_BlaineIntro:
-	.string "BLAINE: Waaah!\p"
-	.string "My GYM in CINNABAR burned down.\p"
-	.string "My fire-breathing POKéMON and I are\n"
-	.string "homeless because of the volcano.\p"
-	.string "Waaah!\p"
-	.string "But I'm back in business as a GYM\n"
-	.string "LEADER here in this cave.\p"
-	.string "If you can beat me, I'll give you\n"
-	.string "a BADGE.\p"
-	.string "Ha! You'd better have BURN HEAL!$"
+	.string "AUGUSTE : Waaah !\p"
+	.string "Mon ARÈNE de CRAMOIS'ÎLE a brûlé.\p"
+	.string "Mes POKéMON de feu et moi\n"
+	.string "sommes à la rue depuis l'éruption.\p"
+	.string "Waaah !\p"
+	.string "Mais me revoilà CHAMPION D'ARÈNE\n"
+	.string "ici, dans cette grotte.\p"
+	.string "Si tu me bats, je te donnerai\n"
+	.string "un BADGE.\p"
+	.string "Mieux vaut avoir un ANTI-BRÛLE !$"
 
 SeafoamIslands_Gym_Text_BlaineWinLoss:
-	.string "BLAINE: Awesome. I've burned out…\p"
-	.string "You've earned VOLCANOBADGE!$"
+	.string "AUGUSTE : Superbe. Je brûle…\p"
+	.string "Tu as gagné le BADGE VOLCAN !$"
 
 SeafoamIslands_Gym_Text_ReceivedVolcanoBadge:
-	.string "{PLAYER} received VOLCANOBADGE.$"
+	.string "{PLAYER} reçoit le BADGE VOLCAN.$"
 
 SeafoamIslands_Gym_Text_BlaineAfterBattle:
-	.string "BLAINE: I did lose this time, but\n"
-	.string "I'm going to win the next time.\p"
-	.string "When I rebuild my CINNABAR GYM,\n"
-	.string "we'll have to have a rematch.$"
+	.string "AUGUSTE : J'ai perdu cette fois,\n"
+	.string "mais je gagnerai la prochaine.\p"
+	.string "Quand je rebâtirai mon ARÈNE de\n"
+	.string "CRAMOIS'ÎLE, on prendra revanche.$"
 
 SeafoamIslands_Gym_Text_BlaineFightDone:
-	.string "BLAINE: My fire POKéMON will be\n"
-	.string "even stronger.\p"
-	.string "Just you watch!$"
+	.string "AUGUSTE : Mes POKéMON FEU seront\n"
+	.string "encore plus forts.\p"
+	.string "Tu verras !$"
 
 SeafoamIslands_Gym_Text_BlaineRematch:
-	.string "BLAINE: Whoa!\p"
-	.string "I see you've become the KANTO\n"
-	.string "CHAMPION!\p"
-	.string "That's blazing!\p"
-	.string "Your skills are top-notch.\p"
-	.string "I'm always up for a battle.\p"
-	.string "Want to have a rematch with me?$"
+	.string "AUGUSTE : Waouh !\p"
+	.string "Je vois que tu es devenu le MAÎTRE\n"
+	.string "de KANTO !\p"
+	.string "C'est brûlant !\p"
+	.string "Ton talent est au sommet.\p"
+	.string "Je suis toujours prêt à combattre.\p"
+	.string "Tu veux une revanche ?$"
 
 SeafoamIslands_Gym_Text_BlaineRematchDefeat:
-	.string "BLAINE: Your skills are truly fiery!\p"
-	.string "You've burned right through my\n"
-	.string "defenses.$"
+	.string "AUGUSTE : Quel talent enflammé !\p"
+	.string "Tu as réduit mes défenses en\n"
+	.string "cendres.$"
 
 SeafoamIslands_Gym_Text_GymGuideWin:
-	.string "Yo!\p"
-	.string "… Huh? It's over already?\p"
-	.string "Sorry, sorry!\p"
-	.string "CINNABAR GYM was gone, so I didn't\n"
-	.string "know where to find you.\p"
-	.string "But, hey, you're plenty strong even\n"
-	.string "without my advice. I knew you'd win!$"
+	.string "Yo !\p"
+	.string "… Hein ? C'est déjà fini ?\p"
+	.string "Désolé, désolé !\p"
+	.string "L'ARÈNE de CRAMOIS'ÎLE avait\n"
+	.string "disparu, j'ignorais où te trouver.\p"
+	.string "Mais tu es très fort même sans mes\n"
+	.string "conseils. Je te savais gagnant !$"
 
 SeafoamIslands_Gym_Text_GymGuideWin2:
-	.string "A POKéMON GYM can be anywhere as\n"
-	.string "long as the GYM LEADER is there.\p"
-	.string "There's no need for a building.$"
+	.string "Une ARÈNE peut être partout\n"
+	.string "si son CHAMPION est présent.\p"
+	.string "Pas besoin d'un bâtiment.$"

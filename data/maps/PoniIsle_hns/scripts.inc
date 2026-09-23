@@ -385,17 +385,17 @@ Alola_Poni_Bench_Heal_Movement_0:
 	step_end
 
 Alola_Poni_BattleExeggutor_Text_0:
-	.string "Gaah-aah!$"
+	.string "Aaaah !$"
 
 Alola_Poni_Island_Sign_Text_0:
-	.string "PONI ISLE$"
+	.string "ÎLE DE PONI$"
 
 Alola_Poni_TotemBattle_Text_0:
-	.string "Buzz!!$"
+	.string "Bzzz !!$"
 
 Alola_Poni_TotemBattle_Text_1:
-	.string "Totem ELECTIVIRE was defeated!\n"
-	.string "It scampered off somewhere…$"
+	.string "L'ELEKABLE Totem est vaincu !\n"
+	.string "Il s'est enfui quelque part…$"
 
 PoniIsle_hns_Movement_FacePlayerUpAfterTotemWarp:
 	face_up
@@ -403,54 +403,54 @@ PoniIsle_hns_Movement_FacePlayerUpAfterTotemWarp:
 
 
 Alola_Poni_Totem_sign_Text_0:
-	.string "The totem is emanating a strong\n"
-	.string "energy…\p"
-	.string "Touch the totem to teleport to another\n"
-	.string "Isle?$"
+	.string "Le totem dégage une forte\n"
+	.string "énergie…\p"
+	.string "Toucher le totem pour aller sur\n"
+	.string "autre île ?$"
 
 Alola_Poni_Totem_sign_Text_1:
-	.string "MELEMELE ISLE$"
+	.string "ÎLE DE MELE-MELE$"
 
 Alola_Poni_Totem_sign_Text_2:
-	.string "AKALA ISLE$"
+	.string "ÎLE D'AKALA$"
 
 Alola_Poni_Totem_sign_Text_3:
-	.string "ULA'ULA ISLE$"
+	.string "ÎLE D'ULA-ULA$"
 
 Alola_Poni_Totem_sign_Text_4:
-	.string "CANCEL$"
+	.string "ANNULER$"
 
 Alola_Poni_Totem_sign_Text_5:
-	.string "A strange totem stands here,\n"
-	.string "power is emanating from it…$"
+	.string "Un étrange totem se dresse ici.\n"
+	.string "Il dégage une grande puissance…$"
 
 Alola_Poni_BattleVsTapuFini_Text_0:
-	.string "Fiiin!$"
+	.string "Fiiin !$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_0:
-	.string "Warmer water, no problem!$"
+	.string "Une eau plus chaude, aucun souci !$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_1:
-	.string "Gah, I forgot my sunscreen…$"
+	.string "Zut, j'ai oublié ma crème solaire…$"
 
 Alola_Poni_TrainerBattleSwimmer1_Text_2:
-	.string "I've swam into so many cool POKéMON!\n"
-	.string "It must be something in the water.$"
+	.string "J'ai croisé de super POKéMON !\n"
+	.string "L'eau doit y être pour beaucoup.$"
 
 Alola_Poni_TrainerBattleSwimmer2_Text_0:
-	.string "Hey, don't block my current!$"
+	.string "Hé, ne bloque pas mon courant !$"
 
 Alola_Poni_TrainerBattleSwimmer2_Text_1:
-	.string "Ugh, fine,\njust let me swim…$"
+	.string "Pff, d'accord,\nlaisse-moi nager…$"
 
 Alola_Poni_TrainerBattleSwimmer2_Text_2:
-	.string "The current is great for tubing.\n"
-	.string "I don't think I'll tube anywhere else!$"
+	.string "Le courant convient à la bouée.\n"
+	.string "Je n'irai plus ailleurs !$"
 
 Alola_Poni_NPC_girl_Text_0:
-	.string "PONI ISLE is my favorite.\n"
-	.string "The wilderness just speaks for itself!$"
+	.string "L'ÎLE DE PONI est ma préférée.\n"
+	.string "Sa nature sauvage dit tout !$"
 
 Alola_Poni_Bench_Heal_Text_0:
-	.string "Would you like to take a rest on this\n"
-	.string "bench?$"
+	.string "Voulez-vous vous reposer sur ce\n"
+	.string "banc ?$"

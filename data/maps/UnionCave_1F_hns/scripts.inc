@@ -71,63 +71,69 @@ UnionCave_1F_EventScript_Item_Awakening::
 	end
 
 UnionCave_1F_Text_HikerRussellSeen:
-	.string "You're headed to AZALEA, are you?\p"
-	.string "Let my POKéMON see if you are good\n"
-	.string "enough to battle.$"
+	.string "Tu vas à ÉCORCIA, n'est-ce pas?\p"
+	.string "Voyons si mes POKéMON te jugent\n"
+	.string "digne d'un combat.$"
 
 UnionCave_1F_Text_HikerRussellBeaten:
 	.string "Oh, oh, oh!$"
 
 UnionCave_1F_Text_HikerRussellAfter:
-	.string "All right, then! I've decided.\p"
-	.string "I'm not leaving until my POKéMON\n"
-	.string "get tougher!$"
+	.string "Parfait! C'est décidé.\p"
+	.string "Je ne bougerai pas d'ici tant\n"
+	.string "que mes POKéMON ne seront pas\l"
+	.string "plus forts!$"
 
 UnionCave_1F_Text_PokemaniacLarrySeen:
-	.string "I roam far and wide in search of\n"
-	.string "POKéMON.\p"
-	.string "Are you looking for POKéMON too?\p"
-	.string "Then you're my collecting rival!$"
+	.string "Je parcours la terre à la\n"
+	.string "recherche de POKéMON.\p"
+	.string "Toi aussi tu cherches des\n"
+	.string "POKéMON?\p"
+	.string "Alors tu es mon rival de\n"
+	.string "collection!$"
 
 UnionCave_1F_Text_PokemaniacLarryBeaten:
-	.string "Ugh. My poor POKéMON…$"
+	.string "Non… Mes pauvres POKéMON…$"
 
 UnionCave_1F_Text_PokemaniacLarryAfter:
-	.string "Sometimes, you can hear POKéMON\n"
-	.string "roars from deep inside the cave.$"
+	.string "Parfois, on entend des cris de\n"
+	.string "POKéMON venant du fond de la\l"
+	.string "caverne.$"
 
 UnionCave_1F_Text_HikerDanielSeen:
-	.string "Whoa! What a surprise!\p"
-	.string "I didn't expect to see anyone here!$"
+	.string "Whoa! Tu m'as fait peur!\p"
+	.string "Je me croyais seul dans le coin!$"
 
 UnionCave_1F_Text_HikerDanielBeaten:
-	.string "Whoa! I'm beaten big time!$"
+	.string "Whoa! J'me suis fait détruire!$"
 
 UnionCave_1F_Text_HikerDanielAfter:
-	.string "I was conned into buying a\n"
-	.string "SLOWPOKETAIL.\p"
-	.string "I feel sorry for the poor POKéMON.$"
+	.string "On m'a persuadé d'acheter une\n"
+	.string "QUEUE RAMOLOSS.\p"
+	.string "J'ai des remords… Pauvre POKéMON.$"
 
 UnionCave_1F_Text_FirebreatherBillSeen:
-	.string "ZUBAT's SUPERSONIC keeps confusing\n"
-	.string "my POKéMON.\p"
-	.string "I'm seriously upset about that!$"
+	.string "L'ULTRASON de NOSFERAPTI rend mes\n"
+	.string "POKéMON complètement fous.\p"
+	.string "Et ça, c'est super lourd!$"
 
 UnionCave_1F_Text_FirebreatherBillBeaten:
-	.string "I flamed out!$"
+	.string "J'ai fait long feu!$"
 
 UnionCave_1F_Text_FirebreatherBillAfter:
-	.string "On weekends, you can hear strange\n"
-	.string "roars from deep in the cave.$"
+	.string "Le week-end, on entend d'étranges\n"
+	.string "cris venant du fond de la\l"
+	.string "caverne.$"
 
 UnionCave_1F_Text_FirebreatherRaySeen:
-	.string "If it's light, a cave isn't scary.\p"
-	.string "If you're strong, POKéMON aren't\n"
-	.string "scary.$"
+	.string "Une caverne éclairée, ça ne fait\n"
+	.string "pas peur.\p"
+	.string "Et quand on est fort, les POKéMON\n"
+	.string "non plus.$"
 
 UnionCave_1F_Text_FirebreatherRayBeaten:
 	.string "FLASH!$"
 
 UnionCave_1F_Text_FirebreatherRayAfter:
-	.string "It's my POKéMON's fire that lights\n"
-	.string "up this cave.$"
+	.string "C'est le feu de mon POKéMON qui\n"
+	.string "illumine cette caverne.$"

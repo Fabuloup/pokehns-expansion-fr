@@ -92,98 +92,97 @@ Route15_EventScript_PPup::
 	end
 
 Route15_Text_TeacherColetteSeen:
-	.string "Have you forgotten anything?$"
+	.string "Tu n'as rien oublié?$"
 
 Route15_Text_TeacherColetteBeaten:
 	.string "Kyaaah!$"
 
 Route15_Text_TeacherColetteAfterBattle:
-	.string "Before I became a teacher, I used\n"
-	.string "to forget a lot of things.$"
+	.string "Avant de devenir professeure,\n"
+	.string "j'oubliais beaucoup de choses.$"
 
 Route15_Text_TeacherHillarySeen:
-	.string "On sunny days, I think that the\n"
-	.string "kids would rather be playing in the\l"
-	.string "schoolyard than studying in class.$"
+	.string "Par beau temps, je pense que\n"
+	.string "les enfants préfèrent jouer dans\l"
+	.string "cour plutôt qu'étudier en classe.$"
 
 Route15_Text_TeacherHillaryBeaten:
-	.string "I didn't want to lose…$"
+	.string "Je ne voulais pas perdre…$"
 
 Route15_Text_TeacherHillaryAfterBattle:
-	.string "Studying is important, but\n"
-	.string "exercise is just as vital.$"
+	.string "Étudier est important, mais\n"
+	.string "l'exercice l'est tout autant.$"
 
 Route15_Text_HillaryRegister:
-	.string "You've taught me a lesson!\n"
-	.string "May I have your number?$"
+	.string "Tu m'as donné une leçon!\n"
+	.string "Puis-je avoir ton numéro?$"
 
 Route15_Text_HillaryRematchIntro:
-	.string "I'll school you this time!$"
+	.string "Cette fois, je vais t'instruire!$"
 
 Route15_Text_HillaryRematchDefeat:
-	.string "Back to the drawing board…$"
+	.string "Il faut tout reprendre…$"
 
 Route15_Text_HillaryPostRematch:
-	.string "Teaching POKéMON is just like\n"
-	.string "teaching children. Patience!$"
+	.string "Éduquer les POKéMON, c'est comme\n"
+	.string "les enfants. Il faut être patient!$"
 
 Route15_Text_SchoolboyKippSeen:
-	.string "Hang on. I have to phone my mom.$"
+	.string "Attends. Je dois appeler ma maman.$"
 
 Route15_Text_SchoolboyKippBeaten:
-	.string "Sorry, Mom! I was beaten!$"
+	.string "Désolé, Maman! J'ai perdu!$"
 
 Route15_Text_SchoolboyKippAfterBattle:
-	.string "My mom worries so much about me, I\n"
-	.string "have to phone her all the time.$"
+	.string "Ma mère s'inquiète tant que je\n"
+	.string "dois l'appeler tout le temps.$"
 
 Route15_Text_SchoolboyTommySeen:
-	.string "Let's battle. I won't lose!$"
+	.string "Combattons. Je ne perdrai pas!$"
 
 Route15_Text_SchoolboyTommyBeaten:
-	.string "I forgot to do my homework!$"
+	.string "J'ai oublié de faire mes devoirs!$"
 
 Route15_Text_SchoolboyTommyAfterBattle:
-	.string "Sayonara! I just learned that in\n"
-	.string "my Japanese class.$"
+	.string "Sayonara! Je viens d'apprendre ça\n"
+	.string "en cours de japonais.$"
 
 Route15_Text_SchoolboyJohnnySeen:
-	.string "We're on a field trip to LAVENDER\n"
-	.string "RADIO TOWER for social studies.$"
+	.string "Nous visitons la TOUR RADIO de\n"
+	.string "LAVANVILLE en cours d'éducation.$"
 
 Route15_Text_SchoolboyJohnnyBeaten:
-	.string "You're wickedly tough!$"
+	.string "Tu es terriblement fort!$"
 
 Route15_Text_SchoolboyJohnnyAfterBattle:
-	.string "I'm tired of walking. I need to\n"
-	.string "take a break.$"
+	.string "J'en ai assez de marcher. Je dois\n"
+	.string "faire une pause.$"
 
 Route15_Text_SchoolboyBillySeen:
-	.string "My favorite class is Gym!$"
+	.string "Mon cours préféré, c'est le sport!$"
 
 Route15_Text_SchoolboyBillyBeaten:
-	.string "Oh, no! How could I lose?$"
+	.string "Oh non! Comment ai-je pu perdre?$"
 
 Route15_Text_SchoolboyBillyAfterBattle:
-	.string "If POKéMON were a subject at\n"
-	.string "school, I'd be the best!$"
+	.string "Si les POKéMON étaient une matière\n"
+	.string "scolaire, je serais le meilleur!$"
 
 Route15_Text_BillyRegister:
-	.string "I should've paid more attention in class.\n"
-	.string "Can I have your number?$"
+	.string "J'aurais dû écouter en classe.\n"
+	.string "Je peux avoir ton numéro?$"
 
 Route15_Text_BillyRematchIntro:
-	.string "I've been studying hard!\n"
-	.string "Let me show you what I learned!$"
+	.string "J'ai beaucoup étudié!\n"
+	.string "Laisse-moi te montrer mes progrès!$"
 
 Route15_Text_BillyRematchDefeat:
-	.string "I need to study more…$"
+	.string "Je dois étudier davantage…$"
 
 Route15_Text_BillyPostRematch:
-	.string "Book smarts aren't everything.\n"
-	.string "I need battle experience too!$"
+	.string "Les livres ne font pas tout.\n"
+	.string "Il me faut aussi combattre!$"
 
 Route15_Text_Sign:
 	.string "ROUTE 15\p"
-	.string "FUCHSIA CITY - LAVENDER TOWN$"
-
+	.string "PARMANIE - LAVANVILLE$"

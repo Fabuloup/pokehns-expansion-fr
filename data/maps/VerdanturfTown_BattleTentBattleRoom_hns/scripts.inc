@@ -47,7 +47,7 @@ VerdanturfTown_BattleTentBattleRoom_hns_EventScript_NextOpponentEnter::
 	battletent_getopponentintro
 	msgbox gStringVar4, MSGBOX_DEFAULT
 	waitmessage
-	call BattleFrontier_BattlePalaceBattleRoom_EventScript_DoPalaceBattle
+	call BattleFrontier_BattlePalaceBattleRoom_EventScript_DoPalaceBattle_hns
 	switch VAR_RESULT
 	case 1, VerdanturfTown_BattleTentBattleRoom_hns_EventScript_DefeatedOpponent
 VerdanturfTown_BattleTentBattleRoom_hns_EventScript_WarpToLobbyLost::
@@ -68,7 +68,7 @@ VerdanturfTown_BattleTentBattleRoom_hns_EventScript_DefeatedOpponent::
 	applymovement LOCALID_VERDANTURF_TENT_BATTLE_HNS_ATTENDANT, Common_Movement_WalkInPlaceFasterDown
 	applymovement LOCALID_VERDANTURF_TENT_BATTLE_HNS_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	msgbox BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons, MSGBOX_DEFAULT
+	msgbox BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons_hns, MSGBOX_DEFAULT
 	special LoadPlayerParty
 	special SavePlayerParty
 	frontier_setpartyorder FRONTIER_PARTY_SIZE
@@ -87,14 +87,14 @@ VerdanturfTown_BattleTentBattleRoom_hns_EventScript_AskContinueChallenge::
 	case 2, VerdanturfTown_BattleTentBattleRoom_hns_EventScript_AskRetireChallenge
 
 VerdanturfTown_BattleTentBattleRoom_hns_EventScript_AskPauseChallenge::
-	msgbox BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame, MSGBOX_YESNO
+	msgbox BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame_hns, MSGBOX_YESNO
 	switch VAR_RESULT
 	case NO, VerdanturfTown_BattleTentBattleRoom_hns_EventScript_AskContinueChallenge
 	case YES, VerdanturfTown_BattleTentBattleRoom_hns_EventScript_PauseChallenge
 	case MULTI_B_PRESSED, VerdanturfTown_BattleTentBattleRoom_hns_EventScript_AskContinueChallenge
 
 VerdanturfTown_BattleTentBattleRoom_hns_EventScript_AskRetireChallenge::
-	message BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge
+	message BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge_hns
 	waitmessage
 	multichoicedefault 20, 8, MULTI_YESNO, 1, FALSE
 	switch VAR_RESULT
@@ -116,7 +116,7 @@ VerdanturfTown_BattleTentBattleRoom_hns_EventScript_WarpToLobbyWon::
 	waitstate
 
 VerdanturfTown_BattleTentBattleRoom_hns_EventScript_PauseChallenge::
-	message BattleFrontier_BattlePalaceBattleRoom_Text_SavingData
+	message BattleFrontier_BattlePalaceBattleRoom_Text_SavingData_hns
 	waitmessage
 	verdanturftent_save CHALLENGE_STATUS_PAUSED
 	playse SE_SAVE
@@ -138,12 +138,12 @@ VerdanturfTown_BattleTentBattleRoom_hns_EventScript_SetUpObjects::
 	end
 
 VerdanturfTown_BattleTentBattleRoom_hns_EventScript_ReadyFor2ndOpponent::
-	message BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent
+	message BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent_hns
 	waitmessage
 	return
 
 VerdanturfTown_BattleTentBattleRoom_hns_EventScript_ReadyFor3rdOpponent::
-	message BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent
+	message BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent_hns
 	waitmessage
 	return
 
@@ -173,4 +173,3 @@ VerdanturfTown_BattleTentBattleRoom_hns_Movement_OpponentExit:
 	walk_up
 	walk_up
 	step_end
-

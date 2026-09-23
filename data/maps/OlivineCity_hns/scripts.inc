@@ -33,18 +33,18 @@ OlivineCity_Text_BaobaName:
 
 OlivineCity_Text_Baoba:
 	.string "{PLAYER}!\p"
-	.string "This is WARDEN BAOBA.\p"
-	.string "Sorry to have kept you waiting.\n"
-	.string "We've finally opened the\l"
-	.string "SAFARI ZONE!\p"
-	.string "Do you know where it is?\p"
-	.string "You know the GATE inside the cavern\n"
-	.string "in CIANWOOD CITY?\p"
-	.string "If you go through there and walk for\n"
-	.string "a short while, you should soon see\l"
-	.string "the SAFARI ZONE!\p"
-	.string "We're a little out of the way, but\n"
-	.string "please come visit!$"
+	.string "Ici le GARDIEN BAOBA.\p"
+	.string "Désolé de t'avoir fait attendre.\n"
+	.string "Nous avons enfin ouvert le\l"
+	.string "PARC SAFARI!\p"
+	.string "Sais-tu où il se trouve?\p"
+	.string "Tu connais la PORTE dans la grotte\n"
+	.string "d'IRISIA?\p"
+	.string "Traverse-la, puis marche un peu\n"
+	.string "et tu verras bientôt apparaître\l"
+	.string "le PARC SAFARI!\p"
+	.string "Nous sommes un peu à l'écart, mais\n"
+	.string "viens donc nous rendre visite!$"
 
 OlivineCity_EventScript_CityTrigger:: @FLAGHEAP
 	setflag FLAG_HIDE_OLIVINE_CITY_GYM_JASMINE
@@ -156,23 +156,23 @@ OlivineCity_Movement_SilverLeave:
 	step_end
 
 OlivineCity_Text_SilverEncounter:
-	.string "You again?\n"
-	.string "There's no need to be alert.\p"
-	.string "I don't bother with wimps\n"
-	.string "like you.\p"
-	.string "Speaking of weaklings, the\n"
-	.string "city's GYM LEADER isn't here,\l"
-	.string "and is supposedly taking care\l"
-	.string "of a sick POKéMON at the\l"
-	.string "LIGHTHOUSE.\p"
-	.string "Humph! Boo-hoo!\n"
-	.string "Just let sick POKéMON go!\p"
-	.string "A POKéMON that can't battle\n"
-	.string "is worthless!\p"
-	.string "Why don't you go train at the\n"
-	.string "LIGHTHOUSE?\p"
-	.string "Who knows? It may make you a\n"
-	.string "bit of a better Trainer!$"
+	.string "Toi, encore?\n"
+	.string "Inutile de te méfier.\p"
+	.string "Je ne m'occupe pas des minables\n"
+	.string "comme toi.\p"
+	.string "En parlant de faibles, la\n"
+	.string "CHAMPIONNE n'est pas là,\l"
+	.string "car elle s'occuperait\l"
+	.string "d'un POKéMON malade au\l"
+	.string "PHARE.\p"
+	.string "Pff! Quelle pleurnicheuse!\n"
+	.string "Qu'elle abandonne ce POKéMON!\p"
+	.string "Un POKéMON incapable de combattre\n"
+	.string "ne vaut rien!\p"
+	.string "Pourquoi ne pas t'entraîner au\n"
+	.string "PHARE?\p"
+	.string "Qui sait? Tu deviendras peut-être\n"
+	.string "un Dresseur un peu moins mauvais!$"
 
 OlivineCity_EventScript_Sailor1::
 	lock
@@ -261,79 +261,79 @@ OlivineCity_EventScript_EonTicketWomanAfter::
 	end
 
 OlivineCity_Text_CafeSign:
-	.string "OLIVINE CAFE\n"
-	.string "WHERE STRONG SAILORS ENJOY\l"
-	.string "HEARTY MEALS OF STRENGTH$"
+	.string "CAFÉ D'OLIVILLE\n"
+	.string "LES MARINS LES PLUS ROBUSTES\l"
+	.string "Y FONT LE PLEIN D'ÉNERGIE$"
 
 OlivineCity_Text_EonTicketWoman1:
-	.string "My name is MARY!\p"
-	.string "Just kidding, but I love MARY's\n"
-	.string "radio show!$"
+	.string "Je m'appelle LULA!\p"
+	.string "Je plaisante, mais j'adore\n"
+	.string "son émission de radio!$"
 
 OlivineCity_Text_EonTicketWoman2:
-	.string "You must be {PLAYER}!!!\p"
-	.string "Oh my goodness! The champion!\p"
-	.string "I heard about you on MARY's\n"
-	.string "radio show!\p"
-	.string "Here, take this!$"
+	.string "Tu dois être {PLAYER}!!!\p"
+	.string "Incroyable! Le CHAMPION!\p"
+	.string "J'ai entendu parler de toi dans\n"
+	.string "l'émission de LULA!\p"
+	.string "Tiens, prends ceci!$"
 
 OlivineCity_Text_EonTicketWoman3:
-	.string "I can't believe I met the\n"
-	.string "champion!!!$"
+	.string "Je n'arrive pas à croire que j'ai\n"
+	.string "rencontré le CHAMPION!!!$"
 
 OlivineCity_Text_Sailor1:
-	.string "Dark roads are dangerous\n"
-	.string "at night.\p"
-	.string "But in the pitch-black of\n"
-	.string "night, the sea is even more\l"
-	.string "treacherous!\p"
-	.string "Without the beacon of the\n"
-	.string "LIGHTHOUSE to guide it,\l"
-	.string "no ship can sail.$"
+	.string "La nuit, les routes sombres\n"
+	.string "sont dangereuses.\p"
+	.string "Mais dans l'obscurité totale\n"
+	.string "de la nuit, la mer est encore\l"
+	.string "plus traîtresse!\p"
+	.string "Sans la lumière du\n"
+	.string "PHARE pour le guider,\l"
+	.string "aucun navire ne peut voguer.$"
 
 OlivineCity_Text_YoungsterPokegear:
-	.string "That thing you have--\n"
-	.string "it's a POKéGEAR, right?\l"
-	.string "Wow, that's cool.$"
+	.string "Ce truc que tu as…\n"
+	.string "C'est un POKéMATOS, non?\l"
+	.string "Waouh, trop cool.$"
 
 OlivineCity_Text_YoungsterPokedex:
-	.string "Wow, you have a POKéDEX!\p"
-	.string "That is just so awesome.$"
+	.string "Waouh, tu as un POKéDEX!\p"
+	.string "C'est vraiment génial.$"
 
 OlivineCity_Text_Sailor2:
-	.string "The league has JASMINE\n"
-	.string "pegged as the sixth\l"
-	.string "strongest GYM LEADER!\p"
-	.string "Hah! That's a load of crud.\p"
-	.string "There's no way PRYCE could\n"
-	.string "hurt JASMINE's STEEL-type\l"
-	.string "POKéMON!\p"
-	.string "Bureaucracy if you ask me.\p"
-	.string "She's something to be feared,\n"
-	.string "that's for sure!$"
+	.string "La LIGUE classe JASMINE\n"
+	.string "au sixième rang des\l"
+	.string "CHAMPIONS les plus forts!\p"
+	.string "Ha! N'importe quoi.\p"
+	.string "Jamais FRÉDO ne pourrait\n"
+	.string "blesser les POKéMON de type ACIER\l"
+	.string "de JASMINE!\p"
+	.string "De la pure bureaucratie.\p"
+	.string "Elle est vraiment redoutable,\n"
+	.string "ça ne fait aucun doute!$"
 
 OlivineCity_Text_Sign:
-	.string "OLIVINE CITY\p"
-	.string "The Port Closest to Foreign Lands$"
+	.string "OLIVILLE\p"
+	.string "Le port ouvert sur le monde$"
 
 OlivineCity_Text_PortSign:
-	.string "OLIVINE PORT\n"
-	.string "FAST SHIP PIER$"
+	.string "PORT D'OLIVILLE\n"
+	.string "EMBARCADÈRE DE L'AQUARIA$"
 
 OlivineCity_Text_GymSign:
-	.string "OLIVINE CITY POKéMON GYM\n"
-	.string "LEADER: JASMINE\p"
-	.string "The Steel-Clad Defense Girl$"
+	.string "ARÈNE POKéMON D'OLIVILLE\n"
+	.string "CHAMPIONNE: JASMINE\p"
+	.string "La fille à la défense d'acier$"
 
 OlivineCity_Text_LighthouseSign:
-	.string "OLIVINE LIGHTHOUSE\n"
-	.string "Also known as the GLITTER\l"
-	.string "LIGHTHOUSE$"
+	.string "PHARE D'OLIVILLE\n"
+	.string "Aussi appelé le PHARE\l"
+	.string "SCINTILLANT$"
 
 OlivineCity_Text_BattleTowerSign:
-	.string "TRAINER HILL and\n"
-	.string "BATTLE TENTS AHEAD.\p"
-	.string "Opening Now!$"
+	.string "COLLINE DRESSEURS et\n"
+	.string "TENTES DE COMBAT tout droit.\p"
+	.string "Ouverture immédiate!$"
 
 OlivineCity_Text_Machoke:
-	.string "MACHOKE: CHO!$"
+	.string "MACHOPEUR: CHO!$"

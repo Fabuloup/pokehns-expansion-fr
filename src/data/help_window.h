@@ -45,8 +45,8 @@ const struct HelpWindow gHelpWindowInfo[] =
     },
     [HELP_TELEPORTER_WINDOW] =
     {
-        .header = COMPOUND_STRING("OPTIONAL BONUS CONTENT: TELEPORTER"),
-        .desc = COMPOUND_STRING("The TELEPORTER can PERMANENTLY change\n"
+        .header = COMPOUND_STRING("OPTIONAL BONUS CONTENT: TÉLÉPORTER"),
+        .desc = COMPOUND_STRING("The TÉLÉPORTER can PERMANENTLY change\n"
                                 "POKéMON into their GALARIAN forms.\n"
                                 "GALARIAN forms are NOT required\n"
                                 "for story progression or\n"

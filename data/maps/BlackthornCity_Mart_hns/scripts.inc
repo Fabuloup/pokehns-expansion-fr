@@ -10,13 +10,15 @@ BlackthornMart_EventScript_BlackBelt::
 	end
 
 BlackthornMart_Text_CooltrainerM:
-	.string "You can't buy MAX REVIVE, but it\n"
-	.string "fully restores a fainted POKéMON.\p"
-	.string "Beware--it won't restore PP, the\n"
-	.string "POWER POINTS needed for moves.$"
+	.string "Le RAPPEL MAX ne s'achète pas,\n"
+	.string "mais il rétablit complètement un\l"
+	.string "POKéMON K.O.\p"
+	.string "Attention: il ne rend pas les PP,\n"
+	.string "les POINTS DE POUVOIR des\l"
+	.string "capacités.$"
 
 BlackthornMart_Text_BlackBelt:
-	.string "MAX REPEL keeps weak POKéMON away\n"
-	.string "from you.\p"
-	.string "It's the longest lasting of the\n"
-	.string "REPEL sprays.$"
+	.string "REPOUSSE MAX éloigne les POKéMON\n"
+	.string "faibles.\p"
+	.string "C'est le plus durable des sprays\n"
+	.string "REPOUSSE.$"

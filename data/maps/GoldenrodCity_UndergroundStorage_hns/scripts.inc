@@ -48,64 +48,70 @@ GoldenrodCity_UndergroundStorage_EventScript_Item_MaxEther::
     end
 
 RadioTowerBasement_Text_GruntM24Seen:
-    .string "How did you get this far?\p"
-    .string "I guess it can't be helped. I'll\n"
-    .string "dispose of you.$"
+    .string "Comment es-tu arrivé jusqu'ici?\p"
+    .string "Tant pis. Je vais devoir me\n"
+    .string "débarrasser de toi.$"
 
 RadioTowerBasement_Text_GruntM24Beaten:
-    .string "I got disposed of…$"
+    .string "C'est moi qu'on a jeté…$"
 
 RadioTowerBasement_Text_GruntM24After:
-    .string "TEAM ROCKET will keep going, waiting\n"
-    .string "for the return of GIOVANNI.\p"
-    .string "We'll do whatever it takes.$"
+    .string "La TEAM ROCKET continuera, en\n"
+    .string "attendant le retour de GIOVANNI.\p"
+    .string "On fera tout ce qu'il faudra.$"
 
 RadioTowerBasement_Text_GruntM14Seen:
-    .string "You're not going any farther!\p"
-    .string "I don't show mercy to my enemies,\n"
-    .string "not even brats!$"
+    .string "Tu n'iras pas plus loin!\p"
+    .string "Je n'ai aucune pitié pour mes\n"
+    .string "ennemis, même les morveux!$"
 
 RadioTowerBasement_Text_GruntM14Beaten:
-    .string "Blast it!$"
+    .string "Bon sang!$"
 
 RadioTowerBasement_Text_GruntM14After:
-    .string "I lost…\p"
-    .string "Please forgive me, GIOVANNI!$"
+    .string "J'ai perdu…\p"
+    .string "Pardonnez-moi, GIOVANNI!$"
 
 RadioTowerBasement_Text_GruntM15Seen:
-    .string "Hyuck-hyuck-hyuck! Look who it is!\p"
-    .string "Ready? I'm really tough now!$"
+    .string "Hé-hé-hé! Regardez qui voilà!\p"
+    .string "Prêt? Je suis vraiment costaud\n"
+    .string "maintenant!$"
 
 RadioTowerBasement_Text_GruntM15Beaten:
-    .string "Hyuck-hyuck-hyuck! You're so good!\p"
-    .string "This TEAM ROCKET thing is just\n"
-    .string "a job, but I can see it hurts others.\p"
-    .string "That's it, I'm leaving.\p"
-    .string "Thank you so much. Sorry GIOVANNI!$"
+    .string "Hé-hé-hé! Tu es vraiment doué!\p"
+    .string "La TEAM ROCKET, c'est juste un\n"
+    .string "boulot, mais je vois bien que ça\l"
+    .string "fait du mal aux gens.\p"
+    .string "Ça suffit, je m'en vais.\p"
+    .string "Merci beaucoup. Pardon GIOVANNI!$"
 
 RadioTowerBasement_Text_GruntM15After:
-    .string "Hyuck-hyuck-hyuck! That was a blast!\n"
-    .string "I'll remember you!$"
+    .string "Hé-hé-hé! C'était génial!\n"
+    .string "Je me souviendrai de toi!$"
 
 RadioTowerBasement_Text_DirectorIntro:
-    .string "DIRECTOR: Who? What? You came to\n"
-    .string "rescue me?\p"
-    .string "Thank you!\p"
-    .string "The RADIO TOWER!\p"
-    .string "What's happening there?\p"
-    .string "Taken over by TEAM ROCKET?\p"
-    .string "Here. Take this CARD KEY.$"
+    .string "DIRECTEUR: Qui? Quoi? Tu es venu\n"
+    .string "me secourir?\p"
+    .string "Merci!\p"
+    .string "La TOUR RADIO!\p"
+    .string "Que se passe-t-il là-bas?\p"
+    .string "Prise par la TEAM ROCKET?\p"
+    .string "Tiens. Prends cette CARTE\n"
+    .string "MAGNÉTIQUE.$"
 
 RadioTowerBasement_Text_DirectorCardKey:
-    .string "DIRECTOR: Use that to open the\n"
-    .string "shutters on 3F.$"
+    .string "DIRECTEUR: Utilise-la pour ouvrir\n"
+    .string "les volets du 3F.$"
 
 RadioTowerBasement_Text_DirectorAfter:
-    .string "I'm begging you to help.\p"
-    .string "There's no telling what they'll do if\n"
-    .string "they control the transmitter.\p"
-    .string "They may even be able to control\n"
-    .string "POKéMON using a special signal!\p"
-    .string "You're the only one I can call on.\p"
-    .string "Please save the RADIO TOWER…\p"
-    .string "And all the POKéMON nationwide!$"
+    .string "Je t'en supplie, aide-nous.\p"
+    .string "Impossible de savoir ce qu'ils\n"
+    .string "feront s'ils contrôlent\l"
+    .string "l'émetteur.\p"
+    .string "Ils pourraient même contrôler les\n"
+    .string "POKéMON avec un signal spécial!\p"
+    .string "Tu es le seul à qui je puisse\n"
+    .string "faire appel.\p"
+    .string "Sauve la TOUR RADIO, je t'en\n"
+    .string "prie…\p"
+    .string "Et tous les POKéMON du pays!$"

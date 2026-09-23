@@ -200,13 +200,13 @@ static const u16 sTextPal[] = INCBIN_U16("graphics/interface/option_menu_text_cu
 // =============================================================================
 
 static const u8 *const sChoices_OnOff[] = {
-    COMPOUND_STRING("ON"),
-    COMPOUND_STRING("OFF"),
+    COMPOUND_STRING("OUI"),
+    COMPOUND_STRING("NON"),
 };
 
 static const u8 *const sChoices_ShiftSet[] = {
-    COMPOUND_STRING("CHANGE"),
-    COMPOUND_STRING("RESTE"),
+    COMPOUND_STRING("CHOIX"),
+    COMPOUND_STRING("DÉFINI"),
 };
 
 static const u8 *const sChoices_MonoStereo[] = {
@@ -228,12 +228,12 @@ static const u8 *const sChoices_TextSpeed[] = {
 };
 
 static const u8 *const sChoices_MetricImperial[] = {
-    COMPOUND_STRING("METRIC"),
-    COMPOUND_STRING("IMPERIAL"),
+    COMPOUND_STRING("MÉTRIQUE"),
+    COMPOUND_STRING("IMPÉRIAL"),
 };
 
 static const u8 *const sChoices_OldModern[] = {
-    COMPOUND_STRING("VIEU"),
+    COMPOUND_STRING("ANCIEN"),
     COMPOUND_STRING("MODERNE"),
 };
 
@@ -263,7 +263,7 @@ static const u8 sText_TopBar_Right[] = _("{R_BUTTON}");
 // Descriptions
 // =============================================================================
 
-static const u8 sText_Desc_TextSpeed[] = _("Choisi l'une des 4 vitesses de\ndéfilement du texte.");
+static const u8 sText_Desc_TextSpeed[] = _("Choisi l'une des 4 vitesses\nd'affichage' du texte.");
 static const u8 *const sDesc_TextSpeed[] = {
     sText_Desc_TextSpeed,
     sText_Desc_TextSpeed,
@@ -271,12 +271,12 @@ static const u8 *const sDesc_TextSpeed[] = {
     sText_Desc_TextSpeed,
 };
 static const u8 *const sDesc_BattleScene[] = {
-    COMPOUND_STRING("Montre l'animation du {PKMN}\net des attaques."),
-    COMPOUND_STRING("Passe l'animation du {PKMN}\net des attaques."),
+    COMPOUND_STRING("Montre l'animation du {PKMN}\net des capacités."),
+    COMPOUND_STRING("Passe l'animation du {PKMN}\net des capacités."),
 };
 static const u8 *const sDesc_BattleStyle[] = {
-    COMPOUND_STRING("Demande pour changer de {PKMN}\naprès le K.O. d'un ennemi."),
-    COMPOUND_STRING("Pas de changement\naprès le K.O. d'un ennemi."),
+    COMPOUND_STRING("Proposer de changer de {PKMN} après\nle K.O. {PKMN} adverse."),
+    COMPOUND_STRING("Pas de changement après le\nK.O. d'un {PKMN} adverse."),
 };
 static const u8 *const sDesc_ButtonMode[] = {
     COMPOUND_STRING("Tous les boutons fonctionnent\nnormalement."),
@@ -284,42 +284,42 @@ static const u8 *const sDesc_ButtonMode[] = {
     COMPOUND_STRING("Le bouton L fonctionnent comme\nA pour jouer à une main."),
 };
 static const u8 *const sDesc_Follower[] = {
-    COMPOUND_STRING("Ton premier {PKMN} te suit."),
-    COMPOUND_STRING("Tu marches seul."),
+    COMPOUND_STRING("Le premier {PKMN} de l'équipe\nvous suit."),
+    COMPOUND_STRING("Marcher sans {PKMN} suiveur."),
 };
 static const u8 *const sDesc_LargeFollower[] = {
     COMPOUND_STRING("Active le suivi des grands {PKMN}.\nPeut causer des glitch."),
     COMPOUND_STRING("Désactive le suivi des gros {PKMN}.\nRecommandé."),
 };
 static const u8 *const sDesc_Autorun[] = {
-    COMPOUND_STRING("Cours sans appuyez sur B."),
-    COMPOUND_STRING("Appuis et maintiens B pour courir."),
+    COMPOUND_STRING("Courir sans maintenir B."),
+    COMPOUND_STRING("Maintenir B pour courir."),
 };
 static const u8 *const sDesc_AutorunSurf[] = {
-    COMPOUND_STRING("Surf plus rapidement sans\nappuyer sur B."),
-    COMPOUND_STRING("Appuis et maintiens B pour\nsurfer plus vite."),
+    COMPOUND_STRING("Surfer plus vite sans\nmaintenir B."),
+    COMPOUND_STRING("Maintenir B pour\nsurfer plus vite."),
 };
 static const u8 *const sDesc_Fishing[] = {
-    COMPOUND_STRING("Remonte la ligne automatiquement."),
-    COMPOUND_STRING("Remonte la ligne manuellement.\nPêche comme tu as toujours pêché!"),
+    COMPOUND_STRING("Remonter automatiquement la ligne."),
+    COMPOUND_STRING("Remonter la ligne manuellement,\ncomme dans les jeux d'origine."),
 };
 static const u8 *const sDesc_FasterJoy[] = {
-    COMPOUND_STRING("INFIRMIÈRE JOËLLE vous soigne\nplus vite."),
-    COMPOUND_STRING("INFIRMIÈRE JOËLLE vous soigne\navec l'animation habituel."),
+    COMPOUND_STRING("L'INFIRMIÈRE JOËLLE soigne plus vite."),
+    COMPOUND_STRING("L'INFIRMIÈRE JOËLLE utilise\nl'animation habituelle."),
 };
 static const u8 *const sDesc_UnitType[] = {
-    COMPOUND_STRING("Donne le poids des BAIES et des\n{PKMN} en kilogramme et en mètres."),
-    COMPOUND_STRING("Donne le poids des BAIES et des\n{PKMN} en livres et en pouces."),
+    COMPOUND_STRING("Afficher poids et taille des BAIES\net {PKMN} en kilogrammes et mètres."),
+    COMPOUND_STRING("Afficher poids et taille des BAIES\net {PKMN} en livres et pouces."),
 };
 static const u8 *const sDesc_MatchCall[] = {
     COMPOUND_STRING("Les DRESSEURs pourront t'appeler et\nproposer une revanche et des infos."),
     COMPOUND_STRING("Tu ne recevras aucun appels.\nLes évènements spéciaux fonctionnent."),
 };
 static const u8 *const sDesc_FrameType[] = {
-    COMPOUND_STRING("Choisis le cadre autour des fenêtres."),
+    COMPOUND_STRING("Choisir le cadre autour des fenêtres."),
 };
 static const u8 *const sDesc_FastIntro[] = {
-    COMPOUND_STRING("Passe les transitions et\ndémarre les combats rapidement."),
+    COMPOUND_STRING("Passer l'animation d'entrée pour\nlancer les combats rapidement."),
     COMPOUND_STRING("Les combats démarrent normalement."),
 };
 static const u8 *const sDesc_FastBattles[] = {
@@ -331,38 +331,38 @@ static const u8 *const sDesc_NewBackgrounds[] = {
     COMPOUND_STRING("Terrain modernisé de HnS pour\nles combats."),
 };
 static const u8 *const sDesc_NewBattleUI[] = {
-    COMPOUND_STRING("UI originale de la GEN III."),
-    COMPOUND_STRING("UI modernisée de la GEN IV."),
+    COMPOUND_STRING("Interface de combat de la 3G."),
+    COMPOUND_STRING("Interface de combat moderne, 4G."),
 };
 static const u8 *const sDesc_BallPrompt[] = {
     COMPOUND_STRING("Appuis sur {R_BUTTON} en combat pour\nutiliser une POKéBALLs."),
     COMPOUND_STRING("Désactive le raccourci\ndes {PKMN}BALLS."),
 };
 static const u8 *const sDesc_RunType[] = {
-    COMPOUND_STRING("Pas de fuite en combats."),
-    COMPOUND_STRING("Maintiens {L_BUTTON}+{R_BUTTON}, puis\n{A_BUTTON} pour fuir avant le début."),
-    COMPOUND_STRING("Appuis sur {B_BUTTON} pour déplacer\nle curseur sur FUITE."),
-    COMPOUND_STRING("Appuis sur {B_BUTTON} pour fuir\navant le début."),
+    COMPOUND_STRING("Aucun raccourci pour fuir."),
+    COMPOUND_STRING("Maintenir {L_BUTTON}+{R_BUTTON}, puis\n{A_BUTTON} pour fuir avant le début."),
+    COMPOUND_STRING("Appuyer sur {B_BUTTON} pour déplacer\nle curseur sur FUITE."),
+    COMPOUND_STRING("Appuyer sur {B_BUTTON} pour fuir\navant le début."),
 };
 static const u8 *const sDesc_LRRun[] = {
-    COMPOUND_STRING("Te préviens avant le combat\nque tu peux fuir."),
-    COMPOUND_STRING("Aucun avertissement mais les\ncombos fonctionnent toujours."),
+    COMPOUND_STRING("Afficher une indication\nlorsqu'il est possible de fuir."),
+    COMPOUND_STRING("Masquer cette indication.\nLe raccourci reste actif."),
 };
 static const u8 *const sDesc_Sound[] = {
     COMPOUND_STRING("Le son sort dans tous les hauts-\nparleurs. Recommandé pour la GBA."),
-    COMPOUND_STRING("Les canaux gauches et droites\nsont séparés."),
+    COMPOUND_STRING("Canaux gauche et droit séparés.\nIdéal avec un casque."),
 };
 static const u8 *const sDesc_Music[] = {
-    COMPOUND_STRING("Active la musique. Prends\neffet en changeant de carte."),
-    COMPOUND_STRING("Désactive la musique. Prends\neffet en changeant de carte."),
+    COMPOUND_STRING("Activer la musique. Changer de\nzone pour appliquer ce réglage."),
+    COMPOUND_STRING("Désactiver la musique. Changer de\nzone pour appliquer ce réglage."),
 };
 static const u8 *const sDesc_BikeMusic[] = {
-    COMPOUND_STRING("Active la musique du VÉLO."),
-    COMPOUND_STRING("Désactive la musique du VÉLO."),
+    COMPOUND_STRING("Activer la musique à VÉLO."),
+    COMPOUND_STRING("Désactiver la musique à VÉLO."),
 };
 static const u8 *const sDesc_SurfMusic[] = {
-    COMPOUND_STRING("Active la musique du SURF."),
-    COMPOUND_STRING("Désactive la musique du SURF."),
+    COMPOUND_STRING("Activer la musique de SURF."),
+    COMPOUND_STRING("Désactiver la musique de SURF."),
 };
 
 // =============================================================================
@@ -401,19 +401,19 @@ static const struct OptionMenuItem sTabItems_Main[] = {
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_LARGE_FOLLOWER] = {
-        .name         = COMPOUND_STRING("GRAND SUIVEUR"),
+        .name         = COMPOUND_STRING("GRANDS SUIVEURS"),
         .descriptions = sDesc_LargeFollower,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_AUTORUN] = {
-        .name         = COMPOUND_STRING("AUTORUN"),
+        .name         = COMPOUND_STRING("COURSE AUTO"),
         .descriptions = sDesc_Autorun,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_MAIN_AUTORUN_SURF] = {
-        .name         = COMPOUND_STRING("AUTORUN (SURF)"),
+        .name         = COMPOUND_STRING("SURF RAPIDE"),
         .descriptions = sDesc_AutorunSurf,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
@@ -437,7 +437,7 @@ static const struct OptionMenuItem sTabItems_Main[] = {
         .choiceNames  = sChoices_MetricImperial,
     },
     [ITEM_MAIN_MATCHCALL] = {
-        .name         = COMPOUND_STRING("APPELS REMATCH"),
+        .name         = COMPOUND_STRING("APPELS"),
         .descriptions = sDesc_MatchCall,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
@@ -476,19 +476,19 @@ static const struct OptionMenuItem sTabItems_Battle[] = {
         .choiceNames  = sChoices_Gen3Gen4,
     },
     [ITEM_BATTLE_BALL_PROMPT] = {
-        .name         = COMPOUND_STRING("BALL PROMPT"),
+        .name         = COMPOUND_STRING("RACCOURCI BALL"),
         .descriptions = sDesc_BallPrompt,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_BATTLE_RUN_TYPE] = {
-        .name         = COMPOUND_STRING("QUICK RUN"),
+        .name         = COMPOUND_STRING("FUITE RAPIDE"),
         .descriptions = sDesc_RunType,
         .numChoices   = 4,
         .choiceNames  = sChoices_RunType,
     },
     [ITEM_BATTLE_LR_RUN] = {
-        .name         = COMPOUND_STRING("RUN PROMPT"),
+        .name         = COMPOUND_STRING("INDIC. FUITE"),
         .descriptions = sDesc_LRRun,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
@@ -497,25 +497,25 @@ static const struct OptionMenuItem sTabItems_Battle[] = {
 
 static const struct OptionMenuItem sTabItems_Sound[] = {
     [ITEM_SOUND_SOUND] = {
-        .name         = COMPOUND_STRING("SOUND"),
+        .name         = COMPOUND_STRING("SON"),
         .descriptions = sDesc_Sound,
         .numChoices   = 2,
         .choiceNames  = sChoices_MonoStereo,
     },
     [ITEM_SOUND_MUSIC] = {
-        .name         = COMPOUND_STRING("MUSIC"),
+        .name         = COMPOUND_STRING("MUSIQUE"),
         .descriptions = sDesc_Music,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_SOUND_BIKE_MUSIC] = {
-        .name         = COMPOUND_STRING("BIKE MUSIC"),
+        .name         = COMPOUND_STRING("MUSIQUE VÉLO"),
         .descriptions = sDesc_BikeMusic,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
     },
     [ITEM_SOUND_SURF_MUSIC] = {
-        .name         = COMPOUND_STRING("SURF MUSIC"),
+        .name         = COMPOUND_STRING("MUSIQUE SURF"),
         .descriptions = sDesc_SurfMusic,
         .numChoices   = 2,
         .choiceNames  = sChoices_OnOff,
@@ -535,8 +535,8 @@ struct TabDef
 
 static const struct TabDef sTabs[TAB_COUNT] = {
     [TAB_MAIN]   = { COMPOUND_STRING("OPTIONS"),        sTabItems_Main,   ITEM_MAIN_COUNT },
-    [TAB_BATTLE] = { COMPOUND_STRING("BATTLE OPTIONS"), sTabItems_Battle, ITEM_BATTLE_COUNT },
-    [TAB_SOUND]  = { COMPOUND_STRING("SOUND"),          sTabItems_Sound,  ITEM_SOUND_COUNT },
+    [TAB_BATTLE] = { COMPOUND_STRING("COMBAT"),         sTabItems_Battle, ITEM_BATTLE_COUNT },
+    [TAB_SOUND]  = { COMPOUND_STRING("SON"),            sTabItems_Sound,  ITEM_SOUND_COUNT },
 };
 
 // =============================================================================
